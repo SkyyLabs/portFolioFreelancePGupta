@@ -17,11 +17,11 @@ export const RESUME_URL = "/resume.pdf";
  * Web3Forms access key for the contact form — create one free at
  * https://web3forms.com (enter the destination inbox; no account needed).
  *
- * Public by design: it only authorises posting to the inbox it was issued for.
- * While empty, the form fails into its error state, which points visitors at
- * EMAIL instead.
+ * Public by design: it only authorises posting to the inbox it was issued for,
+ * so it belongs in source rather than an env var. While empty, the form fails
+ * into its error state, which points visitors at EMAIL instead.
  */
-export const WEB3FORMS_KEY = "";
+export const WEB3FORMS_KEY = "fadcf53e-9b36-4430-8c13-0ebbf865b6a9";
 
 /**
  * Figma prototype for the Lister case study ("Open the Prototype" button).

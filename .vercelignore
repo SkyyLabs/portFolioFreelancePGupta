@@ -1,0 +1,5 @@
+# Not build inputs — design deliverables and docs stay in git, not in the deploy.
+design/
+docs/
+.figma/attachments/
+*.md

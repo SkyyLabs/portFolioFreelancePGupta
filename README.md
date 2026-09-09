@@ -45,6 +45,5 @@ Read [CLAUDE.md](CLAUDE.md). It covers the two rules that are easy to break by a
 
 ## Setup still required
 
-- `WEB3FORMS_KEY` in `src/config/site.ts` — contact form submissions fail until this is set ([web3forms.com](https://web3forms.com), free, no account).
 - `PROTOTYPE_URL` in `src/config/site.ts` — the Lister "Open the Prototype" button is inert until a Figma prototype link is set.
 - `openGraph.image` in `.figma/make/site.json` — shared links show no preview card without a 1200×630 image.
