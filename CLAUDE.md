@@ -8,7 +8,7 @@ Pooja Singhal portfolio: a freelance-built product designer portfolio site. Sing
 
 Bias toward caution over speed. For trivial tasks, use judgment.
 
-**This is client work with a visual contract.** The PDFs in `design/` are the approved designs — pixel fidelity to them is the acceptance criterion, not code elegance. When a change would alter rendered layout, say so before making it.
+**This is client work with a visual contract.** The approved designs are the Figma files they were exported from; PDF exports sit in `design/` locally but are **gitignored** (large binaries, not build inputs), so they may be absent in a fresh clone. Pixel fidelity to the design is the acceptance criterion, not code elegance. When a change would alter rendered layout, say so before making it.
 
 **Think before coding.** State assumptions explicitly; if uncertain, ask. When multiple interpretations exist, present them — do not pick silently. Several invariants below (never edit `src/imports/`, label-matched navigation, tokens-only styling) are load-bearing and easy to break silently — confirm rather than guess.
 
@@ -40,7 +40,7 @@ pnpm build
 ## Layout
 
 ```
-design/          approved Figma exports — the visual contract
+design/          local-only Figma PDF exports (gitignored)
 docs/            the original Figma import plan
 public/          favicon.svg, resume.pdf
 src/
@@ -117,7 +117,7 @@ Never rename these aliases — the generated JSX references them literally via T
 - **No hardcoded style values outside `_tokens.css`** (generated code excepted).
 - **Never rename the `@font-face` aliases.** Generated JSX depends on the literal family strings.
 - **Navigation is label-matched.** Changing button copy in a Figma frame breaks routing. Verify clicks after any re-import.
-- **The design PDFs in `design/` are the contract.** Don't change spacing, colour, or type to taste.
+- **The Figma design is the contract.** Don't change spacing, colour, or type to taste.
 - **The accent `#ffee91` is load-bearing** for button styling, active nav, and cursor detection. It lives in `--color-accent`, and as a literal in `CustomCursor.tsx` (`ACCENT_RGB`) because `getComputedStyle` returns `rgb()`.
 - **Personal data lives in source** — see `config/site.ts`. Don't add more, don't log it, don't send it anywhere new.
 
