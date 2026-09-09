@@ -2,7 +2,7 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
-Pooja Singhal portfolio: a freelance-built product designer portfolio site. Single-page React app whose page content was exported from **Figma Make** — hero/process/work/contact landing page, an About page, two long-form case studies (Lister, MathzAI), and a contact form. No backend, no router, no database. The generated Figma output under `src/imports/` is the design source of truth; everything else in `src/` is hand-written shell around it.
+Pooja Singhal portfolio: a freelance-built product designer portfolio site. React single-page app — hero/process/work/contact landing page, an About page, two long-form case studies (Lister, MathzAI), and a contact form. Client-side routed, no backend, no database. Page content originated as a Figma Make export and has been developed well beyond it since. The generated Figma output under `src/imports/` is the design source of truth; everything else in `src/` is hand-written shell around it.
 
 ## Working in this repo
 
@@ -14,7 +14,9 @@ Bias toward caution over speed. For trivial tasks, use judgment.
 
 **Don't over-engineer.** Minimum change that solves the problem; abstract only on proven reuse. Two call sites is the bar for extracting a hook, not one. The generated components are machine output and `src/styles/_landing.css`-style files are a patch layer over them — do not "clean up" either.
 
-**Verify visually.** Type-checking passes on things that render wrong. Any layout, font, spacing, or responsive change must be checked in the browser at desktop, tablet (≤900px), and mobile (≤640px) widths before being called done.
+**Verify visually.** This site is the designer's portfolio — it *is* the product being advertised, so a visual regression is a business problem, not a cosmetic one. Type-checking and builds both pass on pages that render wrong.
+
+Any change must be checked in a real browser at phone (390px), tablet (820px) and laptop (1440px) on all five routes. For changes that are not *meant* to alter appearance — routing, refactors, dependency bumps — screenshot the deployed site first and pixel-diff against it afterwards; "it looks fine" is not evidence. Anything above roughly 0.05% differing pixels outside the nav band deserves investigation.
 
 ## Commands
 
@@ -50,14 +52,14 @@ src/
 ├── pages/               one wrapper per route
 ├── hooks/               useCanvasScale — fits a fixed-width canvas to the viewport
 ├── lib/                 clipboard helper
-├── config/              site.ts (contact details, keys), navigation.ts (routes, labels)
+├── config/              site.ts (contact details, keys), navigation.ts (routes, metadata, labels)
 ├── styles/              index.css entry + `_`-prefixed partials
 └── imports/             GENERATED Figma output — read-only
 ```
 
 ## Architecture
 
-React 19 + Vite 8 + Tailwind CSS v4 (via `@tailwindcss/vite`, no config file) + TypeScript strict. `@` aliases to `src`.
+React 19 + Vite 8 + Tailwind CSS v4 (via `@tailwindcss/vite`, no config file) + `react-router-dom` 7 + TypeScript strict. `@` aliases to `src`.
 
 ### Two layers, treated differently
 
@@ -80,12 +82,29 @@ Two exceptions to tokens-only, both deliberate: `_landing.css` retains literal T
 
 ### Routing
 
-No router. `App.tsx` holds `useState<Page>` and renders one of five components. Navigation arrives two ways:
+`react-router-dom` with `BrowserRouter`. Every page has a real URL, so refresh,
+back/forward, deep links and per-page search results all work:
 
-1. **`NavBar`** — hand-written fixed header, calls `onNav(label)`.
-2. **A delegated click handler on the page container** — the only way to make generated markup interactive. It reads `e.target.textContent` and matches against the labels in `config/navigation.ts`. To disambiguate the two identical "View Case Study" buttons, it walks up the DOM looking for a Tailwind gap class (`CASE_STUDY_ANCHORS`).
+| Route | Page |
+| --- | --- |
+| `/` | landing |
+| `/about` | About |
+| `/work/lister` | Lister case study |
+| `/work/mathzai` | MathzAI case study |
+| `/contact` | contact form |
 
-This is brittle by construction. Re-exporting from Figma with changed copy or spacing breaks navigation with no error. `config/navigation.ts` exists so there is one list to re-check after a re-import.
+Paths live in `ROUTES` in `config/navigation.ts`. **They are public URLs** — changing one breaks every link already shared and any search ranking it has earned. Unknown paths redirect to `/`.
+
+`vercel.json` rewrites all paths to `index.html`. Without it every URL except `/` 404s on refresh. Vercel checks the filesystem first, so real assets still serve normally.
+
+Each route sets its own `<title>`, description, `og:` tags and canonical URL from `ROUTE_META`. A single-page app otherwise shows one title everywhere, which makes search results and shared links indistinguishable.
+
+Navigation arrives two ways:
+
+1. **`NavBar`** — renders real `<a>` elements via `Link`. Anchors carry browser link styling, so `_navbar.css` resets `color` and `text-decoration`.
+2. **A delegated click handler on the page container** — the only way to make the generated markup interactive. It reads `e.target.textContent` and matches against the labels in `config/navigation.ts`. To disambiguate the two identical "View Case Study" buttons, it walks up the DOM looking for a Tailwind gap class (`CASE_STUDY_ANCHORS`).
+
+The second route is brittle by construction: changed copy in a re-export breaks navigation with no error. `config/navigation.ts` exists so there is one list to re-check.
 
 ### Case study scaling
 
