@@ -130,7 +130,7 @@ Real, unresolved — don't "discover" them again, and don't fix them unasked:
 - **No OG image.** `.figma/make/site.json` has no `openGraph.image`, so shared links show no preview card. Needs a purpose-made 1200×630 export from Figma.
 - **The JS bundle is ~1.2 MB** (295 KB gzipped) because both 6000-line case studies are always in the main chunk. `React.lazy` on the two case study pages would fix it.
 - **The reorganisation has not been visually verified.** Structure, typecheck, and build are confirmed; the rendered pages after the CSS split and component rewrite have not been eyeballed.
-- No git history for the app; the user has explicitly declined committing it — **don't commit unasked.**
+- The reorganisation commit has not been pushed; `main` is ahead of `origin/main` by one commit.
 
 ## Conventions
 
@@ -140,6 +140,26 @@ Real, unresolved — don't "discover" them again, and don't fix them unasked:
 - **Strings:** use double quotes for text containing apostrophes (`"Let's Connect"`) — an unescaped apostrophe in a single-quoted string breaks the build. In JSX text, prefer `&rsquo;`.
 - **Scope discipline:** small reviewable changes, preserve existing rendered output unless the change is the point, no new dependencies without clear reason.
 - **Commits:** conventional, lowercase type, imperative, first line < 72 chars. Types: `feat` `fix` `refactor` `docs` `style` `chore` `build`.
+
+## Branching
+
+`main` is production. `dev` is the integration branch. Both currently point at
+the same commit.
+
+Work goes: **feature branch off `dev` → PR into `dev`**. Release by merging
+`dev` into `main`. Never commit directly to `main`, and never open a PR
+straight into `main` except for a release or a hotfix.
+
+```bash
+git switch dev && git pull
+git switch -c feat/short-description
+# … work, commit …
+git push -u origin feat/short-description
+gh pr create --base dev
+```
+
+Branch names follow the commit types: `feat/`, `fix/`, `refactor/`, `docs/`,
+`chore/`.
 
 ## Config
 
