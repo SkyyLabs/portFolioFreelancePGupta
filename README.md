@@ -43,6 +43,15 @@ src/
 
 Read [CLAUDE.md](CLAUDE.md). It covers the two rules that are easy to break by accident: `src/imports/` is machine output that must never be hand-edited, and navigation works by matching the text labels in the generated markup.
 
+## Deployment
+
+Hosted on Vercel and connected to this repo. Push to `main` deploys production
+(<https://pooja-singhal-portfolio.vercel.app>); every PR gets its own preview URL.
+
+The site's images and PDFs live in Git LFS, so Vercel's **Git LFS** project
+setting must stay enabled — with it off, builds succeed but every image is a
+broken pointer file.
+
 ## Setup still required
 
 - `PROTOTYPE_URL` in `src/config/site.ts` — the Lister "Open the Prototype" button is inert until a Figma prototype link is set.
