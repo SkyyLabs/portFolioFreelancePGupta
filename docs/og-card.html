@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Cormorant+Garamond:wght@600;700&family=Raleway:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --accent: #ffee91;
+    --ink: #111;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    width: 1200px; height: 630px;
+    background: #fff;
+    display: flex;
+    overflow: hidden;
+    font-family: 'Raleway', sans-serif;
+  }
+  .left {
+    flex: 1 1 58%;
+    padding: 72px 0 72px 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .wordmark {
+    font-family: 'Caveat', cursive;
+    font-weight: 700;
+    font-size: 40px;
+    color: var(--ink);
+    margin-bottom: 34px;
+  }
+  h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 700;
+    font-size: 82px;
+    line-height: 1.02;
+    color: var(--ink);
+    letter-spacing: -0.5px;
+  }
+  /* Accent sits behind the second line, echoing the site's active-nav pill. */
+  .hl {
+    position: relative;
+    display: inline-block;
+    padding: 0 10px;
+    margin-left: -10px;
+  }
+  .hl::before {
+    content: '';
+    position: absolute;
+    left: 0; right: 0;
+    bottom: 6px;
+    height: 34px;
+    background: var(--accent);
+    z-index: -1;
+    border-radius: 3px;
+  }
+  .tag {
+    margin-top: 30px;
+    font-size: 25px;
+    line-height: 1.5;
+    color: #444;
+    max-width: 560px;
+  }
+  .rule {
+    margin-top: 38px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #666;
+  }
+  .dot { width: 11px; height: 11px; border-radius: 50%; background: var(--accent); border: 1px solid rgba(0,0,0,.25); }
+  .right {
+    flex: 0 0 42%;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    overflow: hidden;
+  }
+  .right img {
+    width: 118%;
+    object-fit: contain;
+    object-position: bottom;
+    opacity: .92;
+  }
+</style>
+</head>
+<body>
+  <div class="left">
+    <div class="wordmark">Pooja Singhal</div>
+    <h1>Product<br><span class="hl">Designer</span></h1>
+    <p class="tag">Turning complexity into clarity — UX, UI &amp; user research.</p>
+    <div class="rule"><span class="dot"></span> MathzAI &nbsp;·&nbsp; Lister</div>
+  </div>
+  <div class="right">
+    <img src="PORTRAIT_SRC" alt="">
+  </div>
+</body>
+</html>
