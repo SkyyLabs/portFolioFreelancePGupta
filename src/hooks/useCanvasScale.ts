@@ -5,11 +5,6 @@ export const DESIGN_WIDTH = 1280;
 
 type Options = {
   /**
-   * Largest scale allowed. `1` pins the canvas to its design size and only ever
-   * shrinks it; `Infinity` lets it grow to fill wide viewports.
-   */
-  maxScale: number;
-  /**
    * Explicit canvas height, required only for generated components whose root
    * is `relative size-full` with absolutely-positioned children — those have no
    * intrinsic height and collapse to nothing without it. Components whose root
@@ -19,27 +14,30 @@ type Options = {
 };
 
 /**
- * Fits a fixed-width Figma canvas to the viewport.
+ * Fits a fixed-width case-study canvas to the viewport.
  *
  * The generated case-study components are absolutely positioned at a fixed
  * DESIGN_WIDTH, so they can only be made responsive by scaling the whole thing.
+ * The canvas always fills the viewport width — anchored top-left, it would
+ * otherwise leave a white gutter down the right-hand side of every wide screen.
+ *
  * `transform` doesn't affect layout flow, so the scaled canvas still occupies
  * its unscaled height in the document — hence the compensating negative
  * `marginBottom`, which is measured rather than hardcoded.
  *
  * Spread the returned `style` onto the scaled element and attach `ref` to it.
  */
-export function useCanvasScale({ maxScale, designHeight }: Options) {
+export function useCanvasScale({ designHeight }: Options = {}) {
   const ref = useRef<HTMLDivElement>(null);
   const [scale, setScale] = useState(1);
   const [height, setHeight] = useState(0);
 
   useEffect(() => {
-    const update = () => setScale(Math.min(window.innerWidth / DESIGN_WIDTH, maxScale));
+    const update = () => setScale(window.innerWidth / DESIGN_WIDTH);
     update();
     window.addEventListener("resize", update, { passive: true });
     return () => window.removeEventListener("resize", update);
-  }, [maxScale]);
+  }, []);
 
   useEffect(() => {
     const el = ref.current;

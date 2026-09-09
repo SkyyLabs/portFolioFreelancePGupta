@@ -9,8 +9,7 @@ import { useCanvasScale } from "@/hooks/useCanvasScale";
 const DESIGN_HEIGHT = 10400;
 
 export default function ListerCaseStudyPage() {
-  // Never scales past its design size — wide viewports get the canvas at 1:1.
-  const { ref, style } = useCanvasScale({ maxScale: 1, designHeight: DESIGN_HEIGHT });
+  const { ref, style } = useCanvasScale({ designHeight: DESIGN_HEIGHT });
 
   return (
     <div className="case-study-root">

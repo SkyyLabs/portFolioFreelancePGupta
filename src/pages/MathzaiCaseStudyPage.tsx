@@ -2,8 +2,8 @@ import MathzaiCaseStudyFinal from "@/imports/MathzaiCaseStudyFinal/index";
 import { useCanvasScale } from "@/hooks/useCanvasScale";
 
 export default function MathzaiCaseStudyPage() {
-  // Grows to fill wide viewports rather than leaving a gutter.
-  const { ref, style } = useCanvasScale({ maxScale: Infinity });
+  // No designHeight: this canvas's root is a flex column, so it sizes itself.
+  const { ref, style } = useCanvasScale();
 
   return (
     <div className="case-study-root">
