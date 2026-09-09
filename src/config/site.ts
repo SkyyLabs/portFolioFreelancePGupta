@@ -24,11 +24,10 @@ export const RESUME_URL = "/resume.pdf";
 export const WEB3FORMS_KEY = "fadcf53e-9b36-4430-8c13-0ebbf865b6a9";
 
 /**
- * Figma prototype for the Lister case study ("Open the Prototype" button).
- * Share > Anyone with the link > Can view.
- *
- * While empty, the button is inert rather than sending visitors to a dead link.
+ * Interactive prototype for the Lister case study ("Open the Prototype" button).
+ * Opens in a new tab. While empty, the button is inert rather than sending
+ * visitors to a dead link.
  */
-export const PROTOTYPE_URL = "";
+export const PROTOTYPE_URL = "https://claude.ai/public/artifacts/a7ec3613-4a7d-41a2-8073-f920c1719a1a";
 
 export const CONTACT_ENDPOINT = "https://api.web3forms.com/submit";
