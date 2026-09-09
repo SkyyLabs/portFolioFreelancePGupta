@@ -142,8 +142,7 @@ Real, unresolved — don't "discover" them again, and don't fix them unasked:
 
 ## Branching
 
-`main` is production. `dev` is the integration branch. Both currently point at
-the same commit.
+`main` is production. `dev` is the integration branch.
 
 Work goes: **feature branch off `dev` → PR into `dev`**. Release by merging
 `dev` into `main`. Never commit directly to `main`, and never open a PR
@@ -159,6 +158,28 @@ gh pr create --base dev
 
 Branch names follow the commit types: `feat/`, `fix/`, `refactor/`, `docs/`,
 `chore/`.
+
+## Deployment
+
+Hosted on Vercel, connected to the GitHub repo — deploys are automatic:
+
+- push to `main` → production at **https://pooja-singhal-portfolio.vercel.app**
+- open a PR → its own preview URL, posted as a PR comment
+
+Nothing needs to be run by hand. `vercel deploy --prod` still works from a
+local checkout as an escape hatch, but it bypasses git and should be a last
+resort.
+
+**Git LFS is load-bearing.** All 32 images and PDFs the site renders are stored
+in LFS, so the project's **Git LFS setting must stay enabled** — with it off,
+Vercel checks out pointer files and every image on the site breaks while the
+build still succeeds. This failure is silent: typecheck and build both pass.
+After any change to that setting, load a case study page and confirm the
+screenshots render.
+
+Verify a deploy the way the responsive check does — drive the deployed URL, not
+localhost, since a local dev server reads real files from disk and cannot catch
+an LFS regression.
 
 ## Config
 
