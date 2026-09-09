@@ -1,0 +1,129 @@
+/**
+ * Shared fixed NavBar.
+ *
+ * The generated Figma pages each ship their own nav row; those are hidden here
+ * and `components/NavBar.tsx` renders a single real one across every page.
+ */
+
+.shared-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: var(--z-nav);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--nav-pad-top) var(--nav-pad-x) 0;
+  background: var(--color-white);
+  border-bottom: 1px solid var(--color-border-faint);
+}
+
+/* Offset page content below the fixed nav. */
+.shared-nav-offset {
+  width: 100%;
+  padding-top: var(--nav-offset);
+}
+
+.shared-nav-name {
+  flex-shrink: 0;
+  font-family: var(--font-script);
+  font-size: var(--text-wordmark);
+  font-weight: 700;
+  line-height: 1;
+  cursor: pointer;
+  user-select: none;
+}
+
+.shared-nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 36px;
+  height: 46px;
+  padding: var(--space-3) 0;
+}
+
+.shared-nav-link {
+  position: relative;
+  padding: 3px 0;
+  font-family: var(--font-body);
+  font-size: var(--text-base);
+  color: var(--color-ink-soft);
+  cursor: pointer;
+  user-select: none;
+  transition:
+    background var(--transition-base),
+    padding var(--transition-base);
+}
+
+.shared-nav-link--active {
+  padding: 3px 10px;
+  background: var(--color-accent);
+  border-radius: var(--space-1);
+  font-weight: 700;
+  color: var(--color-ink);
+}
+
+/* Hover: accent circle pops in behind the label, plus an underline. */
+.shared-nav-link::before {
+  content: "";
+  position: absolute;
+  left: -4px;
+  top: 50%;
+  width: 26px;
+  height: 26px;
+  background: var(--color-accent);
+  border-radius: 50%;
+  transform: translateY(-50%) scale(0);
+  transition: transform var(--transition-base) var(--ease-pop);
+  z-index: -1;
+}
+
+.shared-nav-link:hover::before {
+  transform: translateY(-50%) scale(1);
+}
+
+.shared-nav-link:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 640px) {
+  .shared-nav {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: var(--space-5);
+    padding-right: var(--space-5);
+  }
+
+  .shared-nav-links {
+    height: auto;
+    gap: var(--space-5);
+    padding-top: 4px;
+    padding-bottom: var(--space-2);
+  }
+
+  .shared-nav-link {
+    font-size: var(--text-sm);
+  }
+
+  .shared-nav-offset {
+    padding-top: var(--nav-offset-mobile);
+  }
+}
+
+/* ── Hide the navs embedded in the generated pages ─────────────────────── */
+
+/* The Connect page is hand-built and no longer renders a duplicate nav, so it
+   needs no rule here. */
+[data-name="Landing portfolio"] > div:nth-child(1) > div > div > div:nth-child(1),
+[data-name="About"] > div:nth-child(1) {
+  display: none !important;
+}
+
+/* Reduce the hero's inner gap now that its nav row is gone. */
+[data-name="Landing portfolio"] > div:nth-child(1) > div > div {
+  padding-top: var(--space-5) !important;
+  gap: var(--space-5) !important;
+}

@@ -1,0 +1,75 @@
+/**
+ * Design tokens — the single source of truth for colour, type and motion.
+ *
+ * Hand-written CSS and components reference these; never hardcode a hex or a
+ * font stack outside this file. The generated Figma components under
+ * `src/imports/` carry their own literal values and are exempt — they are
+ * machine output, not hand-maintained code.
+ */
+
+:root {
+  /* ── Colour ──────────────────────────────────────────────────────────── */
+  /* The single accent. Load-bearing: buttons, active nav, cursor detection. */
+  --color-accent: #ffee91;
+
+  --color-ink: #111;
+  --color-black: #000;
+  --color-white: #fff;
+
+  /* Contact form surfaces */
+  --color-surface: #f7f7f7;
+  --color-muted: #555;
+  --color-error: #8a1c1c;
+
+  --color-border: rgba(0, 0, 0, 0.15);
+  --color-border-subtle: rgba(0, 0, 0, 0.08);
+  --color-border-faint: rgba(0, 0, 0, 0.07);
+  --color-ink-soft: rgba(0, 0, 0, 0.8);
+
+  /* ── Type ────────────────────────────────────────────────────────────── */
+  /*
+   * The design uses licensed Adobe fonts. `_fonts.css` declares @font-face
+   * aliases under the exact family names the generated code references and
+   * points them at free substitutes; these stacks name those aliases.
+   */
+  --font-display: "Scala_Pro:Bold", "Cormorant Garamond", serif;
+  --font-body: "Scala_Sans_Pro:Regular", "Raleway", sans-serif;
+  --font-body-bold: "Scala_Sans_Pro:Bold", "Raleway", sans-serif;
+  --font-script: "Caveat:Bold", cursive;
+
+  --text-sm: 13px;
+  --text-base: 15px;
+  --text-md: 16px;
+  --text-lg: 18px;
+  --text-wordmark: 28px;
+
+  /* ── Space & shape ───────────────────────────────────────────────────── */
+  --space-1: 6px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 40px;
+  --space-8: 48px;
+  --space-9: 60px;
+
+  --radius-sm: 8px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+
+  /* Height of the fixed NavBar, as page top padding. */
+  --nav-offset: 110px;
+  --nav-offset-mobile: 170px;
+  --nav-pad-x: 50px;
+  --nav-pad-top: 40px;
+
+  /* ── Motion ──────────────────────────────────────────────────────────── */
+  --ease-pop: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --transition-fast: 0.18s ease;
+  --transition-base: 0.22s ease;
+
+  /* ── Layers ──────────────────────────────────────────────────────────── */
+  --z-nav: 1000;
+  --z-cursor: 9999;
+}
