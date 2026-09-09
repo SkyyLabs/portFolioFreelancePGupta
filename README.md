@@ -26,7 +26,7 @@ No test suite. Check with `pnpm exec tsc --noEmit` — note that generated files
 ## Layout
 
 ```
-design/      approved Figma exports — the visual contract
+design/      local-only Figma PDF exports (gitignored)
 docs/        the original Figma import plan
 public/      favicon, resume
 src/
