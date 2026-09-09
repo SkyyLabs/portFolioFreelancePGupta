@@ -11,5 +11,8 @@
   "accessibility": {
     "addBypassLinks": false,
     "ignoreReducedMotion": false
+  },
+  "openGraph": {
+    "image": "https://pooja-singhal-portfolio.vercel.app/og.png"
   }
 }
