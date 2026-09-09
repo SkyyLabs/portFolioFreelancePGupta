@@ -1,0 +1,13 @@
+/* ── Global base ─────────────────────────────────────────────────────────── */
+
+body {
+  font-family: var(--font-body);
+}
+
+/* Hide the native cursor wherever `components/CustomCursor.tsx` takes over. */
+.portfolio-root,
+.about-root,
+.case-study-root,
+.connect-page {
+  cursor: none;
+}

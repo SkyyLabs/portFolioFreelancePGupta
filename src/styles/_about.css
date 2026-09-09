@@ -1,0 +1,125 @@
+/* ── About page: responsive ──────────────────────────────────────────────── */
+
+@media (max-width: 900px) {
+  /* Root: reduce side padding */
+  [data-name="About"] {
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+    gap: 40px !important;
+  }
+
+  /* Nav (Frame5): stack name above links */
+  [data-name="About"] > div:nth-child(1) {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  [data-name="About"] > div:nth-child(1) > div:last-child {
+    gap: 20px !important;
+    flex-wrap: wrap;
+  }
+
+  /* Frame6: stack text above image */
+  [data-name="About"] > div:nth-child(2) {
+    flex-direction: column;
+    gap: 28px;
+  }
+  [data-name="About"] > div:nth-child(2) > div:first-child {
+    width: 100% !important;
+  }
+  [data-name="About"] > div:nth-child(2) > div:last-child {
+    width: 100% !important;
+    height: 280px !important;
+  }
+
+  /* Divider: full width */
+  [data-name="About"] > div:nth-child(3) {
+    width: 100% !important;
+  }
+
+  /* Frame7: text above image (column-reverse since image is first in DOM) */
+  [data-name="About"] > div:nth-child(4) {
+    flex-direction: column-reverse;
+    gap: 28px;
+  }
+  [data-name="About"] > div:nth-child(4) > div:first-child {
+    width: 100% !important;
+    height: 260px !important;
+  }
+  /* Frame4 (quote + philosophy text): full width */
+  [data-name="About"] > div:nth-child(4) > div:last-child {
+    width: 100% !important;
+  }
+  /* Quote text: scale down */
+  [data-name="About"] .text-\[35px\] {
+    font-size: 24px !important;
+  }
+}
+
+@media (max-width: 640px) {
+  /* Root: 16px side padding */
+  [data-name="About"] {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+    padding-top: 28px !important;
+    padding-bottom: 40px !important;
+    gap: 32px !important;
+  }
+
+  /* Nav links: tighter */
+  [data-name="About"] > div:nth-child(1) > div:last-child {
+    gap: 14px !important;
+  }
+
+  /* Frame6 image: shorter on phone */
+  [data-name="About"] > div:nth-child(2) > div:last-child {
+    height: 220px !important;
+  }
+
+  /* Section headings */
+  [data-name="About"] .text-\[30px\] {
+    font-size: 22px !important;
+  }
+  /* Body text */
+  [data-name="About"] .text-\[16px\] {
+    font-size: 15px !important;
+  }
+  /* Quote font */
+  [data-name="About"] .text-\[35px\] {
+    font-size: 20px !important;
+  }
+
+  /* Frame7 image: shorter on phone */
+  [data-name="About"] > div:nth-child(4) > div:first-child {
+    height: 210px !important;
+  }
+
+  /* Hide the decorative absolute underline SVG in the quote (pinned at left-[283px]) */
+  [data-name="About"] > div:nth-child(4) > div:last-child .absolute.left-\[283\.86px\] {
+    display: none;
+  }
+}
+
+/* ── About page: Frame6 (math teacher section) spacing hierarchy ─────────── */
+
+/* Frame1: replace justify-between + fixed 267px height with proper gap.
+   Headline (30px) → 24px gap → body (16px) matches design hierarchy. */
+[data-name="About"] > div:nth-child(2) > div:first-child {
+  height: auto;
+  justify-content: flex-start;
+  gap: 24px;
+}
+
+/* Body text container: reset the leading-0 so the container itself has
+   normal line-height; inner <p> tags already set their own leading-normal. */
+[data-name="About"] > div:nth-child(2) > div:first-child > div:last-child {
+  line-height: normal;
+}
+
+/* Paragraph rhythm inside the body block:
+   – blank "spacer" <p> tags (zero-width space only) collapse to ~8px
+   – "Today, those same skills..." intro line keeps 25px leading (from import)
+   – bullet lines keep their 25px leading (from import) */
+[data-name="About"] > div:nth-child(2) > div:first-child > div:last-child p {
+  line-height: 1.65;
+}

@@ -1,0 +1,15 @@
+{
+  "title": "Pooja Singhal — Product Designer",
+  "description": "Product designer turning complexity into clarity. Former mathematics teacher. Case studies on MathzAI and Lister — UX, UI, and user research.",
+  "language": "en",
+  "robots": {
+    "index": true
+  },
+  "icons": {
+    "icon": "/favicon.svg"
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

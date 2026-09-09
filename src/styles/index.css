@@ -1,0 +1,31 @@
+/**
+ * Stylesheet entry point — imported once, by `src/main.tsx`.
+ *
+ * CSS `@import` rules must precede all other rules, so every partial is pulled
+ * in here and none of them import each other. Order matters: tokens first (the
+ * rest reference them), then fonts, then base, then component and page layers.
+ *
+ * Partials are prefixed `_` to mark them as fragments rather than entry points.
+ */
+
+/* Remote font faces used by the substitute stacks in `_fonts.css`. */
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Cormorant+Garamond:ital,wght@0,400;0,700;1,700&family=Raleway:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Open+Sans:wdth,wght@100,400;100,600;100,700&family=Public+Sans:wght@600;800&family=Source+Sans+3:wght@400;600;700&family=Source+Serif+4:wght@600;800&display=swap");
+
+@import "tailwindcss";
+
+/* Foundations */
+@import "./_tokens.css";
+@import "./_fonts.css";
+@import "./_base.css";
+@import "./_layout.css";
+
+/* Components */
+@import "./_navbar.css";
+@import "./_cursor.css";
+
+/* Pages — each patches the generated Figma markup for one route. */
+@import "./_landing.css";
+@import "./_about.css";
+@import "./_case-study.css";
+@import "./_connect.css";

@@ -1,0 +1,24 @@
+/**
+ * Page roots.
+ *
+ * Each page component renders one of these wrappers around its generated Figma
+ * component. Keeping the wrapper styles here rather than as Tailwind utilities
+ * in the JSX means a page's framing can be changed without touching component
+ * code.
+ */
+
+.portfolio-root,
+.about-root,
+.case-study-root {
+  width: 100%;
+}
+
+.about-root {
+  min-height: 100vh;
+}
+
+/* The case-study canvases are scaled with a transform; clip the overflow the
+   scale leaves behind. See `hooks/useCanvasScale.ts`. */
+.case-study-root {
+  overflow-x: hidden;
+}

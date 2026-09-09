@@ -1,0 +1,398 @@
+/* ── Portrait speech bubble ──────────────────────────────────────────────── */
+
+.portrait-speech-bubble {
+  position: absolute;
+  top: 18%;
+  right: -20px;
+  background: white;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  padding: 9px 14px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  color: #111;
+  white-space: nowrap;
+  pointer-events: none;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  /* start hidden, shifted down slightly */
+  opacity: 0;
+  transform: translateY(6px);
+  transition: opacity 0.22s ease-out, transform 0.22s ease-out;
+  z-index: 10;
+}
+
+/* Tail pointing left toward the portrait */
+.portrait-speech-bubble-tail {
+  position: absolute;
+  left: -6px;
+  top: 50%;
+  transform: translateY(-50%) rotate(45deg);
+  width: 10px;
+  height: 10px;
+  background: white;
+  border-left: 1px solid rgba(0, 0, 0, 0.15);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+/* Desktop-only: show on portrait hover */
+@media (hover: hover) {
+  .portrait-hover-zone:hover .portrait-speech-bubble {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  .portrait-hover-zone:hover .portrait-speech-bubble span::first-child,
+  .portrait-hover-zone:hover .portrait-speech-bubble {
+    /* trigger wave on the emoji via child span */
+  }
+}
+
+/* Wave animation for the 👋 emoji */
+@keyframes wave-hand {
+  0%   { transform: rotate(0deg); }
+  15%  { transform: rotate(18deg); }
+  30%  { transform: rotate(-8deg); }
+  45%  { transform: rotate(16deg); }
+  60%  { transform: rotate(-4deg); }
+  75%  { transform: rotate(10deg); }
+  100% { transform: rotate(0deg); }
+}
+
+.portrait-speech-bubble .wave-emoji {
+  display: inline-block;
+  transform-origin: 70% 80%;
+}
+
+@media (hover: hover) {
+  .portrait-hover-zone:hover .wave-emoji {
+    animation: wave-hand 0.9s ease-in-out;
+  }
+}
+
+/* ── Button hover states ─────────────────────────────────────────────────── */
+
+/* 1. Yellow buttons (See My Work, View Case Study ×2) → black fill + white text */
+.portfolio-root .bg-\[\#ffee91\] {
+  transition: background-color 0.22s ease;
+  cursor: pointer;
+}
+.portfolio-root .bg-\[\#ffee91\] p,
+.portfolio-root .bg-\[\#ffee91\] svg {
+  transition: color 0.22s ease, filter 0.22s ease;
+}
+.portfolio-root .bg-\[\#ffee91\]:hover {
+  background-color: #111 !important;
+}
+.portfolio-root .bg-\[\#ffee91\]:hover p {
+  color: white !important;
+}
+.portfolio-root .bg-\[\#ffee91\]:hover svg {
+  filter: invert(1);
+}
+.portfolio-root .bg-\[\#ffee91\]:hover [aria-hidden] {
+  border-color: white !important;
+}
+
+/* 1b. Copy Email override (yellow in dark section) → white fill + black text */
+[data-name="Landing portfolio"] > div:nth-child(4) .bg-\[\#ffee91\]:hover {
+  background-color: white !important;
+}
+[data-name="Landing portfolio"] > div:nth-child(4) .bg-\[\#ffee91\]:hover p {
+  color: black !important;
+}
+[data-name="Landing portfolio"] > div:nth-child(4) .bg-\[\#ffee91\]:hover svg {
+  filter: none !important;
+}
+[data-name="Landing portfolio"] > div:nth-child(4) .bg-\[\#ffee91\]:hover [aria-hidden] {
+  border-color: black !important;
+}
+
+/* 2. Say Hello (transparent, black border, hero section) → black fill + white text */
+.portfolio-root .gap-\[15px\] > .justify-center:not(.bg-\[\#ffee91\]) {
+  transition: background-color 0.22s ease;
+  cursor: pointer;
+}
+.portfolio-root .gap-\[15px\] > .justify-center:not(.bg-\[\#ffee91\]) p {
+  transition: color 0.22s ease;
+}
+.portfolio-root .gap-\[15px\] > .justify-center:not(.bg-\[\#ffee91\]):hover {
+  background-color: black;
+}
+.portfolio-root .gap-\[15px\] > .justify-center:not(.bg-\[\#ffee91\]):hover p {
+  color: white !important;
+}
+.portfolio-root .gap-\[15px\] > .justify-center:not(.bg-\[\#ffee91\]):hover [aria-hidden] {
+  border-color: white !important;
+}
+
+/* 3. LinkedIn / Behance (transparent + white text in dark section) → white fill + black text */
+.portfolio-root .gap-\[5px\].items-center {
+  transition: background-color 0.22s ease;
+  cursor: pointer;
+}
+.portfolio-root .gap-\[5px\].items-center p,
+.portfolio-root .gap-\[5px\].items-center svg {
+  transition: color 0.22s ease, filter 0.22s ease;
+}
+.portfolio-root .gap-\[5px\].items-center:hover {
+  background-color: white;
+}
+.portfolio-root .gap-\[5px\].items-center:hover p {
+  color: black !important;
+}
+.portfolio-root .gap-\[5px\].items-center:hover svg {
+  filter: invert(1);
+}
+.portfolio-root .gap-\[5px\].items-center:hover [aria-hidden] {
+  border-color: black !important;
+}
+
+/* ── Force Scala Sans Pro body text to Raleway ───────────────────────────── */
+/* These three elements are already font-['Scala_Sans_Pro:Regular'] in source,
+   but the alias is reinforced here in case @font-face loses the race. */
+.portfolio-root .text-\[20px\] {
+  font-family: 'Raleway', sans-serif;
+}
+
+/* ── Visual editor changes (landing page) ─────────────────────────────── */
+
+/* Change 1: hero headline font-weight 800 */
+.portfolio-root .text-\[50px\] {
+  font-weight: 800;
+}
+
+/* Change 3: Frame21 (MathzAI row) — remove drop-shadow + width fit-content */
+.portfolio-root .drop-shadow-\[0px_4px_2px_rgba\(0\,0\,0\,0\.25\)\,0px_4px_0px_rgba\(0\,0\,0\,0\.25\)\] {
+  filter: none;
+  border-radius: 0;
+  width: fit-content;
+}
+
+/* ── Landing page: prevent horizontal overflow ────────────────────────── */
+.portfolio-root { overflow-x: hidden; }
+
+/* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   RESPONSIVE — landing portfolio
+   Selector anchors:
+     child 1 → hero   (white)
+     child 2 → process (black)
+     child 3 → work    (white)
+     child 4 → contact (black)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+
+/* ── Large tablet (≤ 1200px): scale padding ─────────────────────────── */
+@media (max-width: 1200px) {
+  /* Hero inner (pr-50 pt-50) */
+  [data-name="Landing portfolio"] > div:nth-child(1) > div > div {
+    padding-right: 40px;
+    padding-top: 40px;
+    gap: 48px;
+  }
+  /* Process inner (px-140) */
+  [data-name="Landing portfolio"] > div:nth-child(2) > div > div {
+    padding-left: 48px;
+    padding-right: 48px;
+    padding-top: 80px;
+    padding-bottom: 100px;
+  }
+  /* Work inner (p-150) */
+  [data-name="Landing portfolio"] > div:nth-child(3) > div > div {
+    padding: 80px 60px;
+  }
+  /* Contact inner (px-303) */
+  [data-name="Landing portfolio"] > div:nth-child(4) > div > div {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+}
+
+/* ── Tablet (≤ 900px): stack hero & work cards ──────────────────────── */
+@media (max-width: 900px) {
+
+  /* ── Hero ── */
+  [data-name="Landing portfolio"] > div:nth-child(1) {
+    height: auto;
+  }
+  [data-name="Landing portfolio"] > div:nth-child(1) > div > div {
+    padding: 32px 32px 56px;
+    gap: 40px;
+    height: auto;
+  }
+  /* Hero content row (Frame24): stack image above text */
+  [data-name="Landing portfolio"] > div:nth-child(1) > div > div > div:nth-child(2) {
+    flex-direction: column;
+    height: auto;
+    gap: 40px;
+    justify-content: flex-start;
+  }
+  /* Hero image */
+  [data-name="Landing portfolio"] > div:nth-child(1) > div > div > div:nth-child(2) > div:nth-child(1) {
+    width: 100% !important;
+    height: 360px !important;
+  }
+  /* Hero text column (w-556px → full width) */
+  [data-name="Landing portfolio"] > div:nth-child(1) > div > div > div:nth-child(2) > div:nth-child(2) {
+    width: 100% !important;
+    padding-bottom: 0 !important;
+  }
+  /* Scale headline */
+  .portfolio-root .text-\[50px\] {
+    font-size: clamp(30px, 5vw, 50px);
+  }
+  /* Scale process-section headline */
+  .portfolio-root .text-\[45px\] {
+    font-size: clamp(26px, 4vw, 45px);
+  }
+
+  /* ── Process ── */
+  [data-name="Landing portfolio"] > div:nth-child(2) > div > div {
+    padding: 72px 24px 96px;
+  }
+  /* Frame42: compress heading↔steps gap */
+  [data-name="Landing portfolio"] > div:nth-child(2) > div > div > div {
+    gap: 56px;
+  }
+  /* Group7: switch from inline-grid to a proper scroll container */
+  [data-name="Landing portfolio"] > div:nth-child(2) > div > div > div > div:nth-child(2) {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scroll-snap-type: x mandatory;
+    padding-bottom: 20px;
+    scrollbar-width: thin;
+    scrollbar-color: rgba(255, 238, 145,0.4) transparent;
+  }
+  /* Hide Group3: the dashed vertical line pinned at ml-[1044px] — meaningless off desktop */
+  [data-name="Landing portfolio"] > div:nth-child(2) > div > div > div > div:nth-child(2) > div:nth-child(1) {
+    display: none;
+  }
+  /* Hide the pixel-pinned pencil icon placeholder */
+  [data-name="Landing portfolio"] > div:nth-child(2) > div > div > div > div:nth-child(2) > div:nth-child(2) {
+    display: none;
+  }
+  /* Frame41: natural content width so steps don't wrap, readable via scroll */
+  [data-name="Landing portfolio"] > div:nth-child(2) > div > div > div > div:nth-child(2) > div:nth-child(3) {
+    width: max-content;
+    padding: 0 8px;
+    scroll-snap-align: start;
+  }
+
+  /* ── Work ── */
+  [data-name="Landing portfolio"] > div:nth-child(3) > div > div {
+    padding: 64px 32px;
+    gap: 40px;
+  }
+  /* Frame43 heading: full width */
+  [data-name="Landing portfolio"] > div:nth-child(3) > div > div > div:nth-child(1) {
+    width: 100% !important;
+  }
+  /* Frame21 (MathzAI): stack text above image */
+  [data-name="Landing portfolio"] > div:nth-child(3) > div > div > div:nth-child(3) {
+    flex-direction: column !important;
+    width: 100% !important;
+    gap: 32px !important;
+  }
+  /* Frame44 (Lister): stack image above text */
+  [data-name="Landing portfolio"] > div:nth-child(3) > div > div > div:nth-child(5) {
+    flex-direction: column !important;
+    gap: 32px !important;
+  }
+  /* Case study text blocks: fluid height + width */
+  [data-name="Landing portfolio"] > div:nth-child(3) div.h-\[191px\] {
+    height: auto !important;
+    width: 100% !important;
+    justify-content: flex-start !important;
+    gap: 20px !important;
+  }
+  /* Project screenshots: full width */
+  [data-name="image\ 23"],
+  [data-name="image\ 24"] {
+    width: 100% !important;
+    height: 260px !important;
+  }
+
+  /* ── Contact ── */
+  [data-name="Landing portfolio"] > div:nth-child(4) > div > div {
+    padding: 56px 40px;
+  }
+  /* Contact buttons row: wrap */
+  [data-name="Landing portfolio"] > div:nth-child(4) > div > div > div:nth-child(2) > div:last-child {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+/* ── Mobile (≤ 640px): tighter sizing ──────────────────────────────── */
+@media (max-width: 640px) {
+
+  /* ── Hero ── */
+  [data-name="Landing portfolio"] > div:nth-child(1) > div > div {
+    padding: 16px 16px 40px;
+    gap: 28px;
+  }
+  /* Nav row: stack name above links */
+  [data-name="Landing portfolio"] > div:nth-child(1) > div > div > div:nth-child(1) {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  /* Nav links: tighter gap, wrap if needed */
+  [data-name="Landing portfolio"] > div:nth-child(1) > div > div > div:nth-child(1) > div:last-child {
+    gap: 16px !important;
+    flex-wrap: wrap;
+  }
+  /* Name: remove side padding, breathing room at top */
+  [data-name="Landing portfolio"] > div:nth-child(1) > div > div > div:nth-child(1) > div:first-child {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-top: 20px;
+  }
+  /* Hero content: tighter portrait */
+  [data-name="Landing portfolio"] > div:nth-child(1) > div > div > div:nth-child(2) > div:nth-child(1) {
+    height: 220px !important;
+  }
+  /* Scale headline and body text */
+  .portfolio-root .text-\[50px\] { font-size: 26px; line-height: 1.25; }
+  .portfolio-root .text-\[20px\] { font-size: 14px; line-height: 1.55; }
+
+  /* ── Process ── */
+  [data-name="Landing portfolio"] > div:nth-child(2) > div > div {
+    padding: 48px 16px 64px;
+  }
+  [data-name="Landing portfolio"] > div:nth-child(2) > div > div > div {
+    gap: 36px;
+  }
+  .portfolio-root .text-\[45px\] { font-size: 21px; }
+
+  /* ── Work ── */
+  [data-name="Landing portfolio"] > div:nth-child(3) > div > div {
+    padding: 40px 16px;
+    gap: 28px;
+  }
+  .portfolio-root .text-\[40px\] { font-size: 24px; }
+  [data-name="image\ 23"],
+  [data-name="image\ 24"] {
+    height: 200px !important;
+  }
+
+  /* ── Contact ── */
+  [data-name="Landing portfolio"] > div:nth-child(4) > div > div {
+    padding: 48px 20px;
+    gap: 36px;
+  }
+  /* Buttons: stack vertically */
+  [data-name="Landing portfolio"] > div:nth-child(4) > div > div > div:nth-child(2) > div:last-child {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px !important;
+  }
+  /* Contact illustration */
+  [data-name="image\ 12"] {
+    width: 280px !important;
+  }
+  /* Availability text block: full width */
+  [data-name="Landing portfolio"] > div:nth-child(4) > div > div > div:last-child {
+    width: 100% !important;
+  }
+}

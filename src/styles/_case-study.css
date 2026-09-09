@@ -1,0 +1,55 @@
+/* ── MathzAI: artifact card image visibility ──────────────────────────────── */
+[data-name="artifact-card-questions"],
+[data-name="artifact-card-notes"],
+[data-name="artifact-card-critiques"] {
+  overflow: hidden !important;
+}
+[data-name="artifact-card-questions"] img,
+[data-name="artifact-card-notes"] img,
+[data-name="artifact-card-critiques"] img {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+/* ── MathzAI: fix timeline vertical connector lines ──────────────────────── */
+/* Hide the original cqw-rotation element and draw a true vertical line via ::after */
+[data-name="mathzai-case-study final"] [style*="container-type"] {
+  position: relative !important;
+}
+[data-name="mathzai-case-study final"] [style*="container-type"] > .flex-none {
+  display: none !important;
+}
+[data-name="mathzai-case-study final"] [style*="container-type"]::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 1px;
+  background: rgba(255, 255, 255, 0.7);
+  transform: translateX(-50%);
+}
+
+/* ── MathzAI: strip all drop shadows ─────────────────────────────────────── */
+[data-name="mathzai-case-study final"] * {
+  filter: none !important;
+  box-shadow: none !important;
+}
+
+/* ── CaseStudy4 section-level alignment ─────────────────────────────────── */
+
+/* Unify all top-level section headings and body blocks to 96px left rail */
+[data-name="Case study 4"] > p[class*="left-\[97px\]"],
+[data-name="Case study 4"] > p[class*="left-\[98px\]"],
+[data-name="Case study 4"] > p[class*="left-\[96px\]"],
+[data-name="Case study 4"] > div[class*="left-\[97px\]"],
+[data-name="Case study 4"] > div[class*="left-\[96px\]"],
+[data-name="Case study 4"] > div[class*="left-\[98px\]"] {
+  left: 96px !important;
+}
+
+/* Frame150 — solution body, was left-[102px] */
+[data-name="Case study 4"] > div[class*="absolute"][class*="top-\[5193px\]"][class*="left-\[102px\]"] {
+  left: 96px !important;
+}
