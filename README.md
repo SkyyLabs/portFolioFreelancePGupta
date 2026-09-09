@@ -39,6 +39,20 @@ src/
 └── imports/      GENERATED Figma output — read-only, never hand-edit
 ```
 
+## Routes
+
+| Route | Page |
+| --- | --- |
+| `/` | landing |
+| `/about` | About |
+| `/work/lister` | Lister case study |
+| `/work/mathzai` | MathzAI case study |
+| `/contact` | contact form |
+
+Client-side routed with `react-router-dom`. `vercel.json` rewrites all paths to
+`index.html` so deep links and refresh work. These paths are public URLs —
+changing one breaks links already shared.
+
 ## Before you change anything
 
 Read [CLAUDE.md](CLAUDE.md). It covers the two rules that are easy to break by accident: `src/imports/` is machine output that must never be hand-edited, and navigation works by matching the text labels in the generated markup.

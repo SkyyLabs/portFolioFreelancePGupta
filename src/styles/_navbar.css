@@ -26,6 +26,14 @@
   padding-top: var(--nav-offset);
 }
 
+/* Nav items are anchors so they carry real URLs; strip the browser's link
+   styling so they render exactly as the design specifies. */
+.shared-nav-name,
+.shared-nav-link {
+  color: inherit;
+  text-decoration: none;
+}
+
 .shared-nav-name {
   flex-shrink: 0;
   font-family: var(--font-script);

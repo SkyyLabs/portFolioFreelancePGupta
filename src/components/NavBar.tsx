@@ -1,38 +1,44 @@
-import type { Page } from "@/config/navigation";
-import { NAV_ITEMS, WORDMARK } from "@/config/navigation";
+import { Link, useLocation } from "react-router-dom";
+import { NAV_ITEMS, ROUTES, WORDMARK } from "@/config/navigation";
 
 type NavBarProps = {
-  onNav: (item: string) => void;
-  activePage: Page;
+  /** Handles the items that don't map to a route: Resume opens a PDF, My Work scrolls. */
+  onNav: (label: string) => void;
 };
 
-/** Which page each nav item highlights on. Items that aren't routes are absent. */
-const ACTIVE_PAGE: Partial<Record<(typeof NAV_ITEMS)[number], Page>> = {
-  About: "about",
-  Contact: "connect",
-};
+export default function NavBar({ onNav }: NavBarProps) {
+  const { pathname } = useLocation();
 
-export default function NavBar({ onNav, activePage }: NavBarProps) {
   return (
     <nav className="shared-nav">
-      <p className="shared-nav-name" onClick={() => onNav("home")}>
+      <Link className="shared-nav-name" to={ROUTES.home}>
         {WORDMARK}
-      </p>
+      </Link>
 
       <div className="shared-nav-links">
-        {NAV_ITEMS.map((item) => (
-          <p
-            key={item}
-            onClick={() => onNav(item)}
-            className={
-              ACTIVE_PAGE[item] === activePage
-                ? "shared-nav-link shared-nav-link--active"
-                : "shared-nav-link"
-            }
-          >
-            {item}
-          </p>
-        ))}
+        {NAV_ITEMS.map(({ label, to }) => {
+          // "My Work" points home but scrolls to a section, so it is never the
+          // active item — the home route belongs to the wordmark.
+          const isActive = to !== null && to !== ROUTES.home && pathname === to;
+          const className = isActive
+            ? "shared-nav-link shared-nav-link--active"
+            : "shared-nav-link";
+
+          return to && to !== ROUTES.home ? (
+            <Link
+              key={label}
+              className={className}
+              to={to}
+              aria-current={isActive ? "page" : undefined}
+            >
+              {label}
+            </Link>
+          ) : (
+            <span key={label} className={className} onClick={() => onNav(label)}>
+              {label}
+            </span>
+          );
+        })}
       </div>
     </nav>
   );

@@ -1,4 +1,5 @@
-import { useState, useEffect, useRef } from "react";
+import { useEffect, useRef } from "react";
+import { Routes, Route, Navigate, useNavigate, useLocation } from "react-router-dom";
 
 import NavBar from "@/components/NavBar";
 import CustomCursor from "@/components/CustomCursor";
@@ -7,7 +8,7 @@ import AboutPage from "@/pages/AboutPage";
 import ListerCaseStudyPage from "@/pages/ListerCaseStudyPage";
 import MathzaiCaseStudyPage from "@/pages/MathzaiCaseStudyPage";
 import ConnectPage from "@/pages/ConnectPage";
-import { CASE_STUDY_ANCHORS, LABELS, type Page } from "@/config/navigation";
+import { CASE_STUDY_ANCHORS, LABELS, ROUTES, ROUTE_META } from "@/config/navigation";
 import { BEHANCE, LINKEDIN, PROTOTYPE_URL, RESUME_URL } from "@/config/site";
 import { copyEmailToClipboard } from "@/lib/clipboard";
 
@@ -19,38 +20,73 @@ const scrollToWork = () =>
 
 const openExternal = (url: string) => window.open(url, "_blank", "noopener");
 
+/** Upserts a `<meta>` tag, keyed by the attribute that identifies it. */
+function setMetaTag(keyAttr: "name" | "property", key: string, content: string) {
+  const selector = `meta[${keyAttr}="${key}"]`;
+  let tag = document.head.querySelector<HTMLMetaElement>(selector);
+  if (!tag) {
+    tag = document.createElement("meta");
+    tag.setAttribute(keyAttr, key);
+    document.head.appendChild(tag);
+  }
+  tag.setAttribute("content", content);
+}
+
+function setCanonical(href: string) {
+  let link = document.head.querySelector<HTMLLinkElement>('link[rel="canonical"]');
+  if (!link) {
+    link = document.createElement("link");
+    link.rel = "canonical";
+    document.head.appendChild(link);
+  }
+  link.href = href;
+}
+
 export default function App() {
-  const [page, setPage] = useState<Page>("home");
+  const navigate = useNavigate();
+  const { pathname } = useLocation();
   const pendingScrollToWork = useRef(false);
 
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: "instant" });
-  }, [page]);
+  }, [pathname]);
 
-  // Navigating home from another page can carry a pending scroll to the work
-  // section; wait a tick for the new page to mount before scrolling.
+  // Give every route its own title, description and canonical URL, so search
+  // results, browser history and shared links describe the page you are on
+  // rather than the site as a whole.
   useEffect(() => {
-    if (page !== "home" || !pendingScrollToWork.current) return;
+    const meta = ROUTE_META[pathname] ?? ROUTE_META[ROUTES.home];
+    document.title = meta.title;
+    setMetaTag("name", "description", meta.description);
+    setMetaTag("property", "og:title", meta.title);
+    setMetaTag("property", "og:description", meta.description);
+    setCanonical(window.location.origin + pathname);
+  }, [pathname]);
+
+  // Arriving home from another route can carry a pending scroll to the work
+  // section; wait a tick for the page to mount before scrolling.
+  useEffect(() => {
+    if (pathname !== ROUTES.home || !pendingScrollToWork.current) return;
     pendingScrollToWork.current = false;
     const timer = setTimeout(scrollToWork, 80);
     return () => clearTimeout(timer);
-  }, [page]);
+  }, [pathname]);
 
   const goToWork = () => {
-    if (page === "home") return scrollToWork();
+    if (pathname === ROUTES.home) return scrollToWork();
     pendingScrollToWork.current = true;
-    setPage("home");
+    navigate(ROUTES.home);
   };
 
   /** Shared by the NavBar and by clicks delegated from generated markup. */
   const handleNav = (label: string) => {
     switch (true) {
       case label === "home" || label.startsWith(LABELS.wordmark):
-        return setPage("home");
+        return navigate(ROUTES.home);
       case label === LABELS.about:
-        return setPage("about");
+        return navigate(ROUTES.about);
       case label === LABELS.contact || label.startsWith(LABELS.connect):
-        return setPage("connect");
+        return navigate(ROUTES.connect);
       case label === LABELS.resume:
         return openExternal(RESUME_URL);
       case label.startsWith(LABELS.myWork):
@@ -61,6 +97,14 @@ export default function App() {
         return openExternal(BEHANCE);
       case label.startsWith(LABELS.prototype):
         return PROTOTYPE_URL ? openExternal(PROTOTYPE_URL) : undefined;
+    }
+  };
+
+  const openCaseStudy = (el: HTMLElement) => {
+    for (let node: HTMLElement | null = el; node; node = node.parentElement) {
+      if (typeof node.className !== "string") continue;
+      const match = CASE_STUDY_ANCHORS.find((a) => node!.className.includes(a.gapClass));
+      if (match) return navigate(match.to);
     }
   };
 
@@ -79,24 +123,20 @@ export default function App() {
     handleNav(label);
   };
 
-  const openCaseStudy = (el: HTMLElement) => {
-    for (let node: HTMLElement | null = el; node; node = node.parentElement) {
-      if (typeof node.className !== "string") continue;
-      const match = CASE_STUDY_ANCHORS.find((a) => node!.className.includes(a.gapClass));
-      if (match) return setPage(match.page);
-    }
-  };
-
   return (
     <>
       <CustomCursor />
-      <NavBar onNav={handleNav} activePage={page} />
+      <NavBar onNav={handleNav} />
       <div className="shared-nav-offset" onClick={handleGeneratedClick}>
-        {page === "home" && <HomePage />}
-        {page === "about" && <AboutPage />}
-        {page === "lister" && <ListerCaseStudyPage />}
-        {page === "mathzai" && <MathzaiCaseStudyPage />}
-        {page === "connect" && <ConnectPage />}
+        <Routes>
+          <Route path={ROUTES.home} element={<HomePage />} />
+          <Route path={ROUTES.about} element={<AboutPage />} />
+          <Route path={ROUTES.lister} element={<ListerCaseStudyPage />} />
+          <Route path={ROUTES.mathzai} element={<MathzaiCaseStudyPage />} />
+          <Route path={ROUTES.connect} element={<ConnectPage />} />
+          {/* Unknown URL — send visitors home rather than showing nothing. */}
+          <Route path="*" element={<Navigate to={ROUTES.home} replace />} />
+        </Routes>
       </div>
     </>
   );
