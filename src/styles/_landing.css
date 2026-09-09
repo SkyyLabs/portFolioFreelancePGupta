@@ -240,8 +240,8 @@
     font-size: clamp(30px, 5vw, 50px);
   }
   /* Scale process-section headline */
-  .portfolio-root .text-\[45px\] {
-    font-size: clamp(26px, 4vw, 45px);
+  .portfolio-root .text-\[40px\] {
+    font-size: clamp(26px, 4vw, 40px);
   }
 
   /* ── Process ── */
@@ -363,14 +363,14 @@
   [data-name="Landing portfolio"] > div:nth-child(2) > div > div > div {
     gap: 36px;
   }
-  .portfolio-root .text-\[45px\] { font-size: 21px; }
 
   /* ── Work ── */
   [data-name="Landing portfolio"] > div:nth-child(3) > div > div {
     padding: 40px 16px;
     gap: 28px;
   }
-  .portfolio-root .text-\[40px\] { font-size: 24px; }
+  /* Section headings: process ("Balancing…") and work ("Selected Work") */
+  .portfolio-root .text-\[40px\] { font-size: 22px; }
   [data-name="image\ 23"],
   [data-name="image\ 24"] {
     height: 200px !important;

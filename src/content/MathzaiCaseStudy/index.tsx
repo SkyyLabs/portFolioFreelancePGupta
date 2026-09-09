@@ -60,8 +60,8 @@ function GridOverlay() {
 function Frame1() {
   return (
     <div className="[word-break:break-word] content-stretch flex flex-col gap-[16px] items-start not-italic relative shrink-0 w-full" data-name="Frame">
-      <h1 className="font-['Roca:Black',sans-serif] leading-none relative shrink-0 text-[#4355ff] text-[60px] whitespace-nowrap">MathzAI</h1>
-      <p className="font-['Avenir_Next:Bold',sans-serif] leading-[normal] min-w-full relative shrink-0 text-[#152586] text-[32px] w-[min-content]">{`For every time you're stuck in math.`}</p>
+      <h1 className="font-['Roca:Black',sans-serif] leading-none relative shrink-0 text-[#4355ff] text-[45px] whitespace-nowrap">MathzAI</h1>
+      <p className="font-['Avenir_Next:Bold',sans-serif] leading-[normal] min-w-full relative shrink-0 text-[#152586] text-[24px] w-[min-content]">{`For every time you're stuck in math.`}</p>
     </div>
   );
 }
@@ -520,7 +520,7 @@ function BulletIconContainer() {
 function BulletTextWrapper() {
   return (
     <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col gap-[4px] items-start min-w-px relative" data-name="bullet-text-wrapper">
-      <p className="font-['Geist:Bold',sans-serif] font-bold leading-[normal] relative shrink-0 text-[18px] text-[rgba(44,55,168,0.8)] w-full">{`Discoverability & Clarity`}</p>
+      <p className="font-['Avenir_Next:Bold',sans-serif] font-bold leading-[normal] relative shrink-0 text-[18px] text-[rgba(44,55,168,0.8)] w-full">{`Discoverability & Clarity`}</p>
       <p className="font-['Avenir_Next:Regular',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[#334155] text-[14px] w-full">How those supportive features are made easily discoverable and understandable during active friction points.</p>
     </div>
   );
@@ -667,7 +667,7 @@ function AddressBar() {
   return (
     <div className="bg-[#fdfbff] content-stretch flex items-start justify-center px-[16px] py-[4px] relative rounded-[6px] shrink-0 w-[180px]" data-name="address-bar">
       <div aria-hidden className="absolute border border-[#e9d5ff] border-solid inset-0 pointer-events-none rounded-[6px]" />
-      <p className="[word-break:break-word] font-['Geist:Regular',sans-serif] font-normal leading-[normal] overflow-hidden relative shrink-0 text-[#4f46e5] text-[10px] text-ellipsis whitespace-nowrap">khanacademy.com</p>
+      <p className="[word-break:break-word] font-['Avenir_Next:Regular',sans-serif] font-normal leading-[normal] overflow-hidden relative shrink-0 text-[#4f46e5] text-[10px] text-ellipsis whitespace-nowrap">khanacademy.com</p>
     </div>
   );
 }
@@ -685,7 +685,7 @@ function WindowHeader() {
 function CardInfo() {
   return (
     <div className="content-stretch flex flex-col items-start pb-[4px] px-[4px] relative shrink-0 w-full" data-name="card-info">
-      <p className="[word-break:break-word] font-['EB_Garamond:ExtraBold',sans-serif] font-extrabold leading-[normal] relative shrink-0 text-[#010c81] text-[18px] w-full">Khan Academy</p>
+      <p className="[word-break:break-word] font-['Roca:Black',sans-serif] font-extrabold leading-[normal] relative shrink-0 text-[#010c81] text-[18px] w-full">Khan Academy</p>
     </div>
   );
 }
@@ -721,7 +721,7 @@ function AddressBar1() {
   return (
     <div className="bg-[#fdfbff] content-stretch flex items-start justify-center px-[16px] py-[4px] relative rounded-[6px] shrink-0 w-[180px]" data-name="address-bar">
       <div aria-hidden className="absolute border border-[#e9d5ff] border-solid inset-0 pointer-events-none rounded-[6px]" />
-      <p className="[word-break:break-word] font-['Geist:Regular',sans-serif] font-normal leading-[normal] overflow-hidden relative shrink-0 text-[#4f46e5] text-[10px] text-ellipsis whitespace-nowrap">mathosai.com</p>
+      <p className="[word-break:break-word] font-['Avenir_Next:Regular',sans-serif] font-normal leading-[normal] overflow-hidden relative shrink-0 text-[#4f46e5] text-[10px] text-ellipsis whitespace-nowrap">mathosai.com</p>
     </div>
   );
 }
@@ -739,7 +739,7 @@ function WindowHeader1() {
 function CardInfo1() {
   return (
     <div className="content-stretch flex flex-col items-start pb-[4px] px-[4px] relative shrink-0 w-full" data-name="card-info">
-      <p className="[word-break:break-word] font-['EB_Garamond:ExtraBold',sans-serif] font-extrabold leading-[normal] relative shrink-0 text-[#010c81] text-[18px] w-full">Mathos AI</p>
+      <p className="[word-break:break-word] font-['Roca:Black',sans-serif] font-extrabold leading-[normal] relative shrink-0 text-[#010c81] text-[18px] w-full">Mathos AI</p>
     </div>
   );
 }
@@ -775,7 +775,7 @@ function AddressBar2() {
   return (
     <div className="bg-[#fdfbff] content-stretch flex items-start justify-center px-[16px] py-[4px] relative rounded-[6px] shrink-0 w-[180px]" data-name="address-bar">
       <div aria-hidden className="absolute border border-[#e9d5ff] border-solid inset-0 pointer-events-none rounded-[6px]" />
-      <p className="[word-break:break-word] font-['Geist:Regular',sans-serif] font-normal leading-[normal] overflow-hidden relative shrink-0 text-[#4f46e5] text-[10px] text-ellipsis whitespace-nowrap">mathgpt.com</p>
+      <p className="[word-break:break-word] font-['Avenir_Next:Regular',sans-serif] font-normal leading-[normal] overflow-hidden relative shrink-0 text-[#4f46e5] text-[10px] text-ellipsis whitespace-nowrap">mathgpt.com</p>
     </div>
   );
 }
@@ -793,7 +793,7 @@ function WindowHeader2() {
 function CardInfo2() {
   return (
     <div className="content-stretch flex flex-col items-start pb-[4px] px-[4px] relative shrink-0 w-full" data-name="card-info">
-      <p className="[word-break:break-word] font-['EB_Garamond:ExtraBold',sans-serif] font-extrabold leading-[normal] relative shrink-0 text-[#010c81] text-[18px] w-full">MathGPT</p>
+      <p className="[word-break:break-word] font-['Roca:Black',sans-serif] font-extrabold leading-[normal] relative shrink-0 text-[#010c81] text-[18px] w-full">MathGPT</p>
     </div>
   );
 }
@@ -850,7 +850,7 @@ function MethodologyTextBlock() {
   return (
     <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col gap-[24px] items-start min-w-px relative" data-name="methodology-text-block">
       <p className="font-['Avenir_Next:Bold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#010c81] text-[24px] w-full">Testing Methodology</p>
-      <div className="font-['Geist:Regular',sans-serif] font-normal leading-[0] relative shrink-0 text-[#334155] text-[0px] w-full whitespace-pre-wrap">
+      <div className="font-['Avenir_Next:Regular',sans-serif] font-normal leading-[0] relative shrink-0 text-[#334155] text-[0px] w-full whitespace-pre-wrap">
         <p className="mb-0 not-italic text-[20px]">
           <span className="font-['Avenir_Next:Regular',sans-serif] leading-[1.65]">{`Four tasks per session, in the order a student meets the product: `}</span>
           <span className="font-['Avenir_Next:Demi_Bold',sans-serif] leading-[1.65] text-black">landing page → HA → AMT → SSC</span>
@@ -916,7 +916,7 @@ function UserTestingSection() {
   return (
     <div className="bg-white content-stretch flex flex-col gap-[50px] items-start overflow-clip pb-[100px] pt-[50px] px-[100px] relative shrink-0 w-[1280px]" data-name="user-testing-section">
       <SectionHeaderArea1 />
-      <p className="[word-break:break-word] font-['Geist:Regular',sans-serif] font-normal leading-[0] not-italic relative shrink-0 text-[#334155] text-[20px] w-full">
+      <p className="[word-break:break-word] font-['Avenir_Next:Regular',sans-serif] font-normal leading-[0] not-italic relative shrink-0 text-[#334155] text-[20px] w-full">
         <span className="font-['Avenir_Next:Regular',sans-serif] leading-[1.65]">{`I designed flows for all three features, then ran interviews against those designs — `}</span>
         <span className="font-['Avenir_Next:Demi_Bold',sans-serif] leading-[1.65] text-black">before build, not afte</span>
         <span className="font-['Avenir_Next:Demi_Bold',sans-serif] leading-[1.65] text-[#4355ff]">r</span>
@@ -1030,7 +1030,7 @@ function MingcuteCheckFill1() {
 function Frame10() {
   return (
     <div className="bg-[#88d4f2] col-1 content-stretch flex items-center justify-center ml-[24px] mt-[35px] relative rounded-[18px] row-1 size-[36px]" data-name="Frame">
-      <p className="[word-break:break-word] font-['Inter:Bold',sans-serif] font-bold leading-[normal] not-italic relative shrink-0 text-[18px] text-white whitespace-nowrap">1</p>
+      <p className="[word-break:break-word] font-['Avenir_Next:Bold',sans-serif] font-bold leading-[normal] not-italic relative shrink-0 text-[18px] text-white whitespace-nowrap">1</p>
     </div>
   );
 }
@@ -1041,8 +1041,8 @@ function Group58() {
       <div className="bg-white col-1 h-[224px] ml-0 mt-0 relative rounded-[10px] row-1 shadow-[0px_4px_8px_0px_rgba(0,0,0,0.25)] w-[435px]" />
       <MingcuteCheckFill1 />
       <Frame10 />
-      <p className="[word-break:break-word] col-1 font-['Inter:Bold',sans-serif] font-bold leading-[normal] ml-[75.06px] mt-[41.97px] not-italic relative row-1 text-[#010c81] text-[18px] w-[436.596px]">The Three Features seemed Identical</p>
-      <p className="[word-break:break-word] col-1 font-['Inter:Regular',sans-serif] font-normal leading-[1.5] ml-[31px] mt-[102px] not-italic relative row-1 text-[15px] text-black w-[341px]">{`They shared the exact same palette and layout structure. Students got lost. They could not guess that there are 3 different features for three different purposes `}</p>
+      <p className="[word-break:break-word] col-1 font-['Avenir_Next:Bold',sans-serif] font-bold leading-[normal] ml-[75.06px] mt-[41.97px] not-italic relative row-1 text-[#010c81] text-[18px] w-[436.596px]">The Three Features seemed Identical</p>
+      <p className="[word-break:break-word] col-1 font-['Avenir_Next:Regular',sans-serif] font-normal leading-[1.5] ml-[31px] mt-[102px] not-italic relative row-1 text-[15px] text-black w-[341px]">{`They shared the exact same palette and layout structure. Students got lost. They could not guess that there are 3 different features for three different purposes `}</p>
     </div>
   );
 }
@@ -1075,7 +1075,7 @@ function MingcuteCheckFill2() {
 function Frame11() {
   return (
     <div className="bg-[#febc85] col-1 content-stretch flex items-center justify-center ml-[25px] mt-[39.04px] relative rounded-[18px] row-1 size-[36px]" data-name="Frame">
-      <p className="[word-break:break-word] font-['Inter:Bold',sans-serif] font-bold leading-[normal] not-italic relative shrink-0 text-[18px] text-white whitespace-nowrap">2</p>
+      <p className="[word-break:break-word] font-['Avenir_Next:Bold',sans-serif] font-bold leading-[normal] not-italic relative shrink-0 text-[18px] text-white whitespace-nowrap">2</p>
     </div>
   );
 }
@@ -1086,8 +1086,8 @@ function Group59() {
       <div className="bg-white col-1 h-[224px] ml-0 mt-0 relative rounded-[10px] row-1 shadow-[0px_4px_8px_0px_rgba(0,0,0,0.25)] w-[435.88px]" />
       <MingcuteCheckFill2 />
       <Frame11 />
-      <p className="[word-break:break-word] col-1 font-['Inter:Bold',sans-serif] font-bold leading-[normal] ml-[78.81px] mt-[46.68px] not-italic relative row-1 text-[#010c81] text-[18px] whitespace-nowrap">{`'Solution' & 'Final Answer' Read as One`}</p>
-      <p className="[word-break:break-word] col-1 font-['Inter:Regular',sans-serif] font-normal leading-[1.5] ml-[25px] mt-[97.01px] not-italic relative row-1 text-[15px] text-black w-[386px]">{`The entire product rests on graduated disclosure. If a student can't tell two rungs of the help ladder apart, they jump straight to the bottom and copy the answer.`}</p>
+      <p className="[word-break:break-word] col-1 font-['Avenir_Next:Bold',sans-serif] font-bold leading-[normal] ml-[78.81px] mt-[46.68px] not-italic relative row-1 text-[#010c81] text-[18px] whitespace-nowrap">{`'Solution' & 'Final Answer' Read as One`}</p>
+      <p className="[word-break:break-word] col-1 font-['Avenir_Next:Regular',sans-serif] font-normal leading-[1.5] ml-[25px] mt-[97.01px] not-italic relative row-1 text-[15px] text-black w-[386px]">{`The entire product rests on graduated disclosure. If a student can't tell two rungs of the help ladder apart, they jump straight to the bottom and copy the answer.`}</p>
     </div>
   );
 }
@@ -1130,7 +1130,7 @@ function MingcuteCheckFill3() {
 function Frame12() {
   return (
     <div className="bg-[#eba1fd] col-1 content-stretch flex h-[36.299px] items-center justify-center ml-[34px] mt-[37.93px] relative rounded-[18px] row-1 w-[36px]" data-name="Frame">
-      <p className="[word-break:break-word] font-['Inter:Bold',sans-serif] font-bold leading-[normal] not-italic relative shrink-0 text-[18px] text-white whitespace-nowrap">3</p>
+      <p className="[word-break:break-word] font-['Avenir_Next:Bold',sans-serif] font-bold leading-[normal] not-italic relative shrink-0 text-[18px] text-white whitespace-nowrap">3</p>
     </div>
   );
 }
@@ -1141,8 +1141,8 @@ function Group60() {
       <div className="bg-white col-1 h-[240px] ml-0 mt-0 relative rounded-[10px] row-1 shadow-[0px_4px_8px_0px_rgba(0,0,0,0.25)] w-[515px]" />
       <MingcuteCheckFill3 />
       <Frame12 />
-      <p className="[word-break:break-word] col-1 font-['Inter:Bold',sans-serif] font-bold h-[22.183px] leading-[normal] ml-[88.28px] mt-[45.1px] not-italic relative row-1 text-[#010c81] text-[18px] w-[454.723px]">{`The 'Continue' Button Was Stranded`}</p>
-      <p className="[word-break:break-word] col-1 font-['Inter:Regular',sans-serif] font-normal h-[69.573px] leading-[1.5] ml-[40.1px] mt-[107.48px] not-italic relative row-1 text-[15px] text-black w-[443.571px]">{`Students would complete a solving step, wait for the AI's confirmation, and then simply stall. The main action button was lost at the very bottom of the screens.`}</p>
+      <p className="[word-break:break-word] col-1 font-['Avenir_Next:Bold',sans-serif] font-bold h-[22.183px] leading-[normal] ml-[88.28px] mt-[45.1px] not-italic relative row-1 text-[#010c81] text-[18px] w-[454.723px]">{`The 'Continue' Button Was Stranded`}</p>
+      <p className="[word-break:break-word] col-1 font-['Avenir_Next:Regular',sans-serif] font-normal h-[69.573px] leading-[1.5] ml-[40.1px] mt-[107.48px] not-italic relative row-1 text-[15px] text-black w-[443.571px]">{`Students would complete a solving step, wait for the AI's confirmation, and then simply stall. The main action button was lost at the very bottom of the screens.`}</p>
     </div>
   );
 }
@@ -1961,7 +1961,7 @@ function Group30() {
 function Group57() {
   return (
     <div className="absolute contents left-[340.74px] top-[52.45px]">
-      <p className="[word-break:break-word] absolute font-['Nunito:Medium',sans-serif] font-medium h-[6.744px] leading-[normal] left-[340.74px] text-[#3a4aad] text-[5px] top-[52.45px] w-[96.641px]">Hints/ Concepts</p>
+      <p className="[word-break:break-word] absolute font-['Avenir_Next:Medium',sans-serif] font-medium h-[6.744px] leading-[normal] left-[340.74px] text-[#3a4aad] text-[5px] top-[52.45px] w-[96.641px]">Hints/ Concepts</p>
     </div>
   );
 }
@@ -2097,7 +2097,7 @@ function Group20() {
 function Group21() {
   return (
     <div className="absolute contents left-[25.26px] top-[51.74px]">
-      <p className="[word-break:break-word] absolute font-['Nunito:Medium',sans-serif] font-medium h-[6.744px] leading-[normal] left-[25.26px] text-[#3a4aad] text-[5px] top-[51.74px] w-[152.156px]">Solution</p>
+      <p className="[word-break:break-word] absolute font-['Avenir_Next:Medium',sans-serif] font-medium h-[6.744px] leading-[normal] left-[25.26px] text-[#3a4aad] text-[5px] top-[51.74px] w-[152.156px]">Solution</p>
     </div>
   );
 }
@@ -5743,7 +5743,7 @@ function SatResults1() {
 function SectionHeader5() {
   return (
     <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-name="section-header">
-      <p className="[word-break:break-word] font-['EB_Garamond:ExtraBold',sans-serif] font-extrabold leading-[normal] relative shrink-0 text-[48px] text-white w-full">What I Took From It</p>
+      <p className="[word-break:break-word] font-['Roca:Black',sans-serif] font-extrabold leading-[normal] relative shrink-0 text-[45px] text-white w-full">What I Took From It</p>
     </div>
   );
 }
