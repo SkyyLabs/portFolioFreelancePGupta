@@ -8,7 +8,7 @@ type Fields = { name: string; email: string; phone: string; message: string };
 const EMPTY: Fields = { name: "", email: "", phone: "", message: "" };
 
 const FIELDS = [
-  { key: "name", label: "Name", type: "text", placeholder: "Jane Smith", required: true },
+  { key: "name", label: "Name", type: "text", placeholder: "Jane Smith", required: false },
   { key: "email", label: "Email", type: "email", placeholder: "jane@example.com", required: true },
   { key: "phone", label: "Phone", type: "tel", placeholder: "+91 00000 00000", required: false },
 ] as const;
@@ -17,12 +17,16 @@ export default function ConnectPage() {
   const [fields, setFields] = useState<Fields>(EMPTY);
   const [status, setStatus] = useState<Status>("idle");
 
+  // Email and message are compulsory; the button stays disabled until both
+  // carry something more than whitespace.
+  const canSubmit = fields.email.trim() !== "" && fields.message.trim() !== "";
+
   const set = (key: keyof Fields) => (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) =>
     setFields((prev) => ({ ...prev, [key]: e.target.value }));
 
   const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
-    if (status === "sending") return;
+    if (!canSubmit || status === "sending") return;
     setStatus("sending");
 
     try {
@@ -93,7 +97,11 @@ export default function ConnectPage() {
                   />
                 </div>
 
-                <button className="connect-submit" type="submit" disabled={status === "sending"}>
+                <button
+                  className="connect-submit"
+                  type="submit"
+                  disabled={!canSubmit || status === "sending"}
+                >
                   <span>{status === "sending" ? "Sending…" : "Send Message"}</span>
                   <span className="connect-submit-arrow">→</span>
                 </button>
