@@ -125,7 +125,6 @@ Never rename these aliases — the generated JSX references them literally via T
 
 Real, unresolved — don't "discover" them again, and don't fix them unasked:
 
-- **`WEB3FORMS_KEY` in `config/site.ts` is empty.** The contact form posts to Web3Forms; until a key is set, every submission fails into the error state (which tells the visitor to email directly). Get one free at web3forms.com. Public by design — it belongs in source, not an env var.
 - **`PROTOTYPE_URL` in `config/site.ts` is empty.** The Lister case study's "Open the Prototype" button is inert until a Figma prototype share link is set.
 - **No OG image.** `.figma/make/site.json` has no `openGraph.image`, so shared links show no preview card. Needs a purpose-made 1200×630 export from Figma.
 - **The JS bundle is ~1.2 MB** (295 KB gzipped) because both 6000-line case studies are always in the main chunk. `React.lazy` on the two case study pages would fix it.
