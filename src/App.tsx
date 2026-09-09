@@ -55,7 +55,10 @@ export default function App() {
   // results, browser history and shared links describe the page you are on
   // rather than the site as a whole.
   useEffect(() => {
-    const meta = ROUTE_META[pathname] ?? ROUTE_META[ROUTES.home];
+    // Normalise a trailing slash so "/about/" resolves like "/about"; without
+    // this the lookup misses and every such URL falls back to the home title.
+    const key = pathname.length > 1 ? pathname.replace(/\/+$/, "") : pathname;
+    const meta = ROUTE_META[key] ?? ROUTE_META[ROUTES.home];
     document.title = meta.title;
     setMetaTag("name", "description", meta.description);
     setMetaTag("property", "og:title", meta.title);

@@ -26,3 +26,5 @@ logs/
 # Design deliverables — exported from Figma, which is the source of truth.
 # Kept locally, not in git: they are large binaries and not build inputs.
 design/
+
+dist-ssr/

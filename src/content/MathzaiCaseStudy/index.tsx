@@ -60,7 +60,7 @@ function GridOverlay() {
 function Frame1() {
   return (
     <div className="[word-break:break-word] content-stretch flex flex-col gap-[16px] items-start not-italic relative shrink-0 w-full" data-name="Frame">
-      <p className="font-['Roca:Black',sans-serif] leading-none relative shrink-0 text-[#4355ff] text-[60px] whitespace-nowrap">MathzAI</p>
+      <h1 className="font-['Roca:Black',sans-serif] leading-none relative shrink-0 text-[#4355ff] text-[60px] whitespace-nowrap">MathzAI</h1>
       <p className="font-['Avenir_Next:Bold',sans-serif] leading-[normal] min-w-full relative shrink-0 text-[#152586] text-[32px] w-[min-content]">{`For every time you're stuck in math.`}</p>
     </div>
   );
@@ -696,7 +696,7 @@ function ScreenshotCardKhanAcademy() {
       <div aria-hidden className="absolute border border-[#e9d5ff] border-solid inset-0 pointer-events-none rounded-[16px]" />
       <WindowHeader />
       <div className="h-[192px] relative shrink-0 w-[320px]" data-name="image 62">
-        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage62} />
+        <img loading="lazy" decoding="async" alt="MathzAI interface: smart solution check flagging a student's error" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage62} />
       </div>
       <CardInfo />
     </div>
@@ -750,7 +750,7 @@ function ScreenshotCardMathosAi() {
       <div aria-hidden className="absolute border border-[#e9d5ff] border-solid inset-0 pointer-events-none rounded-[16px]" />
       <WindowHeader1 />
       <div className="h-[192.099px] relative shrink-0 w-[320px]" data-name="image 60">
-        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage60} />
+        <img loading="lazy" decoding="async" alt="MathzAI interface: step-by-step maths solution walkthrough" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage60} />
       </div>
       <CardInfo1 />
     </div>
@@ -805,7 +805,7 @@ function ScreenshotCardMathgpt() {
       <WindowHeader2 />
       <div className="h-[192px] relative shrink-0 w-[320px]" data-name="image 61">
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <img alt="" className="absolute h-full left-[-0.12%] max-w-none top-0 w-[100.25%]" src={imgImage61} />
+          <img loading="lazy" decoding="async" alt="MathzAI interface: AI maths tutor conversation" className="absolute h-full left-[-0.12%] max-w-none top-0 w-[100.25%]" src={imgImage61} />
         </div>
       </div>
       <CardInfo2 />
@@ -878,7 +878,7 @@ function MethodologySplit() {
 function ArtifactCardQuestions() {
   return (
     <div className="content-stretch flex flex-[1_0_34px] flex-col h-[326px] items-start min-w-px p-[16px] relative rounded-[16px]" data-name="artifact-card-questions">
-      <img alt="" className="absolute inset-0 max-w-none object-cover rounded-[16px] size-full" src={imgArtifactCardQuestions} />
+      <img loading="lazy" decoding="async" alt="MathzAI feature card: guiding questions" className="absolute inset-0 max-w-none object-cover rounded-[16px] size-full" src={imgArtifactCardQuestions} />
       <div aria-hidden className="absolute border border-[#e9d5ff] border-solid inset-0 rounded-[16px] shadow-[0px_8px_24px_0px_rgba(79,70,229,0.03)]" />
     </div>
   );
@@ -887,7 +887,7 @@ function ArtifactCardQuestions() {
 function ArtifactCardNotes() {
   return (
     <div className="content-stretch flex flex-col h-[326px] items-start p-[16px] relative rounded-[16px] shrink-0 w-[348px]" data-name="artifact-card-notes">
-      <img alt="" className="absolute inset-0 max-w-none object-bottom rounded-[16px] size-full" src={imgArtifactCardNotes} />
+      <img loading="lazy" decoding="async" alt="MathzAI feature card: student notes" className="absolute inset-0 max-w-none object-bottom rounded-[16px] size-full" src={imgArtifactCardNotes} />
       <div aria-hidden className="absolute border border-[#e9d5ff] border-solid inset-0 rounded-[16px] shadow-[0px_8px_24px_0px_rgba(79,70,229,0.03)]" />
     </div>
   );
@@ -896,7 +896,7 @@ function ArtifactCardNotes() {
 function ArtifactCardCritiques() {
   return (
     <div className="content-stretch flex flex-[1_0_34px] flex-col h-[326px] items-start min-w-px p-[16px] relative rounded-[16px]" data-name="artifact-card-critiques">
-      <img alt="" className="absolute inset-0 max-w-none object-bottom rounded-[16px] size-full" src={imgArtifactCardCritiques} />
+      <img loading="lazy" decoding="async" alt="MathzAI feature card: critiques of a student's method" className="absolute inset-0 max-w-none object-bottom rounded-[16px] size-full" src={imgArtifactCardCritiques} />
       <div aria-hidden className="absolute border border-[#e9d5ff] border-solid inset-0 rounded-[16px] shadow-[0px_8px_24px_0px_rgba(79,70,229,0.03)]" />
     </div>
   );
@@ -4098,7 +4098,7 @@ function Group32() {
       <LetsIconsCheckFill3 />
       <LetsIconsCheckFill4 />
       <div className="absolute h-[131.119px] left-[144.07px] top-[165.11px] w-[147.306px]">
-        <img alt="" className="absolute inset-0 max-w-none object-bottom pointer-events-none size-full" src={imgRectangle181} />
+        <img loading="lazy" decoding="async" alt="" className="absolute inset-0 max-w-none object-bottom pointer-events-none size-full" src={imgRectangle181} />
       </div>
       <Frame33 />
     </div>
@@ -4987,7 +4987,7 @@ function Group41() {
   return (
     <div className="absolute contents left-[17.12px] top-[103.69px]">
       <div className="absolute h-[78.127px] left-[17.12px] top-[103.69px] w-[87.772px]">
-        <img alt="" className="absolute inset-0 max-w-none object-bottom pointer-events-none size-full" src={imgRectangle181} />
+        <img loading="lazy" decoding="async" alt="" className="absolute inset-0 max-w-none object-bottom pointer-events-none size-full" src={imgRectangle181} />
       </div>
       <Frame49 />
       <div className="absolute h-[6.993px] left-[82.23px] top-[138.41px] w-[23.149px]">
@@ -5121,7 +5121,7 @@ function Group42() {
   return (
     <div className="absolute contents left-[11.82px] top-[615.37px]">
       <div className="absolute h-[78.127px] left-[11.82px] top-[615.37px] w-[87.772px]">
-        <img alt="" className="absolute inset-0 max-w-none object-bottom pointer-events-none size-full" src={imgRectangle181} />
+        <img loading="lazy" decoding="async" alt="" className="absolute inset-0 max-w-none object-bottom pointer-events-none size-full" src={imgRectangle181} />
       </div>
       <Frame51 />
       <div className="absolute h-[6.993px] left-[76.92px] top-[646.72px] w-[23.149px]">
@@ -5686,7 +5686,7 @@ function IPhone13Mini() {
         <span className="leading-[normal] text-[2.937px]">{` : A circular garden has a radius of 8 meters. The owner wants to plant grass in the entire garden except for a circular fountain in the center that has a diameter of 4 meters. What is the area that will be covered with grass?`}</span>
       </p>
       <div className="absolute h-[63.437px] left-[5.87px] rounded-[0.979px] top-[70.68px] w-[61.675px]">
-        <img alt="" className="absolute inset-0 max-w-none object-bottom pointer-events-none rounded-[0.979px] size-full" src={imgRectangle181} />
+        <img loading="lazy" decoding="async" alt="" className="absolute inset-0 max-w-none object-bottom pointer-events-none rounded-[0.979px] size-full" src={imgRectangle181} />
       </div>
       <div className="absolute h-[5.678px] left-[47.97px] top-[102.4px] w-[18.796px]">
         <svg className="absolute block inset-0 size-full" fill="none" height="5.67803" preserveAspectRatio="none" viewBox="0 0 18.7962 5.67803" width="18.7962">
