@@ -108,9 +108,15 @@ The second route is brittle by construction: changed copy in a re-export breaks 
 
 ### Case study scaling
 
-Both case studies render a fixed 1280px-wide canvas and scale it to the viewport via `hooks/useCanvasScale.ts`. Because `transform` doesn't affect layout flow, the hook compensates the document height with a negative `marginBottom` measured by `ResizeObserver` — no hardcoded page height.
+Both case studies render a fixed 1280px-wide canvas and scale it to the viewport via `hooks/useCanvasScale.ts`. The canvas fills the viewport width up to `MAX_SCALE` (1.5×, so 1920px) and is **centred** above that, giving symmetric margins on very wide monitors.
 
-The two pages differ in one deliberate way: Lister passes `maxScale: 1` (never grows past design size), MathzAI passes `maxScale: Infinity` (fills wide viewports). This asymmetry is inherited from the original code and has not been design-reviewed — if both should behave the same, that is a one-line change.
+Both bounds exist for a reason:
+- **Uncapped**, a 1280px design renders at 2× on a 2560px monitor — body copy outgrows a comfortable measure and the canvas stops matching the unscaled nav above it.
+- **Anchored top-left without filling**, it leaves a white gutter down one side (160px at 1440px, 640px at 1920px) that reads as a broken page.
+
+Because `transform` doesn't affect layout flow, the hook compensates with a negative `marginBottom` (measured by `ResizeObserver`, not hardcoded) and a centring `marginLeft`.
+
+Lister passes `designHeight`; MathzAI doesn't. That difference is load-bearing — see the note in `ListerCaseStudyPage.tsx`. **Do not "simplify" it away**; doing so renders that page blank at every viewport, and the build still passes.
 
 ### Fonts
 
