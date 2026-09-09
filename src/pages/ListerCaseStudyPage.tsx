@@ -1,4 +1,4 @@
-import CaseStudy4 from "@/imports/CaseStudy4/index";
+import ListerCaseStudy from "@/content/ListerCaseStudy";
 import { useCanvasScale } from "@/hooks/useCanvasScale";
 
 /**
@@ -14,7 +14,7 @@ export default function ListerCaseStudyPage() {
   return (
     <div className="case-study-root">
       <div ref={ref} style={style}>
-        <CaseStudy4 />
+        <ListerCaseStudy />
       </div>
     </div>
   );

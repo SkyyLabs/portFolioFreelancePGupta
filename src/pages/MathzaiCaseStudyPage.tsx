@@ -1,4 +1,4 @@
-import MathzaiCaseStudyFinal from "@/imports/MathzaiCaseStudyFinal/index";
+import MathzaiCaseStudy from "@/content/MathzaiCaseStudy";
 import CaseStudyCTA from "@/components/CaseStudyCTA";
 import { useCanvasScale } from "@/hooks/useCanvasScale";
 
@@ -9,7 +9,7 @@ export default function MathzaiCaseStudyPage() {
   return (
     <div className="case-study-root">
       <div ref={ref} style={style}>
-        <MathzaiCaseStudyFinal />
+        <MathzaiCaseStudy />
         <CaseStudyCTA />
       </div>
     </div>

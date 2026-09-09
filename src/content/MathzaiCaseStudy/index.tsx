@@ -6058,7 +6058,7 @@ function KeyTakeaways() {
   );
 }
 
-export default function MathzaiCaseStudyFinal() {
+export default function MathzaiCaseStudy() {
   return (
     <div className="bg-[rgba(247,254,232,0.4)] content-stretch flex flex-col items-start relative size-full" data-name="mathzai-case-study final">
       <HeroSection />

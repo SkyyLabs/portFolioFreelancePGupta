@@ -5812,7 +5812,7 @@ function Group33() {
   );
 }
 
-export default function CaseStudy() {
+export default function ListerCaseStudy() {
   return (
     <div className="bg-[#f2f8ff] relative size-full" data-name="Case study 4">
       <div className="absolute bg-[#4e5ba6] h-[810px] left-[-1px] top-0 w-[1281px]" />

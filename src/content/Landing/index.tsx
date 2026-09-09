@@ -847,7 +847,7 @@ function Frame49() {
   );
 }
 
-export default function LandingPortfolio() {
+export default function Landing() {
   return (
     <div className="content-stretch flex flex-col items-center justify-between relative size-full" data-name="Landing portfolio">
       <Frame25 />
