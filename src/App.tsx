@@ -85,11 +85,13 @@ export default function App() {
         return navigate(ROUTES.home);
       case label === LABELS.about:
         return navigate(ROUTES.about);
-      case label === LABELS.contact || label.startsWith(LABELS.connect):
+      case label === LABELS.contact ||
+        label.startsWith(LABELS.connect) ||
+        label === LABELS.sayHello:
         return navigate(ROUTES.connect);
       case label === LABELS.resume:
         return openExternal(RESUME_URL);
-      case label.startsWith(LABELS.myWork):
+      case label === LABELS.seeMyWork || label.startsWith(LABELS.myWork):
         return goToWork();
       case label === LABELS.linkedin:
         return openExternal(LINKEDIN);
