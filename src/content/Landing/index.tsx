@@ -10,7 +10,7 @@ import imgImage12 from "./7e63a6a9014b62570562a76a2fb3d67da1b049bd.png";
 function Ellipse({ className }: { className?: string }) {
   return (
     <div className={className || "h-[89px] relative w-[88px]"}>
-      <img alt="" className="absolute block inset-0 max-w-none size-full" height="89" src={imgEllipse1} width="88" />
+      <img loading="lazy" decoding="async" alt="" className="absolute block inset-0 max-w-none size-full" height="89" src={imgEllipse1} width="88" />
     </div>
   );
 }
@@ -21,7 +21,7 @@ function Arrow({ className }: { className?: string }) {
       <div className="content-stretch flex flex-col items-start px-[10px] py-[40px] relative size-full">
         <div className="h-0 relative shrink-0 w-[113px]">
           <div className="absolute inset-[-7.36px_-0.88%_-7.36px_0]">
-            <img alt="" className="block max-w-none size-full" height="14.728" src={imgArrow1} width="114" />
+            <img loading="lazy" decoding="async" alt="" className="block max-w-none size-full" height="14.728" src={imgArrow1} width="114" />
           </div>
         </div>
       </div>
@@ -60,7 +60,7 @@ function Frame23() {
 function Frame3() {
   return (
     <div className="[word-break:break-word] content-stretch flex flex-col gap-[50px] items-center leading-[normal] not-italic relative shrink-0 text-black w-full">
-      <p className="font-['Scala_Pro:Bold',sans-serif] relative shrink-0 text-[50px] w-full">{` I wanted hours of me-time every day. Then I found design.`}</p>
+      <h1 className="font-['Scala_Pro:Bold',sans-serif] relative shrink-0 text-[50px] w-full">{` I wanted hours of me-time every day. Then I found design.`}</h1>
       <p className="font-['Raleway',sans-serif] relative shrink-0 text-[20px] w-full">Product designer who makes big ideas feel effortless and essential. I enjoy turning complexity into clarity and polishing the details that make a product reallly work.</p>
     </div>
   );
@@ -106,7 +106,7 @@ function Frame24() {
   return (
     <div className="content-stretch flex h-[797px] items-center justify-between relative shrink-0 w-full">
       <div className="portrait-hover-zone h-[739px] relative shrink-0 w-[663px]">
-        <img alt="" className="absolute inset-0 max-w-none object-contain object-top opacity-60 pointer-events-none size-full" src={imgRectangle8} />
+        <img alt="Pooja Singhal, illustrated in pencil, working at a laptop" className="absolute inset-0 max-w-none object-contain object-top opacity-60 pointer-events-none size-full" src={imgRectangle8} />
         <div className="portrait-speech-bubble" aria-hidden>
           <span><span className="wave-emoji">👋</span> Oh hi, you found me!</span>
           <div className="portrait-speech-bubble-tail" />
@@ -133,7 +133,7 @@ function Frame25() {
 function Frame26() {
   return (
     <div className="[word-break:break-word] content-stretch flex flex-col gap-[57px] items-center leading-[normal] not-italic relative shrink-0 text-center w-full">
-      <p className="font-['Scala_Pro:Bold',sans-serif] relative shrink-0 text-[45px] text-white w-full">Balancing User Experience with Business Realities</p>
+      <h2 className="font-['Scala_Pro:Bold',sans-serif] relative shrink-0 text-[45px] text-white w-full">Balancing User Experience with Business Realities</h2>
       <p className="font-['Raleway',sans-serif] relative shrink-0 text-[20px] text-[rgba(255,255,255,0.7)] w-full">Every project requires a different approach, but this is the framework I typically use to understand problems, validate ideas, and design solutions that work for both users and businesses.</p>
     </div>
   );
@@ -241,7 +241,7 @@ function Frame29() {
     <div className="content-stretch flex gap-[10px] items-center p-[32px] relative shrink-0">
       <MingcuteSearchFill />
       <div className="absolute h-[89px] left-0 top-0 w-[88px]">
-        <img alt="" className="absolute block inset-0 max-w-none size-full" height="89" src={imgEllipse1} width="88" />
+        <img loading="lazy" decoding="async" alt="" className="absolute block inset-0 max-w-none size-full" height="89" src={imgEllipse1} width="88" />
       </div>
     </div>
   );
@@ -276,7 +276,7 @@ function Frame36() {
         <div className="content-stretch flex flex-col items-start py-[40px] relative size-full">
           <div className="h-0 relative shrink-0 w-[113px]">
             <div className="absolute inset-[-7.36px_-0.88%_-7.36px_0]">
-              <img alt="" className="block max-w-none size-full" height="14.728" src={imgArrow1} width="114" />
+              <img loading="lazy" decoding="async" alt="" className="block max-w-none size-full" height="14.728" src={imgArrow1} width="114" />
             </div>
           </div>
         </div>
@@ -301,7 +301,7 @@ function Frame31() {
   return (
     <div className="content-stretch flex gap-[10px] h-[89px] items-center px-[32px] py-[29px] relative shrink-0 w-[88px]">
       <div className="absolute h-[89px] left-0 top-0 w-[88px]">
-        <img alt="" className="absolute block inset-0 max-w-none size-full" height="89" src={imgEllipse1} width="88" />
+        <img loading="lazy" decoding="async" alt="" className="absolute block inset-0 max-w-none size-full" height="89" src={imgEllipse1} width="88" />
       </div>
       <RiAi />
     </div>
@@ -334,7 +334,7 @@ function Frame37() {
         <div className="content-stretch flex flex-col items-start px-[10px] py-[40px] relative size-full">
           <div className="h-0 relative shrink-0 w-[113px]">
             <div className="absolute inset-[-7.36px_-0.88%_-7.36px_0]">
-              <img alt="" className="block max-w-none size-full" height="14.728" src={imgArrow1} width="114" />
+              <img loading="lazy" decoding="async" alt="" className="block max-w-none size-full" height="14.728" src={imgArrow1} width="114" />
             </div>
           </div>
         </div>
@@ -371,7 +371,7 @@ function Frame33() {
   return (
     <div className="content-stretch flex gap-[10px] h-[89px] items-center px-[23px] py-[22px] relative shrink-0 w-[88px]">
       <div className="absolute h-[89px] left-0 top-0 w-[88px]">
-        <img alt="" className="absolute block inset-0 max-w-none size-full" height="89" src={imgEllipse1} width="88" />
+        <img loading="lazy" decoding="async" alt="" className="absolute block inset-0 max-w-none size-full" height="89" src={imgEllipse1} width="88" />
       </div>
       <SolarFigmaBold />
     </div>
@@ -414,7 +414,7 @@ function Frame39() {
         <div className="-rotate-90 flex-none">
           <div className="h-0 relative w-[28px]">
             <div className="absolute inset-[-7.36px_-3.57%_-7.36px_0]">
-              <img alt="" className="block max-w-none size-full" height="14.728" src={imgArrow4} width="29" />
+              <img loading="lazy" decoding="async" alt="" className="block max-w-none size-full" height="14.728" src={imgArrow4} width="29" />
             </div>
           </div>
         </div>
@@ -486,7 +486,7 @@ function Frame51() {
 function Frame43() {
   return (
     <div className="[word-break:break-word] content-stretch flex flex-col gap-[23px] h-[95px] items-center leading-[normal] not-italic relative shrink-0 text-black text-center w-[821px]">
-      <p className="font-['Scala_Pro:Bold',sans-serif] relative shrink-0 text-[40px] w-full">Selected Work</p>
+      <h2 className="font-['Scala_Pro:Bold',sans-serif] relative shrink-0 text-[40px] w-full">Selected Work</h2>
       <p className="flex-[1_0_0] font-['Raleway',sans-serif] min-h-px relative text-[20px] w-full">{`A selection of real projects where I turned complex problems into simple, intuitive experiences. `}</p>
     </div>
   );
@@ -561,7 +561,7 @@ function Frame21() {
       <Frame19 />
       <div className="h-[300px] relative rounded-[5px] shadow-[0px_4px_38px_0px_rgba(0,0,0,0.25)] shrink-0 w-[454px]" data-name="image 23">
         <div className="absolute inset-0 opacity-70 overflow-hidden pointer-events-none rounded-[5px]">
-          <img alt="" className="absolute h-[103.02%] left-[-0.8%] max-w-none top-[-1.66%] w-[101.7%]" src={imgImage23} />
+          <img loading="lazy" decoding="async" alt="MathzAI test summary screen showing a student's SAT score breakdown" className="absolute h-[103.02%] left-[-0.8%] max-w-none top-[-1.66%] w-[101.7%]" src={imgImage23} />
         </div>
       </div>
     </div>
@@ -639,7 +639,7 @@ function Frame44() {
     <div className="content-stretch flex gap-[236px] items-center justify-center relative shrink-0">
       <div className="h-[300px] relative rounded-[5px] shadow-[0px_4px_40px_0px_rgba(0,0,0,0.25)] shrink-0 w-[457px]" data-name="image 24">
         <div className="absolute inset-0 opacity-60 overflow-hidden pointer-events-none rounded-[5px]">
-          <img alt="" className="absolute h-[100.06%] left-[-0.72%] max-w-none top-[-0.03%] w-[100.72%]" src={imgImage24} />
+          <img loading="lazy" decoding="async" alt="Lister app home screen showing pinned and recently opened lists" className="absolute h-[100.06%] left-[-0.72%] max-w-none top-[-0.03%] w-[100.72%]" src={imgImage24} />
         </div>
       </div>
       <Frame20 />
@@ -826,7 +826,7 @@ function Frame48() {
   return (
     <div className="content-stretch flex flex-col gap-[27px] items-center justify-center relative shrink-0 w-[498px]">
       <div className="h-[153px] relative shrink-0 w-[398px]" data-name="image 12">
-        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage12} />
+        <img loading="lazy" decoding="async" alt="Pencil illustration of a coffee mug beside a closed notebook" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage12} />
       </div>
       <Frame47 />
     </div>
@@ -847,7 +847,7 @@ function Frame49() {
   );
 }
 
-export default function LandingPortfolio() {
+export default function Landing() {
   return (
     <div className="content-stretch flex flex-col items-center justify-between relative size-full" data-name="Landing portfolio">
       <Frame25 />

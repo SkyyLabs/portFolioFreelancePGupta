@@ -1,9 +1,9 @@
-import LandingPortfolio from "@/imports/LandingPortfolio/index";
+import Landing from "@/content/Landing";
 
 export default function HomePage() {
   return (
     <div className="portfolio-root">
-      <LandingPortfolio />
+      <Landing />
     </div>
   );
 }

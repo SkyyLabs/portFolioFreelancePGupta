@@ -41,7 +41,7 @@ function Frame5() {
 function Frame1() {
   return (
     <div className="[word-break:break-word] content-stretch flex flex-col h-[267px] items-start justify-between not-italic relative shrink-0 text-black w-[591px]">
-      <p className="font-['Scala_Pro:Bold',sans-serif] leading-[normal] relative shrink-0 text-[30px] w-full">Before Design, I taught Mathematics.</p>
+      <h1 className="font-['Scala_Pro:Bold',sans-serif] leading-[normal] relative shrink-0 text-[30px] w-full">Before Design, I taught Mathematics.</h1>
       <div className="font-['Scala_Sans_Pro:Regular',sans-serif] leading-[0] relative shrink-0 text-[16px] w-full whitespace-pre-wrap">
         <p className="font-['Scala_Sans_Pro',sans-serif] leading-[normal] mb-0">Mathematics trained me to think analytically and work comfortably with abstract ideas.</p>
         <p className="leading-[normal] mb-0">​</p>
@@ -65,7 +65,7 @@ function Frame6() {
     <div className="content-stretch flex items-center justify-between relative shrink-0 w-full">
       <Frame1 />
       <div className="h-[327px] relative shrink-0 w-[409px]" data-name="image 8">
-        <img alt="" className="absolute inset-0 max-w-none object-cover opacity-70 pointer-events-none size-full" src={imgImage8} />
+        <img loading="lazy" decoding="async" alt="Pooja Singhal at a blackboard, teaching the quadratic formula" className="absolute inset-0 max-w-none object-cover opacity-70 pointer-events-none size-full" src={imgImage8} />
       </div>
     </div>
   );
@@ -110,7 +110,7 @@ function Frame7() {
   return (
     <div className="content-stretch flex items-center justify-between relative shrink-0 w-full">
       <div className="h-[266px] relative shrink-0 w-[477px]" data-name="image 9">
-        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage9} />
+        <img loading="lazy" decoding="async" alt="Hand-drawn path from “yesterday” through “learn, reflect, improve” to “better today”" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage9} />
       </div>
       <Frame4 />
     </div>

@@ -1,4 +1,4 @@
-import CaseStudy4 from "@/imports/CaseStudy4/index";
+import ListerCaseStudy from "@/content/ListerCaseStudy";
 import { useCanvasScale } from "@/hooks/useCanvasScale";
 
 /**
@@ -13,8 +13,11 @@ export default function ListerCaseStudyPage() {
 
   return (
     <div className="case-study-root">
+      {/* The visible title is set inside a product mockup, so it cannot serve as
+          the page heading. This gives the page one real h1 without altering it. */}
+      <h1 className="sr-only">Lister — private and public lists, simplified</h1>
       <div ref={ref} style={style}>
-        <CaseStudy4 />
+        <ListerCaseStudy />
       </div>
     </div>
   );

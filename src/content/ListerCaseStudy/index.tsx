@@ -72,9 +72,9 @@ function Frame34() {
 function Frame157() {
   return (
     <div className="[word-break:break-word] absolute content-stretch flex flex-col gap-[60px] items-start left-[96px] top-[1013px] w-[1090px]">
-      <p className="bg-clip-text font-['DM_Serif_Display:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[40px] text-[transparent] tracking-[1.6px] w-full" style={{ backgroundImage: "linear-gradient(116.49547254056952deg, rgb(11, 33, 161) 1.1207%, rgb(85, 146, 228) 98.879%)" }}>
+      <h2 className="bg-clip-text font-['DM_Serif_Display:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[40px] text-[transparent] tracking-[1.6px] w-full" style={{ backgroundImage: "linear-gradient(116.49547254056952deg, rgb(11, 33, 161) 1.1207%, rgb(85, 146, 228) 98.879%)" }}>
         OVERVIEW
-      </p>
+      </h2>
       <p className="font-['Open_Sans:Regular',sans-serif] font-normal leading-[0] relative shrink-0 text-[18px] text-black w-full" style={{ fontVariationSettings: '"wdth" 100' }}>
         <span className="leading-[1.5]">Lister is a quick and intuitive app for every purpose—</span>
         <span className="font-['Open_Sans:Bold',sans-serif] font-bold leading-[1.5]" style={{ fontVariationSettings: '"wdth" 100' }}>{`from "Best Vegan Restaurants in Bangkok" to "First Apartment Essentials.`}</span>
@@ -124,7 +124,7 @@ function Frame66() {
   return (
     <div className="content-stretch flex flex-col gap-[11.572px] items-center justify-center relative shrink-0 w-[38.092px]">
       <div className="h-[21.698px] relative shrink-0 w-full" data-name="movie clapper">
-        <img alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgMovieClapper} />
+        <img loading="lazy" decoding="async" alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgMovieClapper} />
       </div>
       <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[9.644px] text-black text-center w-full">Movies</p>
     </div>
@@ -144,7 +144,7 @@ function Frame67() {
   return (
     <div className="content-stretch flex flex-col gap-[2.411px] items-center relative shrink-0 w-[31.342px]">
       <div className="h-[23.627px] relative shrink-0 w-full" data-name="Reader absorbed in a book, Study or personal growth">
-        <img alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgReaderAbsorbedInABookStudyOrPersonalGrowth} />
+        <img loading="lazy" decoding="async" alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgReaderAbsorbedInABookStudyOrPersonalGrowth} />
       </div>
       <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[9.644px] text-black text-center w-full">Novels</p>
     </div>
@@ -164,7 +164,7 @@ function Frame68() {
   return (
     <div className="content-stretch flex flex-col gap-[6.75px] items-start relative shrink-0 w-[29.895px]">
       <div className="h-[21.698px] relative shrink-0 w-full" data-name="Trip around the world">
-        <img alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgTripAroundTheWorld} />
+        <img loading="lazy" decoding="async" alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgTripAroundTheWorld} />
       </div>
       <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[9.644px] text-black text-center w-full">Trips</p>
     </div>
@@ -184,7 +184,7 @@ function Frame69() {
   return (
     <div className="content-stretch flex flex-col gap-[6.268px] items-start relative shrink-0 w-[33.752px]">
       <div className="h-[22.18px] relative shrink-0 w-full" data-name="table with food and wine">
-        <img alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgTableWithFoodAndWine} />
+        <img loading="lazy" decoding="async" alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgTableWithFoodAndWine} />
       </div>
       <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[9.644px] text-black text-center w-full">Eateries</p>
     </div>
@@ -204,7 +204,7 @@ function Frame70() {
   return (
     <div className="content-stretch flex flex-col items-center relative shrink-0 w-[44.36px]">
       <div className="h-[32.788px] relative shrink-0 w-[29.895px]" data-name="graduation cap">
-        <img alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgGraduationCap} />
+        <img loading="lazy" decoding="async" alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgGraduationCap} />
       </div>
       <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] min-w-full not-italic relative shrink-0 text-[9.644px] text-black text-center w-[min-content]">Academics</p>
     </div>
@@ -233,7 +233,7 @@ function Frame77() {
     <div className="bg-[#ffecca] content-stretch flex flex-col gap-[4.822px] h-[62.683px] items-center justify-center px-[14.465px] py-[8.679px] relative rounded-[4.822px] shrink-0 w-[72.327px]">
       <div aria-hidden className="absolute border-[#c8a25f] border-[0.482px] border-solid inset-0 pointer-events-none rounded-[4.822px]" />
       <div className="h-[26.52px] relative shrink-0 w-[25.073px]" data-name="Mountains with snowy peaks">
-        <img alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgMountainsWithSnowyPeaks} />
+        <img loading="lazy" decoding="async" alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgMountainsWithSnowyPeaks} />
       </div>
       <Frame71 />
     </div>
@@ -1291,7 +1291,7 @@ function Frame108() {
   return (
     <div className="content-stretch flex flex-col gap-[3.857px] items-end relative shrink-0 w-[25.073px]">
       <div className="h-[26.52px] relative shrink-0 w-full" data-name="Mountains with snowy peaks">
-        <img alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgMountainsWithSnowyPeaks} />
+        <img loading="lazy" decoding="async" alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgMountainsWithSnowyPeaks} />
       </div>
       <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[9.644px] text-black text-center w-full">{`Treks `}</p>
     </div>
@@ -1571,7 +1571,7 @@ function Frame135() {
     <div className="col-1 content-stretch flex flex-col h-[224px] items-start ml-[75.96%] mt-[9px] opacity-89 p-[10px] relative row-1 w-[22.24%]">
       <div className="h-[206px] relative shrink-0 w-[281px]" data-name="image 9">
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <img alt="" className="absolute h-[104.9%] left-[-6.53%] max-w-none top-0 w-[109.09%]" src={imgImage9} />
+          <img loading="lazy" decoding="async" alt="Lister interface: public and private list visibility controls" className="absolute h-[104.9%] left-[-6.53%] max-w-none top-0 w-[109.09%]" src={imgImage9} />
         </div>
       </div>
     </div>
@@ -1584,14 +1584,14 @@ function Group35() {
       <div className="bg-[#4e5ba6] col-1 h-[238px] ml-0 mt-0 relative row-1 w-full" />
       <div className="aspect-[198/200] col-1 ml-[1.01%] mt-[20px] relative row-1 w-[15.46%]" data-name="image 8">
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <img alt="" className="absolute h-full left-[-0.1%] max-w-none top-0 w-[178.98%]" src={imgImage8} />
+          <img loading="lazy" decoding="async" alt="Lister interface: creating and organising a new list" className="absolute h-full left-[-0.1%] max-w-none top-0 w-[178.98%]" src={imgImage8} />
         </div>
       </div>
       <div className="aspect-[1290/653] col-1 ml-[17.33%] mt-[20px] relative row-1 w-[31.85%]" data-name="image 10">
-        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage10} />
+        <img loading="lazy" decoding="async" alt="Lister interface shown on mobile and desktop side by side" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage10} />
       </div>
       <div className="aspect-[2822/1780] col-1 ml-[50.12%] mt-[20px] relative row-1 w-[25.52%]" data-name="image 7">
-        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage7} />
+        <img loading="lazy" decoding="async" alt="Lister interface: browsing lists by category" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage7} />
       </div>
       <Frame135 />
     </div>
@@ -1737,7 +1737,7 @@ function Group34() {
   return (
     <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0">
       <div className="bg-[#4e5ba6] col-1 h-[458px] ml-0 mt-0 relative row-1 w-[1280px]" />
-      <p className="[word-break:break-word] col-1 font-['DM_Serif_Display:Regular',sans-serif] leading-[normal] ml-[101px] mt-[56px] not-italic relative row-1 text-[40px] text-white tracking-[1.6px] whitespace-nowrap">Key Insights</p>
+      <h2 className="[word-break:break-word] col-1 font-['DM_Serif_Display:Regular',sans-serif] leading-[normal] ml-[101px] mt-[56px] not-italic relative row-1 text-[40px] text-white tracking-[1.6px] whitespace-nowrap">Key Insights</h2>
       <Frame138 />
     </div>
   );
@@ -1788,7 +1788,7 @@ function Frame113() {
   return (
     <div className="content-stretch flex flex-col gap-[11.183px] items-center justify-center relative shrink-0 w-[36.812px]">
       <div className="h-[20.969px] relative shrink-0 w-full" data-name="movie clapper">
-        <img alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgMovieClapper} />
+        <img loading="lazy" decoding="async" alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgMovieClapper} />
       </div>
       <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[9.319px] text-black text-center w-full">Movies</p>
     </div>
@@ -1808,7 +1808,7 @@ function Frame115() {
   return (
     <div className="content-stretch flex flex-col gap-[2.33px] items-center relative shrink-0 w-[30.288px]">
       <div className="h-[22.833px] relative shrink-0 w-full" data-name="Reader absorbed in a book, Study or personal growth">
-        <img alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgReaderAbsorbedInABookStudyOrPersonalGrowth} />
+        <img loading="lazy" decoding="async" alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgReaderAbsorbedInABookStudyOrPersonalGrowth} />
       </div>
       <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[9.319px] text-black text-center w-full">Novels</p>
     </div>
@@ -1828,7 +1828,7 @@ function Frame117() {
   return (
     <div className="content-stretch flex flex-col gap-[6.524px] items-start relative shrink-0 w-[28.89px]">
       <div className="h-[20.969px] relative shrink-0 w-full" data-name="Trip around the world">
-        <img alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgTripAroundTheWorld} />
+        <img loading="lazy" decoding="async" alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgTripAroundTheWorld} />
       </div>
       <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[9.319px] text-black text-center w-full">Trips</p>
     </div>
@@ -1848,7 +1848,7 @@ function Frame119() {
   return (
     <div className="content-stretch flex flex-col gap-[6.058px] items-start relative shrink-0 w-[32.618px]">
       <div className="h-[21.435px] relative shrink-0 w-full" data-name="table with food and wine">
-        <img alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgTableWithFoodAndWine} />
+        <img loading="lazy" decoding="async" alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgTableWithFoodAndWine} />
       </div>
       <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[9.319px] text-black text-center w-full">Eateries</p>
     </div>
@@ -1868,7 +1868,7 @@ function Frame121() {
   return (
     <div className="content-stretch flex flex-col items-center relative shrink-0 w-[42.869px]">
       <div className="h-[31.686px] relative shrink-0 w-[28.89px]" data-name="graduation cap">
-        <img alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgGraduationCap} />
+        <img loading="lazy" decoding="async" alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgGraduationCap} />
       </div>
       <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] min-w-full not-italic relative shrink-0 text-[9.319px] text-black text-center w-[min-content]">Academics</p>
     </div>
@@ -1897,7 +1897,7 @@ function Frame122() {
     <div className="bg-[#ffecca] content-stretch flex flex-col gap-[4.66px] h-[60.576px] items-center justify-center px-[13.979px] py-[8.387px] relative rounded-[4.66px] shrink-0 w-[69.896px]">
       <div aria-hidden className="absolute border-[#c8a25f] border-[0.466px] border-solid inset-0 pointer-events-none rounded-[4.66px]" />
       <div className="h-[25.628px] relative shrink-0 w-[24.231px]" data-name="Mountains with snowy peaks">
-        <img alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgMountainsWithSnowyPeaks} />
+        <img loading="lazy" decoding="async" alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgMountainsWithSnowyPeaks} />
       </div>
       <Frame123 />
     </div>
@@ -2995,7 +2995,7 @@ function Frame185() {
   return (
     <div className="content-stretch flex flex-col gap-[3.728px] items-end relative shrink-0 w-[24.231px]">
       <div className="h-[25.628px] relative shrink-0 w-full" data-name="Mountains with snowy peaks">
-        <img alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgMountainsWithSnowyPeaks} />
+        <img loading="lazy" decoding="async" alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgMountainsWithSnowyPeaks} />
       </div>
       <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[9.319px] text-black text-center w-full">{`Treks `}</p>
     </div>
@@ -4158,7 +4158,7 @@ function Frame225() {
   return (
     <div className="content-stretch flex flex-col gap-[9.562px] items-center justify-center relative shrink-0 w-[31.476px]">
       <div className="h-[17.929px] relative shrink-0 w-full" data-name="movie clapper">
-        <img alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgMovieClapper} />
+        <img loading="lazy" decoding="async" alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgMovieClapper} />
       </div>
       <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[7.969px] text-black text-center w-full">Movies</p>
     </div>
@@ -4178,7 +4178,7 @@ function Frame227() {
   return (
     <div className="content-stretch flex flex-col gap-[1.992px] items-center relative shrink-0 w-[25.898px]">
       <div className="h-[19.523px] relative shrink-0 w-full" data-name="Reader absorbed in a book, Study or personal growth">
-        <img alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgReaderAbsorbedInABookStudyOrPersonalGrowth} />
+        <img loading="lazy" decoding="async" alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgReaderAbsorbedInABookStudyOrPersonalGrowth} />
       </div>
       <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[7.969px] text-black text-center w-full">Novels</p>
     </div>
@@ -4198,7 +4198,7 @@ function Frame229() {
   return (
     <div className="content-stretch flex flex-col gap-[5.578px] items-start relative shrink-0 w-[24.702px]">
       <div className="h-[17.929px] relative shrink-0 w-full" data-name="Trip around the world">
-        <img alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgTripAroundTheWorld} />
+        <img loading="lazy" decoding="async" alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgTripAroundTheWorld} />
       </div>
       <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[7.969px] text-black text-center w-full">Trips</p>
     </div>
@@ -4218,7 +4218,7 @@ function Frame231() {
   return (
     <div className="content-stretch flex flex-col gap-[5.18px] items-start relative shrink-0 w-[27.89px]">
       <div className="h-[18.328px] relative shrink-0 w-full" data-name="table with food and wine">
-        <img alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgTableWithFoodAndWine} />
+        <img loading="lazy" decoding="async" alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgTableWithFoodAndWine} />
       </div>
       <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[7.969px] text-black text-center w-full">Eateries</p>
     </div>
@@ -4238,7 +4238,7 @@ function Frame233() {
   return (
     <div className="content-stretch flex flex-col items-center relative shrink-0 w-[36.655px]">
       <div className="h-[27.093px] relative shrink-0 w-[24.702px]" data-name="graduation cap">
-        <img alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgGraduationCap} />
+        <img loading="lazy" decoding="async" alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgGraduationCap} />
       </div>
       <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] min-w-full not-italic relative shrink-0 text-[7.969px] text-black text-center w-[min-content]">Academics</p>
     </div>
@@ -4267,7 +4267,7 @@ function Frame234() {
     <div className="bg-[#ffecca] content-stretch flex flex-col gap-[3.984px] h-[51.795px] items-center justify-center px-[11.953px] py-[7.172px] relative rounded-[3.984px] shrink-0 w-[59.764px]">
       <div aria-hidden className="absolute border-[#c8a25f] border-[0.398px] border-solid inset-0 pointer-events-none rounded-[3.984px]" />
       <div className="h-[21.913px] relative shrink-0 w-[20.718px]" data-name="Mountains with snowy peaks">
-        <img alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgMountainsWithSnowyPeaks} />
+        <img loading="lazy" decoding="async" alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgMountainsWithSnowyPeaks} />
       </div>
       <Frame235 />
     </div>
@@ -5360,7 +5360,7 @@ function Frame300() {
   return (
     <div className="content-stretch flex flex-col gap-[3.187px] items-end relative shrink-0 w-[20.718px]">
       <div className="h-[21.913px] relative shrink-0 w-full" data-name="Mountains with snowy peaks">
-        <img alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgMountainsWithSnowyPeaks} />
+        <img loading="lazy" decoding="async" alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgMountainsWithSnowyPeaks} />
       </div>
       <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[7.969px] text-black text-center w-full">{`Treks `}</p>
     </div>
@@ -5740,7 +5740,7 @@ function Group47() {
 function Frame310() {
   return (
     <div className="[word-break:break-word] content-stretch flex flex-col gap-[50px] items-start relative shrink-0 w-full">
-      <p className="bg-clip-text font-['DM_Serif_Display:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[40px] text-[transparent] tracking-[1.6px] w-full" style={{ backgroundImage: "linear-gradient(116.369408959777deg, rgb(11, 33, 161) 1.1207%, rgb(85, 146, 228) 98.879%)" }}>{`What I learned & Future improvements`}</p>
+      <h2 className="bg-clip-text font-['DM_Serif_Display:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[40px] text-[transparent] tracking-[1.6px] w-full" style={{ backgroundImage: "linear-gradient(116.369408959777deg, rgb(11, 33, 161) 1.1207%, rgb(85, 146, 228) 98.879%)" }}>{`What I learned & Future improvements`}</h2>
       <div className="font-['Open_Sans:Regular',sans-serif] font-normal leading-[0] relative shrink-0 text-[18px] text-black tracking-[0.72px] w-full" style={{ fontVariationSettings: '"wdth" 100' }}>
         <ul className="mb-0">
           <li className="leading-[normal] list-disc ms-[27px]">
@@ -5794,9 +5794,9 @@ function Frame() {
 function Frame311() {
   return (
     <div className="absolute bg-[#e7efff] content-stretch flex flex-col gap-[50px] items-start left-0 pl-[100px] pr-[200px] py-[80px] top-[9935px] w-[1276px]">
-      <p className="[word-break:break-word] bg-clip-text font-['DM_Serif_Display:Regular',sans-serif] leading-[normal] min-w-full not-italic relative shrink-0 text-[40px] text-[transparent] tracking-[1.6px] w-[min-content]" style={{ backgroundImage: "linear-gradient(114.05350180095778deg, rgb(11, 33, 161) 1.1207%, rgb(85, 146, 228) 98.879%)" }}>
+      <h2 className="[word-break:break-word] bg-clip-text font-['DM_Serif_Display:Regular',sans-serif] leading-[normal] min-w-full not-italic relative shrink-0 text-[40px] text-[transparent] tracking-[1.6px] w-[min-content]" style={{ backgroundImage: "linear-gradient(114.05350180095778deg, rgb(11, 33, 161) 1.1207%, rgb(85, 146, 228) 98.879%)" }}>
         LETS TALK DESIGN !
-      </p>
+      </h2>
       <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] min-w-full not-italic relative shrink-0 text-[18px] text-black w-[min-content]">Static screens only tell half the story. Whether you want to walk through the prototype, discuss design strategies, tell me about your project or just say hello and connect—I’d love to hear from you.</p>
       <Frame />
     </div>
@@ -5812,7 +5812,7 @@ function Group33() {
   );
 }
 
-export default function CaseStudy() {
+export default function ListerCaseStudy() {
   return (
     <div className="bg-[#f2f8ff] relative size-full" data-name="Case study 4">
       <div className="absolute bg-[#4e5ba6] h-[810px] left-[-1px] top-0 w-[1281px]" />
@@ -5825,9 +5825,9 @@ export default function CaseStudy() {
       <p className="[word-break:break-word] absolute font-['Public_Sans:SemiBold',sans-serif] font-semibold leading-[normal] left-[220px] text-[40px] text-white top-[640px] whitespace-nowrap">Discover, create, and share lists on any topic.</p>
       <Frame34 />
       <Frame157 />
-      <p className="[word-break:break-word] absolute bg-clip-text font-['DM_Serif_Display:Regular',sans-serif] leading-[normal] left-[97px] not-italic text-[40px] text-[transparent] top-[2260px] tracking-[1.6px] whitespace-nowrap" style={{ backgroundImage: "linear-gradient(102.15575743764406deg, rgb(11, 33, 161) 1.1207%, rgb(85, 146, 228) 98.879%)" }}>{`RESEARCH & DISCOVERY`}</p>
+      <h2 className="[word-break:break-word] absolute bg-clip-text font-['DM_Serif_Display:Regular',sans-serif] leading-[normal] left-[97px] not-italic text-[40px] text-[transparent] top-[2260px] tracking-[1.6px] whitespace-nowrap" style={{ backgroundImage: "linear-gradient(102.15575743764406deg, rgb(11, 33, 161) 1.1207%, rgb(85, 146, 228) 98.879%)" }}>{`RESEARCH & DISCOVERY`}</h2>
       <div className="absolute bg-[#4e5ba6] h-[581px] left-0 top-[1348px] w-[1280px]" />
-      <p className="[word-break:break-word] absolute font-['DM_Serif_Display:Regular',sans-serif] leading-[normal] left-[98px] not-italic text-[40px] text-white top-[1423px] tracking-[1.6px] whitespace-nowrap">THE CHALLENGES</p>
+      <h2 className="[word-break:break-word] absolute font-['DM_Serif_Display:Regular',sans-serif] leading-[normal] left-[98px] not-italic text-[40px] text-white top-[1423px] tracking-[1.6px] whitespace-nowrap">THE CHALLENGES</h2>
       <p className="[word-break:break-word] absolute font-['Open_Sans:Regular',sans-serif] font-normal leading-[normal] left-[-701px] text-[18px] text-black top-[2102px] tracking-[0.72px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>{`want to know the trending lists in the world ? `}</p>
       <div className="absolute h-[17px] left-[544px] top-[582px] w-[188px]">
         <div className="absolute inset-[0_6.83%_0_5.7%]">
@@ -5890,9 +5890,9 @@ export default function CaseStudy() {
           </li>
         </ol>
       </div>
-      <p className="[word-break:break-word] absolute bg-clip-text font-['DM_Serif_Display:Regular',sans-serif] leading-[normal] left-[96px] not-italic text-[40px] text-[transparent] top-[5046px] tracking-[1.6px] whitespace-nowrap" style={{ backgroundImage: "linear-gradient(97.37437906347836deg, rgb(11, 33, 161) 1.1207%, rgb(85, 146, 228) 98.879%)" }}>
+      <h2 className="[word-break:break-word] absolute bg-clip-text font-['DM_Serif_Display:Regular',sans-serif] leading-[normal] left-[96px] not-italic text-[40px] text-[transparent] top-[5046px] tracking-[1.6px] whitespace-nowrap" style={{ backgroundImage: "linear-gradient(97.37437906347836deg, rgb(11, 33, 161) 1.1207%, rgb(85, 146, 228) 98.879%)" }}>
         THE SOLUTION
-      </p>
+      </h2>
       <p className="[word-break:break-word] absolute font-['Open_Sans:Regular',sans-serif] font-normal leading-[1.5] left-[-8804px] text-[18px] text-black top-[5413px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
         some can edit and others can only view
       </p>

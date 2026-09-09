@@ -5,9 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host 0.0.0.0",
-    "build": "vite build",
+    "build": "vite build && vite build --ssr src/entry-server.tsx --outDir dist-ssr && node scripts/prerender.mjs",
     "preview": "vite preview",
-    "format": "oxfmt"
+    "format": "oxfmt",
+    "build:client": "vite build"
   },
   "dependencies": {
     "react": "^19.0.0",
