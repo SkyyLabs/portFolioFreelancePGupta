@@ -22,3 +22,9 @@
 .case-study-root {
   overflow-x: hidden;
 }
+
+/* Decorative absolutely-positioned SVGs in the generated About markup sit a
+   couple of pixels past the viewport on phones. */
+.about-root {
+  overflow-x: hidden;
+}
