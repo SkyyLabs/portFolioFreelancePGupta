@@ -54,6 +54,12 @@
   [data-name="About"] .text-\[35px\] {
     font-size: 24px !important;
   }
+
+  /* Quote paragraph ships a fixed w-[589px] from Figma — overflows narrow
+     viewports. Let it fill the column instead. */
+  [data-name="About"] .w-\[589px\] {
+    width: 100% !important;
+  }
 }
 
 @media (max-width: 640px) {

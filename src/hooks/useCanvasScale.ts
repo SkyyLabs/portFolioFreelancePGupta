@@ -9,6 +9,13 @@ type Options = {
    * shrinks it; `Infinity` lets it grow to fill wide viewports.
    */
   maxScale: number;
+  /**
+   * Explicit canvas height, required only for generated components whose root
+   * is `relative size-full` with absolutely-positioned children — those have no
+   * intrinsic height and collapse to nothing without it. Components whose root
+   * is a flex column size themselves and should omit this.
+   */
+  designHeight?: number;
 };
 
 /**
@@ -22,7 +29,7 @@ type Options = {
  *
  * Spread the returned `style` onto the scaled element and attach `ref` to it.
  */
-export function useCanvasScale({ maxScale }: Options) {
+export function useCanvasScale({ maxScale, designHeight }: Options) {
   const ref = useRef<HTMLDivElement>(null);
   const [scale, setScale] = useState(1);
   const [height, setHeight] = useState(0);
@@ -44,6 +51,7 @@ export function useCanvasScale({ maxScale }: Options) {
 
   const style: CSSProperties = {
     width: DESIGN_WIDTH,
+    height: designHeight,
     transformOrigin: "top left",
     transform: scale === 1 ? undefined : `scale(${scale})`,
     marginBottom: scale === 1 ? undefined : height * scale - height,
