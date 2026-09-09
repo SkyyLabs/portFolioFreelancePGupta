@@ -133,7 +133,7 @@ function Frame25() {
 function Frame26() {
   return (
     <div className="[word-break:break-word] content-stretch flex flex-col gap-[57px] items-center leading-[normal] not-italic relative shrink-0 text-center w-full">
-      <h2 className="font-['Scala_Pro:Bold',sans-serif] relative shrink-0 text-[45px] text-white w-full">Balancing User Experience with Business Realities</h2>
+      <h2 className="font-['Scala_Pro:Bold',sans-serif] relative shrink-0 text-[40px] text-white w-full">Balancing User Experience with Business Realities</h2>
       <p className="font-['Raleway',sans-serif] relative shrink-0 text-[20px] text-[rgba(255,255,255,0.7)] w-full">Every project requires a different approach, but this is the framework I typically use to understand problems, validate ideas, and design solutions that work for both users and businesses.</p>
     </div>
   );

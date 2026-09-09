@@ -12,7 +12,7 @@ import imgImage9 from "./15156f0867020bd326560905d136c1259a926b23.png";
 
 function Frame29() {
   return (
-    <div className="content-stretch flex flex-col font-['Public_Sans:SemiBold',sans-serif] font-semibold gap-[5px] items-start relative shrink-0 text-black w-[94px]">
+    <div className="content-stretch flex flex-col font-['Open_Sans:SemiBold',sans-serif] font-semibold gap-[5px] items-start relative shrink-0 text-black w-[94px]">
       <p className="relative shrink-0 w-full">UX Design</p>
       <p className="relative shrink-0 w-full">UI Design</p>
     </div>
@@ -22,7 +22,7 @@ function Frame29() {
 function Frame30() {
   return (
     <div className="content-stretch flex flex-col gap-[10px] items-start leading-[1.5] relative shrink-0 w-[76px]">
-      <p className="font-['Public_Sans:ExtraBold',sans-serif] font-extrabold min-w-full relative shrink-0 text-[#0648da] w-[min-content]">Role</p>
+      <p className="font-['Open_Sans:Bold',sans-serif] font-extrabold min-w-full relative shrink-0 text-[#0648da] w-[min-content]">Role</p>
       <Frame29 />
     </div>
   );
@@ -31,8 +31,8 @@ function Frame30() {
 function Frame32() {
   return (
     <div className="content-stretch flex flex-col gap-[10px] items-start leading-[1.5] relative shrink-0 w-[100px]">
-      <p className="font-['Public_Sans:ExtraBold',sans-serif] font-extrabold min-w-full relative shrink-0 text-[#0648da] w-[min-content]">Platform</p>
-      <p className="font-['Public_Sans:SemiBold',sans-serif] font-semibold relative shrink-0 text-black w-[122px]">Web Browser</p>
+      <p className="font-['Open_Sans:Bold',sans-serif] font-extrabold min-w-full relative shrink-0 text-[#0648da] w-[min-content]">Platform</p>
+      <p className="font-['Open_Sans:SemiBold',sans-serif] font-semibold relative shrink-0 text-black w-[122px]">Web Browser</p>
     </div>
   );
 }
@@ -40,8 +40,8 @@ function Frame32() {
 function Frame31() {
   return (
     <div className="content-stretch flex flex-col gap-[10px] items-start relative shrink-0 w-[174px]">
-      <p className="font-['Public_Sans:ExtraBold',sans-serif] font-extrabold leading-[1.5] min-w-full relative shrink-0 text-[#0648da] w-[min-content]">Tools</p>
-      <div className="font-['Public_Sans:SemiBold',sans-serif] font-semibold leading-[0] relative shrink-0 text-black w-[213px]">
+      <p className="font-['Open_Sans:Bold',sans-serif] font-extrabold leading-[1.5] min-w-full relative shrink-0 text-[#0648da] w-[min-content]">Tools</p>
+      <div className="font-['Open_Sans:SemiBold',sans-serif] font-semibold leading-[0] relative shrink-0 text-black w-[213px]">
         <p className="leading-[1.5] mb-0">Figma</p>
         <p className="leading-[1.5]">{`Claude `}</p>
       </div>
@@ -52,8 +52,8 @@ function Frame31() {
 function Frame33() {
   return (
     <div className="content-stretch flex flex-col gap-[10px] items-start leading-[1.5] relative shrink-0 w-[72px]">
-      <p className="font-['Public_Sans:ExtraBold',sans-serif] font-extrabold min-w-full relative shrink-0 text-[#0648da] w-[min-content]">Timeline</p>
-      <p className="font-['Public_Sans:SemiBold',sans-serif] font-semibold relative shrink-0 text-black w-[88px]">1 month</p>
+      <p className="font-['Open_Sans:Bold',sans-serif] font-extrabold min-w-full relative shrink-0 text-[#0648da] w-[min-content]">Timeline</p>
+      <p className="font-['Open_Sans:SemiBold',sans-serif] font-semibold relative shrink-0 text-black w-[88px]">1 month</p>
     </div>
   );
 }
@@ -107,7 +107,7 @@ function Frame64() {
     <div className="absolute bg-white content-stretch drop-shadow-[0px_1.929px_0.964px_rgba(37,99,235,0.25)] flex gap-[4.822px] h-[30px] items-center left-[147px] px-[12.054px] py-[7.715px] rounded-[9.644px] top-[17.51px] w-[501px]">
       <div aria-hidden className="absolute border-[0.482px] border-[rgba(0,0,0,0.3)] border-solid inset-0 pointer-events-none rounded-[9.644px]" />
       <MaterialSymbolsSearchRounded />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#5f626a] text-[7.715px] w-[267.126px] whitespace-pre-wrap">{`Search  “Movies to watch on a rainy Sunday”`}</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#5f626a] text-[7.715px] w-[267.126px] whitespace-pre-wrap">{`Search  “Movies to watch on a rainy Sunday”`}</p>
     </div>
   );
 }
@@ -115,7 +115,7 @@ function Frame64() {
 function Frame65() {
   return (
     <div className="absolute bg-[#2563eb] content-stretch drop-shadow-[0px_0.964px_0.482px_rgba(0,0,0,0.25)] flex items-center justify-center left-[12px] px-[9.644px] py-[4.822px] rounded-[4.822px] top-[83.51px] w-[94px]">
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Bold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[9.644px] text-white whitespace-nowrap">+ New List</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Bold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[9.644px] text-white whitespace-nowrap">+ New List</p>
     </div>
   );
 }
@@ -126,7 +126,7 @@ function Frame66() {
       <div className="h-[21.698px] relative shrink-0 w-full" data-name="movie clapper">
         <img loading="lazy" decoding="async" alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgMovieClapper} />
       </div>
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[9.644px] text-black text-center w-full">Movies</p>
+      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[9.644px] text-black text-center w-full">Movies</p>
     </div>
   );
 }
@@ -146,7 +146,7 @@ function Frame67() {
       <div className="h-[23.627px] relative shrink-0 w-full" data-name="Reader absorbed in a book, Study or personal growth">
         <img loading="lazy" decoding="async" alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgReaderAbsorbedInABookStudyOrPersonalGrowth} />
       </div>
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[9.644px] text-black text-center w-full">Novels</p>
+      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[9.644px] text-black text-center w-full">Novels</p>
     </div>
   );
 }
@@ -166,7 +166,7 @@ function Frame68() {
       <div className="h-[21.698px] relative shrink-0 w-full" data-name="Trip around the world">
         <img loading="lazy" decoding="async" alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgTripAroundTheWorld} />
       </div>
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[9.644px] text-black text-center w-full">Trips</p>
+      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[9.644px] text-black text-center w-full">Trips</p>
     </div>
   );
 }
@@ -186,7 +186,7 @@ function Frame69() {
       <div className="h-[22.18px] relative shrink-0 w-full" data-name="table with food and wine">
         <img loading="lazy" decoding="async" alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgTableWithFoodAndWine} />
       </div>
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[9.644px] text-black text-center w-full">Eateries</p>
+      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[9.644px] text-black text-center w-full">Eateries</p>
     </div>
   );
 }
@@ -206,7 +206,7 @@ function Frame70() {
       <div className="h-[32.788px] relative shrink-0 w-[29.895px]" data-name="graduation cap">
         <img loading="lazy" decoding="async" alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgGraduationCap} />
       </div>
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] min-w-full not-italic relative shrink-0 text-[9.644px] text-black text-center w-[min-content]">Academics</p>
+      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] leading-[normal] min-w-full not-italic relative shrink-0 text-[9.644px] text-black text-center w-[min-content]">Academics</p>
     </div>
   );
 }
@@ -223,7 +223,7 @@ function Frame76() {
 function Frame71() {
   return (
     <div className="content-stretch flex flex-col items-end relative shrink-0 w-[25.073px]">
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[9.644px] text-black text-center w-full">{`Treks `}</p>
+      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[9.644px] text-black text-center w-full">{`Treks `}</p>
     </div>
   );
 }
@@ -282,7 +282,7 @@ function Frame79() {
   return (
     <div className="content-stretch flex gap-[3.857px] items-end relative shrink-0">
       <LineMdHome />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[7.715px] text-black whitespace-nowrap">Home</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[7.715px] text-black whitespace-nowrap">Home</p>
     </div>
   );
 }
@@ -303,7 +303,7 @@ function Frame80() {
   return (
     <div className="content-stretch flex gap-[3.857px] items-center relative shrink-0">
       <MaterialSymbolsListRounded />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[7.715px] text-black whitespace-nowrap">My Lists</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[7.715px] text-black whitespace-nowrap">My Lists</p>
     </div>
   );
 }
@@ -324,7 +324,7 @@ function Frame81() {
   return (
     <div className="content-stretch flex gap-[3.857px] items-start relative shrink-0 w-full">
       <TablerPinned />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[7.715px] text-black whitespace-nowrap">My Pinnned Lists</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[7.715px] text-black whitespace-nowrap">My Pinnned Lists</p>
     </div>
   );
 }
@@ -345,7 +345,7 @@ function Frame82() {
   return (
     <div className="content-stretch flex gap-[3.857px] items-center relative shrink-0">
       <MdiHeart />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[7.715px] text-black whitespace-nowrap">Liked Lists</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[7.715px] text-black whitespace-nowrap">Liked Lists</p>
     </div>
   );
 }
@@ -366,7 +366,7 @@ function Frame83() {
   return (
     <div className="content-stretch flex gap-[3.857px] items-center relative shrink-0">
       <MaterialSymbolsNotificationsOutline />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[7.715px] text-black whitespace-nowrap">Notifications</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[7.715px] text-black whitespace-nowrap">Notifications</p>
     </div>
   );
 }
@@ -410,7 +410,7 @@ function ZondiconsCheveronRight1() {
 function Frame88() {
   return (
     <div className="content-stretch flex items-end relative shrink-0">
-      <p className="[word-break:break-word] font-['Source_Serif_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#2563eb] text-[6.75px] whitespace-nowrap">View All</p>
+      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#2563eb] text-[6.75px] whitespace-nowrap">View All</p>
       <ZondiconsCheveronRight1 />
     </div>
   );
@@ -419,7 +419,7 @@ function Frame88() {
 function Frame89() {
   return (
     <div className="content-stretch flex items-end justify-between relative shrink-0 w-full">
-      <p className="[word-break:break-word] font-['Source_Serif_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[9.644px] text-black whitespace-nowrap">{`Your Pinned Lists `}</p>
+      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[9.644px] text-black whitespace-nowrap">{`Your Pinned Lists `}</p>
       <Frame88 />
     </div>
   );
@@ -428,7 +428,7 @@ function Frame89() {
 function Frame1() {
   return (
     <div className="bg-[rgba(255,241,252,0.9)] col-1 content-stretch flex items-center justify-center ml-[48.34px] mt-[8.2px] p-[1.447px] relative rounded-[2.411px] row-1 w-[39.785px]">
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.786px] text-black whitespace-nowrap">Entertainment</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.786px] text-black whitespace-nowrap">Entertainment</p>
     </div>
   );
 }
@@ -443,7 +443,7 @@ function Frame2() {
           </svg>
         </div>
       </div>
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#4255ff] text-[5.786px] whitespace-nowrap">Public</p>
+      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#4255ff] text-[5.786px] whitespace-nowrap">Public</p>
     </div>
   );
 }
@@ -451,7 +451,7 @@ function Frame2() {
 function Frame5() {
   return (
     <div className="bg-[#f5f7f9] col-1 content-stretch flex items-center justify-center ml-[126.41px] mt-[27.97px] p-[0.964px] relative rounded-[2.411px] row-1 w-[24.677px]">
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.786px] text-black whitespace-nowrap">Thriller</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.786px] text-black whitespace-nowrap">Thriller</p>
     </div>
   );
 }
@@ -459,7 +459,7 @@ function Frame5() {
 function Frame6() {
   return (
     <div className="bg-[#f5f7f9] col-1 content-stretch flex items-center justify-center ml-[129.93px] mt-[43.4px] px-[4.822px] py-[0.964px] relative rounded-[2.411px] row-1 w-[21.152px]">
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.786px] text-black whitespace-nowrap">Drama</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.786px] text-black whitespace-nowrap">Drama</p>
     </div>
   );
 }
@@ -480,7 +480,7 @@ function Frame85() {
   return (
     <div className="col-1 content-stretch flex gap-[1.447px] items-center ml-[9.07px] mt-[76.18px] relative row-1 w-[21.655px]">
       <MdiHeart1 />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.786px] text-black whitespace-nowrap">Like</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.786px] text-black whitespace-nowrap">Like</p>
     </div>
   );
 }
@@ -504,7 +504,7 @@ function Frame86() {
   return (
     <div className="col-1 content-stretch flex gap-[1.929px] items-center ml-[47.84px] mt-[76.18px] relative row-1 w-[34.245px]">
       <Group14 />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.786px] text-black whitespace-nowrap">{`Duplicate `}</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.786px] text-black whitespace-nowrap">{`Duplicate `}</p>
     </div>
   );
 }
@@ -513,7 +513,7 @@ function Frame3() {
   return (
     <div className="bg-[#f1f6fe] col-1 content-stretch flex flex-col items-center justify-center ml-[93.67px] mt-[75.22px] px-[4.822px] py-[2.411px] relative rounded-[9.644px] row-1 w-[12.59px]">
       <div aria-hidden className="absolute border-[0.482px] border-[rgba(0,0,0,0.1)] border-solid inset-0 pointer-events-none rounded-[9.644px]" />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.786px] text-[rgba(0,0,0,0.6)] w-full">J</p>
+      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.786px] text-[rgba(0,0,0,0.6)] w-full">J</p>
     </div>
   );
 }
@@ -522,7 +522,7 @@ function Frame4() {
   return (
     <div className="bg-[#f1f6fe] col-1 content-stretch flex flex-col items-center justify-center ml-[102.24px] mt-[75.22px] pl-[3.857px] pr-[4.822px] py-[2.411px] relative rounded-[9.644px] row-1 w-[12.087px]">
       <div aria-hidden className="absolute border-[0.482px] border-[rgba(0,0,0,0.1)] border-solid inset-0 pointer-events-none rounded-[9.644px]" />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.786px] text-[rgba(0,0,0,0.6)] w-full">M</p>
+      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.786px] text-[rgba(0,0,0,0.6)] w-full">M</p>
     </div>
   );
 }
@@ -531,17 +531,17 @@ function Group15() {
   return (
     <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid place-items-start relative shrink-0">
       <div className="bg-white col-1 h-[93.06px] ml-0 mt-0 relative rounded-[4.822px] row-1 shadow-[0px_1.929px_1.929px_0px_rgba(37,99,235,0.2)] w-[158.636px]" />
-      <p className="[word-break:break-word] col-1 font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] ml-[8.06px] mt-[8.2px] not-italic relative row-1 text-[7.715px] text-black w-[38.274px]">KD Dramas</p>
+      <p className="[word-break:break-word] col-1 font-['Open_Sans:SemiBold',sans-serif] leading-[normal] ml-[8.06px] mt-[8.2px] not-italic relative row-1 text-[7.715px] text-black w-[38.274px]">KD Dramas</p>
       <Frame1 />
       <Frame2 />
       <Frame5 />
       <Frame6 />
-      <ul className="[word-break:break-word] block col-1 font-['Source_Sans_Pro:Regular',sans-serif] mt-[28.21px] not-italic relative row-1 text-[6.75px] text-black w-[92.16px]">
+      <ul className="[word-break:break-word] block col-1 font-['Open_Sans:Regular',sans-serif] mt-[28.21px] not-italic relative row-1 text-[6.75px] text-black w-[92.16px]">
         <li className="list-disc ms-[10.125px]">
           <span className="leading-[normal]">Parasite</span>
         </li>
       </ul>
-      <ul className="[word-break:break-word] block col-1 font-['Source_Sans_Pro:Regular',sans-serif] mt-[41.23px] not-italic relative row-1 text-[6.75px] text-black w-[92.16px]">
+      <ul className="[word-break:break-word] block col-1 font-['Open_Sans:Regular',sans-serif] mt-[41.23px] not-italic relative row-1 text-[6.75px] text-black w-[92.16px]">
         <li className="list-disc ms-[10.125px]">
           <span className="leading-[normal]">{`King The Land `}</span>
         </li>
@@ -550,7 +550,7 @@ function Group15() {
       <Frame86 />
       <Frame3 />
       <Frame4 />
-      <p className="[word-break:break-word] col-1 font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] ml-[116.33px] mt-[77.63px] not-italic relative row-1 text-[5.786px] text-black w-[32.231px]">+ 2 Members</p>
+      <p className="[word-break:break-word] col-1 font-['Open_Sans:Regular',sans-serif] leading-[normal] ml-[116.33px] mt-[77.63px] not-italic relative row-1 text-[5.786px] text-black w-[32.231px]">+ 2 Members</p>
     </div>
   );
 }
@@ -558,7 +558,7 @@ function Group15() {
 function Frame7() {
   return (
     <div className="bg-[rgba(255,241,252,0.9)] col-1 content-stretch flex items-center justify-center ml-[48.34px] mt-[8.2px] p-[1.447px] relative rounded-[2.411px] row-1 w-[39.785px]">
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.786px] text-black whitespace-nowrap">Entertainment</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.786px] text-black whitespace-nowrap">Entertainment</p>
     </div>
   );
 }
@@ -573,7 +573,7 @@ function Frame8() {
           </svg>
         </div>
       </div>
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#4255ff] text-[5.786px] whitespace-nowrap">Public</p>
+      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#4255ff] text-[5.786px] whitespace-nowrap">Public</p>
     </div>
   );
 }
@@ -581,7 +581,7 @@ function Frame8() {
 function Frame9() {
   return (
     <div className="bg-[#f5f7f9] col-1 content-stretch flex items-center justify-center ml-[126.41px] mt-[27.97px] p-[0.964px] relative rounded-[2.411px] row-1 w-[24.677px]">
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.786px] text-black whitespace-nowrap">Thriller</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.786px] text-black whitespace-nowrap">Thriller</p>
     </div>
   );
 }
@@ -589,7 +589,7 @@ function Frame9() {
 function Frame10() {
   return (
     <div className="bg-[#f5f7f9] col-1 content-stretch flex items-center justify-center ml-[129.93px] mt-[43.4px] px-[4.822px] py-[0.964px] relative rounded-[2.411px] row-1 w-[21.152px]">
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.786px] text-black whitespace-nowrap">Drama</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.786px] text-black whitespace-nowrap">Drama</p>
     </div>
   );
 }
@@ -610,7 +610,7 @@ function Frame91() {
   return (
     <div className="col-1 content-stretch flex gap-[1.447px] items-center ml-[9.06px] mt-[76.18px] relative row-1 w-[21.655px]">
       <MdiHeart2 />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.786px] text-black whitespace-nowrap">Liked</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.786px] text-black whitespace-nowrap">Liked</p>
     </div>
   );
 }
@@ -634,7 +634,7 @@ function Frame92() {
   return (
     <div className="col-1 content-stretch flex gap-[1.929px] items-center ml-[47.84px] mt-[76.18px] relative row-1 w-[34.245px]">
       <Group17 />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.786px] text-black whitespace-nowrap">{`Duplicate `}</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.786px] text-black whitespace-nowrap">{`Duplicate `}</p>
     </div>
   );
 }
@@ -643,7 +643,7 @@ function Frame11() {
   return (
     <div className="bg-[#f1f6fe] col-1 content-stretch flex flex-col items-center justify-center ml-[93.67px] mt-[75.22px] px-[4.822px] py-[2.411px] relative rounded-[9.644px] row-1 w-[12.59px]">
       <div aria-hidden className="absolute border-[0.482px] border-[rgba(0,0,0,0.1)] border-solid inset-0 pointer-events-none rounded-[9.644px]" />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.786px] text-[rgba(0,0,0,0.6)] w-full">J</p>
+      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.786px] text-[rgba(0,0,0,0.6)] w-full">J</p>
     </div>
   );
 }
@@ -652,7 +652,7 @@ function Frame12() {
   return (
     <div className="bg-[#f1f6fe] col-1 content-stretch flex flex-col items-center justify-center ml-[102.23px] mt-[75.22px] pl-[3.857px] pr-[4.822px] py-[2.411px] relative rounded-[9.644px] row-1 w-[12.087px]">
       <div aria-hidden className="absolute border-[0.482px] border-[rgba(0,0,0,0.1)] border-solid inset-0 pointer-events-none rounded-[9.644px]" />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.786px] text-[rgba(0,0,0,0.6)] w-full">M</p>
+      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.786px] text-[rgba(0,0,0,0.6)] w-full">M</p>
     </div>
   );
 }
@@ -661,17 +661,17 @@ function Group16() {
   return (
     <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid place-items-start relative shrink-0">
       <div className="bg-white col-1 h-[93.06px] ml-0 mt-0 relative rounded-[4.822px] row-1 shadow-[0px_1.929px_1.929px_0px_rgba(37,99,235,0.2)] w-[158.636px]" />
-      <p className="[word-break:break-word] col-1 font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] ml-[8.05px] mt-[8.2px] not-italic relative row-1 text-[7.715px] text-black w-[38.274px]">KD Dramas</p>
+      <p className="[word-break:break-word] col-1 font-['Open_Sans:SemiBold',sans-serif] leading-[normal] ml-[8.05px] mt-[8.2px] not-italic relative row-1 text-[7.715px] text-black w-[38.274px]">KD Dramas</p>
       <Frame7 />
       <Frame8 />
       <Frame9 />
       <Frame10 />
-      <ul className="[word-break:break-word] block col-1 font-['Source_Sans_Pro:Regular',sans-serif] mt-[28.21px] not-italic relative row-1 text-[6.75px] text-black w-[92.16px]">
+      <ul className="[word-break:break-word] block col-1 font-['Open_Sans:Regular',sans-serif] mt-[28.21px] not-italic relative row-1 text-[6.75px] text-black w-[92.16px]">
         <li className="list-disc ms-[10.125px]">
           <span className="leading-[normal]">Parasite</span>
         </li>
       </ul>
-      <ul className="[word-break:break-word] block col-1 font-['Source_Sans_Pro:Regular',sans-serif] mt-[41.23px] not-italic relative row-1 text-[6.75px] text-black w-[92.16px]">
+      <ul className="[word-break:break-word] block col-1 font-['Open_Sans:Regular',sans-serif] mt-[41.23px] not-italic relative row-1 text-[6.75px] text-black w-[92.16px]">
         <li className="list-disc ms-[10.125px]">
           <span className="leading-[normal]">{`King The Land `}</span>
         </li>
@@ -680,7 +680,7 @@ function Group16() {
       <Frame92 />
       <Frame11 />
       <Frame12 />
-      <p className="[word-break:break-word] col-1 font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] ml-[116.33px] mt-[77.63px] not-italic relative row-1 text-[5.786px] text-black w-[32.231px]">+ 2 Members</p>
+      <p className="[word-break:break-word] col-1 font-['Open_Sans:Regular',sans-serif] leading-[normal] ml-[116.33px] mt-[77.63px] not-italic relative row-1 text-[5.786px] text-black w-[32.231px]">+ 2 Members</p>
     </div>
   );
 }
@@ -688,7 +688,7 @@ function Group16() {
 function Frame13() {
   return (
     <div className="bg-[rgba(255,241,252,0.9)] col-1 content-stretch flex items-center justify-center ml-[48.35px] mt-[8.2px] p-[1.447px] relative rounded-[2.411px] row-1 w-[39.785px]">
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.786px] text-black whitespace-nowrap">Entertainment</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.786px] text-black whitespace-nowrap">Entertainment</p>
     </div>
   );
 }
@@ -709,7 +709,7 @@ function Frame94() {
   return (
     <div className="bg-[#fff5e1] col-1 content-stretch flex gap-[0.482px] items-center justify-center ml-[123.98px] mt-[9.16px] p-[0.964px] relative rounded-[2.411px] row-1">
       <MaterialSymbolsLock />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#aa7502] text-[5.786px] whitespace-nowrap">Private</p>
+      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#aa7502] text-[5.786px] whitespace-nowrap">Private</p>
     </div>
   );
 }
@@ -717,7 +717,7 @@ function Frame94() {
 function Frame14() {
   return (
     <div className="bg-[#f5f7f9] col-1 content-stretch flex items-center justify-center ml-[126.41px] mt-[27.97px] p-[0.964px] relative rounded-[2.411px] row-1 w-[24.677px]">
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.786px] text-black whitespace-nowrap">Thriller</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.786px] text-black whitespace-nowrap">Thriller</p>
     </div>
   );
 }
@@ -725,7 +725,7 @@ function Frame14() {
 function Frame15() {
   return (
     <div className="bg-[#f5f7f9] col-1 content-stretch flex items-center justify-center ml-[129.93px] mt-[43.4px] px-[4.822px] py-[0.964px] relative rounded-[2.411px] row-1 w-[21.152px]">
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.786px] text-black whitespace-nowrap">Drama</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.786px] text-black whitespace-nowrap">Drama</p>
     </div>
   );
 }
@@ -746,7 +746,7 @@ function Frame95() {
   return (
     <div className="col-1 content-stretch flex gap-[1.447px] items-center ml-[9.07px] mt-[76.18px] relative row-1 w-[21.655px]">
       <MdiHeart3 />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.786px] text-black whitespace-nowrap">Like</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.786px] text-black whitespace-nowrap">Like</p>
     </div>
   );
 }
@@ -770,7 +770,7 @@ function Frame96() {
   return (
     <div className="col-1 content-stretch flex gap-[1.929px] items-center ml-[47.84px] mt-[76.18px] relative row-1 w-[34.245px]">
       <Group19 />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.786px] text-black whitespace-nowrap">{`Duplicate `}</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.786px] text-black whitespace-nowrap">{`Duplicate `}</p>
     </div>
   );
 }
@@ -779,7 +779,7 @@ function Frame16() {
   return (
     <div className="bg-[#f1f6fe] col-1 content-stretch flex flex-col items-center justify-center ml-[93.67px] mt-[75.22px] px-[4.822px] py-[2.411px] relative rounded-[9.644px] row-1 w-[12.59px]">
       <div aria-hidden className="absolute border-[0.482px] border-[rgba(0,0,0,0.1)] border-solid inset-0 pointer-events-none rounded-[9.644px]" />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.786px] text-[rgba(0,0,0,0.6)] w-full">J</p>
+      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.786px] text-[rgba(0,0,0,0.6)] w-full">J</p>
     </div>
   );
 }
@@ -788,7 +788,7 @@ function Frame17() {
   return (
     <div className="bg-[#f1f6fe] col-1 content-stretch flex flex-col items-center justify-center ml-[102.24px] mt-[75.22px] pl-[3.857px] pr-[4.822px] py-[2.411px] relative rounded-[9.644px] row-1 w-[12.087px]">
       <div aria-hidden className="absolute border-[0.482px] border-[rgba(0,0,0,0.1)] border-solid inset-0 pointer-events-none rounded-[9.644px]" />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.786px] text-[rgba(0,0,0,0.6)] w-full">M</p>
+      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.786px] text-[rgba(0,0,0,0.6)] w-full">M</p>
     </div>
   );
 }
@@ -797,17 +797,17 @@ function Group18() {
   return (
     <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid place-items-start relative shrink-0">
       <div className="bg-white col-1 h-[93.06px] ml-0 mt-0 relative rounded-[4.822px] row-1 shadow-[0px_1.929px_1.929px_0px_rgba(37,99,235,0.2)] w-[158.636px]" />
-      <p className="[word-break:break-word] col-1 font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] ml-[8.06px] mt-[8.2px] not-italic relative row-1 text-[7.715px] text-black w-[38.274px]">KD Dramas</p>
+      <p className="[word-break:break-word] col-1 font-['Open_Sans:SemiBold',sans-serif] leading-[normal] ml-[8.06px] mt-[8.2px] not-italic relative row-1 text-[7.715px] text-black w-[38.274px]">KD Dramas</p>
       <Frame13 />
       <Frame94 />
       <Frame14 />
       <Frame15 />
-      <ul className="[word-break:break-word] block col-1 font-['Source_Sans_Pro:Regular',sans-serif] mt-[28.21px] not-italic relative row-1 text-[6.75px] text-black w-[92.16px]">
+      <ul className="[word-break:break-word] block col-1 font-['Open_Sans:Regular',sans-serif] mt-[28.21px] not-italic relative row-1 text-[6.75px] text-black w-[92.16px]">
         <li className="list-disc ms-[10.125px]">
           <span className="leading-[normal]">Parasite</span>
         </li>
       </ul>
-      <ul className="[word-break:break-word] block col-1 font-['Source_Sans_Pro:Regular',sans-serif] mt-[41.23px] not-italic relative row-1 text-[6.75px] text-black w-[92.16px]">
+      <ul className="[word-break:break-word] block col-1 font-['Open_Sans:Regular',sans-serif] mt-[41.23px] not-italic relative row-1 text-[6.75px] text-black w-[92.16px]">
         <li className="list-disc ms-[10.125px]">
           <span className="leading-[normal]">{`King The Land `}</span>
         </li>
@@ -816,7 +816,7 @@ function Group18() {
       <Frame96 />
       <Frame16 />
       <Frame17 />
-      <p className="[word-break:break-word] col-1 font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] ml-[116.34px] mt-[77.63px] not-italic relative row-1 text-[5.786px] text-black w-[32.231px]">+ 2 Members</p>
+      <p className="[word-break:break-word] col-1 font-['Open_Sans:Regular',sans-serif] leading-[normal] ml-[116.34px] mt-[77.63px] not-italic relative row-1 text-[5.786px] text-black w-[32.231px]">+ 2 Members</p>
     </div>
   );
 }
@@ -863,7 +863,7 @@ function ZondiconsCheveronRight2() {
 function Frame99() {
   return (
     <div className="content-stretch flex items-center justify-end relative shrink-0">
-      <p className="[word-break:break-word] font-['Source_Serif_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#2563eb] text-[6.75px] whitespace-nowrap">View All</p>
+      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#2563eb] text-[6.75px] whitespace-nowrap">View All</p>
       <ZondiconsCheveronRight2 />
     </div>
   );
@@ -872,7 +872,7 @@ function Frame99() {
 function Frame98() {
   return (
     <div className="content-stretch flex items-end justify-between relative shrink-0 w-full">
-      <p className="[word-break:break-word] font-['Source_Serif_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[9.644px] text-black whitespace-nowrap">Recently Opened Lists</p>
+      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[9.644px] text-black whitespace-nowrap">Recently Opened Lists</p>
       <Frame99 />
     </div>
   );
@@ -881,7 +881,7 @@ function Frame98() {
 function Frame18() {
   return (
     <div className="bg-[rgba(255,241,252,0.9)] col-1 content-stretch flex items-center justify-center ml-[48.34px] mt-[8.2px] p-[1.447px] relative rounded-[2.411px] row-1 w-[39.785px]">
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.786px] text-black whitespace-nowrap">Entertainment</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.786px] text-black whitespace-nowrap">Entertainment</p>
     </div>
   );
 }
@@ -896,7 +896,7 @@ function Frame19() {
           </svg>
         </div>
       </div>
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#4255ff] text-[5.786px] whitespace-nowrap">Public</p>
+      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#4255ff] text-[5.786px] whitespace-nowrap">Public</p>
     </div>
   );
 }
@@ -904,7 +904,7 @@ function Frame19() {
 function Frame20() {
   return (
     <div className="bg-[#f5f7f9] col-1 content-stretch flex items-center justify-center ml-[126.4px] mt-[27.97px] p-[0.964px] relative rounded-[2.411px] row-1 w-[24.677px]">
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.786px] text-black whitespace-nowrap">Thriller</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.786px] text-black whitespace-nowrap">Thriller</p>
     </div>
   );
 }
@@ -912,7 +912,7 @@ function Frame20() {
 function Frame21() {
   return (
     <div className="bg-[#f5f7f9] col-1 content-stretch flex items-center justify-center ml-[129.93px] mt-[43.4px] px-[4.822px] py-[0.964px] relative rounded-[2.411px] row-1 w-[21.152px]">
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.786px] text-black whitespace-nowrap">Drama</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.786px] text-black whitespace-nowrap">Drama</p>
     </div>
   );
 }
@@ -933,7 +933,7 @@ function Frame101() {
   return (
     <div className="col-1 content-stretch flex gap-[1.447px] items-center ml-[9.06px] mt-[76.18px] relative row-1 w-[21.655px]">
       <MdiHeart4 />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.786px] text-black whitespace-nowrap">Like</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.786px] text-black whitespace-nowrap">Like</p>
     </div>
   );
 }
@@ -957,7 +957,7 @@ function Frame102() {
   return (
     <div className="col-1 content-stretch flex gap-[1.929px] items-center ml-[47.84px] mt-[76.18px] relative row-1 w-[34.245px]">
       <Group21 />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.786px] text-black whitespace-nowrap">{`Duplicate `}</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.786px] text-black whitespace-nowrap">{`Duplicate `}</p>
     </div>
   );
 }
@@ -966,7 +966,7 @@ function Frame22() {
   return (
     <div className="bg-[#f1f6fe] col-1 content-stretch flex flex-col items-center justify-center ml-[93.67px] mt-[75.22px] px-[4.822px] py-[2.411px] relative rounded-[9.644px] row-1 w-[12.59px]">
       <div aria-hidden className="absolute border-[0.482px] border-[rgba(0,0,0,0.1)] border-solid inset-0 pointer-events-none rounded-[9.644px]" />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.786px] text-[rgba(0,0,0,0.6)] w-full">J</p>
+      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.786px] text-[rgba(0,0,0,0.6)] w-full">J</p>
     </div>
   );
 }
@@ -975,7 +975,7 @@ function Frame23() {
   return (
     <div className="bg-[#f1f6fe] col-1 content-stretch flex flex-col items-center justify-center ml-[102.23px] mt-[75.22px] pl-[3.857px] pr-[4.822px] py-[2.411px] relative rounded-[9.644px] row-1 w-[12.087px]">
       <div aria-hidden className="absolute border-[0.482px] border-[rgba(0,0,0,0.1)] border-solid inset-0 pointer-events-none rounded-[9.644px]" />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.786px] text-[rgba(0,0,0,0.6)] w-full">M</p>
+      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.786px] text-[rgba(0,0,0,0.6)] w-full">M</p>
     </div>
   );
 }
@@ -984,17 +984,17 @@ function Group20() {
   return (
     <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid place-items-start relative shrink-0">
       <div className="bg-white col-1 h-[93.06px] ml-0 mt-0 relative rounded-[4.822px] row-1 shadow-[0px_1.929px_1.929px_0px_rgba(37,99,235,0.2)] w-[158.636px]" />
-      <p className="[word-break:break-word] col-1 font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] ml-[8.05px] mt-[8.2px] not-italic relative row-1 text-[7.715px] text-black w-[38.274px]">KD Dramas</p>
+      <p className="[word-break:break-word] col-1 font-['Open_Sans:SemiBold',sans-serif] leading-[normal] ml-[8.05px] mt-[8.2px] not-italic relative row-1 text-[7.715px] text-black w-[38.274px]">KD Dramas</p>
       <Frame18 />
       <Frame19 />
       <Frame20 />
       <Frame21 />
-      <ul className="[word-break:break-word] block col-1 font-['Source_Sans_Pro:Regular',sans-serif] mt-[28.21px] not-italic relative row-1 text-[6.75px] text-black w-[92.16px]">
+      <ul className="[word-break:break-word] block col-1 font-['Open_Sans:Regular',sans-serif] mt-[28.21px] not-italic relative row-1 text-[6.75px] text-black w-[92.16px]">
         <li className="list-disc ms-[10.125px]">
           <span className="leading-[normal]">Parasite</span>
         </li>
       </ul>
-      <ul className="[word-break:break-word] block col-1 font-['Source_Sans_Pro:Regular',sans-serif] mt-[41.23px] not-italic relative row-1 text-[6.75px] text-black w-[92.16px]">
+      <ul className="[word-break:break-word] block col-1 font-['Open_Sans:Regular',sans-serif] mt-[41.23px] not-italic relative row-1 text-[6.75px] text-black w-[92.16px]">
         <li className="list-disc ms-[10.125px]">
           <span className="leading-[normal]">{`King The Land `}</span>
         </li>
@@ -1003,7 +1003,7 @@ function Group20() {
       <Frame102 />
       <Frame22 />
       <Frame23 />
-      <p className="[word-break:break-word] col-1 font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] ml-[116.33px] mt-[77.63px] not-italic relative row-1 text-[5.786px] text-black w-[32.231px]">+ 2 Members</p>
+      <p className="[word-break:break-word] col-1 font-['Open_Sans:Regular',sans-serif] leading-[normal] ml-[116.33px] mt-[77.63px] not-italic relative row-1 text-[5.786px] text-black w-[32.231px]">+ 2 Members</p>
     </div>
   );
 }
@@ -1011,7 +1011,7 @@ function Group20() {
 function Frame24() {
   return (
     <div className="bg-[rgba(255,241,252,0.9)] col-1 content-stretch flex items-center justify-center ml-[48.34px] mt-[8.2px] p-[1.447px] relative rounded-[2.411px] row-1 w-[39.785px]">
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.786px] text-black whitespace-nowrap">Entertainment</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.786px] text-black whitespace-nowrap">Entertainment</p>
     </div>
   );
 }
@@ -1026,7 +1026,7 @@ function Frame25() {
           </svg>
         </div>
       </div>
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#4255ff] text-[5.786px] whitespace-nowrap">Public</p>
+      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#4255ff] text-[5.786px] whitespace-nowrap">Public</p>
     </div>
   );
 }
@@ -1034,7 +1034,7 @@ function Frame25() {
 function Frame26() {
   return (
     <div className="bg-[#f5f7f9] col-1 content-stretch flex items-center justify-center ml-[126.4px] mt-[27.97px] p-[0.964px] relative rounded-[2.411px] row-1 w-[24.677px]">
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.786px] text-black whitespace-nowrap">Thriller</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.786px] text-black whitespace-nowrap">Thriller</p>
     </div>
   );
 }
@@ -1042,7 +1042,7 @@ function Frame26() {
 function Frame27() {
   return (
     <div className="bg-[#f5f7f9] col-1 content-stretch flex items-center justify-center ml-[129.92px] mt-[43.4px] px-[4.822px] py-[0.964px] relative rounded-[2.411px] row-1 w-[21.152px]">
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.786px] text-black whitespace-nowrap">Drama</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.786px] text-black whitespace-nowrap">Drama</p>
     </div>
   );
 }
@@ -1063,7 +1063,7 @@ function Frame103() {
   return (
     <div className="col-1 content-stretch flex gap-[1.447px] items-center ml-[9.06px] mt-[76.18px] relative row-1 w-[21.655px]">
       <MdiHeart5 />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.786px] text-black whitespace-nowrap">Liked</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.786px] text-black whitespace-nowrap">Liked</p>
     </div>
   );
 }
@@ -1087,7 +1087,7 @@ function Frame104() {
   return (
     <div className="col-1 content-stretch flex gap-[1.929px] items-center ml-[47.84px] mt-[76.18px] relative row-1 w-[34.245px]">
       <Group23 />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.786px] text-black whitespace-nowrap">{`Duplicate `}</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.786px] text-black whitespace-nowrap">{`Duplicate `}</p>
     </div>
   );
 }
@@ -1096,7 +1096,7 @@ function Frame28() {
   return (
     <div className="bg-[#f1f6fe] col-1 content-stretch flex flex-col items-center justify-center ml-[93.66px] mt-[75.22px] px-[4.822px] py-[2.411px] relative rounded-[9.644px] row-1 w-[12.59px]">
       <div aria-hidden className="absolute border-[0.482px] border-[rgba(0,0,0,0.1)] border-solid inset-0 pointer-events-none rounded-[9.644px]" />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.786px] text-[rgba(0,0,0,0.6)] w-full">J</p>
+      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.786px] text-[rgba(0,0,0,0.6)] w-full">J</p>
     </div>
   );
 }
@@ -1105,7 +1105,7 @@ function Frame35() {
   return (
     <div className="bg-[#f1f6fe] col-1 content-stretch flex flex-col items-center justify-center ml-[102.23px] mt-[75.22px] pl-[3.857px] pr-[4.822px] py-[2.411px] relative rounded-[9.644px] row-1 w-[12.087px]">
       <div aria-hidden className="absolute border-[0.482px] border-[rgba(0,0,0,0.1)] border-solid inset-0 pointer-events-none rounded-[9.644px]" />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.786px] text-[rgba(0,0,0,0.6)] w-full">M</p>
+      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.786px] text-[rgba(0,0,0,0.6)] w-full">M</p>
     </div>
   );
 }
@@ -1114,17 +1114,17 @@ function Group22() {
   return (
     <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid place-items-start relative shrink-0">
       <div className="bg-white col-1 h-[93.06px] ml-0 mt-0 relative rounded-[4.822px] row-1 shadow-[0px_1.929px_1.929px_0px_rgba(37,99,235,0.2)] w-[158.636px]" />
-      <p className="[word-break:break-word] col-1 font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] ml-[8.05px] mt-[8.2px] not-italic relative row-1 text-[7.715px] text-black w-[38.274px]">KD Dramas</p>
+      <p className="[word-break:break-word] col-1 font-['Open_Sans:SemiBold',sans-serif] leading-[normal] ml-[8.05px] mt-[8.2px] not-italic relative row-1 text-[7.715px] text-black w-[38.274px]">KD Dramas</p>
       <Frame24 />
       <Frame25 />
       <Frame26 />
       <Frame27 />
-      <ul className="[word-break:break-word] block col-1 font-['Source_Sans_Pro:Regular',sans-serif] mt-[28.21px] not-italic relative row-1 text-[6.75px] text-black w-[92.16px]">
+      <ul className="[word-break:break-word] block col-1 font-['Open_Sans:Regular',sans-serif] mt-[28.21px] not-italic relative row-1 text-[6.75px] text-black w-[92.16px]">
         <li className="list-disc ms-[10.125px]">
           <span className="leading-[normal]">Parasite</span>
         </li>
       </ul>
-      <ul className="[word-break:break-word] block col-1 font-['Source_Sans_Pro:Regular',sans-serif] mt-[41.23px] not-italic relative row-1 text-[6.75px] text-black w-[92.16px]">
+      <ul className="[word-break:break-word] block col-1 font-['Open_Sans:Regular',sans-serif] mt-[41.23px] not-italic relative row-1 text-[6.75px] text-black w-[92.16px]">
         <li className="list-disc ms-[10.125px]">
           <span className="leading-[normal]">{`King The Land `}</span>
         </li>
@@ -1133,7 +1133,7 @@ function Group22() {
       <Frame104 />
       <Frame28 />
       <Frame35 />
-      <p className="[word-break:break-word] col-1 font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] ml-[116.33px] mt-[77.63px] not-italic relative row-1 text-[5.786px] text-black w-[32.231px]">+ 2 Members</p>
+      <p className="[word-break:break-word] col-1 font-['Open_Sans:Regular',sans-serif] leading-[normal] ml-[116.33px] mt-[77.63px] not-italic relative row-1 text-[5.786px] text-black w-[32.231px]">+ 2 Members</p>
     </div>
   );
 }
@@ -1141,7 +1141,7 @@ function Group22() {
 function Frame36() {
   return (
     <div className="bg-[rgba(255,241,252,0.9)] col-1 content-stretch flex items-center justify-center ml-[48.34px] mt-[8.2px] p-[1.447px] relative rounded-[2.411px] row-1 w-[39.785px]">
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.786px] text-black whitespace-nowrap">Entertainment</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.786px] text-black whitespace-nowrap">Entertainment</p>
     </div>
   );
 }
@@ -1156,7 +1156,7 @@ function Frame37() {
           </svg>
         </div>
       </div>
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#4255ff] text-[5.786px] whitespace-nowrap">Public</p>
+      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#4255ff] text-[5.786px] whitespace-nowrap">Public</p>
     </div>
   );
 }
@@ -1164,7 +1164,7 @@ function Frame37() {
 function Frame38() {
   return (
     <div className="bg-[#f5f7f9] col-1 content-stretch flex items-center justify-center ml-[126.4px] mt-[27.97px] p-[0.964px] relative rounded-[2.411px] row-1 w-[24.677px]">
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.786px] text-black whitespace-nowrap">Thriller</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.786px] text-black whitespace-nowrap">Thriller</p>
     </div>
   );
 }
@@ -1172,7 +1172,7 @@ function Frame38() {
 function Frame39() {
   return (
     <div className="bg-[#f5f7f9] col-1 content-stretch flex items-center justify-center ml-[129.93px] mt-[43.4px] px-[4.822px] py-[0.964px] relative rounded-[2.411px] row-1 w-[21.152px]">
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.786px] text-black whitespace-nowrap">Drama</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.786px] text-black whitespace-nowrap">Drama</p>
     </div>
   );
 }
@@ -1193,7 +1193,7 @@ function Frame105() {
   return (
     <div className="col-1 content-stretch flex gap-[1.447px] items-center ml-[9.07px] mt-[76.18px] relative row-1 w-[21.655px]">
       <MdiHeart6 />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.786px] text-black whitespace-nowrap">Like</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.786px] text-black whitespace-nowrap">Like</p>
     </div>
   );
 }
@@ -1217,7 +1217,7 @@ function Frame106() {
   return (
     <div className="col-1 content-stretch flex gap-[1.929px] items-center ml-[47.84px] mt-[76.18px] relative row-1 w-[34.245px]">
       <Group25 />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.786px] text-black whitespace-nowrap">{`Duplicate `}</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.786px] text-black whitespace-nowrap">{`Duplicate `}</p>
     </div>
   );
 }
@@ -1226,7 +1226,7 @@ function Frame40() {
   return (
     <div className="bg-[#f1f6fe] col-1 content-stretch flex flex-col items-center justify-center ml-[93.67px] mt-[75.22px] px-[4.822px] py-[2.411px] relative rounded-[9.644px] row-1 w-[12.59px]">
       <div aria-hidden className="absolute border-[0.482px] border-[rgba(0,0,0,0.1)] border-solid inset-0 pointer-events-none rounded-[9.644px]" />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.786px] text-[rgba(0,0,0,0.6)] w-full">J</p>
+      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.786px] text-[rgba(0,0,0,0.6)] w-full">J</p>
     </div>
   );
 }
@@ -1235,7 +1235,7 @@ function Frame41() {
   return (
     <div className="bg-[#f1f6fe] col-1 content-stretch flex flex-col items-center justify-center ml-[102.24px] mt-[75.22px] pl-[3.857px] pr-[4.822px] py-[2.411px] relative rounded-[9.644px] row-1 w-[12.087px]">
       <div aria-hidden className="absolute border-[0.482px] border-[rgba(0,0,0,0.1)] border-solid inset-0 pointer-events-none rounded-[9.644px]" />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.786px] text-[rgba(0,0,0,0.6)] w-full">M</p>
+      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.786px] text-[rgba(0,0,0,0.6)] w-full">M</p>
     </div>
   );
 }
@@ -1244,17 +1244,17 @@ function Group24() {
   return (
     <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid place-items-start relative shrink-0">
       <div className="bg-white col-1 h-[93.06px] ml-0 mt-0 relative rounded-[4.822px] row-1 shadow-[0px_1.929px_1.929px_0px_rgba(37,99,235,0.2)] w-[158.636px]" />
-      <p className="[word-break:break-word] col-1 font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] ml-[8.06px] mt-[8.2px] not-italic relative row-1 text-[7.715px] text-black w-[38.274px]">KD Dramas</p>
+      <p className="[word-break:break-word] col-1 font-['Open_Sans:SemiBold',sans-serif] leading-[normal] ml-[8.06px] mt-[8.2px] not-italic relative row-1 text-[7.715px] text-black w-[38.274px]">KD Dramas</p>
       <Frame36 />
       <Frame37 />
       <Frame38 />
       <Frame39 />
-      <ul className="[word-break:break-word] block col-1 font-['Source_Sans_Pro:Regular',sans-serif] mt-[28.21px] not-italic relative row-1 text-[6.75px] text-black w-[92.16px]">
+      <ul className="[word-break:break-word] block col-1 font-['Open_Sans:Regular',sans-serif] mt-[28.21px] not-italic relative row-1 text-[6.75px] text-black w-[92.16px]">
         <li className="list-disc ms-[10.125px]">
           <span className="leading-[normal]">Parasite</span>
         </li>
       </ul>
-      <ul className="[word-break:break-word] block col-1 font-['Source_Sans_Pro:Regular',sans-serif] mt-[41.23px] not-italic relative row-1 text-[6.75px] text-black w-[92.16px]">
+      <ul className="[word-break:break-word] block col-1 font-['Open_Sans:Regular',sans-serif] mt-[41.23px] not-italic relative row-1 text-[6.75px] text-black w-[92.16px]">
         <li className="list-disc ms-[10.125px]">
           <span className="leading-[normal]">{`King The Land `}</span>
         </li>
@@ -1263,7 +1263,7 @@ function Group24() {
       <Frame106 />
       <Frame40 />
       <Frame41 />
-      <p className="[word-break:break-word] col-1 font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] ml-[116.33px] mt-[77.63px] not-italic relative row-1 text-[5.786px] text-black w-[32.231px]">+ 2 Members</p>
+      <p className="[word-break:break-word] col-1 font-['Open_Sans:Regular',sans-serif] leading-[normal] ml-[116.33px] mt-[77.63px] not-italic relative row-1 text-[5.786px] text-black w-[32.231px]">+ 2 Members</p>
     </div>
   );
 }
@@ -1293,7 +1293,7 @@ function Frame108() {
       <div className="h-[26.52px] relative shrink-0 w-full" data-name="Mountains with snowy peaks">
         <img loading="lazy" decoding="async" alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgMountainsWithSnowyPeaks} />
       </div>
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[9.644px] text-black text-center w-full">{`Treks `}</p>
+      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[9.644px] text-black text-center w-full">{`Treks `}</p>
     </div>
   );
 }
@@ -1356,12 +1356,12 @@ function Desktop1() {
     <div className="absolute bg-gradient-to-b border-10 border-black border-solid from-[#fafbfd] h-[440.016px] left-[294px] overflow-clip rounded-[20px] to-[#ddecff] top-[134.49px] w-[694px]" data-name="Desktop - 4">
       <Frame64 />
       <div className="absolute bg-[#fafbfd] border-[#dce3ec] border-r-[0.459px] border-solid h-[430px] left-[-10px] top-[-10.49px] w-[129px]" />
-      <p className="[word-break:break-word] absolute font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] left-[31.95px] not-italic text-[7.715px] text-black top-[461.09px] whitespace-nowrap">Pooja Singhal</p>
-      <p className="[word-break:break-word] absolute bg-clip-text font-['Source_Serif_4:ExtraBold',sans-serif] font-extrabold leading-[0] left-[15.29px] text-[19.287px] text-[transparent] top-[21.02px] tracking-[0.7715px] whitespace-nowrap" style={{ backgroundImage: "linear-gradient(93.10098361601767deg, rgb(6, 72, 218) 1.1207%, rgb(66, 154, 255) 98.879%)" }}>
+      <p className="[word-break:break-word] absolute font-['Open_Sans:SemiBold',sans-serif] leading-[normal] left-[31.95px] not-italic text-[7.715px] text-black top-[461.09px] whitespace-nowrap">Pooja Singhal</p>
+      <p className="[word-break:break-word] absolute bg-clip-text font-['DM_Serif_Display:Regular',sans-serif] font-extrabold leading-[0] left-[15.29px] text-[19.287px] text-[transparent] top-[21.02px] tracking-[0.7715px] whitespace-nowrap" style={{ backgroundImage: "linear-gradient(93.10098361601767deg, rgb(6, 72, 218) 1.1207%, rgb(66, 154, 255) 98.879%)" }}>
         <span className="leading-[normal]">List</span>
-        <span className="font-['Source_Serif_4:ExtraBold_Italic',sans-serif] italic leading-[normal]">er</span>
+        <span className="font-['DM_Serif_Display:Regular_Italic',sans-serif] italic leading-[normal]">er</span>
       </p>
-      <p className="[word-break:break-word] absolute font-['Source_Serif_Pro:SemiBold',sans-serif] leading-[normal] left-[15.29px] not-italic text-[#202020] text-[6.75px] top-[48.5px] w-[114.758px]">Discover, create and share lists on any topic</p>
+      <p className="[word-break:break-word] absolute font-['Open_Sans:SemiBold',sans-serif] leading-[normal] left-[15.29px] not-italic text-[#202020] text-[6.75px] top-[48.5px] w-[114.758px]">Discover, create and share lists on any topic</p>
       <Frame65 />
       <Frame78 />
       <div className="absolute bg-[#eeeff2] border-[#2563eb] border-l-[0.964px] border-solid h-[22px] left-0 rounded-[4.822px] top-[121.51px] w-[119px]" />
@@ -1372,9 +1372,9 @@ function Desktop1() {
           <circle cx="8.92028" cy="8.92028" fill="#D9872E" id="Ellipse 4" r="8.92028" />
         </svg>
       </div>
-      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] left-[18.56px] not-italic text-[9.644px] text-center text-white top-[460.61px] whitespace-nowrap">P</p>
-      <p className="[word-break:break-word] absolute font-['Source_Serif_Pro:SemiBold',sans-serif] leading-[normal] left-[162.62px] not-italic text-[9.644px] text-black top-[444.69px] whitespace-nowrap">Based on your interests</p>
-      <p className="[word-break:break-word] absolute font-['Source_Serif_Pro:SemiBold',sans-serif] leading-[normal] left-[626px] not-italic text-[#4255ff] text-[6.75px] top-[446.62px] whitespace-nowrap">View All</p>
+      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Open_Sans:SemiBold',sans-serif] leading-[normal] left-[18.56px] not-italic text-[9.644px] text-center text-white top-[460.61px] whitespace-nowrap">P</p>
+      <p className="[word-break:break-word] absolute font-['Open_Sans:SemiBold',sans-serif] leading-[normal] left-[162.62px] not-italic text-[9.644px] text-black top-[444.69px] whitespace-nowrap">Based on your interests</p>
+      <p className="[word-break:break-word] absolute font-['Open_Sans:SemiBold',sans-serif] leading-[normal] left-[626px] not-italic text-[#4255ff] text-[6.75px] top-[446.62px] whitespace-nowrap">View All</p>
       <ZondiconsCheveronRight />
       <div className="absolute bg-[#d9d9d9] h-[86.31px] left-[161.65px] top-[461.57px] w-[151.886px]" />
       <div className="absolute bg-[#d9d9d9] h-[86.31px] left-[334.27px] top-[461.57px] w-[154.297px]" />
@@ -1419,7 +1419,7 @@ function Desktop1() {
 function Frame42() {
   return (
     <div className="content-stretch flex flex-col h-[47px] items-start relative shrink-0 w-[496px]">
-      <div className="[word-break:break-word] font-['Open_Sans:Bold',sans-serif] font-bold leading-[0] relative shrink-0 text-[#083088] text-[25px] tracking-[1px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
+      <div className="[word-break:break-word] font-['Open_Sans:Bold',sans-serif] font-bold leading-[0] relative shrink-0 text-[#083088] text-[20px] tracking-[1px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
         <p className="leading-[normal] mb-0 whitespace-pre">{`Success was measured through `}</p>
         <p className="leading-[normal] whitespace-pre">​</p>
       </div>
@@ -1610,7 +1610,7 @@ function Frame152() {
 function Frame136() {
   return (
     <div className="bg-[#2563eb] content-stretch drop-shadow-[0px_2px_1px_rgba(0,0,0,0.25)] flex items-center justify-center px-[20px] py-[10px] relative rounded-[10px] shrink-0 w-[222px]">
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[20px] text-white whitespace-nowrap">Open the Prototype →</p>
+      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[20px] text-white whitespace-nowrap">Open the Prototype →</p>
     </div>
   );
 }
@@ -1771,7 +1771,7 @@ function Frame109() {
     <div className="absolute bg-white content-stretch drop-shadow-[0px_1.864px_0.932px_rgba(37,99,235,0.25)] flex gap-[4.66px] h-[29.356px] items-center left-[164.95px] px-[11.649px] py-[7.456px] rounded-[9.319px] top-[26.56px] w-[482.747px]">
       <div aria-hidden className="absolute border-[0.466px] border-[rgba(0,0,0,0.3)] border-solid inset-0 pointer-events-none rounded-[9.319px]" />
       <MaterialSymbolsSearchRounded1 />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#5f626a] text-[7.456px] w-[258.149px] whitespace-pre-wrap">{`Search  “Movies to watch on a rainy Sunday”`}</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#5f626a] text-[7.456px] w-[258.149px] whitespace-pre-wrap">{`Search  “Movies to watch on a rainy Sunday”`}</p>
     </div>
   );
 }
@@ -1779,7 +1779,7 @@ function Frame109() {
 function Frame110() {
   return (
     <div className="absolute bg-[#2563eb] content-stretch drop-shadow-[0px_0.932px_0.466px_rgba(0,0,0,0.25)] flex items-center justify-center left-[18.17px] px-[9.319px] py-[4.66px] rounded-[4.66px] top-[72.23px] w-[104.844px]">
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Bold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[9.319px] text-white whitespace-nowrap">+ New List</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Bold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[9.319px] text-white whitespace-nowrap">+ New List</p>
     </div>
   );
 }
@@ -1790,7 +1790,7 @@ function Frame113() {
       <div className="h-[20.969px] relative shrink-0 w-full" data-name="movie clapper">
         <img loading="lazy" decoding="async" alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgMovieClapper} />
       </div>
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[9.319px] text-black text-center w-full">Movies</p>
+      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[9.319px] text-black text-center w-full">Movies</p>
     </div>
   );
 }
@@ -1810,7 +1810,7 @@ function Frame115() {
       <div className="h-[22.833px] relative shrink-0 w-full" data-name="Reader absorbed in a book, Study or personal growth">
         <img loading="lazy" decoding="async" alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgReaderAbsorbedInABookStudyOrPersonalGrowth} />
       </div>
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[9.319px] text-black text-center w-full">Novels</p>
+      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[9.319px] text-black text-center w-full">Novels</p>
     </div>
   );
 }
@@ -1830,7 +1830,7 @@ function Frame117() {
       <div className="h-[20.969px] relative shrink-0 w-full" data-name="Trip around the world">
         <img loading="lazy" decoding="async" alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgTripAroundTheWorld} />
       </div>
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[9.319px] text-black text-center w-full">Trips</p>
+      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[9.319px] text-black text-center w-full">Trips</p>
     </div>
   );
 }
@@ -1850,7 +1850,7 @@ function Frame119() {
       <div className="h-[21.435px] relative shrink-0 w-full" data-name="table with food and wine">
         <img loading="lazy" decoding="async" alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgTableWithFoodAndWine} />
       </div>
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[9.319px] text-black text-center w-full">Eateries</p>
+      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[9.319px] text-black text-center w-full">Eateries</p>
     </div>
   );
 }
@@ -1870,7 +1870,7 @@ function Frame121() {
       <div className="h-[31.686px] relative shrink-0 w-[28.89px]" data-name="graduation cap">
         <img loading="lazy" decoding="async" alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgGraduationCap} />
       </div>
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] min-w-full not-italic relative shrink-0 text-[9.319px] text-black text-center w-[min-content]">Academics</p>
+      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] leading-[normal] min-w-full not-italic relative shrink-0 text-[9.319px] text-black text-center w-[min-content]">Academics</p>
     </div>
   );
 }
@@ -1887,7 +1887,7 @@ function Frame120() {
 function Frame123() {
   return (
     <div className="content-stretch flex flex-col items-end relative shrink-0 w-[24.231px]">
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[9.319px] text-black text-center w-full">{`Treks `}</p>
+      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[9.319px] text-black text-center w-full">{`Treks `}</p>
     </div>
   );
 }
@@ -1946,7 +1946,7 @@ function Frame125() {
   return (
     <div className="content-stretch flex gap-[3.728px] items-end relative shrink-0">
       <LineMdHome1 />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[7.456px] text-black whitespace-nowrap">Home</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[7.456px] text-black whitespace-nowrap">Home</p>
     </div>
   );
 }
@@ -1967,7 +1967,7 @@ function Frame126() {
   return (
     <div className="content-stretch flex gap-[3.728px] items-center relative shrink-0">
       <MaterialSymbolsListRounded1 />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[7.456px] text-black whitespace-nowrap">My Lists</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[7.456px] text-black whitespace-nowrap">My Lists</p>
     </div>
   );
 }
@@ -1988,7 +1988,7 @@ function Frame127() {
   return (
     <div className="content-stretch flex gap-[3.728px] items-start relative shrink-0 w-full">
       <TablerPinned1 />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[7.456px] text-black whitespace-nowrap">My Pinnned Lists</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[7.456px] text-black whitespace-nowrap">My Pinnned Lists</p>
     </div>
   );
 }
@@ -2014,7 +2014,7 @@ function Frame132() {
   return (
     <div className="content-stretch flex gap-[3.728px] items-center relative shrink-0">
       <MdiHeart7 />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[7.456px] text-black whitespace-nowrap">Liked Lists</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[7.456px] text-black whitespace-nowrap">Liked Lists</p>
     </div>
   );
 }
@@ -2035,7 +2035,7 @@ function Frame134() {
   return (
     <div className="content-stretch flex gap-[3.728px] items-center relative shrink-0">
       <MaterialSymbolsNotificationsOutline1 />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[7.456px] text-black whitespace-nowrap">Notifications</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[7.456px] text-black whitespace-nowrap">Notifications</p>
     </div>
   );
 }
@@ -2079,7 +2079,7 @@ function ZondiconsCheveronRight4() {
 function Frame142() {
   return (
     <div className="content-stretch flex items-end relative shrink-0">
-      <p className="[word-break:break-word] font-['Source_Serif_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#2563eb] text-[6.524px] whitespace-nowrap">View All</p>
+      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#2563eb] text-[6.524px] whitespace-nowrap">View All</p>
       <ZondiconsCheveronRight4 />
     </div>
   );
@@ -2088,7 +2088,7 @@ function Frame142() {
 function Frame141() {
   return (
     <div className="content-stretch flex items-end justify-between relative shrink-0 w-[483px]">
-      <p className="[word-break:break-word] font-['Source_Serif_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[9.319px] text-black whitespace-nowrap">{`Your Pinned Lists `}</p>
+      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[9.319px] text-black whitespace-nowrap">{`Your Pinned Lists `}</p>
       <Frame142 />
     </div>
   );
@@ -2097,7 +2097,7 @@ function Frame141() {
 function Frame43() {
   return (
     <div className="bg-[rgba(255,241,252,0.9)] col-1 content-stretch flex items-center justify-center ml-[46.72px] mt-[7.92px] p-[1.398px] relative rounded-[2.33px] row-1 w-[38.448px]">
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.592px] text-black whitespace-nowrap">Entertainment</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.592px] text-black whitespace-nowrap">Entertainment</p>
     </div>
   );
 }
@@ -2112,7 +2112,7 @@ function Frame44() {
           </svg>
         </div>
       </div>
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#4255ff] text-[5.592px] whitespace-nowrap">Public</p>
+      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#4255ff] text-[5.592px] whitespace-nowrap">Public</p>
     </div>
   );
 }
@@ -2120,7 +2120,7 @@ function Frame44() {
 function Frame45() {
   return (
     <div className="bg-[#f5f7f9] col-1 content-stretch flex items-center justify-center ml-[122.15px] mt-[27.03px] p-[0.932px] relative rounded-[2.33px] row-1 w-[23.847px]">
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.592px] text-black whitespace-nowrap">Thriller</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.592px] text-black whitespace-nowrap">Thriller</p>
     </div>
   );
 }
@@ -2128,7 +2128,7 @@ function Frame45() {
 function Frame46() {
   return (
     <div className="bg-[#f5f7f9] col-1 content-stretch flex items-center justify-center ml-[125.56px] mt-[41.94px] px-[4.66px] py-[0.932px] relative rounded-[2.33px] row-1 w-[20.441px]">
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.592px] text-black whitespace-nowrap">Drama</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.592px] text-black whitespace-nowrap">Drama</p>
     </div>
   );
 }
@@ -2154,7 +2154,7 @@ function Frame144() {
   return (
     <div className="col-1 content-stretch flex gap-[1.398px] items-center ml-[8.76px] mt-[73.62px] relative row-1 w-[20.927px]">
       <MdiHeart8 />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.592px] text-black whitespace-nowrap">Like</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.592px] text-black whitespace-nowrap">Like</p>
     </div>
   );
 }
@@ -2178,7 +2178,7 @@ function Frame145() {
   return (
     <div className="col-1 content-stretch flex gap-[1.864px] items-center ml-[46.23px] mt-[73.62px] relative row-1 w-[33.094px]">
       <Group27 />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.592px] text-black whitespace-nowrap">{`Duplicate `}</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.592px] text-black whitespace-nowrap">{`Duplicate `}</p>
     </div>
   );
 }
@@ -2187,7 +2187,7 @@ function Frame47() {
   return (
     <div className="bg-[#f1f6fe] col-1 content-stretch flex flex-col items-center justify-center ml-[90.52px] mt-[72.69px] px-[4.66px] py-[2.33px] relative rounded-[9.319px] row-1 w-[12.167px]">
       <div aria-hidden className="absolute border-[0.466px] border-[rgba(0,0,0,0.1)] border-solid inset-0 pointer-events-none rounded-[9.319px]" />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.592px] text-[rgba(0,0,0,0.6)] w-full">J</p>
+      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.592px] text-[rgba(0,0,0,0.6)] w-full">J</p>
     </div>
   );
 }
@@ -2196,7 +2196,7 @@ function Frame48() {
   return (
     <div className="bg-[#f1f6fe] col-1 content-stretch flex flex-col items-center justify-center ml-[98.8px] mt-[72.69px] pl-[3.728px] pr-[4.66px] py-[2.33px] relative rounded-[9.319px] row-1 w-[11.68px]">
       <div aria-hidden className="absolute border-[0.466px] border-[rgba(0,0,0,0.1)] border-solid inset-0 pointer-events-none rounded-[9.319px]" />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.592px] text-[rgba(0,0,0,0.6)] w-full">M</p>
+      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.592px] text-[rgba(0,0,0,0.6)] w-full">M</p>
     </div>
   );
 }
@@ -2205,17 +2205,17 @@ function Group26() {
   return (
     <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid place-items-start relative shrink-0">
       <div className="bg-white col-1 h-[89.933px] ml-0 mt-0 relative rounded-[4.66px] row-1 shadow-[0px_1.864px_1.864px_0px_rgba(37,99,235,0.2)] w-[153.305px]" />
-      <p className="[word-break:break-word] col-1 font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] ml-[7.79px] mt-[7.92px] not-italic relative row-1 text-[7.456px] text-black w-[36.988px]">KD Dramas</p>
+      <p className="[word-break:break-word] col-1 font-['Open_Sans:SemiBold',sans-serif] leading-[normal] ml-[7.79px] mt-[7.92px] not-italic relative row-1 text-[7.456px] text-black w-[36.988px]">KD Dramas</p>
       <Frame43 />
       <Frame44 />
       <Frame45 />
       <Frame46 />
-      <ul className="[word-break:break-word] block col-1 font-['Source_Sans_Pro:Regular',sans-serif] mt-[27.26px] not-italic relative row-1 text-[6.524px] text-black w-[89.063px]">
+      <ul className="[word-break:break-word] block col-1 font-['Open_Sans:Regular',sans-serif] mt-[27.26px] not-italic relative row-1 text-[6.524px] text-black w-[89.063px]">
         <li className="list-disc ms-[9.786px]">
           <span className="leading-[normal]">Parasite</span>
         </li>
       </ul>
-      <ul className="[word-break:break-word] block col-1 font-['Source_Sans_Pro:Regular',sans-serif] mt-[39.84px] not-italic relative row-1 text-[6.524px] text-black w-[89.063px]">
+      <ul className="[word-break:break-word] block col-1 font-['Open_Sans:Regular',sans-serif] mt-[39.84px] not-italic relative row-1 text-[6.524px] text-black w-[89.063px]">
         <li className="list-disc ms-[9.786px]">
           <span className="leading-[normal]">{`King The Land `}</span>
         </li>
@@ -2224,7 +2224,7 @@ function Group26() {
       <Frame145 />
       <Frame47 />
       <Frame48 />
-      <p className="[word-break:break-word] col-1 font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] ml-[112.42px] mt-[75.02px] not-italic relative row-1 text-[5.592px] text-black w-[31.148px]">+ 2 Members</p>
+      <p className="[word-break:break-word] col-1 font-['Open_Sans:Regular',sans-serif] leading-[normal] ml-[112.42px] mt-[75.02px] not-italic relative row-1 text-[5.592px] text-black w-[31.148px]">+ 2 Members</p>
     </div>
   );
 }
@@ -2232,7 +2232,7 @@ function Group26() {
 function Frame49() {
   return (
     <div className="bg-[rgba(255,241,252,0.9)] col-1 content-stretch flex items-center justify-center ml-[46.72px] mt-[7.92px] p-[1.398px] relative rounded-[2.33px] row-1 w-[38.448px]">
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.592px] text-black whitespace-nowrap">Entertainment</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.592px] text-black whitespace-nowrap">Entertainment</p>
     </div>
   );
 }
@@ -2247,7 +2247,7 @@ function Frame50() {
           </svg>
         </div>
       </div>
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#4255ff] text-[5.592px] whitespace-nowrap">Public</p>
+      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#4255ff] text-[5.592px] whitespace-nowrap">Public</p>
     </div>
   );
 }
@@ -2255,7 +2255,7 @@ function Frame50() {
 function Frame51() {
   return (
     <div className="bg-[#f5f7f9] col-1 content-stretch flex items-center justify-center ml-[122.16px] mt-[27.03px] p-[0.932px] relative rounded-[2.33px] row-1 w-[23.847px]">
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.592px] text-black whitespace-nowrap">Thriller</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.592px] text-black whitespace-nowrap">Thriller</p>
     </div>
   );
 }
@@ -2263,7 +2263,7 @@ function Frame51() {
 function Frame52() {
   return (
     <div className="bg-[#f5f7f9] col-1 content-stretch flex items-center justify-center ml-[125.56px] mt-[41.94px] px-[4.66px] py-[0.932px] relative rounded-[2.33px] row-1 w-[20.441px]">
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.592px] text-black whitespace-nowrap">Drama</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.592px] text-black whitespace-nowrap">Drama</p>
     </div>
   );
 }
@@ -2289,7 +2289,7 @@ function Frame146() {
   return (
     <div className="col-1 content-stretch flex gap-[1.398px] items-center ml-[8.76px] mt-[73.62px] relative row-1 w-[20.927px]">
       <MdiHeart9 />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.592px] text-black whitespace-nowrap">Liked</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.592px] text-black whitespace-nowrap">Liked</p>
     </div>
   );
 }
@@ -2313,7 +2313,7 @@ function Frame147() {
   return (
     <div className="col-1 content-stretch flex gap-[1.864px] items-center ml-[46.23px] mt-[73.62px] relative row-1 w-[33.094px]">
       <Group29 />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.592px] text-black whitespace-nowrap">{`Duplicate `}</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.592px] text-black whitespace-nowrap">{`Duplicate `}</p>
     </div>
   );
 }
@@ -2322,7 +2322,7 @@ function Frame53() {
   return (
     <div className="bg-[#f1f6fe] col-1 content-stretch flex flex-col items-center justify-center ml-[90.52px] mt-[72.69px] px-[4.66px] py-[2.33px] relative rounded-[9.319px] row-1 w-[12.167px]">
       <div aria-hidden className="absolute border-[0.466px] border-[rgba(0,0,0,0.1)] border-solid inset-0 pointer-events-none rounded-[9.319px]" />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.592px] text-[rgba(0,0,0,0.6)] w-full">J</p>
+      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.592px] text-[rgba(0,0,0,0.6)] w-full">J</p>
     </div>
   );
 }
@@ -2331,7 +2331,7 @@ function Frame54() {
   return (
     <div className="bg-[#f1f6fe] col-1 content-stretch flex flex-col items-center justify-center ml-[98.8px] mt-[72.69px] pl-[3.728px] pr-[4.66px] py-[2.33px] relative rounded-[9.319px] row-1 w-[11.68px]">
       <div aria-hidden className="absolute border-[0.466px] border-[rgba(0,0,0,0.1)] border-solid inset-0 pointer-events-none rounded-[9.319px]" />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.592px] text-[rgba(0,0,0,0.6)] w-full">M</p>
+      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.592px] text-[rgba(0,0,0,0.6)] w-full">M</p>
     </div>
   );
 }
@@ -2340,17 +2340,17 @@ function Group28() {
   return (
     <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid place-items-start relative shrink-0">
       <div className="bg-white col-1 h-[89.933px] ml-0 mt-0 relative rounded-[4.66px] row-1 shadow-[0px_1.864px_1.864px_0px_rgba(37,99,235,0.2)] w-[153.305px]" />
-      <p className="[word-break:break-word] col-1 font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] ml-[7.79px] mt-[7.92px] not-italic relative row-1 text-[7.456px] text-black w-[36.988px]">KD Dramas</p>
+      <p className="[word-break:break-word] col-1 font-['Open_Sans:SemiBold',sans-serif] leading-[normal] ml-[7.79px] mt-[7.92px] not-italic relative row-1 text-[7.456px] text-black w-[36.988px]">KD Dramas</p>
       <Frame49 />
       <Frame50 />
       <Frame51 />
       <Frame52 />
-      <ul className="[word-break:break-word] block col-1 font-['Source_Sans_Pro:Regular',sans-serif] mt-[27.26px] not-italic relative row-1 text-[6.524px] text-black w-[89.063px]">
+      <ul className="[word-break:break-word] block col-1 font-['Open_Sans:Regular',sans-serif] mt-[27.26px] not-italic relative row-1 text-[6.524px] text-black w-[89.063px]">
         <li className="list-disc ms-[9.786px]">
           <span className="leading-[normal]">Parasite</span>
         </li>
       </ul>
-      <ul className="[word-break:break-word] block col-1 font-['Source_Sans_Pro:Regular',sans-serif] mt-[39.84px] not-italic relative row-1 text-[6.524px] text-black w-[89.063px]">
+      <ul className="[word-break:break-word] block col-1 font-['Open_Sans:Regular',sans-serif] mt-[39.84px] not-italic relative row-1 text-[6.524px] text-black w-[89.063px]">
         <li className="list-disc ms-[9.786px]">
           <span className="leading-[normal]">{`King The Land `}</span>
         </li>
@@ -2359,7 +2359,7 @@ function Group28() {
       <Frame147 />
       <Frame53 />
       <Frame54 />
-      <p className="[word-break:break-word] col-1 font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] ml-[112.42px] mt-[75.02px] not-italic relative row-1 text-[5.592px] text-black w-[31.148px]">+ 2 Members</p>
+      <p className="[word-break:break-word] col-1 font-['Open_Sans:Regular',sans-serif] leading-[normal] ml-[112.42px] mt-[75.02px] not-italic relative row-1 text-[5.592px] text-black w-[31.148px]">+ 2 Members</p>
     </div>
   );
 }
@@ -2367,7 +2367,7 @@ function Group28() {
 function Frame55() {
   return (
     <div className="bg-[rgba(255,241,252,0.9)] col-1 content-stretch flex items-center justify-center ml-[46.72px] mt-[7.92px] p-[1.398px] relative rounded-[2.33px] row-1 w-[38.448px]">
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.592px] text-black whitespace-nowrap">Entertainment</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.592px] text-black whitespace-nowrap">Entertainment</p>
     </div>
   );
 }
@@ -2393,7 +2393,7 @@ function Frame148() {
   return (
     <div className="bg-[#fff5e1] col-1 content-stretch flex gap-[0.466px] items-center justify-center ml-[119.8px] mt-[8.85px] p-[0.932px] relative rounded-[2.33px] row-1">
       <MaterialSymbolsLock1 />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#aa7502] text-[5.592px] whitespace-nowrap">Private</p>
+      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#aa7502] text-[5.592px] whitespace-nowrap">Private</p>
     </div>
   );
 }
@@ -2401,7 +2401,7 @@ function Frame148() {
 function Frame56() {
   return (
     <div className="bg-[#f5f7f9] col-1 content-stretch flex items-center justify-center ml-[122.16px] mt-[27.03px] p-[0.932px] relative rounded-[2.33px] row-1 w-[23.847px]">
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.592px] text-black whitespace-nowrap">Thriller</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.592px] text-black whitespace-nowrap">Thriller</p>
     </div>
   );
 }
@@ -2409,7 +2409,7 @@ function Frame56() {
 function Frame57() {
   return (
     <div className="bg-[#f5f7f9] col-1 content-stretch flex items-center justify-center ml-[125.56px] mt-[41.94px] px-[4.66px] py-[0.932px] relative rounded-[2.33px] row-1 w-[20.441px]">
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.592px] text-black whitespace-nowrap">Drama</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.592px] text-black whitespace-nowrap">Drama</p>
     </div>
   );
 }
@@ -2435,7 +2435,7 @@ function Frame158() {
   return (
     <div className="col-1 content-stretch flex gap-[1.398px] items-center ml-[8.76px] mt-[73.62px] relative row-1 w-[20.927px]">
       <MdiHeart10 />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.592px] text-black whitespace-nowrap">Like</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.592px] text-black whitespace-nowrap">Like</p>
     </div>
   );
 }
@@ -2459,7 +2459,7 @@ function Frame159() {
   return (
     <div className="col-1 content-stretch flex gap-[1.864px] items-center ml-[46.23px] mt-[73.62px] relative row-1 w-[33.094px]">
       <Group31 />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.592px] text-black whitespace-nowrap">Edit</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.592px] text-black whitespace-nowrap">Edit</p>
     </div>
   );
 }
@@ -2468,7 +2468,7 @@ function Frame58() {
   return (
     <div className="bg-[#f1f6fe] col-1 content-stretch flex flex-col items-center justify-center ml-[90.52px] mt-[72.69px] px-[4.66px] py-[2.33px] relative rounded-[9.319px] row-1 w-[12.167px]">
       <div aria-hidden className="absolute border-[0.466px] border-[rgba(0,0,0,0.1)] border-solid inset-0 pointer-events-none rounded-[9.319px]" />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.592px] text-[rgba(0,0,0,0.6)] w-full">J</p>
+      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.592px] text-[rgba(0,0,0,0.6)] w-full">J</p>
     </div>
   );
 }
@@ -2477,7 +2477,7 @@ function Frame59() {
   return (
     <div className="bg-[#f1f6fe] col-1 content-stretch flex flex-col items-center justify-center ml-[98.8px] mt-[72.69px] pl-[3.728px] pr-[4.66px] py-[2.33px] relative rounded-[9.319px] row-1 w-[11.68px]">
       <div aria-hidden className="absolute border-[0.466px] border-[rgba(0,0,0,0.1)] border-solid inset-0 pointer-events-none rounded-[9.319px]" />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.592px] text-[rgba(0,0,0,0.6)] w-full">M</p>
+      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.592px] text-[rgba(0,0,0,0.6)] w-full">M</p>
     </div>
   );
 }
@@ -2486,17 +2486,17 @@ function Group30() {
   return (
     <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid place-items-start relative shrink-0">
       <div className="bg-white col-1 h-[89.933px] ml-0 mt-0 relative rounded-[4.66px] row-1 shadow-[0px_1.864px_1.864px_0px_rgba(37,99,235,0.2)] w-[153.305px]" />
-      <p className="[word-break:break-word] col-1 font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] ml-[7.79px] mt-[7.92px] not-italic relative row-1 text-[7.456px] text-black w-[36.988px]">KD Dramas</p>
+      <p className="[word-break:break-word] col-1 font-['Open_Sans:SemiBold',sans-serif] leading-[normal] ml-[7.79px] mt-[7.92px] not-italic relative row-1 text-[7.456px] text-black w-[36.988px]">KD Dramas</p>
       <Frame55 />
       <Frame148 />
       <Frame56 />
       <Frame57 />
-      <ul className="[word-break:break-word] block col-1 font-['Source_Sans_Pro:Regular',sans-serif] mt-[27.26px] not-italic relative row-1 text-[6.524px] text-black w-[89.063px]">
+      <ul className="[word-break:break-word] block col-1 font-['Open_Sans:Regular',sans-serif] mt-[27.26px] not-italic relative row-1 text-[6.524px] text-black w-[89.063px]">
         <li className="list-disc ms-[9.786px]">
           <span className="leading-[normal]">Parasite</span>
         </li>
       </ul>
-      <ul className="[word-break:break-word] block col-1 font-['Source_Sans_Pro:Regular',sans-serif] mt-[39.84px] not-italic relative row-1 text-[6.524px] text-black w-[89.063px]">
+      <ul className="[word-break:break-word] block col-1 font-['Open_Sans:Regular',sans-serif] mt-[39.84px] not-italic relative row-1 text-[6.524px] text-black w-[89.063px]">
         <li className="list-disc ms-[9.786px]">
           <span className="leading-[normal]">{`King The Land `}</span>
         </li>
@@ -2505,7 +2505,7 @@ function Group30() {
       <Frame159 />
       <Frame58 />
       <Frame59 />
-      <p className="[word-break:break-word] col-1 font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] ml-[112.42px] mt-[75.02px] not-italic relative row-1 text-[5.592px] text-black w-[31.148px]">+ 2 Members</p>
+      <p className="[word-break:break-word] col-1 font-['Open_Sans:Regular',sans-serif] leading-[normal] ml-[112.42px] mt-[75.02px] not-italic relative row-1 text-[5.592px] text-black w-[31.148px]">+ 2 Members</p>
     </div>
   );
 }
@@ -2552,7 +2552,7 @@ function ZondiconsCheveronRight5() {
 function Frame162() {
   return (
     <div className="content-stretch flex items-center justify-end relative shrink-0">
-      <p className="[word-break:break-word] font-['Source_Serif_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#2563eb] text-[6.524px] whitespace-nowrap">View All</p>
+      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#2563eb] text-[6.524px] whitespace-nowrap">View All</p>
       <ZondiconsCheveronRight5 />
     </div>
   );
@@ -2561,7 +2561,7 @@ function Frame162() {
 function Frame161() {
   return (
     <div className="content-stretch flex items-end justify-between relative shrink-0 w-full">
-      <p className="[word-break:break-word] font-['Source_Serif_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[9.319px] text-black whitespace-nowrap">Recently Opened Lists</p>
+      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[9.319px] text-black whitespace-nowrap">Recently Opened Lists</p>
       <Frame162 />
     </div>
   );
@@ -2570,7 +2570,7 @@ function Frame161() {
 function Frame60() {
   return (
     <div className="bg-[rgba(255,241,252,0.9)] col-1 content-stretch flex items-center justify-center ml-[46.72px] mt-[7.92px] p-[1.398px] relative rounded-[2.33px] row-1 w-[38.448px]">
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.592px] text-black whitespace-nowrap">Entertainment</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.592px] text-black whitespace-nowrap">Entertainment</p>
     </div>
   );
 }
@@ -2585,7 +2585,7 @@ function Frame61() {
           </svg>
         </div>
       </div>
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#4255ff] text-[5.592px] whitespace-nowrap">Public</p>
+      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#4255ff] text-[5.592px] whitespace-nowrap">Public</p>
     </div>
   );
 }
@@ -2593,7 +2593,7 @@ function Frame61() {
 function Frame62() {
   return (
     <div className="bg-[#f5f7f9] col-1 content-stretch flex items-center justify-center ml-[122.16px] mt-[27.03px] p-[0.932px] relative rounded-[2.33px] row-1 w-[23.847px]">
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.592px] text-black whitespace-nowrap">Thriller</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.592px] text-black whitespace-nowrap">Thriller</p>
     </div>
   );
 }
@@ -2601,7 +2601,7 @@ function Frame62() {
 function Frame63() {
   return (
     <div className="bg-[#f5f7f9] col-1 content-stretch flex items-center justify-center ml-[125.56px] mt-[41.94px] px-[4.66px] py-[0.932px] relative rounded-[2.33px] row-1 w-[20.441px]">
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.592px] text-black whitespace-nowrap">Drama</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.592px] text-black whitespace-nowrap">Drama</p>
     </div>
   );
 }
@@ -2627,7 +2627,7 @@ function Frame164() {
   return (
     <div className="col-1 content-stretch flex gap-[1.398px] items-center ml-[8.76px] mt-[73.62px] relative row-1 w-[20.927px]">
       <MdiHeart11 />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.592px] text-black whitespace-nowrap">Like</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.592px] text-black whitespace-nowrap">Like</p>
     </div>
   );
 }
@@ -2651,7 +2651,7 @@ function Frame165() {
   return (
     <div className="col-1 content-stretch flex gap-[1.864px] items-center ml-[46.23px] mt-[73.62px] relative row-1 w-[33.094px]">
       <Group37 />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.592px] text-black whitespace-nowrap">{`Duplicate `}</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.592px] text-black whitespace-nowrap">{`Duplicate `}</p>
     </div>
   );
 }
@@ -2660,7 +2660,7 @@ function Frame166() {
   return (
     <div className="bg-[#f1f6fe] col-1 content-stretch flex flex-col items-center justify-center ml-[90.52px] mt-[72.69px] px-[4.66px] py-[2.33px] relative rounded-[9.319px] row-1 w-[12.167px]">
       <div aria-hidden className="absolute border-[0.466px] border-[rgba(0,0,0,0.1)] border-solid inset-0 pointer-events-none rounded-[9.319px]" />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.592px] text-[rgba(0,0,0,0.6)] w-full">J</p>
+      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.592px] text-[rgba(0,0,0,0.6)] w-full">J</p>
     </div>
   );
 }
@@ -2669,7 +2669,7 @@ function Frame167() {
   return (
     <div className="bg-[#f1f6fe] col-1 content-stretch flex flex-col items-center justify-center ml-[98.8px] mt-[72.69px] pl-[3.728px] pr-[4.66px] py-[2.33px] relative rounded-[9.319px] row-1 w-[11.68px]">
       <div aria-hidden className="absolute border-[0.466px] border-[rgba(0,0,0,0.1)] border-solid inset-0 pointer-events-none rounded-[9.319px]" />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.592px] text-[rgba(0,0,0,0.6)] w-full">M</p>
+      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.592px] text-[rgba(0,0,0,0.6)] w-full">M</p>
     </div>
   );
 }
@@ -2678,17 +2678,17 @@ function Group36() {
   return (
     <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid place-items-start relative shrink-0">
       <div className="bg-white col-1 h-[89.933px] ml-0 mt-0 relative rounded-[4.66px] row-1 shadow-[0px_1.864px_1.864px_0px_rgba(37,99,235,0.2)] w-[153.305px]" />
-      <p className="[word-break:break-word] col-1 font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] ml-[7.79px] mt-[7.92px] not-italic relative row-1 text-[7.456px] text-black w-[36.988px]">KD Dramas</p>
+      <p className="[word-break:break-word] col-1 font-['Open_Sans:SemiBold',sans-serif] leading-[normal] ml-[7.79px] mt-[7.92px] not-italic relative row-1 text-[7.456px] text-black w-[36.988px]">KD Dramas</p>
       <Frame60 />
       <Frame61 />
       <Frame62 />
       <Frame63 />
-      <ul className="[word-break:break-word] block col-1 font-['Source_Sans_Pro:Regular',sans-serif] mt-[27.26px] not-italic relative row-1 text-[6.524px] text-black w-[89.063px]">
+      <ul className="[word-break:break-word] block col-1 font-['Open_Sans:Regular',sans-serif] mt-[27.26px] not-italic relative row-1 text-[6.524px] text-black w-[89.063px]">
         <li className="list-disc ms-[9.786px]">
           <span className="leading-[normal]">Parasite</span>
         </li>
       </ul>
-      <ul className="[word-break:break-word] block col-1 font-['Source_Sans_Pro:Regular',sans-serif] mt-[39.84px] not-italic relative row-1 text-[6.524px] text-black w-[89.063px]">
+      <ul className="[word-break:break-word] block col-1 font-['Open_Sans:Regular',sans-serif] mt-[39.84px] not-italic relative row-1 text-[6.524px] text-black w-[89.063px]">
         <li className="list-disc ms-[9.786px]">
           <span className="leading-[normal]">{`King The Land `}</span>
         </li>
@@ -2697,7 +2697,7 @@ function Group36() {
       <Frame165 />
       <Frame166 />
       <Frame167 />
-      <p className="[word-break:break-word] col-1 font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] ml-[112.42px] mt-[75.02px] not-italic relative row-1 text-[5.592px] text-black w-[31.148px]">+ 2 Members</p>
+      <p className="[word-break:break-word] col-1 font-['Open_Sans:Regular',sans-serif] leading-[normal] ml-[112.42px] mt-[75.02px] not-italic relative row-1 text-[5.592px] text-black w-[31.148px]">+ 2 Members</p>
     </div>
   );
 }
@@ -2705,7 +2705,7 @@ function Group36() {
 function Frame168() {
   return (
     <div className="bg-[rgba(255,241,252,0.9)] col-1 content-stretch flex items-center justify-center ml-[46.72px] mt-[7.92px] p-[1.398px] relative rounded-[2.33px] row-1 w-[38.448px]">
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.592px] text-black whitespace-nowrap">Entertainment</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.592px] text-black whitespace-nowrap">Entertainment</p>
     </div>
   );
 }
@@ -2720,7 +2720,7 @@ function Frame169() {
           </svg>
         </div>
       </div>
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#4255ff] text-[5.592px] whitespace-nowrap">Public</p>
+      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#4255ff] text-[5.592px] whitespace-nowrap">Public</p>
     </div>
   );
 }
@@ -2728,7 +2728,7 @@ function Frame169() {
 function Frame170() {
   return (
     <div className="bg-[#f5f7f9] col-1 content-stretch flex items-center justify-center ml-[122.16px] mt-[27.03px] p-[0.932px] relative rounded-[2.33px] row-1 w-[23.847px]">
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.592px] text-black whitespace-nowrap">Thriller</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.592px] text-black whitespace-nowrap">Thriller</p>
     </div>
   );
 }
@@ -2736,7 +2736,7 @@ function Frame170() {
 function Frame171() {
   return (
     <div className="bg-[#f5f7f9] col-1 content-stretch flex items-center justify-center ml-[125.56px] mt-[41.94px] px-[4.66px] py-[0.932px] relative rounded-[2.33px] row-1 w-[20.441px]">
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.592px] text-black whitespace-nowrap">Drama</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.592px] text-black whitespace-nowrap">Drama</p>
     </div>
   );
 }
@@ -2762,7 +2762,7 @@ function Frame172() {
   return (
     <div className="col-1 content-stretch flex gap-[1.398px] items-center ml-[8.76px] mt-[73.62px] relative row-1 w-[20.927px]">
       <MdiHeart12 />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.592px] text-black whitespace-nowrap">Liked</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.592px] text-black whitespace-nowrap">Liked</p>
     </div>
   );
 }
@@ -2786,7 +2786,7 @@ function Frame173() {
   return (
     <div className="col-1 content-stretch flex gap-[1.864px] items-center ml-[46.24px] mt-[73.62px] relative row-1 w-[33.094px]">
       <Group39 />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.592px] text-black whitespace-nowrap">{`Duplicate `}</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.592px] text-black whitespace-nowrap">{`Duplicate `}</p>
     </div>
   );
 }
@@ -2795,7 +2795,7 @@ function Frame174() {
   return (
     <div className="bg-[#f1f6fe] col-1 content-stretch flex flex-col items-center justify-center ml-[90.52px] mt-[72.69px] px-[4.66px] py-[2.33px] relative rounded-[9.319px] row-1 w-[12.167px]">
       <div aria-hidden className="absolute border-[0.466px] border-[rgba(0,0,0,0.1)] border-solid inset-0 pointer-events-none rounded-[9.319px]" />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.592px] text-[rgba(0,0,0,0.6)] w-full">J</p>
+      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.592px] text-[rgba(0,0,0,0.6)] w-full">J</p>
     </div>
   );
 }
@@ -2804,7 +2804,7 @@ function Frame175() {
   return (
     <div className="bg-[#f1f6fe] col-1 content-stretch flex flex-col items-center justify-center ml-[98.8px] mt-[72.69px] pl-[3.728px] pr-[4.66px] py-[2.33px] relative rounded-[9.319px] row-1 w-[11.68px]">
       <div aria-hidden className="absolute border-[0.466px] border-[rgba(0,0,0,0.1)] border-solid inset-0 pointer-events-none rounded-[9.319px]" />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.592px] text-[rgba(0,0,0,0.6)] w-full">M</p>
+      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.592px] text-[rgba(0,0,0,0.6)] w-full">M</p>
     </div>
   );
 }
@@ -2813,17 +2813,17 @@ function Group38() {
   return (
     <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid place-items-start relative shrink-0">
       <div className="bg-white col-1 h-[89.933px] ml-0 mt-0 relative rounded-[4.66px] row-1 shadow-[0px_1.864px_1.864px_0px_rgba(37,99,235,0.2)] w-[153.305px]" />
-      <p className="[word-break:break-word] col-1 font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] ml-[7.79px] mt-[7.92px] not-italic relative row-1 text-[7.456px] text-black w-[36.988px]">KD Dramas</p>
+      <p className="[word-break:break-word] col-1 font-['Open_Sans:SemiBold',sans-serif] leading-[normal] ml-[7.79px] mt-[7.92px] not-italic relative row-1 text-[7.456px] text-black w-[36.988px]">KD Dramas</p>
       <Frame168 />
       <Frame169 />
       <Frame170 />
       <Frame171 />
-      <ul className="[word-break:break-word] block col-1 font-['Source_Sans_Pro:Regular',sans-serif] mt-[27.26px] not-italic relative row-1 text-[6.524px] text-black w-[89.063px]">
+      <ul className="[word-break:break-word] block col-1 font-['Open_Sans:Regular',sans-serif] mt-[27.26px] not-italic relative row-1 text-[6.524px] text-black w-[89.063px]">
         <li className="list-disc ms-[9.786px]">
           <span className="leading-[normal]">Parasite</span>
         </li>
       </ul>
-      <ul className="[word-break:break-word] block col-1 font-['Source_Sans_Pro:Regular',sans-serif] mt-[39.84px] not-italic relative row-1 text-[6.524px] text-black w-[89.063px]">
+      <ul className="[word-break:break-word] block col-1 font-['Open_Sans:Regular',sans-serif] mt-[39.84px] not-italic relative row-1 text-[6.524px] text-black w-[89.063px]">
         <li className="list-disc ms-[9.786px]">
           <span className="leading-[normal]">{`King The Land `}</span>
         </li>
@@ -2832,7 +2832,7 @@ function Group38() {
       <Frame173 />
       <Frame174 />
       <Frame175 />
-      <p className="[word-break:break-word] col-1 font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] ml-[112.42px] mt-[75.02px] not-italic relative row-1 text-[5.592px] text-black w-[31.148px]">+ 2 Members</p>
+      <p className="[word-break:break-word] col-1 font-['Open_Sans:Regular',sans-serif] leading-[normal] ml-[112.42px] mt-[75.02px] not-italic relative row-1 text-[5.592px] text-black w-[31.148px]">+ 2 Members</p>
     </div>
   );
 }
@@ -2840,7 +2840,7 @@ function Group38() {
 function Frame176() {
   return (
     <div className="bg-[rgba(255,241,252,0.9)] col-1 content-stretch flex items-center justify-center ml-[46.72px] mt-[7.92px] p-[1.398px] relative rounded-[2.33px] row-1 w-[38.448px]">
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.592px] text-black whitespace-nowrap">Entertainment</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.592px] text-black whitespace-nowrap">Entertainment</p>
     </div>
   );
 }
@@ -2855,7 +2855,7 @@ function Frame177() {
           </svg>
         </div>
       </div>
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#4255ff] text-[5.592px] whitespace-nowrap">Public</p>
+      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#4255ff] text-[5.592px] whitespace-nowrap">Public</p>
     </div>
   );
 }
@@ -2863,7 +2863,7 @@ function Frame177() {
 function Frame178() {
   return (
     <div className="bg-[#f5f7f9] col-1 content-stretch flex items-center justify-center ml-[122.16px] mt-[27.03px] p-[0.932px] relative rounded-[2.33px] row-1 w-[23.847px]">
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.592px] text-black whitespace-nowrap">Thriller</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.592px] text-black whitespace-nowrap">Thriller</p>
     </div>
   );
 }
@@ -2871,7 +2871,7 @@ function Frame178() {
 function Frame179() {
   return (
     <div className="bg-[#f5f7f9] col-1 content-stretch flex items-center justify-center ml-[125.56px] mt-[41.94px] px-[4.66px] py-[0.932px] relative rounded-[2.33px] row-1 w-[20.441px]">
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.592px] text-black whitespace-nowrap">Drama</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.592px] text-black whitespace-nowrap">Drama</p>
     </div>
   );
 }
@@ -2897,7 +2897,7 @@ function Frame180() {
   return (
     <div className="col-1 content-stretch flex gap-[1.398px] items-center ml-[8.76px] mt-[73.62px] relative row-1 w-[20.927px]">
       <MdiHeart13 />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.592px] text-black whitespace-nowrap">Like</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.592px] text-black whitespace-nowrap">Like</p>
     </div>
   );
 }
@@ -2921,7 +2921,7 @@ function Frame181() {
   return (
     <div className="col-1 content-stretch flex gap-[1.864px] items-center ml-[46.24px] mt-[73.62px] relative row-1 w-[33.094px]">
       <Group41 />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.592px] text-black whitespace-nowrap">{`Duplicate `}</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.592px] text-black whitespace-nowrap">{`Duplicate `}</p>
     </div>
   );
 }
@@ -2930,7 +2930,7 @@ function Frame182() {
   return (
     <div className="bg-[#f1f6fe] col-1 content-stretch flex flex-col items-center justify-center ml-[90.52px] mt-[72.69px] px-[4.66px] py-[2.33px] relative rounded-[9.319px] row-1 w-[12.167px]">
       <div aria-hidden className="absolute border-[0.466px] border-[rgba(0,0,0,0.1)] border-solid inset-0 pointer-events-none rounded-[9.319px]" />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.592px] text-[rgba(0,0,0,0.6)] w-full">J</p>
+      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.592px] text-[rgba(0,0,0,0.6)] w-full">J</p>
     </div>
   );
 }
@@ -2939,7 +2939,7 @@ function Frame183() {
   return (
     <div className="bg-[#f1f6fe] col-1 content-stretch flex flex-col items-center justify-center ml-[98.8px] mt-[72.69px] pl-[3.728px] pr-[4.66px] py-[2.33px] relative rounded-[9.319px] row-1 w-[11.68px]">
       <div aria-hidden className="absolute border-[0.466px] border-[rgba(0,0,0,0.1)] border-solid inset-0 pointer-events-none rounded-[9.319px]" />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.592px] text-[rgba(0,0,0,0.6)] w-full">M</p>
+      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[5.592px] text-[rgba(0,0,0,0.6)] w-full">M</p>
     </div>
   );
 }
@@ -2948,17 +2948,17 @@ function Group40() {
   return (
     <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid place-items-start relative shrink-0">
       <div className="bg-white col-1 h-[89.933px] ml-0 mt-0 relative rounded-[4.66px] row-1 shadow-[0px_1.864px_1.864px_0px_rgba(37,99,235,0.2)] w-[153.305px]" />
-      <p className="[word-break:break-word] col-1 font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] ml-[7.79px] mt-[7.92px] not-italic relative row-1 text-[7.456px] text-black w-[36.988px]">KD Dramas</p>
+      <p className="[word-break:break-word] col-1 font-['Open_Sans:SemiBold',sans-serif] leading-[normal] ml-[7.79px] mt-[7.92px] not-italic relative row-1 text-[7.456px] text-black w-[36.988px]">KD Dramas</p>
       <Frame176 />
       <Frame177 />
       <Frame178 />
       <Frame179 />
-      <ul className="[word-break:break-word] block col-1 font-['Source_Sans_Pro:Regular',sans-serif] mt-[27.26px] not-italic relative row-1 text-[6.524px] text-black w-[89.063px]">
+      <ul className="[word-break:break-word] block col-1 font-['Open_Sans:Regular',sans-serif] mt-[27.26px] not-italic relative row-1 text-[6.524px] text-black w-[89.063px]">
         <li className="list-disc ms-[9.786px]">
           <span className="leading-[normal]">Parasite</span>
         </li>
       </ul>
-      <ul className="[word-break:break-word] block col-1 font-['Source_Sans_Pro:Regular',sans-serif] mt-[39.84px] not-italic relative row-1 text-[6.524px] text-black w-[89.063px]">
+      <ul className="[word-break:break-word] block col-1 font-['Open_Sans:Regular',sans-serif] mt-[39.84px] not-italic relative row-1 text-[6.524px] text-black w-[89.063px]">
         <li className="list-disc ms-[9.786px]">
           <span className="leading-[normal]">{`King The Land `}</span>
         </li>
@@ -2967,7 +2967,7 @@ function Group40() {
       <Frame181 />
       <Frame182 />
       <Frame183 />
-      <p className="[word-break:break-word] col-1 font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] ml-[112.42px] mt-[75.02px] not-italic relative row-1 text-[5.592px] text-black w-[31.148px]">+ 2 Members</p>
+      <p className="[word-break:break-word] col-1 font-['Open_Sans:Regular',sans-serif] leading-[normal] ml-[112.42px] mt-[75.02px] not-italic relative row-1 text-[5.592px] text-black w-[31.148px]">+ 2 Members</p>
     </div>
   );
 }
@@ -2997,7 +2997,7 @@ function Frame185() {
       <div className="h-[25.628px] relative shrink-0 w-full" data-name="Mountains with snowy peaks">
         <img loading="lazy" decoding="async" alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgMountainsWithSnowyPeaks} />
       </div>
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[9.319px] text-black text-center w-full">{`Treks `}</p>
+      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[9.319px] text-black text-center w-full">{`Treks `}</p>
     </div>
   );
 }
@@ -3061,12 +3061,12 @@ function Desktop() {
       <div className="overflow-clip relative rounded-[inherit] size-full">
         <Frame109 />
         <div className="absolute bg-[#fafbfd] border-[#dce3ec] border-r-[0.466px] border-solid h-[477.156px] left-0 top-0 w-[142.122px]" />
-        <p className="[word-break:break-word] absolute font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] left-[40.54px] not-italic text-[7.456px] text-black top-[455.25px] whitespace-nowrap">Pooja Singhal</p>
-        <p className="[word-break:break-word] absolute bg-clip-text font-['Source_Serif_4:ExtraBold',sans-serif] font-extrabold leading-[0] left-[18.64px] text-[18.639px] text-[transparent] top-[12.58px] tracking-[0.7456px] whitespace-nowrap" style={{ backgroundImage: "linear-gradient(93.0457141110852deg, rgb(6, 72, 218) 1.1207%, rgb(66, 154, 255) 98.879%)" }}>
+        <p className="[word-break:break-word] absolute font-['Open_Sans:SemiBold',sans-serif] leading-[normal] left-[40.54px] not-italic text-[7.456px] text-black top-[455.25px] whitespace-nowrap">Pooja Singhal</p>
+        <p className="[word-break:break-word] absolute bg-clip-text font-['DM_Serif_Display:Regular',sans-serif] font-extrabold leading-[0] left-[18.64px] text-[18.639px] text-[transparent] top-[12.58px] tracking-[0.7456px] whitespace-nowrap" style={{ backgroundImage: "linear-gradient(93.0457141110852deg, rgb(6, 72, 218) 1.1207%, rgb(66, 154, 255) 98.879%)" }}>
           <span className="leading-[normal]">List</span>
-          <span className="font-['Source_Serif_4:ExtraBold_Italic',sans-serif] italic leading-[normal]">er</span>
+          <span className="font-['DM_Serif_Display:Regular_Italic',sans-serif] italic leading-[normal]">er</span>
         </p>
-        <p className="[word-break:break-word] absolute font-['Source_Serif_Pro:SemiBold',sans-serif] leading-[normal] left-[18.64px] not-italic text-[#202020] text-[6.524px] top-[39.14px] w-[110.901px]">Discover, create and share lists on any topic</p>
+        <p className="[word-break:break-word] absolute font-['Open_Sans:SemiBold',sans-serif] leading-[normal] left-[18.64px] not-italic text-[#202020] text-[6.524px] top-[39.14px] w-[110.901px]">Discover, create and share lists on any topic</p>
         <Frame110 />
         <Frame111 />
         <div className="absolute bg-[#eeeff2] border-[#2563eb] border-l-[0.932px] border-solid h-[21.435px] left-[0.47px] rounded-[4.66px] top-[108.57px] w-[140.724px]" />
@@ -3077,9 +3077,9 @@ function Desktop() {
             <circle cx="8.62049" cy="8.62049" fill="#D9872E" id="Ellipse 4" r="8.62049" />
           </svg>
         </div>
-        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] left-[27.7px] not-italic text-[9.319px] text-center text-white top-[454.79px] whitespace-nowrap">P</p>
-        <p className="[word-break:break-word] absolute font-['Source_Serif_Pro:SemiBold',sans-serif] leading-[normal] left-[166.82px] not-italic text-[9.319px] text-black top-[439.41px] whitespace-nowrap">Based on your interests</p>
-        <p className="[word-break:break-word] absolute font-['Source_Serif_Pro:SemiBold',sans-serif] leading-[normal] left-[614.62px] not-italic text-[#4255ff] text-[6.524px] top-[444.28px] whitespace-nowrap">View All</p>
+        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Open_Sans:SemiBold',sans-serif] leading-[normal] left-[27.7px] not-italic text-[9.319px] text-center text-white top-[454.79px] whitespace-nowrap">P</p>
+        <p className="[word-break:break-word] absolute font-['Open_Sans:SemiBold',sans-serif] leading-[normal] left-[166.82px] not-italic text-[9.319px] text-black top-[439.41px] whitespace-nowrap">Based on your interests</p>
+        <p className="[word-break:break-word] absolute font-['Open_Sans:SemiBold',sans-serif] leading-[normal] left-[614.62px] not-italic text-[#4255ff] text-[6.524px] top-[444.28px] whitespace-nowrap">View All</p>
         <ZondiconsCheveronRight3 />
         <div className="absolute bg-white h-[83.409px] left-[165.89px] rounded-[7.687px] top-[457.26px] w-[146.781px]" />
         <div className="absolute bg-white h-[83.409px] left-[332.7px] rounded-[7.687px] top-[457.26px] w-[149.111px]" />
@@ -3216,7 +3216,7 @@ function Frame187() {
     <div className="absolute bg-white content-stretch drop-shadow-[0px_1.975px_0.987px_rgba(37,99,235,0.25)] flex gap-[4.937px] h-[31.101px] items-center left-[174.76px] px-[12.342px] py-[7.899px] rounded-[9.873px] top-[28.14px] w-[511.434px]">
       <div aria-hidden className="absolute border-[0.494px] border-[rgba(0,0,0,0.3)] border-solid inset-0 pointer-events-none rounded-[9.873px]" />
       <MaterialSymbolsSearchRounded2 />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#5f626a] text-[7.899px] w-[273.489px]">Healthy eating</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#5f626a] text-[7.899px] w-[273.489px]">Healthy eating</p>
     </div>
   );
 }
@@ -3224,7 +3224,7 @@ function Frame187() {
 function Frame188() {
   return (
     <div className="absolute bg-[#2563eb] content-stretch drop-shadow-[0px_0.987px_0.494px_rgba(0,0,0,0.25)] flex items-center justify-center left-[19.25px] px-[9.873px] py-[4.937px] rounded-[4.937px] top-[76.52px] w-[111.074px]">
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Bold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[9.873px] text-white whitespace-nowrap">+ New List</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Bold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[9.873px] text-white whitespace-nowrap">+ New List</p>
     </div>
   );
 }
@@ -3258,7 +3258,7 @@ function Frame190() {
   return (
     <div className="content-stretch flex gap-[3.949px] items-end relative shrink-0">
       <LineMdHome2 />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[7.899px] text-black whitespace-nowrap">Home</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[7.899px] text-black whitespace-nowrap">Home</p>
     </div>
   );
 }
@@ -3279,7 +3279,7 @@ function Frame191() {
   return (
     <div className="content-stretch flex gap-[3.949px] items-center relative shrink-0">
       <MaterialSymbolsListRounded2 />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[7.899px] text-black whitespace-nowrap">My Lists</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[7.899px] text-black whitespace-nowrap">My Lists</p>
     </div>
   );
 }
@@ -3300,7 +3300,7 @@ function Frame192() {
   return (
     <div className="content-stretch flex gap-[3.949px] items-start relative shrink-0 w-full">
       <TablerPinned2 />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[7.899px] text-black whitespace-nowrap">My Pinnned Lists</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[7.899px] text-black whitespace-nowrap">My Pinnned Lists</p>
     </div>
   );
 }
@@ -3326,7 +3326,7 @@ function Frame193() {
   return (
     <div className="content-stretch flex gap-[3.949px] items-center relative shrink-0">
       <MdiHeart14 />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[7.899px] text-black whitespace-nowrap">Liked Lists</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[7.899px] text-black whitespace-nowrap">Liked Lists</p>
     </div>
   );
 }
@@ -3352,7 +3352,7 @@ function Frame194() {
   return (
     <div className="content-stretch flex gap-[3.949px] items-center relative shrink-0">
       <MaterialSymbolsNotificationsOutline2 />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[7.899px] text-black whitespace-nowrap">Notifications</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[7.899px] text-black whitespace-nowrap">Notifications</p>
     </div>
   );
 }
@@ -3480,7 +3480,7 @@ function Frame195() {
   return (
     <div className="absolute bg-[rgba(238,239,242,0.7)] content-stretch flex gap-[6.703px] items-center left-[184px] pl-[10px] pr-[4.788px] py-[4.788px] rounded-[2.394px] top-[159px] w-[489px]">
       <MaterialSymbolsListRounded6 />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[6.703px] text-[rgba(0,0,0,0.6)] whitespace-nowrap">Healthy Eating for Weight Loss</p>
+      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[6.703px] text-[rgba(0,0,0,0.6)] whitespace-nowrap">Healthy Eating for Weight Loss</p>
     </div>
   );
 }
@@ -3500,7 +3500,7 @@ function FluentEmojiFlatSparkles() {
 function Frame199() {
   return (
     <div className="content-stretch flex flex-[1_0_0] gap-[0.949px] items-center min-w-px relative">
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[6.641px] text-[rgba(0,0,0,0.6)] whitespace-nowrap">{`AI Searching... `}</p>
+      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[6.641px] text-[rgba(0,0,0,0.6)] whitespace-nowrap">{`AI Searching... `}</p>
       <FluentEmojiFlatSparkles />
     </div>
   );
@@ -3529,7 +3529,7 @@ function UilEnter() {
 function Frame200() {
   return (
     <div className="content-stretch flex gap-[1.897px] items-center relative shrink-0 w-[117.638px]">
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[6.641px] text-[rgba(0,0,0,0.6)] whitespace-pre">{`Hit Enter/Return to see smart matches  `}</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[6.641px] text-[rgba(0,0,0,0.6)] whitespace-pre">{`Hit Enter/Return to see smart matches  `}</p>
       <UilEnter />
     </div>
   );
@@ -3569,12 +3569,12 @@ function SearchTypeHover() {
     <div className="bg-gradient-to-b col-1 from-[#fafbfd] h-[505.51px] ml-[66px] mt-[58px] overflow-clip relative row-1 to-[#ddecff] w-[701px]" data-name="Search -type hover">
       <Frame187 />
       <div className="absolute bg-[#fafbfd] border-[#dce3ec] border-r-[0.494px] border-solid h-[505.51px] left-0 top-0 w-[150.567px]" />
-      <p className="[word-break:break-word] absolute font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] left-[42.95px] not-italic text-[7.899px] text-black top-[482.31px] whitespace-nowrap">Pooja Singhal</p>
-      <p className="[word-break:break-word] absolute bg-clip-text font-['Source_Serif_4:ExtraBold',sans-serif] font-extrabold leading-[0] left-[19.75px] text-[19.746px] text-[transparent] top-[13.33px] tracking-[0.7899px] whitespace-nowrap" style={{ backgroundImage: "linear-gradient(93.03957270286142deg, rgb(6, 72, 218) 1.1207%, rgb(66, 154, 255) 98.879%)" }}>
+      <p className="[word-break:break-word] absolute font-['Open_Sans:SemiBold',sans-serif] leading-[normal] left-[42.95px] not-italic text-[7.899px] text-black top-[482.31px] whitespace-nowrap">Pooja Singhal</p>
+      <p className="[word-break:break-word] absolute bg-clip-text font-['DM_Serif_Display:Regular',sans-serif] font-extrabold leading-[0] left-[19.75px] text-[19.746px] text-[transparent] top-[13.33px] tracking-[0.7899px] whitespace-nowrap" style={{ backgroundImage: "linear-gradient(93.03957270286142deg, rgb(6, 72, 218) 1.1207%, rgb(66, 154, 255) 98.879%)" }}>
         <span className="leading-[normal]">List</span>
-        <span className="font-['Source_Serif_4:ExtraBold_Italic',sans-serif] italic leading-[normal]">er</span>
+        <span className="font-['DM_Serif_Display:Regular_Italic',sans-serif] italic leading-[normal]">er</span>
       </p>
-      <p className="[word-break:break-word] absolute font-['Source_Serif_Pro:SemiBold',sans-serif] leading-[normal] left-[19.75px] not-italic text-[#202020] text-[6.911px] top-[41.47px] w-[117.492px]">Discover, create and share lists on any topic</p>
+      <p className="[word-break:break-word] absolute font-['Open_Sans:SemiBold',sans-serif] leading-[normal] left-[19.75px] not-italic text-[#202020] text-[6.911px] top-[41.47px] w-[117.492px]">Discover, create and share lists on any topic</p>
       <Frame188 />
       <div className="absolute bg-[#eeeff2] border-[#2563eb] border-l-[0.987px] border-solid h-[22.708px] left-[0.49px] rounded-[4.937px] top-[115.02px] w-[149.086px]" />
       <Frame189 />
@@ -3584,7 +3584,7 @@ function SearchTypeHover() {
           <circle cx="9.13275" cy="9.13275" fill="#D9872E" id="Ellipse 4" r="9.13275" />
         </svg>
       </div>
-      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] left-[29.16px] not-italic text-[9.873px] text-center text-white top-[481.81px] whitespace-nowrap">P</p>
+      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Open_Sans:SemiBold',sans-serif] leading-[normal] left-[29.16px] not-italic text-[9.873px] text-center text-white top-[481.81px] whitespace-nowrap">P</p>
       <IconoirSidebarCollapse2 />
       <GravityUiChevronsCollapseHorizontal2 />
       <div className="absolute h-0 left-[19.75px] top-[468.98px] w-[111.078px]">
@@ -3595,9 +3595,9 @@ function SearchTypeHover() {
         </div>
       </div>
       <div className="absolute bg-white h-[247.833px] left-[172px] rounded-[9.894px] top-[66px] w-[511px]" />
-      <p className="[word-break:break-word] absolute font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] left-[208.32px] not-italic text-[6.911px] text-[rgba(0,0,0,0.6)] top-[111.07px] whitespace-nowrap">Healthy Eating on a Budget</p>
-      <p className="[word-break:break-word] absolute font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] left-[208.32px] not-italic text-[6.911px] text-[rgba(0,0,0,0.6)] top-[128.35px] whitespace-nowrap">{`Weight loss Prerequisites `}</p>
-      <p className="[word-break:break-word] absolute font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] left-[208.32px] not-italic text-[6.911px] text-[rgba(0,0,0,0.6)] top-[147.11px] whitespace-nowrap">Healthy Eating Habits to Develop</p>
+      <p className="[word-break:break-word] absolute font-['Open_Sans:SemiBold',sans-serif] leading-[normal] left-[208.32px] not-italic text-[6.911px] text-[rgba(0,0,0,0.6)] top-[111.07px] whitespace-nowrap">Healthy Eating on a Budget</p>
+      <p className="[word-break:break-word] absolute font-['Open_Sans:SemiBold',sans-serif] leading-[normal] left-[208.32px] not-italic text-[6.911px] text-[rgba(0,0,0,0.6)] top-[128.35px] whitespace-nowrap">{`Weight loss Prerequisites `}</p>
+      <p className="[word-break:break-word] absolute font-['Open_Sans:SemiBold',sans-serif] leading-[normal] left-[208.32px] not-italic text-[6.911px] text-[rgba(0,0,0,0.6)] top-[147.11px] whitespace-nowrap">Healthy Eating Habits to Develop</p>
       <MaterialSymbolsListRounded3 />
       <MaterialSymbolsListRounded4 />
       <MaterialSymbolsListRounded5 />
@@ -3646,7 +3646,7 @@ function Frame186() {
 function Frame202() {
   return (
     <div className="bg-[#fff8fe] col-1 content-stretch flex h-[23.94px] items-center justify-center ml-[27.24px] mt-[59.44px] px-[8.255px] py-[4.128px] relative rounded-[0.826px] row-1 w-[91.632px]">
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[12.383px] text-black whitespace-nowrap">Entertainment</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[12.383px] text-black whitespace-nowrap">Entertainment</p>
     </div>
   );
 }
@@ -3667,14 +3667,14 @@ function Frame203() {
   return (
     <div className="bg-[#fff5e1] col-1 content-stretch flex gap-[8.255px] h-[23.94px] items-center justify-center ml-[375.61px] mt-[28.07px] px-[8.255px] py-[4.128px] relative rounded-[4.128px] row-1 w-[75.122px]">
       <MaterialSymbolsLock2 />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#aa7502] text-[12.383px] whitespace-nowrap">Private</p>
+      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#aa7502] text-[12.383px] whitespace-nowrap">Private</p>
     </div>
   );
 }
 
 function Group6() {
   return (
-    <div className="[word-break:break-word] col-1 font-['Source_Sans_Pro:Regular',sans-serif] grid-cols-[max-content] grid-rows-[max-content] inline-grid ml-[21.46px] mt-[171.71px] not-italic place-items-start relative row-1 text-[14.859px] text-black">
+    <div className="[word-break:break-word] col-1 font-['Open_Sans:Regular',sans-serif] grid-cols-[max-content] grid-rows-[max-content] inline-grid ml-[21.46px] mt-[171.71px] not-italic place-items-start relative row-1 text-[14.859px] text-black">
       <ul className="block col-1 mt-0 relative row-1 w-[173.358px]">
         <li className="list-disc ms-[22.2885px]">
           <span className="leading-[normal]">Parasite</span>
@@ -3698,7 +3698,7 @@ function Frame204() {
   return (
     <div className="bg-[#f4f4f4] col-1 content-stretch flex flex-col h-[23.114px] items-center justify-center ml-[263.34px] mt-[318.65px] px-[8.255px] py-[4.128px] relative rounded-[16.51px] row-1 w-[22.289px]">
       <div aria-hidden className="absolute border-[0.826px] border-[rgba(0,0,0,0.5)] border-solid inset-0 pointer-events-none rounded-[16.51px]" />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Bold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[11.557px] text-black w-full">J</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Bold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[11.557px] text-black w-full">J</p>
     </div>
   );
 }
@@ -3707,7 +3707,7 @@ function Frame205() {
   return (
     <div className="bg-[#f4f4f4] col-1 content-stretch flex flex-col h-[23.114px] items-center justify-center ml-[280.67px] mt-[318.65px] pl-[6.604px] pr-[8.255px] py-[4.128px] relative rounded-[16.51px] row-1 w-[22.289px]">
       <div aria-hidden className="absolute border-[0.826px] border-[rgba(0,0,0,0.5)] border-solid inset-0 pointer-events-none rounded-[16.51px]" />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Bold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[11.557px] text-black w-full">M</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Bold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[11.557px] text-black w-full">M</p>
     </div>
   );
 }
@@ -3735,21 +3735,21 @@ function Group10() {
           </svg>
         </div>
       </div>
-      <p className="[word-break:break-word] col-1 font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] ml-[128.78px] mt-[63.56px] not-italic relative row-1 text-[12.383px] text-black whitespace-nowrap">Owner: You</p>
-      <p className="[word-break:break-word] col-1 font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] ml-[28.89px] mt-[28.07px] not-italic relative row-1 text-[20.638px] text-black whitespace-nowrap">KD Dramas</p>
+      <p className="[word-break:break-word] col-1 font-['Open_Sans:Regular',sans-serif] leading-[normal] ml-[128.78px] mt-[63.56px] not-italic relative row-1 text-[12.383px] text-black whitespace-nowrap">Owner: You</p>
+      <p className="[word-break:break-word] col-1 font-['Open_Sans:SemiBold',sans-serif] leading-[normal] ml-[28.89px] mt-[28.07px] not-italic relative row-1 text-[20.638px] text-black whitespace-nowrap">KD Dramas</p>
       <Frame202 />
       <Frame203 />
       <Group6 />
-      <ul className="[word-break:break-word] block col-1 font-['Source_Sans_Pro:Regular',sans-serif] mt-[321.95px] not-italic relative row-1 text-[12.383px] text-black whitespace-nowrap">
+      <ul className="[word-break:break-word] block col-1 font-['Open_Sans:Regular',sans-serif] mt-[321.95px] not-italic relative row-1 text-[12.383px] text-black whitespace-nowrap">
         <li className="list-disc ms-[18.5745px]">
           <span className="leading-[normal]">4 Likes</span>
         </li>
       </ul>
       <Frame204 />
       <Frame205 />
-      <p className="[word-break:break-word] col-1 font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] ml-[306.27px] mt-[322.78px] not-italic relative row-1 text-[11.557px] text-black whitespace-nowrap">+ 2 Collaborators</p>
-      <p className="[word-break:break-word] col-1 font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] ml-[434.22px] mt-[322.78px] not-italic relative row-1 text-[11.557px] text-black whitespace-nowrap">More</p>
-      <p className="[word-break:break-word] col-1 font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] ml-[185.74px] mt-[322.78px] not-italic relative row-1 text-[12.383px] text-black whitespace-nowrap">Edit</p>
+      <p className="[word-break:break-word] col-1 font-['Open_Sans:Regular',sans-serif] leading-[normal] ml-[306.27px] mt-[322.78px] not-italic relative row-1 text-[11.557px] text-black whitespace-nowrap">+ 2 Collaborators</p>
+      <p className="[word-break:break-word] col-1 font-['Open_Sans:Regular',sans-serif] leading-[normal] ml-[434.22px] mt-[322.78px] not-italic relative row-1 text-[11.557px] text-black whitespace-nowrap">More</p>
+      <p className="[word-break:break-word] col-1 font-['Open_Sans:Regular',sans-serif] leading-[normal] ml-[185.74px] mt-[322.78px] not-italic relative row-1 text-[12.383px] text-black whitespace-nowrap">Edit</p>
       <MaterialSymbolsEditOutline />
     </div>
   );
@@ -3758,7 +3758,7 @@ function Group10() {
 function Frame206() {
   return (
     <div className="bg-[rgba(239,255,227,0.6)] col-1 content-stretch flex h-[24px] items-center justify-center ml-[31.5px] mt-[61.98px] px-[8.255px] py-[4.128px] relative rounded-[5px] row-1 w-[62px]">
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[12.383px] text-[rgba(0,0,0,0.8)] whitespace-nowrap">Eateries</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[12.383px] text-[rgba(0,0,0,0.8)] whitespace-nowrap">Eateries</p>
     </div>
   );
 }
@@ -3773,14 +3773,14 @@ function Frame207() {
           </svg>
         </div>
       </div>
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#4255ff] text-[11.194px] whitespace-nowrap">Public</p>
+      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#4255ff] text-[11.194px] whitespace-nowrap">Public</p>
     </div>
   );
 }
 
 function Frame208() {
   return (
-    <div className="[word-break:break-word] col-1 content-stretch flex flex-col font-['Source_Sans_Pro:Regular',sans-serif] gap-[19px] items-start ml-0 mt-0 not-italic relative row-1 text-[14.859px] text-black w-[173.358px]">
+    <div className="[word-break:break-word] col-1 content-stretch flex flex-col font-['Open_Sans:Regular',sans-serif] gap-[19px] items-start ml-0 mt-0 not-italic relative row-1 text-[14.859px] text-black w-[173.358px]">
       <ul className="block relative shrink-0 w-full">
         <li className="list-disc ms-[22.2885px]">
           <span className="leading-[normal]">Vistro</span>
@@ -3812,7 +3812,7 @@ function Frame209() {
   return (
     <div className="bg-[#f4f4f4] col-1 content-stretch flex flex-col h-[23.114px] items-center justify-center ml-[286.34px] mt-[318.65px] px-[8.255px] py-[4.128px] relative rounded-[16.51px] row-1 w-[22.289px]">
       <div aria-hidden className="absolute border-[0.826px] border-[rgba(0,0,0,0.5)] border-solid inset-0 pointer-events-none rounded-[16.51px]" />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Bold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[11.557px] text-black w-full">J</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Bold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[11.557px] text-black w-full">J</p>
     </div>
   );
 }
@@ -3821,7 +3821,7 @@ function Frame210() {
   return (
     <div className="bg-[#f4f4f4] col-1 content-stretch flex flex-col h-[23.114px] items-center justify-center ml-[303.67px] mt-[318.65px] pl-[6.604px] pr-[8.255px] py-[4.128px] relative rounded-[16.51px] row-1 w-[22.289px]">
       <div aria-hidden className="absolute border-[0.826px] border-[rgba(0,0,0,0.5)] border-solid inset-0 pointer-events-none rounded-[16.51px]" />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Bold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[11.557px] text-black w-full">M</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Bold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[11.557px] text-black w-full">M</p>
     </div>
   );
 }
@@ -3860,21 +3860,21 @@ function Group46() {
           </svg>
         </div>
       </div>
-      <p className="[word-break:break-word] col-1 font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] ml-[104.5px] mt-[65.98px] not-italic relative row-1 text-[13px] text-black whitespace-pre">{`Owner: Mark  `}</p>
-      <p className="[word-break:break-word] col-1 font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] ml-[32.89px] mt-[28.07px] not-italic relative row-1 text-[20.638px] text-black whitespace-nowrap">{`Vegan Restaurants in Bangok `}</p>
+      <p className="[word-break:break-word] col-1 font-['Open_Sans:Regular',sans-serif] leading-[normal] ml-[104.5px] mt-[65.98px] not-italic relative row-1 text-[13px] text-black whitespace-pre">{`Owner: Mark  `}</p>
+      <p className="[word-break:break-word] col-1 font-['Open_Sans:SemiBold',sans-serif] leading-[normal] ml-[32.89px] mt-[28.07px] not-italic relative row-1 text-[20.638px] text-black whitespace-nowrap">{`Vegan Restaurants in Bangok `}</p>
       <Frame206 />
       <Frame207 />
       <Group7 />
-      <ul className="[word-break:break-word] block col-1 font-['Source_Sans_Pro:Regular',sans-serif] mt-[321.95px] not-italic relative row-1 text-[12.383px] text-black whitespace-nowrap">
+      <ul className="[word-break:break-word] block col-1 font-['Open_Sans:Regular',sans-serif] mt-[321.95px] not-italic relative row-1 text-[12.383px] text-black whitespace-nowrap">
         <li className="list-disc ms-[18.5745px]">
           <span className="leading-[normal]">1.1k Likes</span>
         </li>
       </ul>
       <Frame209 />
       <Frame210 />
-      <p className="[word-break:break-word] col-1 font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] ml-[329.26px] mt-[322.78px] not-italic relative row-1 text-[11.557px] text-black whitespace-nowrap">+ 2 Collaborators</p>
-      <p className="[word-break:break-word] col-1 font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] ml-[434.22px] mt-[322.78px] not-italic relative row-1 text-[11.557px] text-black whitespace-nowrap">More</p>
-      <p className="[word-break:break-word] col-1 font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] ml-[168.5px] mt-[322.98px] not-italic relative row-1 text-[12.383px] text-black whitespace-nowrap">Duplicate to edit</p>
+      <p className="[word-break:break-word] col-1 font-['Open_Sans:Regular',sans-serif] leading-[normal] ml-[329.26px] mt-[322.78px] not-italic relative row-1 text-[11.557px] text-black whitespace-nowrap">+ 2 Collaborators</p>
+      <p className="[word-break:break-word] col-1 font-['Open_Sans:Regular',sans-serif] leading-[normal] ml-[434.22px] mt-[322.78px] not-italic relative row-1 text-[11.557px] text-black whitespace-nowrap">More</p>
+      <p className="[word-break:break-word] col-1 font-['Open_Sans:Regular',sans-serif] leading-[normal] ml-[168.5px] mt-[322.98px] not-italic relative row-1 text-[12.383px] text-black whitespace-nowrap">Duplicate to edit</p>
       <div className="bg-white border border-black border-solid col-1 h-[14px] ml-[149.5px] mt-[319.98px] relative row-1 w-[13px]" />
       <div className="col-1 h-[13.5px] ml-[146.5px] mt-[323.98px] relative row-1 w-[13px]">
         <div className="absolute inset-[-3.7%_-3.85%]">
@@ -3904,7 +3904,7 @@ function Frame211() {
   return (
     <div className="col-1 content-stretch flex gap-[16.51px] h-[19.812px] items-center ml-[80.25px] mt-[11.56px] px-[3.302px] py-[2.477px] relative rounded-[4.128px] row-1 w-[47.88px]">
       <div aria-hidden className="absolute border-[0.413px] border-black border-solid inset-0 pointer-events-none rounded-[4.128px]" />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[11.557px] text-black whitespace-nowrap">All</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[11.557px] text-black whitespace-nowrap">All</p>
       <GridiconsDropdown />
     </div>
   );
@@ -3926,7 +3926,7 @@ function Frame212() {
   return (
     <div className="col-1 content-stretch flex gap-[16.51px] h-[19.812px] items-center ml-[237.92px] mt-[11.56px] px-[3.302px] py-[2.477px] relative rounded-[4.128px] row-1 w-[47.88px]">
       <div aria-hidden className="absolute border-[0.413px] border-black border-solid inset-0 pointer-events-none rounded-[4.128px]" />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[11.557px] text-black whitespace-nowrap">All</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[11.557px] text-black whitespace-nowrap">All</p>
       <GridiconsDropdown1 />
     </div>
   );
@@ -3948,7 +3948,7 @@ function Frame213() {
   return (
     <div className="col-1 content-stretch flex gap-[16.51px] h-[19.812px] items-center ml-[385.69px] mt-[10.73px] px-[3.302px] py-[2.477px] relative rounded-[4.128px] row-1 w-[47.88px]">
       <div aria-hidden className="absolute border-[0.413px] border-black border-solid inset-0 pointer-events-none rounded-[4.128px]" />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[11.557px] text-black whitespace-nowrap">All</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[11.557px] text-black whitespace-nowrap">All</p>
       <GridiconsDropdown2 />
     </div>
   );
@@ -3957,9 +3957,9 @@ function Frame213() {
 function Group11() {
   return (
     <div className="col-1 grid-cols-[max-content] grid-rows-[max-content] inline-grid ml-[592.69px] mt-[151.07px] place-items-start relative row-1">
-      <p className="[word-break:break-word] col-1 font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] ml-[4.3px] mt-[13.21px] not-italic relative row-1 text-[12.383px] text-black whitespace-nowrap">{`Subcategory : `}</p>
-      <p className="[word-break:break-word] col-1 font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] ml-[180.14px] mt-[13.21px] not-italic relative row-1 text-[12.383px] text-black whitespace-nowrap">Edited by :</p>
-      <p className="[word-break:break-word] col-1 font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] ml-[329.55px] mt-[12.38px] not-italic relative row-1 text-[12.383px] text-black whitespace-nowrap">Progress :</p>
+      <p className="[word-break:break-word] col-1 font-['Open_Sans:Regular',sans-serif] leading-[normal] ml-[4.3px] mt-[13.21px] not-italic relative row-1 text-[12.383px] text-black whitespace-nowrap">{`Subcategory : `}</p>
+      <p className="[word-break:break-word] col-1 font-['Open_Sans:Regular',sans-serif] leading-[normal] ml-[180.14px] mt-[13.21px] not-italic relative row-1 text-[12.383px] text-black whitespace-nowrap">Edited by :</p>
+      <p className="[word-break:break-word] col-1 font-['Open_Sans:Regular',sans-serif] leading-[normal] ml-[329.55px] mt-[12.38px] not-italic relative row-1 text-[12.383px] text-black whitespace-nowrap">Progress :</p>
       <Frame211 />
       <Frame212 />
       <Frame213 />
@@ -4001,7 +4001,7 @@ function GridiconsDropdown3() {
 function Frame214() {
   return (
     <div className="bg-[#f5f7f9] col-1 content-stretch flex items-center justify-center ml-[403px] mt-[255px] px-[10px] py-[2px] relative rounded-[5px] row-1">
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[12px] text-black whitespace-nowrap">authentic Thai</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[12px] text-black whitespace-nowrap">authentic Thai</p>
     </div>
   );
 }
@@ -4009,7 +4009,7 @@ function Frame214() {
 function Frame215() {
   return (
     <div className="bg-[#f5f7f9] col-1 content-stretch flex items-center justify-center ml-[403px] mt-[221px] px-[10px] py-[2px] relative rounded-[5px] row-1">
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[12px] text-black whitespace-nowrap">Healthy fusion</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[12px] text-black whitespace-nowrap">Healthy fusion</p>
     </div>
   );
 }
@@ -4017,7 +4017,7 @@ function Frame215() {
 function Frame216() {
   return (
     <div className="bg-[#f5f7f9] col-1 content-stretch flex items-center justify-center ml-[446px] mt-[184px] px-[10px] py-[2px] relative rounded-[5px] row-1">
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[12px] text-black whitespace-nowrap">Bistro</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[12px] text-black whitespace-nowrap">Bistro</p>
     </div>
   );
 }
@@ -4025,7 +4025,7 @@ function Frame216() {
 function Frame217() {
   return (
     <div className="bg-[#f5f7f9] col-1 content-stretch flex items-center justify-center ml-[956px] mt-[212px] px-[10px] py-[2px] relative rounded-[5px] row-1">
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[12px] text-black whitespace-nowrap">Rom Com</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[12px] text-black whitespace-nowrap">Rom Com</p>
     </div>
   );
 }
@@ -4033,7 +4033,7 @@ function Frame217() {
 function Frame218() {
   return (
     <div className="bg-[#f5f7f9] col-1 content-stretch flex items-center justify-center ml-[971px] mt-[245px] px-[10px] py-[2px] relative rounded-[5px] row-1">
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[12px] text-black whitespace-nowrap">Drama</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[12px] text-black whitespace-nowrap">Drama</p>
     </div>
   );
 }
@@ -4041,7 +4041,7 @@ function Frame218() {
 function Frame219() {
   return (
     <div className="bg-[#f5f7f9] col-1 content-stretch flex items-center justify-center ml-[978px] mt-[282px] px-[10px] py-[2px] relative rounded-[5px] row-1">
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[12px] text-black whitespace-nowrap">Thrill</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[12px] text-black whitespace-nowrap">Thrill</p>
     </div>
   );
 }
@@ -4101,7 +4101,7 @@ function Group44() {
   return (
     <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0">
       <Frame201 />
-      <ul className="[word-break:break-word] block col-1 font-['Source_Sans_Pro:Regular',sans-serif] mt-[442px] not-italic relative row-1 text-[11px] text-black w-[173.358px]">
+      <ul className="[word-break:break-word] block col-1 font-['Open_Sans:Regular',sans-serif] mt-[442px] not-italic relative row-1 text-[11px] text-black w-[173.358px]">
         <li className="list-disc ms-[16.5px]">
           <span className="leading-[normal]">Top Contributor</span>
         </li>
@@ -4141,7 +4141,7 @@ function Frame221() {
     <div className="absolute bg-white content-stretch drop-shadow-[0px_1.594px_0.797px_rgba(37,99,235,0.25)] flex gap-[3.984px] h-[25.101px] items-center left-[141.04px] px-[9.961px] py-[6.375px] rounded-[7.969px] top-[22.71px] w-[412.768px]">
       <div aria-hidden className="absolute border-[0.398px] border-[rgba(0,0,0,0.3)] border-solid inset-0 pointer-events-none rounded-[7.969px]" />
       <MaterialSymbolsSearchRounded3 />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#5f626a] text-[6.375px] w-[220.728px] whitespace-pre-wrap">{`Search  “Movies to watch on a rainy Sunday”`}</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#5f626a] text-[6.375px] w-[220.728px] whitespace-pre-wrap">{`Search  “Movies to watch on a rainy Sunday”`}</p>
     </div>
   );
 }
@@ -4149,7 +4149,7 @@ function Frame221() {
 function Frame222() {
   return (
     <div className="absolute bg-[#2563eb] content-stretch drop-shadow-[0px_0.797px_0.398px_rgba(0,0,0,0.25)] flex items-center justify-center left-[15.54px] px-[7.969px] py-[3.984px] rounded-[3.984px] top-[61.76px] w-[89.646px]">
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Bold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[7.969px] text-white whitespace-nowrap">+ New List</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Bold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[7.969px] text-white whitespace-nowrap">+ New List</p>
     </div>
   );
 }
@@ -4160,7 +4160,7 @@ function Frame225() {
       <div className="h-[17.929px] relative shrink-0 w-full" data-name="movie clapper">
         <img loading="lazy" decoding="async" alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgMovieClapper} />
       </div>
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[7.969px] text-black text-center w-full">Movies</p>
+      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[7.969px] text-black text-center w-full">Movies</p>
     </div>
   );
 }
@@ -4180,7 +4180,7 @@ function Frame227() {
       <div className="h-[19.523px] relative shrink-0 w-full" data-name="Reader absorbed in a book, Study or personal growth">
         <img loading="lazy" decoding="async" alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgReaderAbsorbedInABookStudyOrPersonalGrowth} />
       </div>
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[7.969px] text-black text-center w-full">Novels</p>
+      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[7.969px] text-black text-center w-full">Novels</p>
     </div>
   );
 }
@@ -4200,7 +4200,7 @@ function Frame229() {
       <div className="h-[17.929px] relative shrink-0 w-full" data-name="Trip around the world">
         <img loading="lazy" decoding="async" alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgTripAroundTheWorld} />
       </div>
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[7.969px] text-black text-center w-full">Trips</p>
+      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[7.969px] text-black text-center w-full">Trips</p>
     </div>
   );
 }
@@ -4220,7 +4220,7 @@ function Frame231() {
       <div className="h-[18.328px] relative shrink-0 w-full" data-name="table with food and wine">
         <img loading="lazy" decoding="async" alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgTableWithFoodAndWine} />
       </div>
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[7.969px] text-black text-center w-full">Eateries</p>
+      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[7.969px] text-black text-center w-full">Eateries</p>
     </div>
   );
 }
@@ -4240,7 +4240,7 @@ function Frame233() {
       <div className="h-[27.093px] relative shrink-0 w-[24.702px]" data-name="graduation cap">
         <img loading="lazy" decoding="async" alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgGraduationCap} />
       </div>
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] min-w-full not-italic relative shrink-0 text-[7.969px] text-black text-center w-[min-content]">Academics</p>
+      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] leading-[normal] min-w-full not-italic relative shrink-0 text-[7.969px] text-black text-center w-[min-content]">Academics</p>
     </div>
   );
 }
@@ -4257,7 +4257,7 @@ function Frame232() {
 function Frame235() {
   return (
     <div className="content-stretch flex flex-col items-end relative shrink-0 w-[20.718px]">
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[7.969px] text-black text-center w-full">{`Treks `}</p>
+      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[7.969px] text-black text-center w-full">{`Treks `}</p>
     </div>
   );
 }
@@ -4316,7 +4316,7 @@ function Frame237() {
   return (
     <div className="content-stretch flex gap-[3.187px] items-end relative shrink-0">
       <LineMdHome3 />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[6.375px] text-black whitespace-nowrap">Home</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[6.375px] text-black whitespace-nowrap">Home</p>
     </div>
   );
 }
@@ -4337,7 +4337,7 @@ function Frame238() {
   return (
     <div className="content-stretch flex gap-[3.187px] items-center relative shrink-0">
       <MaterialSymbolsListRounded7 />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[6.375px] text-black whitespace-nowrap">My Lists</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[6.375px] text-black whitespace-nowrap">My Lists</p>
     </div>
   );
 }
@@ -4358,7 +4358,7 @@ function Frame239() {
   return (
     <div className="content-stretch flex gap-[3.187px] items-start relative shrink-0 w-full">
       <TablerPinned3 />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[6.375px] text-black whitespace-nowrap">My Pinnned Lists</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[6.375px] text-black whitespace-nowrap">My Pinnned Lists</p>
     </div>
   );
 }
@@ -4384,7 +4384,7 @@ function Frame240() {
   return (
     <div className="content-stretch flex gap-[3.187px] items-center relative shrink-0">
       <MdiHeart15 />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[6.375px] text-black whitespace-nowrap">Liked Lists</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[6.375px] text-black whitespace-nowrap">Liked Lists</p>
     </div>
   );
 }
@@ -4410,7 +4410,7 @@ function Frame241() {
   return (
     <div className="content-stretch flex gap-[3.187px] items-center relative shrink-0">
       <MaterialSymbolsNotificationsOutline3 />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[6.375px] text-black whitespace-nowrap">Notifications</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[6.375px] text-black whitespace-nowrap">Notifications</p>
     </div>
   );
 }
@@ -4454,7 +4454,7 @@ function ZondiconsCheveronRight7() {
 function Frame245() {
   return (
     <div className="content-stretch flex items-end relative shrink-0">
-      <p className="[word-break:break-word] font-['Source_Serif_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#2563eb] text-[5.578px] whitespace-nowrap">View All</p>
+      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#2563eb] text-[5.578px] whitespace-nowrap">View All</p>
       <ZondiconsCheveronRight7 />
     </div>
   );
@@ -4463,7 +4463,7 @@ function Frame245() {
 function Frame244() {
   return (
     <div className="content-stretch flex items-end justify-between relative shrink-0 w-[412.985px]">
-      <p className="[word-break:break-word] font-['Source_Serif_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[7.969px] text-black whitespace-nowrap">{`Your Pinned Lists `}</p>
+      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[7.969px] text-black whitespace-nowrap">{`Your Pinned Lists `}</p>
       <Frame245 />
     </div>
   );
@@ -4472,7 +4472,7 @@ function Frame244() {
 function Frame247() {
   return (
     <div className="bg-[rgba(255,241,252,0.9)] col-1 content-stretch flex items-center justify-center ml-[39.95px] mt-[6.77px] p-[1.195px] relative rounded-[1.992px] row-1 w-[32.874px]">
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[4.781px] text-black whitespace-nowrap">Entertainment</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[4.781px] text-black whitespace-nowrap">Entertainment</p>
     </div>
   );
 }
@@ -4487,7 +4487,7 @@ function Frame248() {
           </svg>
         </div>
       </div>
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#4255ff] text-[4.781px] whitespace-nowrap">Public</p>
+      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#4255ff] text-[4.781px] whitespace-nowrap">Public</p>
     </div>
   );
 }
@@ -4495,7 +4495,7 @@ function Frame248() {
 function Frame249() {
   return (
     <div className="bg-[#f5f7f9] col-1 content-stretch flex items-center justify-center ml-[104.45px] mt-[23.11px] p-[0.797px] relative rounded-[1.992px] row-1 w-[20.391px]">
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[4.781px] text-black whitespace-nowrap">Thriller</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[4.781px] text-black whitespace-nowrap">Thriller</p>
     </div>
   );
 }
@@ -4503,7 +4503,7 @@ function Frame249() {
 function Frame250() {
   return (
     <div className="bg-[#f5f7f9] col-1 content-stretch flex items-center justify-center ml-[107.36px] mt-[35.86px] px-[3.984px] py-[0.797px] relative rounded-[1.992px] row-1 w-[17.478px]">
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[4.781px] text-black whitespace-nowrap">Drama</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[4.781px] text-black whitespace-nowrap">Drama</p>
     </div>
   );
 }
@@ -4529,7 +4529,7 @@ function Frame251() {
   return (
     <div className="col-1 content-stretch flex gap-[1.195px] items-center ml-[7.49px] mt-[62.95px] relative row-1 w-[17.894px]">
       <MdiHeart16 />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[4.781px] text-black whitespace-nowrap">Like</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[4.781px] text-black whitespace-nowrap">Like</p>
     </div>
   );
 }
@@ -4553,7 +4553,7 @@ function Frame252() {
   return (
     <div className="col-1 content-stretch flex gap-[1.594px] items-center ml-[39.53px] mt-[62.95px] relative row-1 w-[28.297px]">
       <Group49 />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[4.781px] text-black whitespace-nowrap">{`Duplicate `}</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[4.781px] text-black whitespace-nowrap">{`Duplicate `}</p>
     </div>
   );
 }
@@ -4562,7 +4562,7 @@ function Frame253() {
   return (
     <div className="bg-[#f1f6fe] col-1 content-stretch flex flex-col items-center justify-center ml-[77.4px] mt-[62.15px] px-[3.984px] py-[1.992px] relative rounded-[7.969px] row-1 w-[10.403px]">
       <div aria-hidden className="absolute border-[0.398px] border-[rgba(0,0,0,0.1)] border-solid inset-0 pointer-events-none rounded-[7.969px]" />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[4.781px] text-[rgba(0,0,0,0.6)] w-full">J</p>
+      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[4.781px] text-[rgba(0,0,0,0.6)] w-full">J</p>
     </div>
   );
 }
@@ -4571,7 +4571,7 @@ function Frame254() {
   return (
     <div className="bg-[#f1f6fe] col-1 content-stretch flex flex-col items-center justify-center ml-[84.48px] mt-[62.15px] pl-[3.187px] pr-[3.984px] py-[1.992px] relative rounded-[7.969px] row-1 w-[9.987px]">
       <div aria-hidden className="absolute border-[0.398px] border-[rgba(0,0,0,0.1)] border-solid inset-0 pointer-events-none rounded-[7.969px]" />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[4.781px] text-[rgba(0,0,0,0.6)] w-full">M</p>
+      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[4.781px] text-[rgba(0,0,0,0.6)] w-full">M</p>
     </div>
   );
 }
@@ -4580,17 +4580,17 @@ function Group48() {
   return (
     <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid place-items-start relative shrink-0">
       <div className="bg-white col-1 h-[76.896px] ml-0 mt-0 relative rounded-[3.984px] row-1 shadow-[0px_1.594px_1.594px_0px_rgba(37,99,235,0.2)] w-[131.082px]" />
-      <p className="[word-break:break-word] col-1 font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] ml-[6.66px] mt-[6.77px] not-italic relative row-1 text-[6.375px] text-black w-[31.626px]">KD Dramas</p>
+      <p className="[word-break:break-word] col-1 font-['Open_Sans:SemiBold',sans-serif] leading-[normal] ml-[6.66px] mt-[6.77px] not-italic relative row-1 text-[6.375px] text-black w-[31.626px]">KD Dramas</p>
       <Frame247 />
       <Frame248 />
       <Frame249 />
       <Frame250 />
-      <ul className="[word-break:break-word] block col-1 font-['Source_Sans_Pro:Regular',sans-serif] mt-[23.31px] not-italic relative row-1 text-[5.578px] text-black w-[76.152px]">
+      <ul className="[word-break:break-word] block col-1 font-['Open_Sans:Regular',sans-serif] mt-[23.31px] not-italic relative row-1 text-[5.578px] text-black w-[76.152px]">
         <li className="list-disc ms-[8.367px]">
           <span className="leading-[normal]">Parasite</span>
         </li>
       </ul>
-      <ul className="[word-break:break-word] block col-1 font-['Source_Sans_Pro:Regular',sans-serif] mt-[34.07px] not-italic relative row-1 text-[5.578px] text-black w-[76.152px]">
+      <ul className="[word-break:break-word] block col-1 font-['Open_Sans:Regular',sans-serif] mt-[34.07px] not-italic relative row-1 text-[5.578px] text-black w-[76.152px]">
         <li className="list-disc ms-[8.367px]">
           <span className="leading-[normal]">{`King The Land `}</span>
         </li>
@@ -4599,7 +4599,7 @@ function Group48() {
       <Frame252 />
       <Frame253 />
       <Frame254 />
-      <p className="[word-break:break-word] col-1 font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] ml-[96.13px] mt-[64.15px] not-italic relative row-1 text-[4.781px] text-black w-[26.633px]">+ 2 Members</p>
+      <p className="[word-break:break-word] col-1 font-['Open_Sans:Regular',sans-serif] leading-[normal] ml-[96.13px] mt-[64.15px] not-italic relative row-1 text-[4.781px] text-black w-[26.633px]">+ 2 Members</p>
     </div>
   );
 }
@@ -4607,7 +4607,7 @@ function Group48() {
 function Frame255() {
   return (
     <div className="bg-[rgba(255,241,252,0.9)] col-1 content-stretch flex items-center justify-center ml-[39.95px] mt-[6.77px] p-[1.195px] relative rounded-[1.992px] row-1 w-[32.874px]">
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[4.781px] text-black whitespace-nowrap">Entertainment</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[4.781px] text-black whitespace-nowrap">Entertainment</p>
     </div>
   );
 }
@@ -4622,7 +4622,7 @@ function Frame256() {
           </svg>
         </div>
       </div>
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#4255ff] text-[4.781px] whitespace-nowrap">Public</p>
+      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#4255ff] text-[4.781px] whitespace-nowrap">Public</p>
     </div>
   );
 }
@@ -4630,7 +4630,7 @@ function Frame256() {
 function Frame257() {
   return (
     <div className="bg-[#f5f7f9] col-1 content-stretch flex items-center justify-center ml-[104.45px] mt-[23.11px] p-[0.797px] relative rounded-[1.992px] row-1 w-[20.391px]">
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[4.781px] text-black whitespace-nowrap">Thriller</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[4.781px] text-black whitespace-nowrap">Thriller</p>
     </div>
   );
 }
@@ -4638,7 +4638,7 @@ function Frame257() {
 function Frame258() {
   return (
     <div className="bg-[#f5f7f9] col-1 content-stretch flex items-center justify-center ml-[107.36px] mt-[35.86px] px-[3.984px] py-[0.797px] relative rounded-[1.992px] row-1 w-[17.478px]">
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[4.781px] text-black whitespace-nowrap">Drama</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[4.781px] text-black whitespace-nowrap">Drama</p>
     </div>
   );
 }
@@ -4659,7 +4659,7 @@ function Frame259() {
   return (
     <div className="col-1 content-stretch flex gap-[1.195px] items-center ml-[7.49px] mt-[62.95px] relative row-1 w-[17.894px]">
       <MdiHeart17 />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[4.781px] text-black whitespace-nowrap">Liked</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[4.781px] text-black whitespace-nowrap">Liked</p>
     </div>
   );
 }
@@ -4683,7 +4683,7 @@ function Frame260() {
   return (
     <div className="col-1 content-stretch flex gap-[1.594px] items-center ml-[39.54px] mt-[62.95px] relative row-1 w-[28.297px]">
       <Group51 />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[4.781px] text-black whitespace-nowrap">{`Duplicate `}</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[4.781px] text-black whitespace-nowrap">{`Duplicate `}</p>
     </div>
   );
 }
@@ -4692,7 +4692,7 @@ function Frame261() {
   return (
     <div className="bg-[#f1f6fe] col-1 content-stretch flex flex-col items-center justify-center ml-[77.4px] mt-[62.15px] px-[3.984px] py-[1.992px] relative rounded-[7.969px] row-1 w-[10.403px]">
       <div aria-hidden className="absolute border-[0.398px] border-[rgba(0,0,0,0.1)] border-solid inset-0 pointer-events-none rounded-[7.969px]" />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[4.781px] text-[rgba(0,0,0,0.6)] w-full">J</p>
+      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[4.781px] text-[rgba(0,0,0,0.6)] w-full">J</p>
     </div>
   );
 }
@@ -4701,7 +4701,7 @@ function Frame262() {
   return (
     <div className="bg-[#f1f6fe] col-1 content-stretch flex flex-col items-center justify-center ml-[84.48px] mt-[62.15px] pl-[3.187px] pr-[3.984px] py-[1.992px] relative rounded-[7.969px] row-1 w-[9.987px]">
       <div aria-hidden className="absolute border-[0.398px] border-[rgba(0,0,0,0.1)] border-solid inset-0 pointer-events-none rounded-[7.969px]" />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[4.781px] text-[rgba(0,0,0,0.6)] w-full">M</p>
+      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[4.781px] text-[rgba(0,0,0,0.6)] w-full">M</p>
     </div>
   );
 }
@@ -4710,17 +4710,17 @@ function Group50() {
   return (
     <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid place-items-start relative shrink-0">
       <div className="bg-white col-1 h-[76.896px] ml-0 mt-0 relative rounded-[3.984px] row-1 shadow-[0px_1.594px_1.594px_0px_rgba(37,99,235,0.2)] w-[131.082px]" />
-      <p className="[word-break:break-word] col-1 font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] ml-[6.66px] mt-[6.77px] not-italic relative row-1 text-[6.375px] text-black w-[31.626px]">KD Dramas</p>
+      <p className="[word-break:break-word] col-1 font-['Open_Sans:SemiBold',sans-serif] leading-[normal] ml-[6.66px] mt-[6.77px] not-italic relative row-1 text-[6.375px] text-black w-[31.626px]">KD Dramas</p>
       <Frame255 />
       <Frame256 />
       <Frame257 />
       <Frame258 />
-      <ul className="[word-break:break-word] block col-1 font-['Source_Sans_Pro:Regular',sans-serif] mt-[23.31px] not-italic relative row-1 text-[5.578px] text-black w-[76.152px]">
+      <ul className="[word-break:break-word] block col-1 font-['Open_Sans:Regular',sans-serif] mt-[23.31px] not-italic relative row-1 text-[5.578px] text-black w-[76.152px]">
         <li className="list-disc ms-[8.367px]">
           <span className="leading-[normal]">Parasite</span>
         </li>
       </ul>
-      <ul className="[word-break:break-word] block col-1 font-['Source_Sans_Pro:Regular',sans-serif] mt-[34.07px] not-italic relative row-1 text-[5.578px] text-black w-[76.152px]">
+      <ul className="[word-break:break-word] block col-1 font-['Open_Sans:Regular',sans-serif] mt-[34.07px] not-italic relative row-1 text-[5.578px] text-black w-[76.152px]">
         <li className="list-disc ms-[8.367px]">
           <span className="leading-[normal]">{`King The Land `}</span>
         </li>
@@ -4729,7 +4729,7 @@ function Group50() {
       <Frame260 />
       <Frame261 />
       <Frame262 />
-      <p className="[word-break:break-word] col-1 font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] ml-[96.13px] mt-[64.15px] not-italic relative row-1 text-[4.781px] text-black w-[26.633px]">+ 2 Members</p>
+      <p className="[word-break:break-word] col-1 font-['Open_Sans:Regular',sans-serif] leading-[normal] ml-[96.13px] mt-[64.15px] not-italic relative row-1 text-[4.781px] text-black w-[26.633px]">+ 2 Members</p>
     </div>
   );
 }
@@ -4737,7 +4737,7 @@ function Group50() {
 function Frame263() {
   return (
     <div className="bg-[rgba(255,241,252,0.9)] col-1 content-stretch flex items-center justify-center ml-[39.95px] mt-[6.77px] p-[1.195px] relative rounded-[1.992px] row-1 w-[32.874px]">
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[4.781px] text-black whitespace-nowrap">Entertainment</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[4.781px] text-black whitespace-nowrap">Entertainment</p>
     </div>
   );
 }
@@ -4763,7 +4763,7 @@ function Frame264() {
   return (
     <div className="bg-[#fff5e1] col-1 content-stretch flex gap-[0.398px] items-center justify-center ml-[102.44px] mt-[7.57px] p-[0.797px] relative rounded-[1.992px] row-1">
       <MaterialSymbolsLock3 />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#aa7502] text-[4.781px] whitespace-nowrap">Private</p>
+      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#aa7502] text-[4.781px] whitespace-nowrap">Private</p>
     </div>
   );
 }
@@ -4771,7 +4771,7 @@ function Frame264() {
 function Frame265() {
   return (
     <div className="bg-[#f5f7f9] col-1 content-stretch flex items-center justify-center ml-[104.45px] mt-[23.11px] p-[0.797px] relative rounded-[1.992px] row-1 w-[20.391px]">
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[4.781px] text-black whitespace-nowrap">Thriller</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[4.781px] text-black whitespace-nowrap">Thriller</p>
     </div>
   );
 }
@@ -4779,7 +4779,7 @@ function Frame265() {
 function Frame266() {
   return (
     <div className="bg-[#f5f7f9] col-1 content-stretch flex items-center justify-center ml-[107.36px] mt-[35.86px] px-[3.984px] py-[0.797px] relative rounded-[1.992px] row-1 w-[17.478px]">
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[4.781px] text-black whitespace-nowrap">Drama</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[4.781px] text-black whitespace-nowrap">Drama</p>
     </div>
   );
 }
@@ -4805,7 +4805,7 @@ function Frame267() {
   return (
     <div className="col-1 content-stretch flex gap-[1.195px] items-center ml-[7.49px] mt-[62.95px] relative row-1 w-[17.894px]">
       <MdiHeart18 />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[4.781px] text-black whitespace-nowrap">Like</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[4.781px] text-black whitespace-nowrap">Like</p>
     </div>
   );
 }
@@ -4829,7 +4829,7 @@ function Frame268() {
   return (
     <div className="col-1 content-stretch flex gap-[1.594px] items-center ml-[39.53px] mt-[62.95px] relative row-1 w-[28.297px]">
       <Group53 />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[4.781px] text-black whitespace-nowrap">Edit</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[4.781px] text-black whitespace-nowrap">Edit</p>
     </div>
   );
 }
@@ -4838,7 +4838,7 @@ function Frame269() {
   return (
     <div className="bg-[#f1f6fe] col-1 content-stretch flex flex-col items-center justify-center ml-[77.4px] mt-[62.15px] px-[3.984px] py-[1.992px] relative rounded-[7.969px] row-1 w-[10.403px]">
       <div aria-hidden className="absolute border-[0.398px] border-[rgba(0,0,0,0.1)] border-solid inset-0 pointer-events-none rounded-[7.969px]" />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[4.781px] text-[rgba(0,0,0,0.6)] w-full">J</p>
+      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[4.781px] text-[rgba(0,0,0,0.6)] w-full">J</p>
     </div>
   );
 }
@@ -4847,7 +4847,7 @@ function Frame270() {
   return (
     <div className="bg-[#f1f6fe] col-1 content-stretch flex flex-col items-center justify-center ml-[84.48px] mt-[62.15px] pl-[3.187px] pr-[3.984px] py-[1.992px] relative rounded-[7.969px] row-1 w-[9.987px]">
       <div aria-hidden className="absolute border-[0.398px] border-[rgba(0,0,0,0.1)] border-solid inset-0 pointer-events-none rounded-[7.969px]" />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[4.781px] text-[rgba(0,0,0,0.6)] w-full">M</p>
+      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[4.781px] text-[rgba(0,0,0,0.6)] w-full">M</p>
     </div>
   );
 }
@@ -4856,17 +4856,17 @@ function Group52() {
   return (
     <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid place-items-start relative shrink-0">
       <div className="bg-white col-1 h-[76.896px] ml-0 mt-0 relative rounded-[3.984px] row-1 shadow-[0px_1.594px_1.594px_0px_rgba(37,99,235,0.2)] w-[131.082px]" />
-      <p className="[word-break:break-word] col-1 font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] ml-[6.66px] mt-[6.77px] not-italic relative row-1 text-[6.375px] text-black w-[31.626px]">KD Dramas</p>
+      <p className="[word-break:break-word] col-1 font-['Open_Sans:SemiBold',sans-serif] leading-[normal] ml-[6.66px] mt-[6.77px] not-italic relative row-1 text-[6.375px] text-black w-[31.626px]">KD Dramas</p>
       <Frame263 />
       <Frame264 />
       <Frame265 />
       <Frame266 />
-      <ul className="[word-break:break-word] block col-1 font-['Source_Sans_Pro:Regular',sans-serif] mt-[23.31px] not-italic relative row-1 text-[5.578px] text-black w-[76.152px]">
+      <ul className="[word-break:break-word] block col-1 font-['Open_Sans:Regular',sans-serif] mt-[23.31px] not-italic relative row-1 text-[5.578px] text-black w-[76.152px]">
         <li className="list-disc ms-[8.367px]">
           <span className="leading-[normal]">Parasite</span>
         </li>
       </ul>
-      <ul className="[word-break:break-word] block col-1 font-['Source_Sans_Pro:Regular',sans-serif] mt-[34.07px] not-italic relative row-1 text-[5.578px] text-black w-[76.152px]">
+      <ul className="[word-break:break-word] block col-1 font-['Open_Sans:Regular',sans-serif] mt-[34.07px] not-italic relative row-1 text-[5.578px] text-black w-[76.152px]">
         <li className="list-disc ms-[8.367px]">
           <span className="leading-[normal]">{`King The Land `}</span>
         </li>
@@ -4875,7 +4875,7 @@ function Group52() {
       <Frame268 />
       <Frame269 />
       <Frame270 />
-      <p className="[word-break:break-word] col-1 font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] ml-[96.13px] mt-[64.15px] not-italic relative row-1 text-[4.781px] text-black w-[26.633px]">+ 2 Members</p>
+      <p className="[word-break:break-word] col-1 font-['Open_Sans:Regular',sans-serif] leading-[normal] ml-[96.13px] mt-[64.15px] not-italic relative row-1 text-[4.781px] text-black w-[26.633px]">+ 2 Members</p>
     </div>
   );
 }
@@ -4922,7 +4922,7 @@ function ZondiconsCheveronRight8() {
 function Frame273() {
   return (
     <div className="content-stretch flex items-center justify-end relative shrink-0">
-      <p className="[word-break:break-word] font-['Source_Serif_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#2563eb] text-[5.578px] whitespace-nowrap">View All</p>
+      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#2563eb] text-[5.578px] whitespace-nowrap">View All</p>
       <ZondiconsCheveronRight8 />
     </div>
   );
@@ -4931,7 +4931,7 @@ function Frame273() {
 function Frame272() {
   return (
     <div className="content-stretch flex items-end justify-between relative shrink-0 w-full">
-      <p className="[word-break:break-word] font-['Source_Serif_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[7.969px] text-black whitespace-nowrap">Recently Opened Lists</p>
+      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[7.969px] text-black whitespace-nowrap">Recently Opened Lists</p>
       <Frame273 />
     </div>
   );
@@ -4940,7 +4940,7 @@ function Frame272() {
 function Frame275() {
   return (
     <div className="bg-[rgba(255,241,252,0.9)] col-1 content-stretch flex items-center justify-center ml-[39.95px] mt-[6.77px] p-[1.195px] relative rounded-[1.992px] row-1 w-[32.874px]">
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[4.781px] text-black whitespace-nowrap">Entertainment</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[4.781px] text-black whitespace-nowrap">Entertainment</p>
     </div>
   );
 }
@@ -4955,7 +4955,7 @@ function Frame276() {
           </svg>
         </div>
       </div>
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#4255ff] text-[4.781px] whitespace-nowrap">Public</p>
+      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#4255ff] text-[4.781px] whitespace-nowrap">Public</p>
     </div>
   );
 }
@@ -4963,7 +4963,7 @@ function Frame276() {
 function Frame277() {
   return (
     <div className="bg-[#f5f7f9] col-1 content-stretch flex items-center justify-center ml-[104.45px] mt-[23.11px] p-[0.797px] relative rounded-[1.992px] row-1 w-[20.391px]">
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[4.781px] text-black whitespace-nowrap">Thriller</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[4.781px] text-black whitespace-nowrap">Thriller</p>
     </div>
   );
 }
@@ -4971,7 +4971,7 @@ function Frame277() {
 function Frame278() {
   return (
     <div className="bg-[#f5f7f9] col-1 content-stretch flex items-center justify-center ml-[107.36px] mt-[35.86px] px-[3.984px] py-[0.797px] relative rounded-[1.992px] row-1 w-[17.478px]">
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[4.781px] text-black whitespace-nowrap">Drama</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[4.781px] text-black whitespace-nowrap">Drama</p>
     </div>
   );
 }
@@ -4997,7 +4997,7 @@ function Frame279() {
   return (
     <div className="col-1 content-stretch flex gap-[1.195px] items-center ml-[7.49px] mt-[62.95px] relative row-1 w-[17.894px]">
       <MdiHeart19 />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[4.781px] text-black whitespace-nowrap">Like</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[4.781px] text-black whitespace-nowrap">Like</p>
     </div>
   );
 }
@@ -5021,7 +5021,7 @@ function Frame280() {
   return (
     <div className="col-1 content-stretch flex gap-[1.594px] items-center ml-[39.53px] mt-[62.95px] relative row-1 w-[28.297px]">
       <Group55 />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[4.781px] text-black whitespace-nowrap">{`Duplicate `}</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[4.781px] text-black whitespace-nowrap">{`Duplicate `}</p>
     </div>
   );
 }
@@ -5030,7 +5030,7 @@ function Frame281() {
   return (
     <div className="bg-[#f1f6fe] col-1 content-stretch flex flex-col items-center justify-center ml-[77.4px] mt-[62.15px] px-[3.984px] py-[1.992px] relative rounded-[7.969px] row-1 w-[10.403px]">
       <div aria-hidden className="absolute border-[0.398px] border-[rgba(0,0,0,0.1)] border-solid inset-0 pointer-events-none rounded-[7.969px]" />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[4.781px] text-[rgba(0,0,0,0.6)] w-full">J</p>
+      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[4.781px] text-[rgba(0,0,0,0.6)] w-full">J</p>
     </div>
   );
 }
@@ -5039,7 +5039,7 @@ function Frame282() {
   return (
     <div className="bg-[#f1f6fe] col-1 content-stretch flex flex-col items-center justify-center ml-[84.47px] mt-[62.15px] pl-[3.187px] pr-[3.984px] py-[1.992px] relative rounded-[7.969px] row-1 w-[9.987px]">
       <div aria-hidden className="absolute border-[0.398px] border-[rgba(0,0,0,0.1)] border-solid inset-0 pointer-events-none rounded-[7.969px]" />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[4.781px] text-[rgba(0,0,0,0.6)] w-full">M</p>
+      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[4.781px] text-[rgba(0,0,0,0.6)] w-full">M</p>
     </div>
   );
 }
@@ -5048,17 +5048,17 @@ function Group54() {
   return (
     <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid place-items-start relative shrink-0">
       <div className="bg-white col-1 h-[76.896px] ml-0 mt-0 relative rounded-[3.984px] row-1 shadow-[0px_1.594px_1.594px_0px_rgba(37,99,235,0.2)] w-[131.082px]" />
-      <p className="[word-break:break-word] col-1 font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] ml-[6.66px] mt-[6.77px] not-italic relative row-1 text-[6.375px] text-black w-[31.626px]">KD Dramas</p>
+      <p className="[word-break:break-word] col-1 font-['Open_Sans:SemiBold',sans-serif] leading-[normal] ml-[6.66px] mt-[6.77px] not-italic relative row-1 text-[6.375px] text-black w-[31.626px]">KD Dramas</p>
       <Frame275 />
       <Frame276 />
       <Frame277 />
       <Frame278 />
-      <ul className="[word-break:break-word] block col-1 font-['Source_Sans_Pro:Regular',sans-serif] mt-[23.31px] not-italic relative row-1 text-[5.578px] text-black w-[76.152px]">
+      <ul className="[word-break:break-word] block col-1 font-['Open_Sans:Regular',sans-serif] mt-[23.31px] not-italic relative row-1 text-[5.578px] text-black w-[76.152px]">
         <li className="list-disc ms-[8.367px]">
           <span className="leading-[normal]">Parasite</span>
         </li>
       </ul>
-      <ul className="[word-break:break-word] block col-1 font-['Source_Sans_Pro:Regular',sans-serif] mt-[34.07px] not-italic relative row-1 text-[5.578px] text-black w-[76.152px]">
+      <ul className="[word-break:break-word] block col-1 font-['Open_Sans:Regular',sans-serif] mt-[34.07px] not-italic relative row-1 text-[5.578px] text-black w-[76.152px]">
         <li className="list-disc ms-[8.367px]">
           <span className="leading-[normal]">{`King The Land `}</span>
         </li>
@@ -5067,7 +5067,7 @@ function Group54() {
       <Frame280 />
       <Frame281 />
       <Frame282 />
-      <p className="[word-break:break-word] col-1 font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] ml-[96.13px] mt-[64.15px] not-italic relative row-1 text-[4.781px] text-black w-[26.633px]">+ 2 Members</p>
+      <p className="[word-break:break-word] col-1 font-['Open_Sans:Regular',sans-serif] leading-[normal] ml-[96.13px] mt-[64.15px] not-italic relative row-1 text-[4.781px] text-black w-[26.633px]">+ 2 Members</p>
     </div>
   );
 }
@@ -5075,7 +5075,7 @@ function Group54() {
 function Frame283() {
   return (
     <div className="bg-[rgba(255,241,252,0.9)] col-1 content-stretch flex items-center justify-center ml-[39.94px] mt-[6.77px] p-[1.195px] relative rounded-[1.992px] row-1 w-[32.874px]">
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[4.781px] text-black whitespace-nowrap">Entertainment</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[4.781px] text-black whitespace-nowrap">Entertainment</p>
     </div>
   );
 }
@@ -5090,7 +5090,7 @@ function Frame284() {
           </svg>
         </div>
       </div>
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#4255ff] text-[4.781px] whitespace-nowrap">Public</p>
+      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#4255ff] text-[4.781px] whitespace-nowrap">Public</p>
     </div>
   );
 }
@@ -5098,7 +5098,7 @@ function Frame284() {
 function Frame285() {
   return (
     <div className="bg-[#f5f7f9] col-1 content-stretch flex items-center justify-center ml-[104.45px] mt-[23.11px] p-[0.797px] relative rounded-[1.992px] row-1 w-[20.391px]">
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[4.781px] text-black whitespace-nowrap">Thriller</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[4.781px] text-black whitespace-nowrap">Thriller</p>
     </div>
   );
 }
@@ -5106,7 +5106,7 @@ function Frame285() {
 function Frame286() {
   return (
     <div className="bg-[#f5f7f9] col-1 content-stretch flex items-center justify-center ml-[107.36px] mt-[35.86px] px-[3.984px] py-[0.797px] relative rounded-[1.992px] row-1 w-[17.478px]">
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[4.781px] text-black whitespace-nowrap">Drama</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[4.781px] text-black whitespace-nowrap">Drama</p>
     </div>
   );
 }
@@ -5127,7 +5127,7 @@ function Frame287() {
   return (
     <div className="col-1 content-stretch flex gap-[1.195px] items-center ml-[7.49px] mt-[62.95px] relative row-1 w-[17.894px]">
       <MdiHeart20 />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[4.781px] text-black whitespace-nowrap">Liked</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[4.781px] text-black whitespace-nowrap">Liked</p>
     </div>
   );
 }
@@ -5151,7 +5151,7 @@ function Frame288() {
   return (
     <div className="col-1 content-stretch flex gap-[1.594px] items-center ml-[39.53px] mt-[62.95px] relative row-1 w-[28.297px]">
       <Group57 />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[4.781px] text-black whitespace-nowrap">{`Duplicate `}</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[4.781px] text-black whitespace-nowrap">{`Duplicate `}</p>
     </div>
   );
 }
@@ -5160,7 +5160,7 @@ function Frame289() {
   return (
     <div className="bg-[#f1f6fe] col-1 content-stretch flex flex-col items-center justify-center ml-[77.4px] mt-[62.15px] px-[3.984px] py-[1.992px] relative rounded-[7.969px] row-1 w-[10.403px]">
       <div aria-hidden className="absolute border-[0.398px] border-[rgba(0,0,0,0.1)] border-solid inset-0 pointer-events-none rounded-[7.969px]" />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[4.781px] text-[rgba(0,0,0,0.6)] w-full">J</p>
+      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[4.781px] text-[rgba(0,0,0,0.6)] w-full">J</p>
     </div>
   );
 }
@@ -5169,7 +5169,7 @@ function Frame290() {
   return (
     <div className="bg-[#f1f6fe] col-1 content-stretch flex flex-col items-center justify-center ml-[84.48px] mt-[62.15px] pl-[3.187px] pr-[3.984px] py-[1.992px] relative rounded-[7.969px] row-1 w-[9.987px]">
       <div aria-hidden className="absolute border-[0.398px] border-[rgba(0,0,0,0.1)] border-solid inset-0 pointer-events-none rounded-[7.969px]" />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[4.781px] text-[rgba(0,0,0,0.6)] w-full">M</p>
+      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[4.781px] text-[rgba(0,0,0,0.6)] w-full">M</p>
     </div>
   );
 }
@@ -5178,17 +5178,17 @@ function Group56() {
   return (
     <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid place-items-start relative shrink-0">
       <div className="bg-white col-1 h-[76.896px] ml-0 mt-0 relative rounded-[3.984px] row-1 shadow-[0px_1.594px_1.594px_0px_rgba(37,99,235,0.2)] w-[131.082px]" />
-      <p className="[word-break:break-word] col-1 font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] ml-[6.65px] mt-[6.77px] not-italic relative row-1 text-[6.375px] text-black w-[31.626px]">KD Dramas</p>
+      <p className="[word-break:break-word] col-1 font-['Open_Sans:SemiBold',sans-serif] leading-[normal] ml-[6.65px] mt-[6.77px] not-italic relative row-1 text-[6.375px] text-black w-[31.626px]">KD Dramas</p>
       <Frame283 />
       <Frame284 />
       <Frame285 />
       <Frame286 />
-      <ul className="[word-break:break-word] block col-1 font-['Source_Sans_Pro:Regular',sans-serif] mt-[23.31px] not-italic relative row-1 text-[5.578px] text-black w-[76.152px]">
+      <ul className="[word-break:break-word] block col-1 font-['Open_Sans:Regular',sans-serif] mt-[23.31px] not-italic relative row-1 text-[5.578px] text-black w-[76.152px]">
         <li className="list-disc ms-[8.367px]">
           <span className="leading-[normal]">Parasite</span>
         </li>
       </ul>
-      <ul className="[word-break:break-word] block col-1 font-['Source_Sans_Pro:Regular',sans-serif] mt-[34.07px] not-italic relative row-1 text-[5.578px] text-black w-[76.152px]">
+      <ul className="[word-break:break-word] block col-1 font-['Open_Sans:Regular',sans-serif] mt-[34.07px] not-italic relative row-1 text-[5.578px] text-black w-[76.152px]">
         <li className="list-disc ms-[8.367px]">
           <span className="leading-[normal]">{`King The Land `}</span>
         </li>
@@ -5197,7 +5197,7 @@ function Group56() {
       <Frame288 />
       <Frame289 />
       <Frame290 />
-      <p className="[word-break:break-word] col-1 font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] ml-[96.13px] mt-[64.15px] not-italic relative row-1 text-[4.781px] text-black w-[26.633px]">+ 2 Members</p>
+      <p className="[word-break:break-word] col-1 font-['Open_Sans:Regular',sans-serif] leading-[normal] ml-[96.13px] mt-[64.15px] not-italic relative row-1 text-[4.781px] text-black w-[26.633px]">+ 2 Members</p>
     </div>
   );
 }
@@ -5205,7 +5205,7 @@ function Group56() {
 function Frame291() {
   return (
     <div className="bg-[rgba(255,241,252,0.9)] col-1 content-stretch flex items-center justify-center ml-[39.95px] mt-[6.77px] p-[1.195px] relative rounded-[1.992px] row-1 w-[32.874px]">
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[4.781px] text-black whitespace-nowrap">Entertainment</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[4.781px] text-black whitespace-nowrap">Entertainment</p>
     </div>
   );
 }
@@ -5220,7 +5220,7 @@ function Frame292() {
           </svg>
         </div>
       </div>
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#4255ff] text-[4.781px] whitespace-nowrap">Public</p>
+      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#4255ff] text-[4.781px] whitespace-nowrap">Public</p>
     </div>
   );
 }
@@ -5228,7 +5228,7 @@ function Frame292() {
 function Frame293() {
   return (
     <div className="bg-[#f5f7f9] col-1 content-stretch flex items-center justify-center ml-[104.45px] mt-[23.11px] p-[0.797px] relative rounded-[1.992px] row-1 w-[20.391px]">
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[4.781px] text-black whitespace-nowrap">Thriller</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[4.781px] text-black whitespace-nowrap">Thriller</p>
     </div>
   );
 }
@@ -5236,7 +5236,7 @@ function Frame293() {
 function Frame294() {
   return (
     <div className="bg-[#f5f7f9] col-1 content-stretch flex items-center justify-center ml-[107.37px] mt-[35.86px] px-[3.984px] py-[0.797px] relative rounded-[1.992px] row-1 w-[17.478px]">
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[4.781px] text-black whitespace-nowrap">Drama</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[4.781px] text-black whitespace-nowrap">Drama</p>
     </div>
   );
 }
@@ -5262,7 +5262,7 @@ function Frame295() {
   return (
     <div className="col-1 content-stretch flex gap-[1.195px] items-center ml-[7.5px] mt-[62.95px] relative row-1 w-[17.894px]">
       <MdiHeart21 />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[4.781px] text-black whitespace-nowrap">Like</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[4.781px] text-black whitespace-nowrap">Like</p>
     </div>
   );
 }
@@ -5286,7 +5286,7 @@ function Frame296() {
   return (
     <div className="col-1 content-stretch flex gap-[1.594px] items-center ml-[39.54px] mt-[62.95px] relative row-1 w-[28.297px]">
       <Group59 />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[4.781px] text-black whitespace-nowrap">{`Duplicate `}</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[4.781px] text-black whitespace-nowrap">{`Duplicate `}</p>
     </div>
   );
 }
@@ -5295,7 +5295,7 @@ function Frame297() {
   return (
     <div className="bg-[#f1f6fe] col-1 content-stretch flex flex-col items-center justify-center ml-[77.4px] mt-[62.15px] px-[3.984px] py-[1.992px] relative rounded-[7.969px] row-1 w-[10.403px]">
       <div aria-hidden className="absolute border-[0.398px] border-[rgba(0,0,0,0.1)] border-solid inset-0 pointer-events-none rounded-[7.969px]" />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[4.781px] text-[rgba(0,0,0,0.6)] w-full">J</p>
+      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[4.781px] text-[rgba(0,0,0,0.6)] w-full">J</p>
     </div>
   );
 }
@@ -5304,7 +5304,7 @@ function Frame298() {
   return (
     <div className="bg-[#f1f6fe] col-1 content-stretch flex flex-col items-center justify-center ml-[84.48px] mt-[62.15px] pl-[3.187px] pr-[3.984px] py-[1.992px] relative rounded-[7.969px] row-1 w-[9.987px]">
       <div aria-hidden className="absolute border-[0.398px] border-[rgba(0,0,0,0.1)] border-solid inset-0 pointer-events-none rounded-[7.969px]" />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[4.781px] text-[rgba(0,0,0,0.6)] w-full">M</p>
+      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[4.781px] text-[rgba(0,0,0,0.6)] w-full">M</p>
     </div>
   );
 }
@@ -5313,17 +5313,17 @@ function Group58() {
   return (
     <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid place-items-start relative shrink-0">
       <div className="bg-white col-1 h-[76.896px] ml-0 mt-0 relative rounded-[3.984px] row-1 shadow-[0px_1.594px_1.594px_0px_rgba(37,99,235,0.2)] w-[131.082px]" />
-      <p className="[word-break:break-word] col-1 font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] ml-[6.66px] mt-[6.77px] not-italic relative row-1 text-[6.375px] text-black w-[31.626px]">KD Dramas</p>
+      <p className="[word-break:break-word] col-1 font-['Open_Sans:SemiBold',sans-serif] leading-[normal] ml-[6.66px] mt-[6.77px] not-italic relative row-1 text-[6.375px] text-black w-[31.626px]">KD Dramas</p>
       <Frame291 />
       <Frame292 />
       <Frame293 />
       <Frame294 />
-      <ul className="[word-break:break-word] block col-1 font-['Source_Sans_Pro:Regular',sans-serif] mt-[23.31px] not-italic relative row-1 text-[5.578px] text-black w-[76.152px]">
+      <ul className="[word-break:break-word] block col-1 font-['Open_Sans:Regular',sans-serif] mt-[23.31px] not-italic relative row-1 text-[5.578px] text-black w-[76.152px]">
         <li className="list-disc ms-[8.367px]">
           <span className="leading-[normal]">Parasite</span>
         </li>
       </ul>
-      <ul className="[word-break:break-word] block col-1 font-['Source_Sans_Pro:Regular',sans-serif] mt-[34.07px] not-italic relative row-1 text-[5.578px] text-black w-[76.152px]">
+      <ul className="[word-break:break-word] block col-1 font-['Open_Sans:Regular',sans-serif] mt-[34.07px] not-italic relative row-1 text-[5.578px] text-black w-[76.152px]">
         <li className="list-disc ms-[8.367px]">
           <span className="leading-[normal]">{`King The Land `}</span>
         </li>
@@ -5332,7 +5332,7 @@ function Group58() {
       <Frame296 />
       <Frame297 />
       <Frame298 />
-      <p className="[word-break:break-word] col-1 font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] ml-[96.13px] mt-[64.15px] not-italic relative row-1 text-[4.781px] text-black w-[26.633px]">+ 2 Members</p>
+      <p className="[word-break:break-word] col-1 font-['Open_Sans:Regular',sans-serif] leading-[normal] ml-[96.13px] mt-[64.15px] not-italic relative row-1 text-[4.781px] text-black w-[26.633px]">+ 2 Members</p>
     </div>
   );
 }
@@ -5362,7 +5362,7 @@ function Frame300() {
       <div className="h-[21.913px] relative shrink-0 w-full" data-name="Mountains with snowy peaks">
         <img loading="lazy" decoding="async" alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgMountainsWithSnowyPeaks} />
       </div>
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[7.969px] text-black text-center w-full">{`Treks `}</p>
+      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[7.969px] text-black text-center w-full">{`Treks `}</p>
     </div>
   );
 }
@@ -5426,12 +5426,12 @@ function Desktop2() {
       <div className="overflow-clip relative rounded-[inherit] size-full">
         <Frame221 />
         <div className="absolute bg-[#fafbfd] border-[#dce3ec] border-r-[0.398px] border-solid h-[407.987px] left-0 top-0 w-[121.52px]" />
-        <p className="[word-break:break-word] absolute font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] left-[34.66px] not-italic text-[6.375px] text-black top-[389.26px] whitespace-nowrap">Pooja Singhal</p>
-        <p className="[word-break:break-word] absolute bg-clip-text font-['Source_Serif_4:ExtraBold',sans-serif] font-extrabold leading-[0] left-[15.94px] text-[15.937px] text-[transparent] top-[10.76px] tracking-[0.6375px] whitespace-nowrap" style={{ backgroundImage: "linear-gradient(93.14117599746571deg, rgb(6, 72, 218) 1.1207%, rgb(66, 154, 255) 98.879%)" }}>
+        <p className="[word-break:break-word] absolute font-['Open_Sans:SemiBold',sans-serif] leading-[normal] left-[34.66px] not-italic text-[6.375px] text-black top-[389.26px] whitespace-nowrap">Pooja Singhal</p>
+        <p className="[word-break:break-word] absolute bg-clip-text font-['DM_Serif_Display:Regular',sans-serif] font-extrabold leading-[0] left-[15.94px] text-[15.937px] text-[transparent] top-[10.76px] tracking-[0.6375px] whitespace-nowrap" style={{ backgroundImage: "linear-gradient(93.14117599746571deg, rgb(6, 72, 218) 1.1207%, rgb(66, 154, 255) 98.879%)" }}>
           <span className="leading-[normal]">List</span>
-          <span className="font-['Source_Serif_4:ExtraBold_Italic',sans-serif] italic leading-[normal]">er</span>
+          <span className="font-['DM_Serif_Display:Regular_Italic',sans-serif] italic leading-[normal]">er</span>
         </p>
-        <p className="[word-break:break-word] absolute font-['Source_Serif_Pro:SemiBold',sans-serif] leading-[normal] left-[15.94px] not-italic text-[#202020] text-[5.578px] top-[33.47px] w-[94.825px]">Discover, create and share lists on any topic</p>
+        <p className="[word-break:break-word] absolute font-['Open_Sans:SemiBold',sans-serif] leading-[normal] left-[15.94px] not-italic text-[#202020] text-[5.578px] top-[33.47px] w-[94.825px]">Discover, create and share lists on any topic</p>
         <Frame222 />
         <Frame223 />
         <div className="absolute bg-[#eeeff2] border-[#2563eb] border-l-[0.797px] border-solid h-[18.328px] left-[0.4px] rounded-[3.984px] top-[92.83px] w-[120.324px]" />
@@ -5442,9 +5442,9 @@ function Desktop2() {
             <circle cx="7.37087" cy="7.37087" fill="#D9872E" id="Ellipse 4" r="7.37087" />
           </svg>
         </div>
-        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] left-[23.61px] not-italic text-[7.969px] text-center text-white top-[388.86px] whitespace-nowrap">P</p>
-        <p className="[word-break:break-word] absolute font-['Source_Serif_Pro:SemiBold',sans-serif] leading-[normal] left-[142.63px] not-italic text-[7.969px] text-black top-[375.72px] whitespace-nowrap">Based on your interests</p>
-        <p className="[word-break:break-word] absolute font-['Source_Serif_Pro:SemiBold',sans-serif] leading-[normal] left-[525.52px] not-italic text-[#4255ff] text-[5.578px] top-[379.87px] whitespace-nowrap">View All</p>
+        <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Open_Sans:SemiBold',sans-serif] leading-[normal] left-[23.61px] not-italic text-[7.969px] text-center text-white top-[388.86px] whitespace-nowrap">P</p>
+        <p className="[word-break:break-word] absolute font-['Open_Sans:SemiBold',sans-serif] leading-[normal] left-[142.63px] not-italic text-[7.969px] text-black top-[375.72px] whitespace-nowrap">Based on your interests</p>
+        <p className="[word-break:break-word] absolute font-['Open_Sans:SemiBold',sans-serif] leading-[normal] left-[525.52px] not-italic text-[#4255ff] text-[5.578px] top-[379.87px] whitespace-nowrap">View All</p>
         <ZondiconsCheveronRight6 />
         <div className="absolute bg-white h-[71.318px] left-[141.84px] rounded-[6.573px] top-[390.97px] w-[125.504px]" />
         <div className="absolute bg-white h-[71.318px] left-[284.47px] rounded-[6.573px] top-[390.97px] w-[127.496px]" />
@@ -5504,7 +5504,7 @@ function Frame302() {
   return (
     <div className="content-stretch flex gap-[8.729px] items-center relative shrink-0 w-[65.471px]">
       <CiHamburgerMd />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#5f626a] text-[7.638px] whitespace-nowrap">Search any list</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#5f626a] text-[7.638px] whitespace-nowrap">Search any list</p>
     </div>
   );
 }
@@ -5523,7 +5523,7 @@ function Frame304() {
   return (
     <div className="bg-[#2563eb] content-stretch flex items-center justify-center px-[8.184px] py-[5.456px] relative rounded-[5.456px] shrink-0">
       <div aria-hidden className="absolute border-[#2563eb] border-[0.546px] border-solid inset-0 pointer-events-none rounded-[5.456px]" />
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#f0f1f1] text-[7.638px] whitespace-nowrap">All (20)</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#f0f1f1] text-[7.638px] whitespace-nowrap">All (20)</p>
     </div>
   );
 }
@@ -5531,7 +5531,7 @@ function Frame304() {
 function Frame305() {
   return (
     <div className="bg-[rgba(240,241,241,0.7)] content-stretch flex items-center justify-center px-[8.184px] py-[5.456px] relative rounded-[5.456px] shrink-0">
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[7.638px] text-black whitespace-nowrap">Owned(8)</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[7.638px] text-black whitespace-nowrap">Owned(8)</p>
     </div>
   );
 }
@@ -5539,7 +5539,7 @@ function Frame305() {
 function Frame306() {
   return (
     <div className="bg-[rgba(240,241,241,0.7)] content-stretch flex items-center justify-center px-[8.184px] py-[5.456px] relative rounded-[5.456px] shrink-0">
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[7.638px] text-black whitespace-nowrap">Shared with me (11)</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[7.638px] text-black whitespace-nowrap">Shared with me (11)</p>
     </div>
   );
 }
@@ -5547,7 +5547,7 @@ function Frame306() {
 function Frame307() {
   return (
     <div className="bg-[rgba(240,241,241,0.7)] content-stretch flex items-center justify-center px-[8.184px] py-[5.456px] relative rounded-[5.456px] shrink-0">
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[7.638px] text-black whitespace-nowrap">Saved (1)</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[7.638px] text-black whitespace-nowrap">Saved (1)</p>
     </div>
   );
 }
@@ -5687,15 +5687,15 @@ function Group60() {
     <div className="absolute contents left-[9.28px] top-[426.64px]">
       <div className="absolute bg-white h-[25.581px] left-[9.28px] rounded-[5.329px] shadow-[0px_2.132px_4.263px_0px_rgba(0,0,0,0.25)] top-[426.65px] w-[194.777px]" />
       <Frame308 />
-      <p className="[word-break:break-word] absolute font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] left-[15.78px] not-italic text-[6.547px] text-[rgba(0,0,0,0.5)] top-[440.29px] whitespace-nowrap">Home</p>
+      <p className="[word-break:break-word] absolute font-['Open_Sans:Regular',sans-serif] leading-[normal] left-[15.78px] not-italic text-[6.547px] text-[rgba(0,0,0,0.5)] top-[440.29px] whitespace-nowrap">Home</p>
       <MaterialSymbolsListRounded8 />
-      <p className="[word-break:break-word] absolute font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] left-[53.82px] not-italic text-[6.547px] text-black top-[440.29px] whitespace-nowrap">My Lists</p>
+      <p className="[word-break:break-word] absolute font-['Open_Sans:SemiBold',sans-serif] leading-[normal] left-[53.82px] not-italic text-[6.547px] text-black top-[440.29px] whitespace-nowrap">My Lists</p>
       <IconParkOutlineAdd />
-      <p className="[word-break:break-word] absolute font-['Source_Sans_Pro:Regular',sans-serif] h-[7.638px] leading-[normal] left-[92.21px] not-italic text-[6.547px] text-[rgba(0,0,0,0.5)] top-[440.84px] w-[23.46px]">New List</p>
+      <p className="[word-break:break-word] absolute font-['Open_Sans:Regular',sans-serif] h-[7.638px] leading-[normal] left-[92.21px] not-italic text-[6.547px] text-[rgba(0,0,0,0.5)] top-[440.84px] w-[23.46px]">New List</p>
       <MdiHeart22 />
-      <p className="[word-break:break-word] absolute font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] left-[132.12px] not-italic text-[6.547px] text-[rgba(0,0,0,0.5)] top-[440.29px] whitespace-nowrap">Liked Lists</p>
+      <p className="[word-break:break-word] absolute font-['Open_Sans:Regular',sans-serif] leading-[normal] left-[132.12px] not-italic text-[6.547px] text-[rgba(0,0,0,0.5)] top-[440.29px] whitespace-nowrap">Liked Lists</p>
       <Frame309 />
-      <p className="[word-break:break-word] absolute font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] left-[177px] not-italic text-[6.547px] text-[rgba(0,0,0,0.5)] top-[440.29px] whitespace-nowrap">Alerts</p>
+      <p className="[word-break:break-word] absolute font-['Open_Sans:Regular',sans-serif] leading-[normal] left-[177px] not-italic text-[6.547px] text-[rgba(0,0,0,0.5)] top-[440.29px] whitespace-nowrap">Alerts</p>
     </div>
   );
 }
@@ -5705,7 +5705,7 @@ function PhoneMyLists() {
     <div className="bg-gradient-to-b col-1 from-[#fafbfd] h-[460.48px] ml-[101px] mt-[271px] relative rounded-[8.495px] row-1 to-[#ddecff] w-[212.781px]" data-name="Phone- My lists">
       <div className="overflow-clip relative rounded-[inherit] size-full">
         <Frame301 />
-        <p className="[word-break:break-word] absolute font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] left-[189.32px] not-italic text-[7.638px] text-white top-[36.01px] whitespace-nowrap">P</p>
+        <p className="[word-break:break-word] absolute font-['Open_Sans:Regular',sans-serif] leading-[normal] left-[189.32px] not-italic text-[7.638px] text-white top-[36.01px] whitespace-nowrap">P</p>
         <div className="absolute bg-white h-[75.292px] left-[8.73px] rounded-[5.456px] top-[147.86px] w-[95.479px]" />
         <Frame303 />
         <div className="absolute bg-white h-[72.564px] left-[8.73px] rounded-[5.456px] top-[279.34px] w-[95.479px]" />
@@ -5718,8 +5718,8 @@ function PhoneMyLists() {
         <FluentEmojiFlatSparkles1 />
         <Group60 />
         <div className="absolute bg-black h-[1.091px] left-[51.83px] rounded-[5.456px] top-[427.2px] w-[22.914px]" />
-        <p className="[word-break:break-word] absolute font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] left-[18.01px] not-italic text-[7.638px] text-black top-[73.11px] whitespace-nowrap">All Lists</p>
-        <p className="[word-break:break-word] absolute font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] left-[61.11px] not-italic text-[7.638px] text-[rgba(0,0,0,0.6)] top-[73.11px] whitespace-nowrap">My Folders</p>
+        <p className="[word-break:break-word] absolute font-['Open_Sans:SemiBold',sans-serif] leading-[normal] left-[18.01px] not-italic text-[7.638px] text-black top-[73.11px] whitespace-nowrap">All Lists</p>
+        <p className="[word-break:break-word] absolute font-['Open_Sans:Regular',sans-serif] leading-[normal] left-[61.11px] not-italic text-[7.638px] text-[rgba(0,0,0,0.6)] top-[73.11px] whitespace-nowrap">My Folders</p>
         <div className="absolute bg-black h-[1.637px] left-[8.73px] rounded-[5.456px] top-[85.11px] w-[45.283px]" />
       </div>
       <div aria-hidden className="absolute border-[2.073px] border-black border-solid inset-[-2.073px] pointer-events-none rounded-[10.568px] shadow-[0px_1.658px_1.658px_0px_rgba(0,0,0,0.25)]" />
@@ -5786,7 +5786,7 @@ function Frame150() {
 function Frame() {
   return (
     <div className="bg-[#2563eb] content-stretch drop-shadow-[0px_2px_1px_rgba(0,0,0,0.25)] flex items-center justify-center px-[20px] py-[10px] relative rounded-[10px] shrink-0 w-[182px]">
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[20px] text-white whitespace-nowrap">Let’s Connect →</p>
+      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[20px] text-white whitespace-nowrap">Let’s Connect →</p>
     </div>
   );
 }
@@ -5797,7 +5797,7 @@ function Frame311() {
       <h2 className="[word-break:break-word] bg-clip-text font-['DM_Serif_Display:Regular',sans-serif] leading-[normal] min-w-full not-italic relative shrink-0 text-[40px] text-[transparent] tracking-[1.6px] w-[min-content]" style={{ backgroundImage: "linear-gradient(114.05350180095778deg, rgb(11, 33, 161) 1.1207%, rgb(85, 146, 228) 98.879%)" }}>
         LETS TALK DESIGN !
       </h2>
-      <p className="[word-break:break-word] font-['Source_Sans_Pro:Regular',sans-serif] leading-[normal] min-w-full not-italic relative shrink-0 text-[18px] text-black w-[min-content]">Static screens only tell half the story. Whether you want to walk through the prototype, discuss design strategies, tell me about your project or just say hello and connect—I’d love to hear from you.</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] min-w-full not-italic relative shrink-0 text-[18px] text-black w-[min-content]">Static screens only tell half the story. Whether you want to walk through the prototype, discuss design strategies, tell me about your project or just say hello and connect—I’d love to hear from you.</p>
       <Frame />
     </div>
   );
@@ -5816,13 +5816,13 @@ export default function ListerCaseStudy() {
   return (
     <div className="bg-[#f2f8ff] relative size-full" data-name="Case study 4">
       <div className="absolute bg-[#4e5ba6] h-[810px] left-[-1px] top-0 w-[1281px]" />
-      <button className="[word-break:break-word] absolute block cursor-pointer font-['Source_Serif_4:ExtraBold',sans-serif] font-extrabold leading-[0] left-[578px] text-[0px] text-left text-white top-[42px] tracking-[2px] whitespace-nowrap">
-        <p className="text-[50px]">
+      <button className="[word-break:break-word] absolute block cursor-pointer font-['DM_Serif_Display:Regular',sans-serif] font-extrabold leading-[0] left-[578px] text-[0px] text-left text-white top-[42px] tracking-[2px] whitespace-nowrap">
+        <p className="text-[40px]">
           <span className="font-['DM_Serif_Display:Regular',sans-serif] leading-[normal] not-italic">List</span>
           <span className="font-['DM_Serif_Display:Italic',sans-serif] italic leading-[normal] text-white">er</span>
         </p>
       </button>
-      <p className="[word-break:break-word] absolute font-['Public_Sans:SemiBold',sans-serif] font-semibold leading-[normal] left-[220px] text-[40px] text-white top-[640px] whitespace-nowrap">Discover, create, and share lists on any topic.</p>
+      <p className="[word-break:break-word] absolute font-['Open_Sans:SemiBold',sans-serif] font-semibold leading-[normal] left-[220px] text-[40px] text-white top-[640px] whitespace-nowrap">Discover, create, and share lists on any topic.</p>
       <Frame34 />
       <Frame157 />
       <h2 className="[word-break:break-word] absolute bg-clip-text font-['DM_Serif_Display:Regular',sans-serif] leading-[normal] left-[97px] not-italic text-[40px] text-[transparent] top-[2260px] tracking-[1.6px] whitespace-nowrap" style={{ backgroundImage: "linear-gradient(102.15575743764406deg, rgb(11, 33, 161) 1.1207%, rgb(85, 146, 228) 98.879%)" }}>{`RESEARCH & DISCOVERY`}</h2>
@@ -5837,7 +5837,7 @@ export default function ListerCaseStudy() {
         </div>
       </div>
       <Desktop1 />
-      <div className="[word-break:break-word] absolute font-['Source_Sans_Pro:Regular',sans-serif] leading-[0] left-[97px] not-italic text-[18px] text-white top-[1508px] tracking-[0.72px] w-[1086px]">
+      <div className="[word-break:break-word] absolute font-['Open_Sans:Regular',sans-serif] leading-[0] left-[97px] not-italic text-[18px] text-white top-[1508px] tracking-[0.72px] w-[1086px]">
         <p className="font-['Open_Sans:Regular',sans-serif] font-normal leading-[normal] mb-0 whitespace-pre-wrap" style={{ fontVariationSettings: '"wdth" 100' }}>
           To deliver a successful product, the design needed to overcome four specific hurdles:
         </p>

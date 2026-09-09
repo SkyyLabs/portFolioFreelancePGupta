@@ -73,9 +73,9 @@
 }
 
 .case-study-cta-title {
-  font-family: "DM Serif Display:Regular", "DM Serif Display", serif;
-  font-size: 40px;
-  font-weight: 400;
+  font-family: "Roca:Black", "Nunito", sans-serif;
+  font-size: 36px;
+  font-weight: 900;
   letter-spacing: 1.6px;
   background: linear-gradient(114deg, var(--cta-ink) 1%, var(--cta-accent) 99%);
   -webkit-background-clip: text;
@@ -84,8 +84,8 @@
 }
 
 .case-study-cta-body {
-  font-family: "Source Sans Pro:Regular", "Source Sans 3", sans-serif;
-  font-size: 18px;
+  font-family: "Avenir Next:Regular", "Inter", sans-serif;
+  font-size: 16px;
   line-height: normal;
   color: var(--color-black);
 }
@@ -98,8 +98,8 @@
   padding: 10px 20px;
   background: var(--cta-accent);
   border-radius: var(--radius-md);
-  font-family: "Source Sans Pro:SemiBold", "Source Sans 3", sans-serif;
-  font-size: 20px;
+  font-family: "Avenir Next:Demi Bold", "Inter", sans-serif;
+  font-size: 16px;
   font-weight: 600;
   color: var(--color-white);
   text-decoration: none;
