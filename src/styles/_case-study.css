@@ -53,3 +53,60 @@
 [data-name="Case study 4"] > div[class*="absolute"][class*="top-\[5193px\]"][class*="left-\[102px\]"] {
   left: 96px !important;
 }
+
+/* ── MathzAI: closing "Let's Connect" band ───────────────────────────────── */
+/* Mirrors the section the Lister export ships, in MathzAI's own blues.
+   Laid out at the 1280px design width — it sits inside the scaled canvas. */
+
+.case-study-cta {
+  --cta-ink: #010c81;
+  --cta-accent: #4255ff;
+  --cta-surface: #f0f2ff;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 50px;
+  width: 100%;
+  padding: 80px 200px 80px 100px;
+  background: var(--cta-surface);
+}
+
+.case-study-cta-title {
+  font-family: "DM Serif Display:Regular", "DM Serif Display", serif;
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: 1.6px;
+  background: linear-gradient(114deg, var(--cta-ink) 1%, var(--cta-accent) 99%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.case-study-cta-body {
+  font-family: "Source Sans Pro:Regular", "Source Sans 3", sans-serif;
+  font-size: 18px;
+  line-height: normal;
+  color: var(--color-black);
+}
+
+.case-study-cta-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 182px;
+  padding: 10px 20px;
+  background: var(--cta-accent);
+  border-radius: var(--radius-md);
+  font-family: "Source Sans Pro:SemiBold", "Source Sans 3", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--color-white);
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background var(--transition-base);
+}
+
+.case-study-cta-button:hover {
+  background: var(--cta-ink);
+}

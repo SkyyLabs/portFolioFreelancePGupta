@@ -71,7 +71,12 @@ export const LABELS = {
   contact: "Contact",
   myWork: "My Work",
   wordmark: "Pooja Singhal",
-  connect: "Let's Connect",
+  // The landing hero's two primary calls to action.
+  seeMyWork: "See My Work",
+  sayHello: "Say Hello",
+  // Curly apostrophe (U+2019) — this is the character the export actually
+  // emits. A straight quote here silently breaks the button.
+  connect: "Let\u2019s Connect",
   prototype: "Open the Prototype",
   copyEmail: "Copy Email",
   linkedin: "LinkedIn",
