@@ -815,7 +815,7 @@ function MdiHeartOutline() {
 
 function Frame47() {
   return (
-    <div className="content-stretch flex gap-[13px] items-start relative shrink-0 w-full">
+    <div className="content-stretch flex gap-[13px] items-center justify-center relative shrink-0 w-full">
       <MdiHeartOutline />
       <p className="[word-break:break-word] font-['Caveat:Bold',sans-serif] font-bold leading-[normal] relative shrink-0 text-[20px] text-white whitespace-nowrap">Currently available for full-time roles and select contract projects!</p>
     </div>
