@@ -396,3 +396,49 @@
     width: 100% !important;
   }
 }
+
+/* ── Hero: tighten the space above the illustration ─────────────────────── */
+
+/*
+ * Two separate gaps sat between the nav and the hero illustration.
+ *
+ * `.shared-nav-offset` clears the fixed nav for every route, and its token is
+ * generous: at desktop the nav ends at 87px against a 110px offset, and on
+ * mobile it ends at 107px against 170px. The token is not touched here because
+ * it also spaces About, Contact and both case studies — the landing root is
+ * pulled up instead, so only this page changes.
+ *
+ * The larger gap was the hero itself: a fixed 920px block with its content
+ * vertically centred, which left roughly 100px of empty canvas above the
+ * illustration at desktop sizes. Reducing the height reclaims that from both
+ * ends while keeping the content centred.
+ */
+
+.portfolio-root {
+  margin-top: -16px;
+}
+
+/* Above the stacking breakpoint the hero keeps its fixed height, so the slack
+   is real. Below it the hero is `height: auto` and there is none to reclaim. */
+@media (min-width: 901px) {
+  [data-name="Landing portfolio"] > div:nth-child(1) {
+    height: 810px;
+  }
+}
+
+@media (max-width: 900px) {
+  [data-name="Landing portfolio"] > div:nth-child(1) > div > div {
+    padding-top: 24px;
+  }
+}
+
+@media (max-width: 640px) {
+  /* The mobile nav offset clears the nav by 63px; most of that is dead space. */
+  .portfolio-root {
+    margin-top: -40px;
+  }
+
+  [data-name="Landing portfolio"] > div:nth-child(1) > div > div {
+    padding-top: 12px;
+  }
+}
