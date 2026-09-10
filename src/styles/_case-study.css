@@ -110,3 +110,26 @@
 .case-study-cta-button:hover {
   background: var(--cta-ink);
 }
+
+/* ── Section type pairings ──────────────────────────────────────────────── */
+
+/*
+ * Each case study is its own typographic section in the spec, with its own
+ * display/text pairing. The generated markup names a font on most elements,
+ * but any node that does not — a layout container carrying only a size, say —
+ * inherits from `body`, which is the Landing pairing. That leaks Scala Sans
+ * Pro into pages that should never show it.
+ *
+ * Setting the base font on each canvas root fixes the inheritance without
+ * touching the explicit classes, which still win over this.
+ */
+
+/* Lister — DM Serif Display (display) + Open Sans (text). */
+[data-name="Case study 4"] {
+  font-family: "Open Sans:Regular", "Open Sans", system-ui, sans-serif;
+}
+
+/* MathzAI — Roca (display) + Avenir Next (text). */
+[data-name="mathzai-case-study final"] {
+  font-family: "Avenir Next:Regular", Inter, system-ui, sans-serif;
+}

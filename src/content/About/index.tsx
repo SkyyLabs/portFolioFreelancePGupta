@@ -42,7 +42,7 @@ function Frame1() {
   return (
     <div className="[word-break:break-word] content-stretch flex flex-col h-[267px] items-start justify-between not-italic relative shrink-0 text-black w-[591px]">
       <h1 className="font-['Scala_Pro:Bold',sans-serif] leading-[normal] relative shrink-0 text-[30px] w-full">Before Design, I taught Mathematics.</h1>
-      <div className="font-['Scala_Sans_Pro:Regular',sans-serif] leading-[0] relative shrink-0 text-[16px] w-full whitespace-pre-wrap">
+      <div className="font-['Scala_Sans_Pro:Regular',sans-serif] leading-[0] relative shrink-0 text-[15px] w-full whitespace-pre-wrap">
         <p className="font-['Scala_Sans_Pro',sans-serif] leading-[normal] mb-0">Mathematics trained me to think analytically and work comfortably with abstract ideas.</p>
         <p className="leading-[normal] mb-0">​</p>
         <p className="font-['Scala_Sans_Pro',sans-serif] leading-[normal] mb-0">Years of studying proofs, patterns, and complex problems taught me how to break down uncertainty, identify relationships, and reason through challenges systematically.</p>
@@ -101,7 +101,7 @@ function Frame4() {
     <div className="content-stretch flex flex-col gap-[30px] items-start relative shrink-0 w-[635px]">
       <p className="[word-break:break-word] font-['Scala_Pro:Bold',sans-serif] leading-[normal] min-w-full not-italic relative shrink-0 text-[30px] text-black w-[min-content]">{`My Funda of Life & Design. `}</p>
       <Frame3 />
-      <p className="[word-break:break-word] font-['Scala_Sans_Pro',sans-serif] leading-[normal] min-w-full not-italic relative shrink-0 text-[16px] text-black w-[min-content]">{`This idea has guided most of my days and hence decisions in life. From becoming a mathematics teacher to transitioning into product design. I'm less interested in being perfect and more interested in improving, learning, and doing things better than I did before.`}</p>
+      <p className="[word-break:break-word] font-['Scala_Sans_Pro',sans-serif] leading-[normal] min-w-full not-italic relative shrink-0 text-[15px] text-black w-[min-content]">{`This idea has guided most of my days and hence decisions in life. From becoming a mathematics teacher to transitioning into product design. I'm less interested in being perfect and more interested in improving, learning, and doing things better than I did before.`}</p>
     </div>
   );
 }
