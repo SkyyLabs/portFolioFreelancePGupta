@@ -256,3 +256,14 @@ textarea.connect-input {
     margin-top: var(--space-7);
   }
 }
+
+/* Honeypot — see the `botcheck` field in `ConnectPage.tsx`. Hidden from sight
+   and from the tab order, but still present in the DOM for a bot to fill. */
+.connect-botcheck {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+  pointer-events: none;
+}
