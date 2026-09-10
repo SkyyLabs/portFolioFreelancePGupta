@@ -21,31 +21,59 @@ export type RouteKey = keyof typeof ROUTES;
  * would leave every case study sharing the site-wide title in search results,
  * browser history and link previews. Each route owns its own.
  */
-export const ROUTE_META: Record<string, { title: string; description: string }> = {
+export type RouteMeta = {
+  title: string;
+  description: string;
+  /**
+   * Open Graph type. `profile` on the pages that are about Pooja herself and
+   * `article` on the case studies, so a shared link is categorised correctly
+   * rather than all five reading as a generic website.
+   */
+  ogType: "website" | "profile" | "article";
+  /** Comma-separated keywords. Google ignores these; Bing still reads them. */
+  keywords: string;
+};
+
+export const ROUTE_META: Record<string, RouteMeta> = {
   [ROUTES.home]: {
-    title: "Pooja Singhal — Product Designer",
+    title: "Pooja Singhal — Product Designer (UX/UI) Portfolio",
     description:
-      "Product designer turning complexity into clarity. Former mathematics teacher. Case studies on MathzAI and Lister — UX, UI, and user research.",
+      "Pooja Singhal is a product designer turning complexity into clarity. Former mathematics teacher. Case studies on MathzAI and Lister — UX, UI, and user research.",
+    ogType: "profile",
+    keywords:
+      "Pooja Singhal, Pooja Singhal designer, Pooja Singhal portfolio, product designer, UX designer, UI designer, user research, design portfolio, India",
   },
   [ROUTES.about]: {
-    title: "About — Pooja Singhal",
+    title: "About Pooja Singhal — Product Designer",
     description:
-      "From teaching mathematics to designing products: how proofs, patterns and problem-solving shape the way I approach design.",
+      "About Pooja Singhal: from teaching mathematics to designing products, and how proofs, patterns and problem-solving shape the way she approaches design.",
+    ogType: "profile",
+    keywords:
+      "Pooja Singhal, about Pooja Singhal, product designer background, mathematics teacher to designer, UX designer India",
   },
   [ROUTES.lister]: {
-    title: "Lister — Case Study | Pooja Singhal",
+    title: "Lister Case Study — Pooja Singhal, Product Designer",
     description:
-      "Designing Lister, a quick and intuitive app for private and public lists. UX and UI case study covering research, structure and interface design.",
+      "Pooja Singhal's UX and UI case study on Lister, an app for private and public lists — research, wireframes, usability testing with five participants, and responsive interface design.",
+    ogType: "article",
+    keywords:
+      "Pooja Singhal, Lister case study, UX case study, usability testing, wireframing, prototyping, responsive design, product design portfolio",
   },
   [ROUTES.mathzai]: {
-    title: "MathzAI — Case Study | Pooja Singhal",
+    title: "MathzAI Case Study — Pooja Singhal, Product Designer",
     description:
-      "Making maths feel less intimidating for students. Sole designer on MathzAI: competitive analysis, user testing and the design of an AI maths tutor.",
+      "Pooja Singhal was sole designer on MathzAI, an AI maths tutor. Competitive analysis, user testing, and designing for learning rather than instant answers.",
+    ogType: "article",
+    keywords:
+      "Pooja Singhal, MathzAI case study, AI product design, edtech design, UX research, competitive analysis, design system, product design portfolio",
   },
   [ROUTES.connect]: {
-    title: "Contact — Pooja Singhal",
+    title: "Contact Pooja Singhal — Product Designer",
     description:
-      "Available for full-time roles and select contract projects. Tell me about your idea.",
+      "Contact Pooja Singhal, product designer. Available for full-time roles and select contract projects. Replies within 48 hours.",
+    ogType: "website",
+    keywords:
+      "Pooja Singhal, contact Pooja Singhal, hire product designer, UX designer available, freelance product designer",
   },
 };
 

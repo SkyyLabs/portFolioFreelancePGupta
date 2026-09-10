@@ -5,6 +5,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--
+      Dev-server value. `scripts/prerender.mjs` replaces this with the route's
+      own title, and fails the build if this tag is missing — it was silently
+      deleted once, which shipped every page without a title.
+    -->
+    <title>Pooja Singhal — Product Designer</title>
+    <!--
       The font faces are pulled in by @import from `src/styles/index.css`, so
       the browser cannot discover fonts.gstatic.com until that stylesheet has
       been fetched and parsed. Opening the connection up front removes a full
