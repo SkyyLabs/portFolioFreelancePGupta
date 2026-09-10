@@ -5,12 +5,13 @@
  * in here and none of them import each other. Order matters: tokens first (the
  * rest reference them), then fonts, then base, then component and page layers.
  *
+ * The remote Google Fonts stylesheet is deliberately *not* imported here — it
+ * is a `<link>` in `index.html`. An @import cannot be discovered until this
+ * file has been fetched and parsed, which chained a render-blocking request
+ * behind another one.
+ *
  * Partials are prefixed `_` to mark them as fragments rather than entry points.
  */
-
-/* Remote font faces used by the substitute stacks in `_fonts.css`. */
-@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Cormorant+Garamond:ital,wght@0,400;0,700;1,700&family=Raleway:wght@400;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Open+Sans:wdth,wght@100,400;100,600;100,700&family=Public+Sans:wght@600;800&family=Source+Sans+3:wght@400;600;700&family=Source+Serif+4:wght@600;800&display=swap");
 
 @import "tailwindcss";
 
