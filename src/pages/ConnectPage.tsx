@@ -25,6 +25,9 @@ export default function ConnectPage() {
   const [fields, setFields] = useState<Fields>(EMPTY);
   const [status, setStatus] = useState<Status>("idle");
 
+  // Honeypot. A person never sees this, so a true value means a bot.
+  const [botcheck, setBotcheck] = useState(false);
+
   const root = useRef<HTMLDivElement>(null);
   useScrollReveal(root, REVEAL_SELECTORS);
 
@@ -46,9 +49,17 @@ export default function ConnectPage() {
         headers: { "Content-Type": "application/json", Accept: "application/json" },
         body: JSON.stringify({
           access_key: WEB3FORMS_KEY,
-          subject: `Portfolio enquiry from ${fields.name}`,
-          from_name: "Portfolio contact form",
+          // Name is optional, so fall back rather than sending a subject that
+          // trails off into nothing.
+          subject: fields.name.trim()
+            ? `Portfolio enquiry from ${fields.name.trim()}`
+            : "Portfolio enquiry",
+          from_name: "Pooja Singhal portfolio",
+          // Without this, hitting reply answers Web3Forms rather than the
+          // person who wrote in.
+          replyto: fields.email.trim(),
           ...fields,
+          botcheck,
         }),
       });
       const data = await res.json();
@@ -107,6 +118,20 @@ export default function ConnectPage() {
                     onChange={set("message")}
                   />
                 </div>
+
+                {/* Web3Forms discards any submission with this set. It is
+                    hidden from people and from assistive technology, so only a
+                    script filling every field will trip it. */}
+                <input
+                  type="checkbox"
+                  name="botcheck"
+                  className="connect-botcheck"
+                  tabIndex={-1}
+                  autoComplete="off"
+                  aria-hidden="true"
+                  checked={botcheck}
+                  onChange={(e) => setBotcheck(e.target.checked)}
+                />
 
                 <button
                   className="connect-submit"

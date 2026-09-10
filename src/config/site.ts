@@ -23,8 +23,19 @@ export const BEHANCE = "https://www.behance.net/poojagupta107";
 export const RESUME_URL = "/resume.pdf";
 
 /**
- * Web3Forms access key for the contact form — create one free at
- * https://web3forms.com (enter the destination inbox; no account needed).
+ * Web3Forms access key for the contact form.
+ *
+ * **The key decides who receives the mail.** Web3Forms issues a key against one
+ * inbox and describes it as an alias for that address; nothing in the request
+ * body can redirect a submission elsewhere, which is what stops the service
+ * being an open relay. Changing the recipient therefore means issuing a new
+ * key, not editing this file's neighbours — `EMAIL` above is only what the page
+ * displays and what the mailto links use.
+ *
+ * Issue one free at https://web3forms.com by entering the destination inbox;
+ * no account is needed, and the key is mailed to that address. It must be
+ * issued against EMAIL, so that enquiries reach Pooja rather than whoever
+ * happened to set the form up.
  *
  * Public by design: it only authorises posting to the inbox it was issued for,
  * so it belongs in source rather than an env var. While empty, the form fails
