@@ -22,7 +22,7 @@ function Frame29() {
 function Frame30() {
   return (
     <div className="content-stretch flex flex-col gap-[10px] items-start leading-[1.5] relative shrink-0 w-[76px]">
-      <p className="font-['Open_Sans:Bold',sans-serif] font-extrabold min-w-full relative shrink-0 text-[#0648da] w-[min-content]">Role</p>
+      <p className="font-['Open_Sans:SemiBold',sans-serif] font-semibold min-w-full relative shrink-0 text-[#0648da] w-[min-content]">Role</p>
       <Frame29 />
     </div>
   );
@@ -31,7 +31,7 @@ function Frame30() {
 function Frame32() {
   return (
     <div className="content-stretch flex flex-col gap-[10px] items-start leading-[1.5] relative shrink-0 w-[100px]">
-      <p className="font-['Open_Sans:Bold',sans-serif] font-extrabold min-w-full relative shrink-0 text-[#0648da] w-[min-content]">Platform</p>
+      <p className="font-['Open_Sans:SemiBold',sans-serif] font-semibold min-w-full relative shrink-0 text-[#0648da] w-[min-content]">Platform</p>
       <p className="font-['Open_Sans:SemiBold',sans-serif] font-semibold relative shrink-0 text-black w-[122px]">Web Browser</p>
     </div>
   );
@@ -40,7 +40,7 @@ function Frame32() {
 function Frame31() {
   return (
     <div className="content-stretch flex flex-col gap-[10px] items-start relative shrink-0 w-[174px]">
-      <p className="font-['Open_Sans:Bold',sans-serif] font-extrabold leading-[1.5] min-w-full relative shrink-0 text-[#0648da] w-[min-content]">Tools</p>
+      <p className="font-['Open_Sans:SemiBold',sans-serif] font-semibold leading-[1.5] min-w-full relative shrink-0 text-[#0648da] w-[min-content]">Tools</p>
       <div className="font-['Open_Sans:SemiBold',sans-serif] font-semibold leading-[0] relative shrink-0 text-black w-[213px]">
         <p className="leading-[1.5] mb-0">Figma</p>
         <p className="leading-[1.5]">{`Claude `}</p>
@@ -52,7 +52,7 @@ function Frame31() {
 function Frame33() {
   return (
     <div className="content-stretch flex flex-col gap-[10px] items-start leading-[1.5] relative shrink-0 w-[72px]">
-      <p className="font-['Open_Sans:Bold',sans-serif] font-extrabold min-w-full relative shrink-0 text-[#0648da] w-[min-content]">Timeline</p>
+      <p className="font-['Open_Sans:SemiBold',sans-serif] font-semibold min-w-full relative shrink-0 text-[#0648da] w-[min-content]">Timeline</p>
       <p className="font-['Open_Sans:SemiBold',sans-serif] font-semibold relative shrink-0 text-black w-[88px]">1 month</p>
     </div>
   );
@@ -75,15 +75,15 @@ function Frame157() {
       <h2 className="bg-clip-text font-['DM_Serif_Display:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[40px] text-[transparent] tracking-[1.6px] w-full" style={{ backgroundImage: "linear-gradient(116.49547254056952deg, rgb(11, 33, 161) 1.1207%, rgb(85, 146, 228) 98.879%)" }}>
         OVERVIEW
       </h2>
-      <p className="font-['Open_Sans:Regular',sans-serif] font-normal leading-[0] relative shrink-0 text-[18px] text-black w-full" style={{ fontVariationSettings: '"wdth" 100' }}>
+      <p className="font-['Open_Sans:Regular',sans-serif] font-normal leading-[0] relative shrink-0 text-[16px] text-black w-full" style={{ fontVariationSettings: '"wdth" 100' }}>
         <span className="leading-[1.5]">Lister is a quick and intuitive app for every purpose—</span>
-        <span className="font-['Open_Sans:Bold',sans-serif] font-bold leading-[1.5]" style={{ fontVariationSettings: '"wdth" 100' }}>{`from "Best Vegan Restaurants in Bangkok" to "First Apartment Essentials.`}</span>
+        <span className="font-['Open_Sans:SemiBold',sans-serif] font-semibold leading-[1.5]" style={{ fontVariationSettings: '"wdth" 100' }}>{`from "Best Vegan Restaurants in Bangkok" to "First Apartment Essentials.`}</span>
         <span className="leading-[1.5]">{`" Users can`}</span>
-        <span className="font-['Open_Sans:Bold',sans-serif] font-bold leading-[1.5]" style={{ fontVariationSettings: '"wdth" 100' }}>{` create new list`}</span>
+        <span className="font-['Open_Sans:SemiBold',sans-serif] font-semibold leading-[1.5]" style={{ fontVariationSettings: '"wdth" 100' }}>{` create new list`}</span>
         <span className="leading-[1.5]">,</span>
-        <span className="font-['Open_Sans:Bold',sans-serif] font-bold leading-[1.5]" style={{ fontVariationSettings: '"wdth" 100' }}>{` organise`}</span>
+        <span className="font-['Open_Sans:SemiBold',sans-serif] font-semibold leading-[1.5]" style={{ fontVariationSettings: '"wdth" 100' }}>{` organise`}</span>
         <span className="leading-[1.5]">{` their favourite lists or`}</span>
-        <span className="font-['Open_Sans:Bold',sans-serif] font-bold leading-[1.5]" style={{ fontVariationSettings: '"wdth" 100' }}>{` browse community favorites`}</span>
+        <span className="font-['Open_Sans:SemiBold',sans-serif] font-semibold leading-[1.5]" style={{ fontVariationSettings: '"wdth" 100' }}>{` browse community favorites`}</span>
         <span className="leading-[1.5]">{` to duplicate, edit, and pin them for future use.`}</span>
       </p>
     </div>
@@ -1443,7 +1443,7 @@ function Frame128() {
   return (
     <div className="content-stretch flex gap-px items-end p-[15px] relative rounded-[15px] shrink-0">
       <MaterialSymbolsCheckRounded />
-      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] font-semibold leading-[normal] relative shrink-0 text-[20px] text-black tracking-[0.8px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
+      <p className="[word-break:break-word] font-['Open_Sans:Bold',sans-serif] font-semibold leading-[normal] relative shrink-0 text-[20px] text-black tracking-[0.8px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
         Task Completion
       </p>
     </div>
@@ -1466,7 +1466,7 @@ function Frame129() {
   return (
     <div className="content-stretch flex gap-px items-end p-[15px] relative rounded-[15px] shrink-0">
       <MaterialSymbolsCheckRounded1 />
-      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] font-semibold leading-[normal] relative shrink-0 text-[20px] text-black tracking-[0.8px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
+      <p className="[word-break:break-word] font-['Open_Sans:Bold',sans-serif] font-semibold leading-[normal] relative shrink-0 text-[20px] text-black tracking-[0.8px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
         Feature Discovery
       </p>
     </div>
@@ -1489,7 +1489,7 @@ function Frame130() {
   return (
     <div className="content-stretch flex gap-px items-end p-[15px] relative rounded-[15px] shrink-0">
       <MaterialSymbolsCheckRounded2 />
-      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] font-semibold leading-[normal] relative shrink-0 text-[20px] text-black tracking-[0.8px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
+      <p className="[word-break:break-word] font-['Open_Sans:Bold',sans-serif] font-semibold leading-[normal] relative shrink-0 text-[20px] text-black tracking-[0.8px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
         Habbit Formation
       </p>
     </div>
@@ -1523,7 +1523,7 @@ function Frame151() {
           <span className="leading-[normal]">{`Competitive Analysis `}</span>
         </li>
       </ol>
-      <div className="font-['Open_Sans:Regular',sans-serif] font-normal relative shrink-0 text-[18px] text-black w-full" style={{ fontVariationSettings: '"wdth" 100' }}>
+      <div className="font-['Open_Sans:Regular',sans-serif] font-normal relative shrink-0 text-[16px] text-black w-full" style={{ fontVariationSettings: '"wdth" 100' }}>
         <p className="mb-0 whitespace-pre-wrap">
           <span className="leading-[1.5]">{`I studied navigation patterns across established note-taking and list management platforms such as `}</span>
           <span className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] font-semibold leading-[1.5]" style={{ fontVariationSettings: '"wdth" 100' }}>
@@ -1534,7 +1534,7 @@ function Frame151() {
         <ul className="leading-[1.5] list-disc">
           <li className="mb-0 ms-[27px]">
             {` How they `}
-            <span className="[word-break:break-word] font-['Open_Sans:Bold',sans-serif] font-bold" style={{ fontVariationSettings: '"wdth" 100' }}>
+            <span className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] font-semibold" style={{ fontVariationSettings: '"wdth" 100' }}>
               organize
             </span>
             {` personal, shared, and template-based notes/lists.`}
@@ -1610,7 +1610,7 @@ function Frame152() {
 function Frame136() {
   return (
     <div className="bg-[#2563eb] content-stretch drop-shadow-[0px_2px_1px_rgba(0,0,0,0.25)] flex items-center justify-center px-[20px] py-[10px] relative rounded-[10px] shrink-0 w-[222px]">
-      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[20px] text-white whitespace-nowrap">Open the Prototype →</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Bold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[20px] text-white whitespace-nowrap">Open the Prototype →</p>
     </div>
   );
 }
@@ -1618,7 +1618,7 @@ function Frame136() {
 function Frame153() {
   return (
     <div className="content-stretch flex flex-col gap-[50px] items-start relative shrink-0 w-full">
-      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] font-normal leading-[1.5] min-w-full relative shrink-0 text-[18px] text-black w-[min-content]" style={{ fontVariationSettings: '"wdth" 100' }}>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] font-normal leading-[1.5] min-w-full relative shrink-0 text-[16px] text-black w-[min-content]" style={{ fontVariationSettings: '"wdth" 100' }}>
         Designed low-fidelity wireframes, then leveraged Claude Code to transform them into functional prototypes for user testing.
       </p>
       <Frame136 />
@@ -1693,7 +1693,7 @@ function Frame155() {
           <span className="leading-[normal]">Usability Testing and Interviews</span>
         </li>
       </ol>
-      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] font-normal leading-[1.5] relative shrink-0 text-[18px] text-black w-full" style={{ fontVariationSettings: '"wdth" 100' }}>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] font-normal leading-[1.5] relative shrink-0 text-[16px] text-black w-full" style={{ fontVariationSettings: '"wdth" 100' }}>
         . I ran moderated usability sessions with 5 participants — a mix of people I knew and recruited strangers — to test core flows: searching for lists, duplicating, editing, and understanding ownership.
       </p>
       <Frame137 />
@@ -1703,11 +1703,11 @@ function Frame155() {
 
 function Frame138() {
   return (
-    <div className="[word-break:break-word] col-1 content-stretch flex flex-col font-['Open_Sans:Regular',sans-serif] font-normal gap-[27px] items-end ml-[87px] mt-[162px] relative row-1 text-[18px] text-white tracking-[0.72px] w-[1101px]">
+    <div className="[word-break:break-word] col-1 content-stretch flex flex-col font-['Open_Sans:Regular',sans-serif] font-normal gap-[27px] items-end ml-[87px] mt-[162px] relative row-1 text-[16px] text-white tracking-[0.72px] w-[1101px]">
       <ul className="block relative shrink-0 w-full" style={{ fontVariationSettings: '"wdth" 100' }}>
         <li className="leading-[normal] list-disc ms-[27px]">
           {`Users scan search results left-to-right by default and often `}
-          <span className="[word-break:break-word] font-['Open_Sans:Bold',sans-serif] font-bold" style={{ fontVariationSettings: '"wdth" 100' }}>{`miss the "Smart Search Results" column `}</span>entirely — semantic matches need stronger visual separation from literal ones
+          <span className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] font-semibold" style={{ fontVariationSettings: '"wdth" 100' }}>{`miss the "Smart Search Results" column `}</span>entirely — semantic matches need stronger visual separation from literal ones
         </li>
       </ul>
       <ul className="block relative shrink-0 w-full" style={{ fontVariationSettings: '"wdth" 100' }}>
@@ -1723,7 +1723,7 @@ function Frame138() {
       </ul>
       <ul className="block relative shrink-0 w-full" style={{ fontVariationSettings: '"wdth" 100' }}>
         <li className="leading-[normal] list-disc ms-[27px]">
-          <span className="[word-break:break-word] font-['Open_Sans:Bold',sans-serif] font-bold" style={{ fontVariationSettings: '"wdth" 100' }}>
+          <span className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] font-semibold" style={{ fontVariationSettings: '"wdth" 100' }}>
             Ownership needs to be stated, not implied:
           </span>
           {` Users were unsure whether duplicating a list notified the original owner — privacy and ownership status should be explicit at the moment of duplication.`}
@@ -3168,11 +3168,11 @@ function Group32() {
         </p>
       </div>
       <div className="[word-break:break-word] col-1 font-['Open_Sans:Regular',sans-serif] font-normal h-[212.662px] ml-0 mt-[79.75px] relative row-1 text-[0px] text-black w-[1063.309px]" style={{ fontVariationSettings: '"wdth" 100' }}>
-        <p className="leading-[1.5] mb-0 text-[18px] whitespace-pre-wrap">​</p>
-        <p className="leading-[1.5] mb-0 text-[18px] whitespace-pre-wrap">​</p>
+        <p className="leading-[1.5] mb-0 text-[16px] whitespace-pre-wrap">​</p>
+        <p className="leading-[1.5] mb-0 text-[16px] whitespace-pre-wrap">​</p>
         <ul className="mb-0">
-          <li className="leading-[1.5] list-disc ms-[calc(var(--list-marker-font-size,0)*1.5*1)] text-[18px]">
-            <span className="[word-break:break-word] font-['Open_Sans:Bold',sans-serif] font-bold" style={{ fontVariationSettings: '"wdth" 100' }}>{`Creating & Managing Personal Lists`}</span>
+          <li className="leading-[1.5] list-disc ms-[calc(var(--list-marker-font-size,0)*1.5*1)] text-[16px]">
+            <span className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] font-semibold" style={{ fontVariationSettings: '"wdth" 100' }}>{`Creating & Managing Personal Lists`}</span>
             {`: Users need a dedicated `}place{` for their work. The sidebar provides instant access to "My Lists"—like a work-in-progress "`}
             <span className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] font-semibold" style={{ fontVariationSettings: '"wdth" 100' }}>
               First Apartment Essentials
@@ -3180,10 +3180,10 @@ function Group32() {
             {`" checklist—ensuring users can easily organize and return to their own projects.`}
           </li>
         </ul>
-        <p className="leading-[1.5] mb-0 text-[18px] whitespace-pre-wrap">​</p>
+        <p className="leading-[1.5] mb-0 text-[16px] whitespace-pre-wrap">​</p>
         <ul>
-          <li className="leading-[1.5] list-disc ms-[calc(var(--list-marker-font-size,0)*1.5*1)] text-[18px]">
-            <span className="[word-break:break-word] font-['Open_Sans:Bold',sans-serif] font-bold" style={{ fontVariationSettings: '"wdth" 100' }}>{`Exploring & Adopting Public Lists: `}</span>
+          <li className="leading-[1.5] list-disc ms-[calc(var(--list-marker-font-size,0)*1.5*1)] text-[16px]">
+            <span className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] font-semibold" style={{ fontVariationSettings: '"wdth" 100' }}>{`Exploring & Adopting Public Lists: `}</span>
             {`Users can seamlessly duplicate community content (like `}
             <span className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] font-semibold" style={{ fontVariationSettings: '"wdth" 100' }}>{`"Top Sci-Fi Movies"`}</span>
             {`) into their private workspace, allowing them to `}
@@ -3622,13 +3622,13 @@ function Frame186() {
     <div className="content-stretch flex flex-col gap-[60px] h-[802px] items-center leading-[0] relative shrink-0 w-[1079px]">
       <div className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] font-normal min-w-full relative shrink-0 text-[0px] text-black w-[min-content] whitespace-pre-wrap" style={{ fontVariationSettings: '"wdth" 100' }}>
         <p className="mb-0">
-          <span className="[word-break:break-word] bg-clip-text font-['DM_Serif_Display:Regular',sans-serif] leading-[1.5] not-italic text-[30px] text-[transparent] tracking-[1.2px]" style={{ backgroundImage: "linear-gradient(100.53049378943012deg, rgb(11, 33, 161) 1.1207%, rgb(85, 146, 228) 98.879%)" }}>
+          <span className="[word-break:break-word] bg-clip-text font-['Open_Sans:SemiBold',sans-serif] leading-[1.5] not-italic text-[30px] text-[transparent] tracking-[1.2px]" style={{ backgroundImage: "linear-gradient(100.53049378943012deg, rgb(11, 33, 161) 1.1207%, rgb(85, 146, 228) 98.879%)" }}>
             2. Simplifying Discovery:
           </span>
-          <span className="leading-[1.5] text-[18px]">{` `}</span>
+          <span className="leading-[1.5] text-[16px]">{` `}</span>
         </p>
-        <p className="leading-[1.5] mb-0 text-[18px]">​</p>
-        <p className="text-[18px]">
+        <p className="leading-[1.5] mb-0 text-[16px]">​</p>
+        <p className="text-[16px]">
           <span className="leading-[1.5]">{`AI-Powered Intent Search Finding the right list shouldn't require guessing the exact keywords. List It utilizes AI-driven search to understand user intent. Users can simply describe their goal—such as `}</span>
           <span className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] font-semibold leading-[1.5]" style={{ fontVariationSettings: '"wdth" 100' }}>{`"planning a weekend camping trip"`}</span>
           <span className="leading-[1.5]">{`—and the system intelligently `}</span>
@@ -4069,17 +4069,17 @@ function Frame201() {
   return (
     <div className="col-1 content-stretch flex flex-col gap-[60px] items-start ml-0 mt-0 relative row-1 w-[1097px]">
       <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] font-normal min-w-full relative shrink-0 text-[0px] text-black w-[min-content]" style={{ fontVariationSettings: '"wdth" 100' }}>
-        <span className="bg-clip-text font-['DM_Serif_Display:Regular',sans-serif] leading-[1.5] not-italic text-[30px] text-[transparent] tracking-[1.2px]" style={{ backgroundImage: "linear-gradient(123.94019965981624deg, rgb(11, 33, 161) 1.1207%, rgb(85, 146, 228) 98.879%)" }}>
+        <span className="bg-clip-text font-['Open_Sans:SemiBold',sans-serif] leading-[1.5] not-italic text-[30px] text-[transparent] tracking-[1.2px]" style={{ backgroundImage: "linear-gradient(123.94019965981624deg, rgb(11, 33, 161) 1.1207%, rgb(85, 146, 228) 98.879%)" }}>
           3. Ensuring Clarity and Trust:
         </span>
-        <span className="leading-[1.5] text-[18px]">{` `}</span>
+        <span className="leading-[1.5] text-[16px]">{` `}</span>
       </p>
-      <div className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] font-normal relative shrink-0 text-[18px] text-black w-[1084px]" style={{ fontVariationSettings: '"wdth" 100' }}>
+      <div className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] font-normal relative shrink-0 text-[16px] text-black w-[1084px]" style={{ fontVariationSettings: '"wdth" 100' }}>
         <p className="leading-[1.5] mb-0 whitespace-pre-wrap">To give users the confidence to adopt public lists, the design prioritizes credibility and readability.</p>
         <p className="leading-[1.5] mb-0 whitespace-pre-wrap">​</p>
         <ul className="leading-[1.5] list-disc">
           <li className="mb-0 ms-[27px]">
-            <span className="[word-break:break-word] font-['Open_Sans:Bold',sans-serif] font-bold" style={{ fontVariationSettings: '"wdth" 100' }}>
+            <span className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] font-semibold" style={{ fontVariationSettings: '"wdth" 100' }}>
               Social Signals:
             </span>
             {` Prominent `}
@@ -4087,7 +4087,7 @@ function Frame201() {
             {` and curator profiles serve as immediate quality indicators, helping users identify high-value content.`}
           </li>
           <li className="ms-[27px]">
-            <span className="[word-break:break-word] font-['Open_Sans:Bold',sans-serif] font-bold" style={{ fontVariationSettings: '"wdth" 100' }}>{`Structured Layout & Granular Control:`}</span>
+            <span className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] font-semibold" style={{ fontVariationSettings: '"wdth" 100' }}>{`Structured Layout & Granular Control:`}</span>
             {` Users can immediately see list ownership, privacy status, and active members. Additionally, powerful filtering controls—such as sorting by subcategory, contributor, or progress—empower users to navigate even complex lists with confidence.`}
           </li>
         </ul>
@@ -4113,10 +4113,10 @@ function Group44() {
 function Frame220() {
   return (
     <div className="col-1 content-stretch flex flex-col gap-[50px] items-start ml-0 mt-0 relative row-1 w-[1093px]">
-      <p className="[word-break:break-word] bg-clip-text font-['DM_Serif_Display:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[30px] text-[transparent] tracking-[1.2px] w-full" style={{ backgroundImage: "linear-gradient(123.84331879668119deg, rgb(11, 33, 161) 1.1207%, rgb(85, 146, 228) 98.879%)" }}>
+      <p className="[word-break:break-word] bg-clip-text font-['Open_Sans:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[30px] text-[transparent] tracking-[1.2px] w-full" style={{ backgroundImage: "linear-gradient(123.84331879668119deg, rgb(11, 33, 161) 1.1207%, rgb(85, 146, 228) 98.879%)" }}>
         4.Responsive by Design
       </p>
-      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] font-normal leading-[normal] relative shrink-0 text-[18px] text-black tracking-[0.72px] w-full" style={{ fontVariationSettings: '"wdth" 100' }}>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] font-normal leading-[normal] relative shrink-0 text-[16px] text-black tracking-[0.72px] w-full" style={{ fontVariationSettings: '"wdth" 100' }}>
         By rethinking the design from the smallest screen sizes on up to the largest, a system was created that prioritized and exposed content, allowed for customizations, and provided value as quickly as possible – no matter what device you were using.
       </p>
       <div className="bg-[#4e5ba6] h-[570px] relative rounded-[12.383px] shrink-0 w-full" />
@@ -5741,7 +5741,7 @@ function Frame310() {
   return (
     <div className="[word-break:break-word] content-stretch flex flex-col gap-[50px] items-start relative shrink-0 w-full">
       <h2 className="bg-clip-text font-['DM_Serif_Display:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[40px] text-[transparent] tracking-[1.6px] w-full" style={{ backgroundImage: "linear-gradient(116.369408959777deg, rgb(11, 33, 161) 1.1207%, rgb(85, 146, 228) 98.879%)" }}>{`What I learned & Future improvements`}</h2>
-      <div className="font-['Open_Sans:Regular',sans-serif] font-normal leading-[0] relative shrink-0 text-[18px] text-black tracking-[0.72px] w-full" style={{ fontVariationSettings: '"wdth" 100' }}>
+      <div className="font-['Open_Sans:Regular',sans-serif] font-normal leading-[0] relative shrink-0 text-[16px] text-black tracking-[0.72px] w-full" style={{ fontVariationSettings: '"wdth" 100' }}>
         <ul className="mb-0">
           <li className="leading-[normal] list-disc ms-[27px]">
             Search<span className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] font-semibold" style={{ fontVariationSettings: '"wdth" 100' }}>{` UX requires balancing literal and semantic results,`}</span>
@@ -5752,7 +5752,7 @@ function Frame310() {
         <ul className="mb-0">
           <li className="leading-[normal] list-disc ms-[27px]">
             {`I built categories as a filter and people skipped them. They only got used once they looked like something to explore. So, `}
-            <span className="[word-break:break-word] font-['Open_Sans:Bold',sans-serif] font-bold" style={{ fontVariationSettings: '"wdth" 100' }}>
+            <span className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] font-semibold" style={{ fontVariationSettings: '"wdth" 100' }}>
               a browsing surface has to invite, not just sort.
             </span>
           </li>
@@ -5786,7 +5786,7 @@ function Frame150() {
 function Frame() {
   return (
     <div className="bg-[#2563eb] content-stretch drop-shadow-[0px_2px_1px_rgba(0,0,0,0.25)] flex items-center justify-center px-[20px] py-[10px] relative rounded-[10px] shrink-0 w-[182px]">
-      <p className="[word-break:break-word] font-['Open_Sans:SemiBold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[20px] text-white whitespace-nowrap">Let’s Connect →</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Bold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[20px] text-white whitespace-nowrap">Let’s Connect →</p>
     </div>
   );
 }
@@ -5797,7 +5797,7 @@ function Frame311() {
       <h2 className="[word-break:break-word] bg-clip-text font-['DM_Serif_Display:Regular',sans-serif] leading-[normal] min-w-full not-italic relative shrink-0 text-[40px] text-[transparent] tracking-[1.6px] w-[min-content]" style={{ backgroundImage: "linear-gradient(114.05350180095778deg, rgb(11, 33, 161) 1.1207%, rgb(85, 146, 228) 98.879%)" }}>
         LETS TALK DESIGN !
       </h2>
-      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] min-w-full not-italic relative shrink-0 text-[18px] text-black w-[min-content]">Static screens only tell half the story. Whether you want to walk through the prototype, discuss design strategies, tell me about your project or just say hello and connect—I’d love to hear from you.</p>
+      <p className="[word-break:break-word] font-['Open_Sans:Regular',sans-serif] leading-[normal] min-w-full not-italic relative shrink-0 text-[16px] text-black w-[min-content]">Static screens only tell half the story. Whether you want to walk through the prototype, discuss design strategies, tell me about your project or just say hello and connect—I’d love to hear from you.</p>
       <Frame />
     </div>
   );
@@ -5822,13 +5822,13 @@ export default function ListerCaseStudy() {
           <span className="font-['DM_Serif_Display:Italic',sans-serif] italic leading-[normal] text-white">er</span>
         </p>
       </button>
-      <p className="[word-break:break-word] absolute font-['Open_Sans:SemiBold',sans-serif] font-semibold leading-[normal] left-[220px] text-[40px] text-white top-[640px] whitespace-nowrap">Discover, create, and share lists on any topic.</p>
+      <p className="[word-break:break-word] absolute font-['Open_Sans:SemiBold',sans-serif] font-semibold leading-[normal] left-[220px] text-[30px] text-white top-[640px] whitespace-nowrap">Discover, create, and share lists on any topic.</p>
       <Frame34 />
       <Frame157 />
       <h2 className="[word-break:break-word] absolute bg-clip-text font-['DM_Serif_Display:Regular',sans-serif] leading-[normal] left-[97px] not-italic text-[40px] text-[transparent] top-[2260px] tracking-[1.6px] whitespace-nowrap" style={{ backgroundImage: "linear-gradient(102.15575743764406deg, rgb(11, 33, 161) 1.1207%, rgb(85, 146, 228) 98.879%)" }}>{`RESEARCH & DISCOVERY`}</h2>
       <div className="absolute bg-[#4e5ba6] h-[581px] left-0 top-[1348px] w-[1280px]" />
       <h2 className="[word-break:break-word] absolute font-['DM_Serif_Display:Regular',sans-serif] leading-[normal] left-[98px] not-italic text-[40px] text-white top-[1423px] tracking-[1.6px] whitespace-nowrap">THE CHALLENGES</h2>
-      <p className="[word-break:break-word] absolute font-['Open_Sans:Regular',sans-serif] font-normal leading-[normal] left-[-701px] text-[18px] text-black top-[2102px] tracking-[0.72px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>{`want to know the trending lists in the world ? `}</p>
+      <p className="[word-break:break-word] absolute font-['Open_Sans:Regular',sans-serif] font-normal leading-[normal] left-[-701px] text-[16px] text-black top-[2102px] tracking-[0.72px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>{`want to know the trending lists in the world ? `}</p>
       <div className="absolute h-[17px] left-[544px] top-[582px] w-[188px]">
         <div className="absolute inset-[0_6.83%_0_5.7%]">
           <svg className="block size-full" fill="none" height="17" preserveAspectRatio="none" viewBox="0 0 164.448 17" width="164.448">
@@ -5837,14 +5837,14 @@ export default function ListerCaseStudy() {
         </div>
       </div>
       <Desktop1 />
-      <div className="[word-break:break-word] absolute font-['Open_Sans:Regular',sans-serif] leading-[0] left-[97px] not-italic text-[18px] text-white top-[1508px] tracking-[0.72px] w-[1086px]">
+      <div className="[word-break:break-word] absolute font-['Open_Sans:Regular',sans-serif] leading-[0] left-[97px] not-italic text-[16px] text-white top-[1508px] tracking-[0.72px] w-[1086px]">
         <p className="font-['Open_Sans:Regular',sans-serif] font-normal leading-[normal] mb-0 whitespace-pre-wrap" style={{ fontVariationSettings: '"wdth" 100' }}>
           To deliver a successful product, the design needed to overcome four specific hurdles:
         </p>
         <p className="leading-[normal] mb-0 whitespace-pre-wrap">​</p>
         <ol className="list-decimal mb-0" start="1">
           <li className="[word-break:break-word] leading-[normal] ms-[27px] text-white">
-            <span className="font-['Open_Sans:Bold',sans-serif] font-bold" style={{ fontVariationSettings: '"wdth" 100' }}>
+            <span className="font-['Open_Sans:SemiBold',sans-serif] font-semibold" style={{ fontVariationSettings: '"wdth" 100' }}>
               Unifying the Workflow :
             </span>
             <span className="font-['Open_Sans:Regular',sans-serif] font-normal" style={{ fontVariationSettings: '"wdth" 100' }}>{` Seamlessly integrate `}</span>
@@ -5861,7 +5861,7 @@ export default function ListerCaseStudy() {
         <p className="leading-[normal] mb-0 whitespace-pre-wrap">​</p>
         <ol className="list-decimal mb-0" start="2">
           <li className="[word-break:break-word] leading-[normal] ms-[27px] text-white">
-            <span className="font-['Open_Sans:Bold',sans-serif] font-bold" style={{ fontVariationSettings: '"wdth" 100' }}>
+            <span className="font-['Open_Sans:SemiBold',sans-serif] font-semibold" style={{ fontVariationSettings: '"wdth" 100' }}>
               Simplifying Discovery :
             </span>
             <span className="font-['Open_Sans:Regular',sans-serif] font-normal" style={{ fontVariationSettings: '"wdth" 100' }}>{` Make exploring vast amounts of public content feel effortless rather than overwhelming.`}</span>
@@ -5870,7 +5870,7 @@ export default function ListerCaseStudy() {
         <p className="leading-[normal] mb-0 whitespace-pre-wrap">​</p>
         <ol className="list-decimal mb-0" start="3">
           <li className="[word-break:break-word] leading-[normal] ms-[27px] text-white">
-            <span className="font-['Open_Sans:Bold',sans-serif] font-bold" style={{ fontVariationSettings: '"wdth" 100' }}>{`Ensuring Clarity & Trust :`}</span>
+            <span className="font-['Open_Sans:SemiBold',sans-serif] font-semibold" style={{ fontVariationSettings: '"wdth" 100' }}>{`Ensuring Clarity & Trust :`}</span>
             <span className="font-['Open_Sans:Regular',sans-serif] font-normal" style={{ fontVariationSettings: '"wdth" 100' }}>{` Design public lists with `}</span>
             <span className="font-['Open_Sans:SemiBold',sans-serif] font-semibold" style={{ fontVariationSettings: '"wdth" 100' }}>
               clear structure and social proof
@@ -5883,7 +5883,7 @@ export default function ListerCaseStudy() {
         <p className="leading-[normal] mb-0 whitespace-pre-wrap">​</p>
         <ol className="list-decimal" start="4">
           <li className="[word-break:break-word] leading-[normal] ms-[27px] text-white whitespace-pre-wrap">
-            <span className="font-['Open_Sans:Bold',sans-serif] font-bold" style={{ fontVariationSettings: '"wdth" 100' }}>{`Responsive across devices :  `}</span>
+            <span className="font-['Open_Sans:SemiBold',sans-serif] font-semibold" style={{ fontVariationSettings: '"wdth" 100' }}>{`Responsive across devices :  `}</span>
             <span className="font-['Open_Sans:Regular',sans-serif] font-normal" style={{ fontVariationSettings: '"wdth" 100' }}>
               . Ensuring Seamless Continuity. Translate the immersive, visual-heavy discovery experience from desktop to mobile without sacrificing usability or aesthetic appeal.
             </span>
@@ -5893,7 +5893,7 @@ export default function ListerCaseStudy() {
       <h2 className="[word-break:break-word] absolute bg-clip-text font-['DM_Serif_Display:Regular',sans-serif] leading-[normal] left-[96px] not-italic text-[40px] text-[transparent] top-[5046px] tracking-[1.6px] whitespace-nowrap" style={{ backgroundImage: "linear-gradient(97.37437906347836deg, rgb(11, 33, 161) 1.1207%, rgb(85, 146, 228) 98.879%)" }}>
         THE SOLUTION
       </h2>
-      <p className="[word-break:break-word] absolute font-['Open_Sans:Regular',sans-serif] font-normal leading-[1.5] left-[-8804px] text-[18px] text-black top-[5413px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
+      <p className="[word-break:break-word] absolute font-['Open_Sans:Regular',sans-serif] font-normal leading-[1.5] left-[-8804px] text-[16px] text-black top-[5413px] whitespace-nowrap" style={{ fontVariationSettings: '"wdth" 100' }}>
         some can edit and others can only view
       </p>
       <Frame133 />
