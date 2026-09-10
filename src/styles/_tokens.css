@@ -32,9 +32,9 @@
    * aliases under the exact family names the generated code references and
    * points them at free substitutes; these stacks name those aliases.
    */
-  --font-display: "Scala_Pro:Bold", "Cormorant Garamond", serif;
-  --font-body: "Scala_Sans_Pro:Regular", "Raleway", sans-serif;
-  --font-body-bold: "Scala_Sans_Pro:Bold", "Raleway", sans-serif;
+  --font-display: "Scala_Pro:Bold", serif;
+  --font-body: "Scala_Sans_Pro:Regular", sans-serif;
+  --font-body-bold: "Scala_Sans_Pro:Bold", sans-serif;
   --font-script: "Caveat:Bold", cursive;
 
   --text-sm: 13px;

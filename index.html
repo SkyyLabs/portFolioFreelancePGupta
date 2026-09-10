@@ -10,39 +10,13 @@
       been fetched and parsed. Opening the connection up front removes a full
       DNS + TLS round trip from the critical path.
     -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <!--
+      Every font the design uses is declared as an explicit @font-face alias in
+      `src/styles/_fonts.css`, pointing straight at a woff2 on one of these two
+      hosts. There is no third-party stylesheet to fetch first.
+    -->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <!-- The font aliases in `_fonts.css` are served straight from this host. -->
     <link rel="preconnect" href="https://static.figma.com" crossorigin />
-    <!--
-      Only the two families referenced by plain name in the token font stacks.
-      Everything else the design uses is declared as an explicit @font-face
-      alias in `src/styles/_fonts.css`, which points at its own woff2 file.
-
-      Loaded here rather than by @import from `styles/index.css`: an @import is
-      not discoverable until that stylesheet has itself been fetched and
-      parsed, which put a serial ~870ms of render-blocking work on the
-      critical path.
-    -->
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,700;1,700&family=Raleway:wght@400;700&display=swap"
-    />
-    <title><!-- figma:title --></title>
-    <!--
-      Dev-server fallback only. `scripts/prerender.mjs` strips this and injects
-      the per-route graph from `src/config/structured-data.ts`, so what ships to
-      production never comes from here. Kept minimal and route-agnostic.
-    -->
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "Person",
-        "name": "Pooja Singhal",
-        "url": "https://pooja-singhal-portfolio.vercel.app/",
-        "jobTitle": "Product Designer"
-      }
-    </script>
     <!-- figma:head-end -->
   </head>
   <body>
