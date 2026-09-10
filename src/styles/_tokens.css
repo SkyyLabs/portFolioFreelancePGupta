@@ -32,10 +32,17 @@
    * aliases under the exact family names the generated code references and
    * points them at free substitutes; these stacks name those aliases.
    */
-  --font-display: "Scala_Pro:Bold", serif;
-  --font-body: "Scala_Sans_Pro:Regular", sans-serif;
-  --font-body-bold: "Scala_Sans_Pro:Bold", sans-serif;
-  --font-script: "Caveat:Bold", cursive;
+  /*
+   * The alias names must match `_fonts.css` exactly, spaces and all. These
+   * previously carried underscores — `"Scala_Pro:Bold"` — which matches no
+   * declared family, so every token silently fell through to the generic at
+   * the end of the stack. The underscore form is correct only inside a
+   * Tailwind arbitrary value, where the class syntax converts it to a space.
+   */
+  --font-display: "Scala Pro:Bold", "Cormorant Garamond", Georgia, serif;
+  --font-body: "Scala Sans Pro:Regular", Raleway, system-ui, sans-serif;
+  --font-body-bold: "Scala Sans Pro:Bold", Raleway, system-ui, sans-serif;
+  --font-script: "Caveat:Bold", Caveat, cursive;
 
   --text-sm: 13px;
   --text-base: 15px;
