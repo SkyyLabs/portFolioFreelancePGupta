@@ -1,6 +1,6 @@
 import svgPaths from "./svg-ghbhec1snz";
-import imgImage8 from "./0a53321993855dfb21636c437eed4b3df776e13a.png";
-import imgImage9 from "./4f9e0793d58d0cb54d1f73acfec885af378da5ac.png";
+import imgImage8 from "./0a53321993855dfb21636c437eed4b3df776e13a.webp";
+import imgImage9 from "./4f9e0793d58d0cb54d1f73acfec885af378da5ac.webp";
 
 function Frame8() {
   return (

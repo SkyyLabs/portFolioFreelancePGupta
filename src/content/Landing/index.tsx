@@ -1,11 +1,11 @@
-import imgEllipse1 from "./a4dc55e96930929925356c0adfc7fd1675977c2e.png";
-import imgArrow1 from "./4c95522edb792fbe8e96318427b9ff4948d0ac44.png";
+import imgEllipse1 from "./a4dc55e96930929925356c0adfc7fd1675977c2e.webp";
+import imgArrow1 from "./4c95522edb792fbe8e96318427b9ff4948d0ac44.webp";
 import svgPaths from "./svg-y8hbzf41ce";
-import imgRectangle8 from "./c50b7e2f79ecc37186a96392d262a47bbdb5a8ff.png";
-import imgArrow4 from "./dca12fe2e2097a71ae2ab1221423121b9964f83b.png";
-import imgImage23 from "./8761df8bdb08561b291f2db8a02fce9b0358f4fa.png";
-import imgImage24 from "./621a89c6a6af02cf9c4e6e3e44ca85f33ab6e6c7.png";
-import imgImage12 from "./7e63a6a9014b62570562a76a2fb3d67da1b049bd.png";
+import imgRectangle8 from "./c50b7e2f79ecc37186a96392d262a47bbdb5a8ff.webp";
+import imgArrow4 from "./dca12fe2e2097a71ae2ab1221423121b9964f83b.webp";
+import imgImage23 from "./8761df8bdb08561b291f2db8a02fce9b0358f4fa.webp";
+import imgImage24 from "./621a89c6a6af02cf9c4e6e3e44ca85f33ab6e6c7.webp";
+import imgImage12 from "./7e63a6a9014b62570562a76a2fb3d67da1b049bd.webp";
 
 function Ellipse({ className }: { className?: string }) {
   return (
@@ -106,7 +106,7 @@ function Frame24() {
   return (
     <div className="content-stretch flex h-[797px] items-center justify-between relative shrink-0 w-full">
       <div className="portrait-hover-zone h-[739px] relative shrink-0 w-[663px]">
-        <img alt="Pooja Singhal, illustrated in pencil, working at a laptop" className="absolute inset-0 max-w-none object-contain object-top opacity-60 pointer-events-none size-full" src={imgRectangle8} />
+        <img alt="Pooja Singhal, illustrated in pencil, working at a laptop" className="absolute inset-0 max-w-none object-contain object-top opacity-60 pointer-events-none size-full" decoding="async" fetchPriority="high" height="1402" src={imgRectangle8} width="1122" />
         <div className="portrait-speech-bubble" aria-hidden>
           <span><span className="wave-emoji">👋</span> Oh hi, you found me!</span>
           <div className="portrait-speech-bubble-tail" />
