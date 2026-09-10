@@ -133,3 +133,29 @@
 [data-name="mathzai-case-study final"] {
   font-family: "Avenir Next:Regular", Inter, system-ui, sans-serif;
 }
+
+/* ── Stray list markers in the Lister mockups ───────────────────────────── */
+
+/*
+ * Three labels inside the product mockups — "Top Contributor", "1.1k Likes"
+ * and "4 Likes" — were exported as single-item `<ul><li class="list-disc">`.
+ * They are stats, not list entries, and their marker renders to the left of
+ * the white card it belongs to, so a stray bullet floats on the blue band.
+ *
+ * Matched on the export's own margin classes, which these three nodes and only
+ * these three carry. Selecting on `li:only-child` instead would also strip the
+ * bullets from Key Insights and The Challenges, which are real lists.
+ */
+.case-study-root li.list-disc.ms-\[16\.5px\],
+.case-study-root li.list-disc.ms-\[18\.5745px\] {
+  list-style: none;
+}
+
+/*
+ * The MathzAI title is set `leading-none`, so the line box is exactly the font
+ * size and Nunito's descenders are clipped by 8px. Nothing else on the page
+ * depends on this heading's height.
+ */
+[data-name="mathzai-case-study final"] h1 {
+  line-height: 1.2;
+}
