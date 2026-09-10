@@ -129,7 +129,7 @@ function SnapshotCard() {
     <div className="flex h-[294.841px] items-center justify-center relative shrink-0 w-[1035.552px]">
       <div className="flex-none rotate-[-1.5deg]">
         <div className="bg-white content-stretch drop-shadow-[0px_12px_12px_rgba(21,37,134,0.08)] flex flex-col gap-[24px] items-start p-[36px] relative rounded-[24px] w-[1028.889px]" data-name="snapshot-card">
-          <p className="[word-break:break-word] font-['Roca:Black',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#010c81] text-[28px] whitespace-nowrap">Project Snapshot</p>
+          <p className="[word-break:break-word] font-['Roca:Black',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#010c81] text-[36px] whitespace-nowrap">Project Snapshot</p>
           <Frame2 />
         </div>
       </div>
@@ -488,7 +488,7 @@ function SectionHeaderArea() {
   return (
     <div className="content-stretch flex flex-col gap-[36px] items-start relative shrink-0 w-full" data-name="section-header-area">
       <Eyebrow />
-      <ol className="[word-break:break-word] block font-['Roca:Bold',sans-serif] leading-[0] list-decimal min-w-full not-italic relative shrink-0 text-[#010c81] text-[30px] w-[min-content]" start="1">
+      <ol className="[word-break:break-word] block font-['Roca:Black',sans-serif] leading-[0] list-decimal min-w-full not-italic relative shrink-0 text-[#010c81] text-[36px] w-[min-content]" start="1">
         <li className="ms-[45px]">
           <span className="leading-[normal]">Competitive Analysis</span>
         </li>
