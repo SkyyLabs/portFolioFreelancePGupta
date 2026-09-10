@@ -1,5 +1,6 @@
 import { useRef, useState, type FormEvent } from "react";
 import { CONTACT_ENDPOINT, EMAIL, WEB3FORMS_KEY } from "@/config/site";
+import { FAQ } from "@/config/structured-data";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 
 type Status = "idle" | "sending" | "sent" | "error";
@@ -12,7 +13,7 @@ const EMPTY: Fields = { name: "", email: "", phone: "", message: "" };
  * Heading, then the form card. The success state is not revealed: it replaces
  * the form after a submit, long past any scroll trigger.
  */
-const REVEAL_SELECTORS = [".connect-title", ".connect-card"] as const;
+const REVEAL_SELECTORS = [".connect-title", ".connect-card", ".connect-faq"] as const;
 
 const FIELDS = [
   { key: "name", label: "Name", type: "text", placeholder: "Jane Smith", required: false },
@@ -124,6 +125,26 @@ export default function ConnectPage() {
                 )}
               </div>
             </form>
+
+            {/*
+              These answers back the `FAQPage` block in `structured-data.ts`.
+              Both read from the same `FAQ` constant on purpose: structured data
+              whose answers are not visible on the page is a manual-action risk,
+              so the two cannot be allowed to drift apart.
+            */}
+            <section className="connect-faq" aria-labelledby="faq-heading">
+              <h2 className="connect-faq-title" id="faq-heading">
+                Frequently asked
+              </h2>
+              <dl className="connect-faq-list">
+                {FAQ.map(({ q, a }) => (
+                  <div className="connect-faq-item" key={q}>
+                    <dt className="connect-faq-q">{q}</dt>
+                    <dd className="connect-faq-a">{a}</dd>
+                  </div>
+                ))}
+              </dl>
+            </section>
           </>
         )}
       </div>

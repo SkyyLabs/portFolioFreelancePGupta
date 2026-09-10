@@ -19,11 +19,11 @@ import { fileURLToPath } from "node:url";
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const dist = path.join(root, "dist");
 
-const { render, ROUTES, ROUTE_META } = await import(
+const { render, ROUTES, ROUTE_META, structuredDataFor, SITE_URL } = await import(
   path.join(root, "dist-ssr", "entry-server.js")
 );
 
-const SITE = "https://pooja-singhal-portfolio.vercel.app";
+const SITE = SITE_URL;
 const template = fs.readFileSync(path.join(dist, "index.html"), "utf8");
 
 const escape = (s) =>
@@ -36,6 +36,13 @@ function setMeta(html, attr, key, value) {
     ? html.replace(re, `$1${escape(value)}$2`)
     : html.replace("</head>", `  <meta ${attr}="${key}" content="${escape(value)}">\n  </head>`);
 }
+
+/**
+ * The template's JSON-LD, matched so it can be swapped for the per-route graph.
+ *
+ * It stays in `index.html` for the dev server, which does not run this script.
+ */
+const FALLBACK_LD = /<script type="application\/ld\+json">[\s\S]*?<\/script>\s*/g;
 
 let count = 0;
 for (const route of Object.values(ROUTES)) {
@@ -59,6 +66,20 @@ for (const route of Object.values(ROUTES)) {
     "</head>",
     `  <link rel="canonical" href="${SITE}${route}">\n  </head>`,
   );
+
+  // Replace the template's fallback graph with this route's own. Without this
+  // every page ships every block — the contact page claiming to be a case
+  // study, and each route asserting it is the Person's mainEntityOfPage.
+  html = html.replace(FALLBACK_LD, "");
+  const ld = structuredDataFor(route);
+  if (ld) {
+    html = html.replace(
+      "</head>",
+      `  <script type="application/ld+json">${ld}</script>\n  </head>`,
+    );
+  } else {
+    console.warn(`prerender: no structured data for ${route}`);
+  }
 
   const outDir = route === "/" ? dist : path.join(dist, route);
   fs.mkdirSync(outDir, { recursive: true });

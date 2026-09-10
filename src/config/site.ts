@@ -6,6 +6,15 @@
  * bundle, so all of it ships to the browser.
  */
 
+/**
+ * Canonical origin, no trailing slash.
+ *
+ * Used to build absolute URLs for canonical links, Open Graph tags, the
+ * sitemap and the JSON-LD graph — all of which must agree, or search engines
+ * treat them as different pages.
+ */
+export const SITE_URL = "https://pooja-singhal-portfolio.vercel.app";
+
 export const EMAIL = "pooja.guptavv@gmail.com";
 export const LINKEDIN = "https://www.linkedin.com/in/pooja-singhal-65205121b/";
 export const BEHANCE = "https://www.behance.net/poojagupta107";

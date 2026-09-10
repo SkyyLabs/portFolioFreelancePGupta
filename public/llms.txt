@@ -1,0 +1,88 @@
+# Pooja Singhal — Product Designer
+
+> Product designer working across UX and UI. Former mathematics teacher.
+> Available for full-time product design roles and a small number of contract
+> projects. Contact: pooja.guptavv@gmail.com
+
+Pooja Singhal designs digital products end to end — problem framing, user
+research, information architecture, interaction design, interface design and
+usability testing. She taught mathematics before moving into product design,
+and brings that training to bear on design problems: break down uncertainty,
+identify relationships, reason through the problem systematically before
+proposing a solution.
+
+Her stated approach to a project: understand the business and its goals;
+research and analyse the problem space; prototype with AI; then design,
+validate and refine — repeating as the work demands. The framework flexes per
+project rather than being applied rigidly.
+
+## Pages
+
+- [Home](https://pooja-singhal-portfolio.vercel.app/): Introduction, the design
+  process framework, and the two selected case studies.
+- [About](https://pooja-singhal-portfolio.vercel.app/about): The move from
+  teaching mathematics into product design, and how that shapes her practice.
+- [Lister case study](https://pooja-singhal-portfolio.vercel.app/work/lister):
+  Full UX and UI case study for a list-making and sharing app.
+- [MathzAI case study](https://pooja-singhal-portfolio.vercel.app/work/mathzai):
+  Full UX and UI case study for an AI maths tutoring product.
+- [Contact](https://pooja-singhal-portfolio.vercel.app/contact): Contact form,
+  email, and answers to common questions about availability and working style.
+
+## Case study: MathzAI
+
+An AI maths tutoring web app for students from roughly class 8 through
+undergraduate. Pooja was the sole designer on a team of four (founder,
+frontend, backend, and herself).
+
+The core tension: the product's value is learning, but what a student at 11pm
+actually wants is to finish their homework. Most AI tools spoon-feed results,
+and a student handed a direct answer learns where the answer came from, not
+where their own reasoning broke down. Her framing: an AI tutor should be as
+deliberate about what it refuses to show as about what it shows.
+
+The work covered competitive analysis (benchmarking how quickly rival tools
+disclose a solution), moderated user testing, and a design system. Testing
+surfaced three concrete failures: the three main features read as identical to
+students; "Solution" and "Final Answer" were understood as one thing; and the
+"Continue" button was stranded with no context. The redesign replaced passive
+reading with step-by-step choices, named what the student got right in specific
+terms rather than generic praise, and located the student with colour,
+breadcrumbs and a step counter working at three different levels.
+
+Visual direction had to be interesting without being childish — a fifteen-year-
+old disengages from anything built for a ten-year-old — and trustworthy enough
+that corrections are believed. Red and green were unavailable to the brand
+palette, both already meaning wrong and right in correctness feedback. Roca for
+headings, Avenir Next for body.
+
+## Case study: Lister
+
+A web app for discovering, creating and sharing lists on any topic, with
+private and public lists and a distinction between people who can edit and
+people who can only view.
+
+Pooja designed low-fidelity wireframes, then used Claude Code to turn them into
+functional prototypes for testing. She ran moderated usability sessions with
+five participants — a mix of people she knew and recruited strangers — covering
+searching for lists, duplicating, editing, and understanding ownership.
+
+The design work resolved into four threads: unifying the workflow, simplifying
+discovery, ensuring clarity and trust around who can do what, and making the
+product responsive by design — rethinking the layout from the smallest screens
+upward so content was prioritised and exposed rather than merely reflowed.
+
+Success was framed around task completion, feature discovery and habit
+formation.
+
+## Availability
+
+Available for full-time product design roles, and takes on a small number of
+contract projects alongside them. Replies within 48 hours.
+
+## Contact
+
+- Email: pooja.guptavv@gmail.com
+- LinkedIn: https://www.linkedin.com/in/pooja-singhal-65205121b/
+- Behance: https://www.behance.net/poojagupta107
+- Resume: https://pooja-singhal-portfolio.vercel.app/resume.pdf
