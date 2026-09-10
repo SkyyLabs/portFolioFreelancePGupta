@@ -1,0 +1,71 @@
+/**
+ * Motion — scroll reveal and page entrance.
+ *
+ * Two separate mechanisms, deliberately:
+ *
+ * - `.reveal` is applied by `hooks/useScrollReveal.ts` after hydration, so the
+ *   prerendered HTML never ships with an element at `opacity: 0`. Anything a
+ *   crawler or a reader without JavaScript sees is fully visible.
+ * - `.page-enter` is a plain CSS animation on the page root. It needs no JS,
+ *   runs once on mount, and leaves nothing hidden if it never runs.
+ *
+ * Both are transform/opacity only — neither affects layout, so neither can
+ * contribute to layout shift.
+ */
+
+/* ── Scroll reveal ────────────────────────────────────────────────────────── */
+
+.reveal {
+  opacity: 0;
+  transform: translateY(var(--reveal-distance));
+  transition:
+    opacity var(--reveal-duration) var(--ease-out-soft),
+    transform var(--reveal-duration) var(--ease-out-soft);
+  /* Siblings matched by one selector cascade rather than arriving together. */
+  transition-delay: calc(var(--reveal-index, 0) * var(--reveal-stagger));
+  will-change: opacity, transform;
+}
+
+.reveal--in {
+  opacity: 1;
+  transform: none;
+  /* The work is done; stop holding a compositor layer for every section. */
+  will-change: auto;
+}
+
+/* ── Page entrance ────────────────────────────────────────────────────────── */
+
+.page-enter {
+  animation: page-enter var(--enter-duration) var(--ease-out-soft) both;
+}
+
+@keyframes page-enter {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* ── Reduced motion ───────────────────────────────────────────────────────── */
+
+/*
+ * `useScrollReveal` already bails out before adding `.reveal`, so this is a
+ * backstop for the case where the preference is turned on after the class has
+ * been applied — and the only guard `.page-enter` has, since it is pure CSS.
+ */
+@media (prefers-reduced-motion: reduce) {
+  .reveal,
+  .reveal--in {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+
+  .page-enter {
+    animation: none;
+  }
+}
