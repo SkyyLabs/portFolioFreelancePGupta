@@ -81,7 +81,7 @@ function Frame3() {
           </svg>
         </div>
       </div>
-      <p className="[word-break:break-word] font-['Caveat:Regular',sans-serif] font-normal leading-[0] relative shrink-0 text-[0px] text-black w-[589px]">
+      <p className="[word-break:break-word] font-['Caveat:Bold',sans-serif] font-bold leading-[0] relative shrink-0 text-[0px] text-black w-[589px]">
         <span className="leading-[normal] text-[35px]">{`“Be better at handelling a situation than you would have handled it `}</span>
         <span className="[text-decoration-skip-ink:none] [text-underline-position:from-font] decoration-from-font decoration-solid leading-[normal] text-[#1d1d11] text-[35px] underline">yesterday”</span>
       </p>

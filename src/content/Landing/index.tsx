@@ -438,7 +438,7 @@ function Frame40() {
   return (
     <div className="content-stretch flex flex-col gap-[8px] items-end justify-center relative shrink-0 w-[950.817px]">
       <Frame39 />
-      <p className="[word-break:break-word] font-['Caveat:Regular',sans-serif] font-normal leading-[normal] relative shrink-0 text-[#ffee91] text-[25px] whitespace-nowrap">Repeat!</p>
+      <p className="[word-break:break-word] font-['Caveat:Bold',sans-serif] font-normal leading-[normal] relative shrink-0 text-[#ffee91] text-[35px] whitespace-nowrap">Repeat!</p>
     </div>
   );
 }
@@ -518,7 +518,7 @@ function Frame18() {
   return (
     <div className="[word-break:break-word] content-stretch flex flex-col gap-[15px] items-start not-italic relative shrink-0 w-full">
       <p className="font-['Scala_Pro:Bold',sans-serif] leading-[normal] min-w-full relative shrink-0 text-[30px] text-black w-[min-content]">MathzAI</p>
-      <p className="font-['Scala_Sans_Pro:Regular',sans-serif] leading-[normal] relative shrink-0 text-[18px] text-[rgba(0,0,0,0.8)] text-center whitespace-nowrap">Making Math feel less intimidating for students.</p>
+      <p className="font-['Scala_Sans_Pro:Regular',sans-serif] leading-[normal] relative shrink-0 text-[15px] text-[rgba(0,0,0,0.8)] text-center whitespace-nowrap">Making Math feel less intimidating for students.</p>
       <Frame14 />
     </div>
   );
@@ -597,7 +597,7 @@ function Frame22() {
         <span className="leading-[normal]">List</span>
         <span className="font-['Scala_Pro:Bold_Italic',sans-serif] leading-[normal]">er</span>
       </p>
-      <p className="font-['Scala_Sans_Pro:Regular',sans-serif] leading-[normal] relative shrink-0 text-[18px] text-[rgba(0,0,0,0.7)] text-center whitespace-nowrap">Private and public lists, simplified.</p>
+      <p className="font-['Scala_Sans_Pro:Regular',sans-serif] leading-[normal] relative shrink-0 text-[15px] text-[rgba(0,0,0,0.7)] text-center whitespace-nowrap">Private and public lists, simplified.</p>
       <Frame16 />
     </div>
   );
@@ -817,7 +817,7 @@ function Frame47() {
   return (
     <div className="content-stretch flex gap-[13px] items-center justify-center relative shrink-0 w-full">
       <MdiHeartOutline />
-      <p className="[word-break:break-word] font-['Caveat:Bold',sans-serif] font-bold leading-[normal] relative shrink-0 text-[20px] text-white whitespace-nowrap">Currently available for full-time roles and select contract projects!</p>
+      <p className="[word-break:break-word] font-['Caveat:Bold',sans-serif] font-bold leading-[normal] relative shrink-0 text-[35px] text-white whitespace-nowrap">Currently available for full-time roles and select contract projects!</p>
     </div>
   );
 }

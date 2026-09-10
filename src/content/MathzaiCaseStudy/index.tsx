@@ -79,7 +79,7 @@ function Frame3() {
     <div className="content-stretch flex items-start justify-between relative shrink-0 w-full" data-name="Frame">
       <div aria-hidden className="absolute border border-[#eaeeff] border-solid inset-0 pointer-events-none" />
       <p className="[word-break:break-word] font-['Avenir_Next:Demi_Bold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#6d7fca] text-[16px] whitespace-nowrap">Platform</p>
-      <p className="[word-break:break-word] font-['Avenir_Next:Bold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#152586] text-[16px] whitespace-nowrap">Web App</p>
+      <p className="[word-break:break-word] font-['Avenir_Next:Demi_Bold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#152586] text-[16px] whitespace-nowrap">Web App</p>
     </div>
   );
 }
@@ -89,7 +89,7 @@ function Frame4() {
     <div className="content-stretch flex items-start justify-between relative shrink-0 w-full" data-name="Frame">
       <div aria-hidden className="absolute border border-[#eaeeff] border-solid inset-0 pointer-events-none" />
       <p className="[word-break:break-word] font-['Avenir_Next:Demi_Bold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#6d7fca] text-[16px] whitespace-nowrap">Role</p>
-      <p className="[word-break:break-word] font-['Avenir_Next:Bold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#152586] text-[16px] whitespace-nowrap">Product Designer (Sole Designer)</p>
+      <p className="[word-break:break-word] font-['Avenir_Next:Demi_Bold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#152586] text-[16px] whitespace-nowrap">Product Designer (Sole Designer)</p>
     </div>
   );
 }
@@ -99,7 +99,7 @@ function Frame5() {
     <div className="content-stretch flex items-start justify-between relative shrink-0 w-full" data-name="Frame">
       <div aria-hidden className="absolute border border-[#eaeeff] border-solid inset-0 pointer-events-none" />
       <p className="[word-break:break-word] font-['Avenir_Next:Demi_Bold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#6d7fca] text-[16px] whitespace-nowrap">Team Size</p>
-      <p className="[word-break:break-word] font-['Avenir_Next:Bold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#152586] text-[16px] whitespace-nowrap">4 (Founder, Frontend, Backend, Me)</p>
+      <p className="[word-break:break-word] font-['Avenir_Next:Demi_Bold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#152586] text-[16px] whitespace-nowrap">4 (Founder, Frontend, Backend, Me)</p>
     </div>
   );
 }
@@ -159,7 +159,7 @@ function SectionHeader() {
   return (
     <div className="[word-break:break-word] content-stretch flex flex-col gap-[12px] items-start not-italic relative shrink-0 w-full" data-name="section-header">
       <p className="font-['Roca:Black',sans-serif] leading-[normal] relative shrink-0 text-[#4355ff] text-[45px] w-full">The Idea</p>
-      <p className="font-['Avenir_Next:Medium',sans-serif] leading-[1.5] max-w-[800px] relative shrink-0 text-[#152586] text-[18px] w-full">{`Every AI tool will solve a student's problem. That's the problem, not the solution.`}</p>
+      <p className="font-['Avenir_Next:Regular',sans-serif] leading-[1.5] max-w-[800px] relative shrink-0 text-[#152586] text-[16px] w-full">{`Every AI tool will solve a student's problem. That's the problem, not the solution.`}</p>
     </div>
   );
 }
@@ -173,7 +173,7 @@ function Group56() {
     <div className="col-1 grid-cols-[max-content] grid-rows-[max-content] inline-grid ml-[20.1px] mt-[15.42px] place-items-start relative row-1">
       <div className="bg-white col-1 h-[163.149px] ml-0 mt-0 relative rounded-[10px] row-1 w-[391.202px]" />
       <MingcuteCheckFill />
-      <p className="[word-break:break-word] col-1 font-['Avenir_Next:Bold_Italic',sans-serif] leading-[normal] ml-[30.9px] mt-[35.74px] not-italic relative row-1 text-[#924505] text-[20px] w-[349px]">{`"An AI tutor should be as deliberate about what it refuses to show as what it shows."`}</p>
+      <p className="[word-break:break-word] col-1 font-['Avenir_Next:Bold_Italic',sans-serif] leading-[normal] ml-[30.9px] mt-[35.74px] not-italic relative row-1 text-[#924505] text-[24px] w-[349px]">{`"An AI tutor should be as deliberate about what it refuses to show as what it shows."`}</p>
     </div>
   );
 }
@@ -195,7 +195,7 @@ function Frame7() {
   return (
     <div className="content-stretch flex gap-[48px] items-center leading-[0] relative shrink-0 w-full" data-name="Frame">
       <Group61 />
-      <div className="[word-break:break-word] flex-[1_0_0] font-['Avenir_Next:Regular',sans-serif] min-w-px not-italic relative text-[#051576] text-[18px] whitespace-pre-wrap">
+      <div className="[word-break:break-word] flex-[1_0_0] font-['Avenir_Next:Regular',sans-serif] min-w-px not-italic relative text-[#051576] text-[16px] whitespace-pre-wrap">
         <p className="font-['Avenir_Next:Demi_Bold',sans-serif] leading-[1.65] mb-0">The ambition: The place a student opens when they sit do</p>
         <p className="leading-[1.65] mb-0">​</p>
         <p>
@@ -357,7 +357,7 @@ function Frame109() {
 function Frame101() {
   return (
     <div className="[word-break:break-word] content-stretch flex flex-col gap-[10px] items-start not-italic relative shrink-0 text-white w-[993px]">
-      <p className="font-['Avenir_Next:Bold',sans-serif] leading-[normal] relative shrink-0 text-[20px] w-full">Students want instant solutions, not learning.</p>
+      <p className="font-['Avenir_Next:Bold',sans-serif] leading-[normal] relative shrink-0 text-[24px] w-full">Students want instant solutions, not learning.</p>
       <p className="font-['Avenir_Next:Regular',sans-serif] leading-[1.4] relative shrink-0 text-[16px] w-full">{`The product's core value (learning) is in direct opposition to what a student at 11pm actually wants (just finishing their homework).`}</p>
     </div>
   );
@@ -374,7 +374,7 @@ function Frame102() {
 function Frame104() {
   return (
     <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col gap-[10px] items-start min-w-px not-italic relative text-white">
-      <p className="font-['Avenir_Next:Bold',sans-serif] leading-[normal] relative shrink-0 text-[20px] w-full">Navigation across features.</p>
+      <p className="font-['Avenir_Next:Bold',sans-serif] leading-[normal] relative shrink-0 text-[24px] w-full">Navigation across features.</p>
       <p className="font-['Avenir_Next:Regular',sans-serif] leading-[1.4] relative shrink-0 text-[16px] w-full">Making students understand which feature fits their current learning struggle and how they land at that feature.</p>
     </div>
   );
@@ -391,7 +391,7 @@ function Frame103() {
 function Frame112() {
   return (
     <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col gap-[10px] items-start min-w-px not-italic relative text-white">
-      <p className="font-['Avenir_Next:Bold',sans-serif] leading-[normal] relative shrink-0 text-[20px] w-full">{`Colour, Typography, and responsiveness. `}</p>
+      <p className="font-['Avenir_Next:Bold',sans-serif] leading-[normal] relative shrink-0 text-[24px] w-full">{`Colour, Typography, and responsiveness. `}</p>
       <p className="font-['Avenir_Next:Regular',sans-serif] leading-[1.4] relative shrink-0 text-[16px] w-full">{`UI has to be trustworthy and still intersting for students. Responsive work meant deciding not just what to place where, but what a feature becomes when its defining interaction doesn't survive a phone. `}</p>
     </div>
   );
@@ -444,7 +444,7 @@ function SectionHeader2() {
 function Frame9() {
   return (
     <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative" data-name="Frame">
-      <p className="[word-break:break-word] font-['Avenir_Next:Regular',sans-serif] leading-[0] not-italic relative shrink-0 text-[#030f59] text-[20px] w-full">
+      <p className="[word-break:break-word] font-['Avenir_Next:Regular',sans-serif] leading-[0] not-italic relative shrink-0 text-[#030f59] text-[16px] w-full">
         <span className="leading-[1.65]">The founder set the overall product vision, but</span>
         <span className="font-['Avenir_Next:Demi_Bold',sans-serif] leading-[1.65]">{` I owned all design decisions`}</span>
         <span className="leading-[1.65]">{`, conducted the `}</span>
@@ -520,8 +520,8 @@ function BulletIconContainer() {
 function BulletTextWrapper() {
   return (
     <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col gap-[4px] items-start min-w-px relative" data-name="bullet-text-wrapper">
-      <p className="font-['Avenir_Next:Bold',sans-serif] font-bold leading-[normal] relative shrink-0 text-[18px] text-[rgba(44,55,168,0.8)] w-full">{`Discoverability & Clarity`}</p>
-      <p className="font-['Avenir_Next:Regular',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[#334155] text-[14px] w-full">How those supportive features are made easily discoverable and understandable during active friction points.</p>
+      <p className="font-['Avenir_Next:Bold',sans-serif] font-bold leading-[normal] relative shrink-0 text-[24px] text-[rgba(44,55,168,0.8)] w-full">{`Discoverability & Clarity`}</p>
+      <p className="font-['Avenir_Next:Regular',sans-serif] leading-[1.5] not-italic relative shrink-0 text-[#334155] text-[16px] w-full">How those supportive features are made easily discoverable and understandable during active friction points.</p>
     </div>
   );
 }
@@ -558,8 +558,8 @@ function BulletIconContainer1() {
 function BulletTextWrapper1() {
   return (
     <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col gap-[4px] items-start min-w-px not-italic relative" data-name="bullet-text-wrapper">
-      <p className="font-['Avenir_Next:Bold',sans-serif] leading-[normal] relative shrink-0 text-[18px] text-[rgba(44,55,168,0.8)] w-full">Solution Disclosure Velocity</p>
-      <p className="font-['Avenir_Next:Regular',sans-serif] leading-[1.5] relative shrink-0 text-[#334155] text-[14px] w-full">How they show solutions — how much is given away, and how fast the steps are fully revealed to the student.</p>
+      <p className="font-['Avenir_Next:Bold',sans-serif] leading-[normal] relative shrink-0 text-[24px] text-[rgba(44,55,168,0.8)] w-full">Solution Disclosure Velocity</p>
+      <p className="font-['Avenir_Next:Regular',sans-serif] leading-[1.5] relative shrink-0 text-[#334155] text-[16px] w-full">How they show solutions — how much is given away, and how fast the steps are fully revealed to the student.</p>
     </div>
   );
 }
@@ -596,8 +596,8 @@ function BulletIconContainer2() {
 function BulletTextWrapper2() {
   return (
     <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col gap-[4px] items-start min-w-px not-italic relative" data-name="bullet-text-wrapper">
-      <p className="font-['Avenir_Next:Bold',sans-serif] leading-[normal] relative shrink-0 text-[18px] text-[rgba(44,55,168,0.8)] w-full">Feature Ecosystem</p>
-      <p className="font-['Avenir_Next:Regular',sans-serif] leading-[1.5] relative shrink-0 text-[#334155] text-[14px] w-full">What features students are offered to assist their underlying conceptual comprehension.</p>
+      <p className="font-['Avenir_Next:Bold',sans-serif] leading-[normal] relative shrink-0 text-[24px] text-[rgba(44,55,168,0.8)] w-full">Feature Ecosystem</p>
+      <p className="font-['Avenir_Next:Regular',sans-serif] leading-[1.5] relative shrink-0 text-[#334155] text-[16px] w-full">What features students are offered to assist their underlying conceptual comprehension.</p>
     </div>
   );
 }
@@ -685,7 +685,7 @@ function WindowHeader() {
 function CardInfo() {
   return (
     <div className="content-stretch flex flex-col items-start pb-[4px] px-[4px] relative shrink-0 w-full" data-name="card-info">
-      <p className="[word-break:break-word] font-['Roca:Black',sans-serif] font-extrabold leading-[normal] relative shrink-0 text-[#010c81] text-[18px] w-full">Khan Academy</p>
+      <p className="[word-break:break-word] font-['Roca:Black',sans-serif] font-extrabold leading-[normal] relative shrink-0 text-[#010c81] text-[36px] w-full">Khan Academy</p>
     </div>
   );
 }
@@ -739,7 +739,7 @@ function WindowHeader1() {
 function CardInfo1() {
   return (
     <div className="content-stretch flex flex-col items-start pb-[4px] px-[4px] relative shrink-0 w-full" data-name="card-info">
-      <p className="[word-break:break-word] font-['Roca:Black',sans-serif] font-extrabold leading-[normal] relative shrink-0 text-[#010c81] text-[18px] w-full">Mathos AI</p>
+      <p className="[word-break:break-word] font-['Roca:Black',sans-serif] font-extrabold leading-[normal] relative shrink-0 text-[#010c81] text-[36px] w-full">Mathos AI</p>
     </div>
   );
 }
@@ -793,7 +793,7 @@ function WindowHeader2() {
 function CardInfo2() {
   return (
     <div className="content-stretch flex flex-col items-start pb-[4px] px-[4px] relative shrink-0 w-full" data-name="card-info">
-      <p className="[word-break:break-word] font-['Roca:Black',sans-serif] font-extrabold leading-[normal] relative shrink-0 text-[#010c81] text-[18px] w-full">MathGPT</p>
+      <p className="[word-break:break-word] font-['Roca:Black',sans-serif] font-extrabold leading-[normal] relative shrink-0 text-[#010c81] text-[36px] w-full">MathGPT</p>
     </div>
   );
 }
@@ -827,7 +827,7 @@ function CompetitiveAnalysisSection() {
   return (
     <div className="bg-white content-stretch flex flex-col gap-[50px] h-[1181px] items-start overflow-clip pb-[50px] pt-[100px] px-[100px] relative shrink-0 w-[1280px]" data-name="competitive-analysis-section">
       <SectionHeaderArea />
-      <p className="[word-break:break-word] font-['Avenir_Next:Regular',sans-serif] leading-[0] min-w-full not-italic relative shrink-0 text-[#334155] text-[20px] w-[min-content]">
+      <p className="[word-break:break-word] font-['Avenir_Next:Regular',sans-serif] leading-[0] min-w-full not-italic relative shrink-0 text-[#334155] text-[16px] w-[min-content]">
         <span className="leading-[1.6]">{`I benchmarked navigation, content delivery and teaching patterns across `}</span>
         <span className="font-['Avenir_Next:Demi_Bold',sans-serif] leading-[1.6]">{`Khan Academy, Mathos AI, MathGPT `}</span>
         <span className="leading-[1.6]">and others, looking at three things to evaluate operational paradigms and student cognitive loads.</span>
@@ -851,13 +851,13 @@ function MethodologyTextBlock() {
     <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col gap-[24px] items-start min-w-px relative" data-name="methodology-text-block">
       <p className="font-['Avenir_Next:Bold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[#010c81] text-[24px] w-full">Testing Methodology</p>
       <div className="font-['Avenir_Next:Regular',sans-serif] font-normal leading-[0] relative shrink-0 text-[#334155] text-[0px] w-full whitespace-pre-wrap">
-        <p className="mb-0 not-italic text-[20px]">
+        <p className="mb-0 not-italic text-[16px]">
           <span className="font-['Avenir_Next:Regular',sans-serif] leading-[1.65]">{`Four tasks per session, in the order a student meets the product: `}</span>
           <span className="font-['Avenir_Next:Demi_Bold',sans-serif] leading-[1.65] text-black">landing page → HA → AMT → SSC</span>
           <span className="font-['Avenir_Next:Regular',sans-serif] leading-[1.65]">. Each task opened with a broad prompt and narrowed only if the student stalled, so I was testing whether the design explained itself rather than whether they could follow instructions. Opinion questions came after each task, never during — and I watched for where they hesitated and stalled, not just what they said afterwards.</span>
         </p>
-        <p className="leading-[1.65] mb-0 text-[20px]">​</p>
-        <p className="not-italic text-[20px]">
+        <p className="leading-[1.65] mb-0 text-[16px]">​</p>
+        <p className="not-italic text-[16px]">
           <span className="font-['Avenir_Next:Regular',sans-serif] leading-[1.65]">{`Four students, 60–90 minutes each. `}</span>
           <span className="font-['Avenir_Next:Bold',sans-serif] leading-[1.65]">Small sample, but long enough</span>
           <span className="font-['Avenir_Next:Regular',sans-serif] leading-[1.65]">{` to watch full task sequences, and findings were consistent across all three.`}</span>
@@ -916,7 +916,7 @@ function UserTestingSection() {
   return (
     <div className="bg-white content-stretch flex flex-col gap-[50px] items-start overflow-clip pb-[100px] pt-[50px] px-[100px] relative shrink-0 w-[1280px]" data-name="user-testing-section">
       <SectionHeaderArea1 />
-      <p className="[word-break:break-word] font-['Avenir_Next:Regular',sans-serif] font-normal leading-[0] not-italic relative shrink-0 text-[#334155] text-[20px] w-full">
+      <p className="[word-break:break-word] font-['Avenir_Next:Regular',sans-serif] font-normal leading-[0] not-italic relative shrink-0 text-[#334155] text-[16px] w-full">
         <span className="font-['Avenir_Next:Regular',sans-serif] leading-[1.65]">{`I designed flows for all three features, then ran interviews against those designs — `}</span>
         <span className="font-['Avenir_Next:Demi_Bold',sans-serif] leading-[1.65] text-black">before build, not afte</span>
         <span className="font-['Avenir_Next:Demi_Bold',sans-serif] leading-[1.65] text-[#4355ff]">r</span>
@@ -1030,7 +1030,7 @@ function MingcuteCheckFill1() {
 function Frame10() {
   return (
     <div className="bg-[#88d4f2] col-1 content-stretch flex items-center justify-center ml-[24px] mt-[35px] relative rounded-[18px] row-1 size-[36px]" data-name="Frame">
-      <p className="[word-break:break-word] font-['Avenir_Next:Bold',sans-serif] font-bold leading-[normal] not-italic relative shrink-0 text-[18px] text-white whitespace-nowrap">1</p>
+      <p className="[word-break:break-word] font-['Avenir_Next:Bold',sans-serif] font-bold leading-[normal] not-italic relative shrink-0 text-[24px] text-white whitespace-nowrap">1</p>
     </div>
   );
 }
@@ -1041,8 +1041,8 @@ function Group58() {
       <div className="bg-white col-1 h-[224px] ml-0 mt-0 relative rounded-[10px] row-1 shadow-[0px_4px_8px_0px_rgba(0,0,0,0.25)] w-[435px]" />
       <MingcuteCheckFill1 />
       <Frame10 />
-      <p className="[word-break:break-word] col-1 font-['Avenir_Next:Bold',sans-serif] font-bold leading-[normal] ml-[75.06px] mt-[41.97px] not-italic relative row-1 text-[#010c81] text-[18px] w-[436.596px]">The Three Features seemed Identical</p>
-      <p className="[word-break:break-word] col-1 font-['Avenir_Next:Regular',sans-serif] font-normal leading-[1.5] ml-[31px] mt-[102px] not-italic relative row-1 text-[15px] text-black w-[341px]">{`They shared the exact same palette and layout structure. Students got lost. They could not guess that there are 3 different features for three different purposes `}</p>
+      <p className="[word-break:break-word] col-1 font-['Avenir_Next:Bold',sans-serif] font-bold leading-[normal] ml-[75.06px] mt-[41.97px] not-italic relative row-1 text-[#010c81] text-[24px] w-[436.596px]">The Three Features seemed Identical</p>
+      <p className="[word-break:break-word] col-1 font-['Avenir_Next:Regular',sans-serif] font-normal leading-[1.5] ml-[31px] mt-[102px] not-italic relative row-1 text-[16px] text-black w-[341px]">{`They shared the exact same palette and layout structure. Students got lost. They could not guess that there are 3 different features for three different purposes `}</p>
     </div>
   );
 }
@@ -1075,7 +1075,7 @@ function MingcuteCheckFill2() {
 function Frame11() {
   return (
     <div className="bg-[#febc85] col-1 content-stretch flex items-center justify-center ml-[25px] mt-[39.04px] relative rounded-[18px] row-1 size-[36px]" data-name="Frame">
-      <p className="[word-break:break-word] font-['Avenir_Next:Bold',sans-serif] font-bold leading-[normal] not-italic relative shrink-0 text-[18px] text-white whitespace-nowrap">2</p>
+      <p className="[word-break:break-word] font-['Avenir_Next:Bold',sans-serif] font-bold leading-[normal] not-italic relative shrink-0 text-[24px] text-white whitespace-nowrap">2</p>
     </div>
   );
 }
@@ -1086,8 +1086,8 @@ function Group59() {
       <div className="bg-white col-1 h-[224px] ml-0 mt-0 relative rounded-[10px] row-1 shadow-[0px_4px_8px_0px_rgba(0,0,0,0.25)] w-[435.88px]" />
       <MingcuteCheckFill2 />
       <Frame11 />
-      <p className="[word-break:break-word] col-1 font-['Avenir_Next:Bold',sans-serif] font-bold leading-[normal] ml-[78.81px] mt-[46.68px] not-italic relative row-1 text-[#010c81] text-[18px] whitespace-nowrap">{`'Solution' & 'Final Answer' Read as One`}</p>
-      <p className="[word-break:break-word] col-1 font-['Avenir_Next:Regular',sans-serif] font-normal leading-[1.5] ml-[25px] mt-[97.01px] not-italic relative row-1 text-[15px] text-black w-[386px]">{`The entire product rests on graduated disclosure. If a student can't tell two rungs of the help ladder apart, they jump straight to the bottom and copy the answer.`}</p>
+      <p className="[word-break:break-word] col-1 font-['Avenir_Next:Bold',sans-serif] font-bold leading-[normal] ml-[78.81px] mt-[46.68px] not-italic relative row-1 text-[#010c81] text-[24px] whitespace-nowrap">{`'Solution' & 'Final Answer' Read as One`}</p>
+      <p className="[word-break:break-word] col-1 font-['Avenir_Next:Regular',sans-serif] font-normal leading-[1.5] ml-[25px] mt-[97.01px] not-italic relative row-1 text-[16px] text-black w-[386px]">{`The entire product rests on graduated disclosure. If a student can't tell two rungs of the help ladder apart, they jump straight to the bottom and copy the answer.`}</p>
     </div>
   );
 }
@@ -1130,7 +1130,7 @@ function MingcuteCheckFill3() {
 function Frame12() {
   return (
     <div className="bg-[#eba1fd] col-1 content-stretch flex h-[36.299px] items-center justify-center ml-[34px] mt-[37.93px] relative rounded-[18px] row-1 w-[36px]" data-name="Frame">
-      <p className="[word-break:break-word] font-['Avenir_Next:Bold',sans-serif] font-bold leading-[normal] not-italic relative shrink-0 text-[18px] text-white whitespace-nowrap">3</p>
+      <p className="[word-break:break-word] font-['Avenir_Next:Bold',sans-serif] font-bold leading-[normal] not-italic relative shrink-0 text-[24px] text-white whitespace-nowrap">3</p>
     </div>
   );
 }
@@ -1141,8 +1141,8 @@ function Group60() {
       <div className="bg-white col-1 h-[240px] ml-0 mt-0 relative rounded-[10px] row-1 shadow-[0px_4px_8px_0px_rgba(0,0,0,0.25)] w-[515px]" />
       <MingcuteCheckFill3 />
       <Frame12 />
-      <p className="[word-break:break-word] col-1 font-['Avenir_Next:Bold',sans-serif] font-bold h-[22.183px] leading-[normal] ml-[88.28px] mt-[45.1px] not-italic relative row-1 text-[#010c81] text-[18px] w-[454.723px]">{`The 'Continue' Button Was Stranded`}</p>
-      <p className="[word-break:break-word] col-1 font-['Avenir_Next:Regular',sans-serif] font-normal h-[69.573px] leading-[1.5] ml-[40.1px] mt-[107.48px] not-italic relative row-1 text-[15px] text-black w-[443.571px]">{`Students would complete a solving step, wait for the AI's confirmation, and then simply stall. The main action button was lost at the very bottom of the screens.`}</p>
+      <p className="[word-break:break-word] col-1 font-['Avenir_Next:Bold',sans-serif] font-bold leading-[normal] ml-[88.28px] mt-[45.1px] not-italic relative row-1 text-[#010c81] text-[24px] w-[454.723px]">{`The 'Continue' Button Was Stranded`}</p>
+      <p className="[word-break:break-word] col-1 font-['Avenir_Next:Regular',sans-serif] font-normal h-[69.573px] leading-[1.5] ml-[40.1px] mt-[107.48px] not-italic relative row-1 text-[16px] text-black w-[443.571px]">{`Students would complete a solving step, wait for the AI's confirmation, and then simply stall. The main action button was lost at the very bottom of the screens.`}</p>
     </div>
   );
 }
@@ -1205,33 +1205,33 @@ function Frame126() {
   return (
     <div className="content-stretch flex items-center justify-center px-[10px] relative shrink-0">
       <div className="[word-break:break-word] font-['Avenir_Next:Regular',sans-serif] leading-[0] not-italic relative shrink-0 text-[0px] text-black w-[1026px]">
-        <p className="mb-0 text-[20px] whitespace-pre-wrap">
+        <p className="mb-0 text-[16px] whitespace-pre-wrap">
           <span className="[word-break:break-word] font-['Avenir_Next:Demi_Bold',sans-serif] leading-[1.5] not-italic">{`Before : `}</span>
           <span className="leading-[1.5]">{`Four tabs, equal weight. Nothing cost anything, so students tapped Answer — and couldn't tell it from Solution.`}</span>
         </p>
-        <p className="leading-[1.5] mb-0 text-[20px] whitespace-pre-wrap">​</p>
-        <p className="mb-0 text-[20px] whitespace-pre-wrap">
+        <p className="leading-[1.5] mb-0 text-[16px] whitespace-pre-wrap">​</p>
+        <p className="mb-0 text-[16px] whitespace-pre-wrap">
           <span className="[word-break:break-word] font-['Avenir_Next:Demi_Bold',sans-serif] leading-[1.5] not-italic">{`After :  `}</span>
           <span className="leading-[1.5]">{`One step at a time. `}</span>
           <span className="[word-break:break-word] font-['Avenir_Next:Demi_Bold',sans-serif] leading-[1.5] not-italic">Next step locked until the current one is answered.</span>
         </p>
         <ul className="list-disc mb-0">
           <li className="mb-0 ms-[calc(var(--list-marker-font-size,0)*1.5*1)]">
-            <span className="leading-[1.5] text-[20px]">{`Options, not text — each step asks the student to choose. Reading isn't work.`}</span>
+            <span className="leading-[1.5] text-[16px]">{`Options, not text — each step asks the student to choose. Reading isn't work.`}</span>
           </li>
-          <li className="leading-[1.5] mb-0 ms-[calc(var(--list-marker-font-size,0)*1.5*1)] text-[20px]">
+          <li className="leading-[1.5] mb-0 ms-[calc(var(--list-marker-font-size,0)*1.5*1)] text-[16px]">
             <span className="[word-break:break-word] font-['Avenir_Next:Demi_Bold',sans-serif] not-italic">Help in a side panel</span>
             {` — never a tap away from the answer itself.`}
           </li>
-          <li className="leading-[1.5] mb-0 ms-[calc(var(--list-marker-font-size,0)*1.5*1)] text-[20px]">
+          <li className="leading-[1.5] mb-0 ms-[calc(var(--list-marker-font-size,0)*1.5*1)] text-[16px]">
             <span className="[word-break:break-word] font-['Avenir_Next:Demi_Bold',sans-serif] not-italic">{`"Reveal solution" after 30 seconds`}</span>
             {` — never trapped, but attempting is faster.`}
           </li>
           <li className="ms-[calc(var(--list-marker-font-size,0)*1.5*1)]">
-            <span className="leading-[1.5] text-[20px]">{`Feedback names what worked — unit conversion done, not "well done".`}</span>
+            <span className="leading-[1.5] text-[16px]">{`Feedback names what worked — unit conversion done, not "well done".`}</span>
           </li>
         </ul>
-        <p className="leading-[1.5] text-[20px] whitespace-pre-wrap">The tabs gave students a choice between working and not working. The steps make working the default.</p>
+        <p className="leading-[1.5] text-[16px] whitespace-pre-wrap">The tabs gave students a choice between working and not working. The steps make working the default.</p>
       </div>
     </div>
   );
@@ -1239,7 +1239,7 @@ function Frame126() {
 
 function Frame124() {
   return (
-    <div className="[word-break:break-word] content-stretch flex font-['Avenir_Next:Bold',sans-serif] items-center justify-between leading-[normal] not-italic relative shrink-0 text-[20px] text-[rgba(1,12,129,0.5)] tracking-[1.4px] w-[586px] whitespace-nowrap">
+    <div className="[word-break:break-word] content-stretch flex font-['Avenir_Next:Bold',sans-serif] items-center justify-between leading-[normal] not-italic relative shrink-0 text-[24px] text-[rgba(1,12,129,0.5)] tracking-[1.4px] w-[586px] whitespace-nowrap">
       <p className="relative shrink-0">BEFORE</p>
       <p className="relative shrink-0">AFTER</p>
     </div>
@@ -2399,9 +2399,9 @@ function Frame128() {
   return (
     <div className="content-stretch flex items-center justify-center px-[10px] relative shrink-0 w-full">
       <div className="[word-break:break-word] font-['Avenir_Next:Regular',sans-serif] leading-[0] not-italic relative shrink-0 text-[0px] text-black w-[1026px]">
-        <p className="leading-[1.5] mb-0 text-[20px] whitespace-pre-wrap">In initial testing, students got lost because nothing told them where they were. The fix works at three levels:</p>
-        <p className="leading-[1.5] mb-0 text-[20px] whitespace-pre-wrap">​</p>
-        <ul className="leading-[1.5] list-disc mb-0 text-[20px]">
+        <p className="leading-[1.5] mb-0 text-[16px] whitespace-pre-wrap">In initial testing, students got lost because nothing told them where they were. The fix works at three levels:</p>
+        <p className="leading-[1.5] mb-0 text-[16px] whitespace-pre-wrap">​</p>
+        <ul className="leading-[1.5] list-disc mb-0 text-[16px]">
           <li className="mb-0 ms-[calc(var(--list-marker-font-size,0)*1.5*1)]">
             <span className="[word-break:break-word] font-['Avenir_Next:Demi_Bold',sans-serif] not-italic text-black">{`Sidebar `}</span>
             {`— all three features permanently visible, each with its own colour identity. You can see what else exists without leaving what you're doing.`}
@@ -2419,8 +2419,8 @@ function Frame128() {
             {` — deciding what a student needs first. A practice test generates more data than anyone can act on, and right after finishing, everything looks equally urgent.`}
           </li>
         </ul>
-        <p className="leading-[1.5] mb-0 text-[20px] whitespace-pre-wrap">​</p>
-        <p className="leading-[1.5] text-[20px] whitespace-pre-wrap">Colour does the recognising, breadcrumbs do the locating, the counter does the pacing..</p>
+        <p className="leading-[1.5] mb-0 text-[16px] whitespace-pre-wrap">​</p>
+        <p className="leading-[1.5] text-[16px] whitespace-pre-wrap">Colour does the recognising, breadcrumbs do the locating, the counter does the pacing..</p>
       </div>
     </div>
   );
@@ -3611,19 +3611,19 @@ function Frame129() {
   return (
     <div className="content-stretch flex items-center justify-center px-[10px] relative shrink-0 w-full">
       <div className="[word-break:break-word] font-['Avenir_Next:Regular',sans-serif] leading-[0] not-italic relative shrink-0 text-[0px] text-black w-[1026px]">
-        <p className="font-['Avenir_Next:Demi_Bold',sans-serif] leading-[1.5] mb-0 text-[#010c81] text-[24px]">Colour and ype</p>
+        <p className="font-['Avenir_Next:Bold',sans-serif] leading-[1.5] mb-0 text-[#010c81] text-[24px]">Colour and ype</p>
         <ul className="list-disc mb-0">
           <li className="mb-0 ms-[calc(var(--list-marker-font-size,0)*1.5*1)]">
-            <span className="leading-[1.5] text-[20px]">{`Interesting, not kiddish. The audience runs from class 8 to undergraduate. Energetic without tipping into a children's product — a fifteen-year-old disengages from anything made for a ten-year-old.`}</span>
+            <span className="leading-[1.5] text-[16px]">{`Interesting, not kiddish. The audience runs from class 8 to undergraduate. Energetic without tipping into a children's product — a fifteen-year-old disengages from anything made for a ten-year-old.`}</span>
           </li>
           <li className="mb-0 ms-[calc(var(--list-marker-font-size,0)*1.5*1)]">
-            <span className="leading-[1.5] text-[20px]">{`Trustworthy enough to be believed. It's a tutor giving corrections. A playful-only palette undermines the authority the feedback needs.`}</span>
+            <span className="leading-[1.5] text-[16px]">{`Trustworthy enough to be believed. It's a tutor giving corrections. A playful-only palette undermines the authority the feedback needs.`}</span>
           </li>
           <li className="ms-[calc(var(--list-marker-font-size,0)*1.5*1)]">
-            <span className="leading-[1.5] text-[20px]">Red and green were spoken for. Both already mean wrong and right in correctness feedback, so the brand palette had to work around them.</span>
+            <span className="leading-[1.5] text-[16px]">Red and green were spoken for. Both already mean wrong and right in correctness feedback, so the brand palette had to work around them.</span>
           </li>
         </ul>
-        <p className="leading-[1.5] text-[20px]">Roca for headings — solid, confident, credible. Avenir Next for body — legible, clean with numerals and mathematical content, rounded enough to stay approachable. Authority in the headline, friendliness in the reading.</p>
+        <p className="leading-[1.5] text-[16px]">Roca for headings — solid, confident, credible. Avenir Next for body — legible, clean with numerals and mathematical content, rounded enough to stay approachable. Authority in the headline, friendliness in the reading.</p>
       </div>
     </div>
   );
@@ -5951,7 +5951,7 @@ function Frame120() {
 function Frame143() {
   return (
     <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col gap-[10px] items-start min-w-px not-italic relative text-white">
-      <p className="font-['Avenir_Next:Bold',sans-serif] leading-[normal] relative shrink-0 text-[20px] whitespace-nowrap">Research Early</p>
+      <p className="font-['Avenir_Next:Bold',sans-serif] leading-[normal] relative shrink-0 text-[24px] whitespace-nowrap">Research Early</p>
       <p className="font-['Avenir_Next:Regular',sans-serif] leading-[1.4] min-w-full relative shrink-0 text-[16px] w-[min-content]">Testing early with incomplete, rough prototypes beats researching thoroughly with final high-fidelity pixels too late in the cycle.</p>
     </div>
   );
@@ -5984,7 +5984,7 @@ function Frame145() {
 function Frame144() {
   return (
     <div className="content-stretch flex flex-col gap-[10px] items-start relative shrink-0 w-full">
-      <p className="[word-break:break-word] font-['Avenir_Next:Bold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[20px] text-white w-full">{`Visual difference is how people know they've moved.`}</p>
+      <p className="[word-break:break-word] font-['Avenir_Next:Bold',sans-serif] leading-[normal] not-italic relative shrink-0 text-[24px] text-white w-full">{`Visual difference is how people know they've moved.`}</p>
       <Frame145 />
     </div>
   );
@@ -5993,7 +5993,7 @@ function Frame144() {
 function Frame148() {
   return (
     <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col gap-[10px] items-start min-w-px not-italic relative text-white">
-      <p className="font-['Avenir_Next:Bold',sans-serif] leading-[normal] relative shrink-0 text-[20px] w-full">{`Using for free may not convert to paid subscriptions `}</p>
+      <p className="font-['Avenir_Next:Bold',sans-serif] leading-[normal] relative shrink-0 text-[24px] w-full">{`Using for free may not convert to paid subscriptions `}</p>
       <p className="font-['Avenir_Next:Regular',sans-serif] leading-[1.4] relative shrink-0 text-[16px] w-full">Extreme utility on free tiers does not automatically translate to transaction. Business models must be designed into the product core.</p>
     </div>
   );
@@ -6010,7 +6010,7 @@ function Frame147() {
 function Frame150() {
   return (
     <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col gap-[10px] items-start min-w-px not-italic relative text-white">
-      <p className="font-['Avenir_Next:Bold',sans-serif] leading-[normal] relative shrink-0 text-[20px] w-full">USPs shall Be Visible</p>
+      <p className="font-['Avenir_Next:Bold',sans-serif] leading-[normal] relative shrink-0 text-[24px] w-full">USPs shall Be Visible</p>
       <p className="font-['Avenir_Next:Regular',sans-serif] leading-[1.4] relative shrink-0 text-[16px] w-full">{`Your unique value proposition has to explain itself visually within three seconds. If it requires explanation or it is hidden , you've kind of lost.`}</p>
     </div>
   );
