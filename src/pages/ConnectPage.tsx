@@ -1,11 +1,18 @@
-import { useState, type FormEvent } from "react";
+import { useRef, useState, type FormEvent } from "react";
 import { CONTACT_ENDPOINT, EMAIL, WEB3FORMS_KEY } from "@/config/site";
+import { useScrollReveal } from "@/hooks/useScrollReveal";
 
 type Status = "idle" | "sending" | "sent" | "error";
 
 type Fields = { name: string; email: string; phone: string; message: string };
 
 const EMPTY: Fields = { name: "", email: "", phone: "", message: "" };
+
+/**
+ * Heading, then the form card. The success state is not revealed: it replaces
+ * the form after a submit, long past any scroll trigger.
+ */
+const REVEAL_SELECTORS = [".connect-title", ".connect-card"] as const;
 
 const FIELDS = [
   { key: "name", label: "Name", type: "text", placeholder: "Jane Smith", required: false },
@@ -16,6 +23,9 @@ const FIELDS = [
 export default function ConnectPage() {
   const [fields, setFields] = useState<Fields>(EMPTY);
   const [status, setStatus] = useState<Status>("idle");
+
+  const root = useRef<HTMLDivElement>(null);
+  useScrollReveal(root, REVEAL_SELECTORS);
 
   // Email and message are compulsory; the button stays disabled until both
   // carry something more than whitespace.
@@ -49,7 +59,7 @@ export default function ConnectPage() {
   };
 
   return (
-    <div className="connect-page" data-name="Connect">
+    <div ref={root} className="connect-page page-enter" data-name="Connect">
       <div className="connect-body">
         {status === "sent" ? (
           <div className="connect-success">

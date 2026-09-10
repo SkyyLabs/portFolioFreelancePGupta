@@ -18,6 +18,7 @@
 @import "./_tokens.css";
 @import "./_fonts.css";
 @import "./_base.css";
+@import "./_motion.css";
 @import "./_layout.css";
 
 /* Components */

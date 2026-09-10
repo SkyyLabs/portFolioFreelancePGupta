@@ -69,6 +69,13 @@
   --transition-fast: 0.18s ease;
   --transition-base: 0.22s ease;
 
+  /* Scroll reveal and page entrance — see `_motion.css`. */
+  --ease-out-soft: cubic-bezier(0.22, 0.61, 0.36, 1);
+  --reveal-distance: 28px;
+  --reveal-duration: 0.7s;
+  --reveal-stagger: 0.1s;
+  --enter-duration: 0.5s;
+
   /* ── Layers ──────────────────────────────────────────────────────────── */
   --z-nav: 1000;
   --z-cursor: 9999;
