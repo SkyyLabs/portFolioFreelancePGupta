@@ -1,11 +1,11 @@
 import svgPaths from "./svg-uus3noyrmz";
-import imgImage62 from "./bfc593327d63bc658467459028492f2399d8814c.png";
-import imgImage60 from "./9c4142c21a919f9ef45efad39c9c9671b84d7f30.png";
-import imgImage61 from "./201da66c0f67a9a6a2ce16553abee4b58f72f066.png";
-import imgArtifactCardQuestions from "./9eaaa0718916bd2273eaeda0ad5bcdd398b0119b.png";
-import imgArtifactCardNotes from "./01f9705f083ba253c771a7146ec79a4cb8dff9e4.png";
-import imgArtifactCardCritiques from "./251eb7c62624699c7a17280c2bb1c4ac53c1cf0d.png";
-import imgRectangle181 from "./66e4d5ed42ad1eee1f4a3f2fac55569115534573.png";
+import imgImage62 from "./bfc593327d63bc658467459028492f2399d8814c.webp";
+import imgImage60 from "./9c4142c21a919f9ef45efad39c9c9671b84d7f30.webp";
+import imgImage61 from "./201da66c0f67a9a6a2ce16553abee4b58f72f066.webp";
+import imgArtifactCardQuestions from "./9eaaa0718916bd2273eaeda0ad5bcdd398b0119b.webp";
+import imgArtifactCardNotes from "./01f9705f083ba253c771a7146ec79a4cb8dff9e4.webp";
+import imgArtifactCardCritiques from "./251eb7c62624699c7a17280c2bb1c4ac53c1cf0d.webp";
+import imgRectangle181 from "./66e4d5ed42ad1eee1f4a3f2fac55569115534573.webp";
 
 function GridOverlay() {
   return (

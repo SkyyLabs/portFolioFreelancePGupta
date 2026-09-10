@@ -1,14 +1,14 @@
 import svgPaths from "./svg-lkbyz53il4";
-import imgMovieClapper from "./88f5a638960980b0621426d42a27f3a3299b2100.png";
-import imgReaderAbsorbedInABookStudyOrPersonalGrowth from "./331c36c3cc8e72be1d1d77aabd8a3522a737bc7c.png";
-import imgTripAroundTheWorld from "./3a3a06e06e5655977b39d93c7d3a1cdd8c24ee36.png";
-import imgTableWithFoodAndWine from "./f18046687fa33434e09f21ee178c8e41541ec929.png";
-import imgGraduationCap from "./dca19f08f9c0fdf04e680240b6cbe52d69e3e18b.png";
-import imgMountainsWithSnowyPeaks from "./a89dd20df6835ed7fb483132ed194eec39a358e6.png";
-import imgImage8 from "./63fc7b69baecc436549e451ae8082e37adfea312.png";
-import imgImage10 from "./bf1f0eefe8da6971c54b808eb3d6c5f57e06f1d1.png";
-import imgImage7 from "./4dfc84036dfb96e2a4480b01a4bc1de9b0b6224d.png";
-import imgImage9 from "./15156f0867020bd326560905d136c1259a926b23.png";
+import imgMovieClapper from "./88f5a638960980b0621426d42a27f3a3299b2100.webp";
+import imgReaderAbsorbedInABookStudyOrPersonalGrowth from "./331c36c3cc8e72be1d1d77aabd8a3522a737bc7c.webp";
+import imgTripAroundTheWorld from "./3a3a06e06e5655977b39d93c7d3a1cdd8c24ee36.webp";
+import imgTableWithFoodAndWine from "./f18046687fa33434e09f21ee178c8e41541ec929.webp";
+import imgGraduationCap from "./dca19f08f9c0fdf04e680240b6cbe52d69e3e18b.webp";
+import imgMountainsWithSnowyPeaks from "./a89dd20df6835ed7fb483132ed194eec39a358e6.webp";
+import imgImage8 from "./63fc7b69baecc436549e451ae8082e37adfea312.webp";
+import imgImage10 from "./bf1f0eefe8da6971c54b808eb3d6c5f57e06f1d1.webp";
+import imgImage7 from "./4dfc84036dfb96e2a4480b01a4bc1de9b0b6224d.webp";
+import imgImage9 from "./15156f0867020bd326560905d136c1259a926b23.webp";
 
 function Frame29() {
   return (

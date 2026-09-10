@@ -4,6 +4,14 @@
     <!-- figma:head-start -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--
+      The font faces are pulled in by @import from `src/styles/index.css`, so
+      the browser cannot discover fonts.gstatic.com until that stylesheet has
+      been fetched and parsed. Opening the connection up front removes a full
+      DNS + TLS round trip from the critical path.
+    -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <title><!-- figma:title --></title>
     <!--
       Dev-server fallback only. `scripts/prerender.mjs` strips this and injects
