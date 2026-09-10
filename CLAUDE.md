@@ -2,7 +2,7 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
-Pooja Singhal portfolio: a freelance-built product designer portfolio site. React single-page app — hero/process/work/contact landing page, an About page, two long-form case studies (Lister, MathzAI), and a contact form. Client-side routed, no backend, no database. Page content originated as a Figma Make export and has been developed well beyond it since. The generated Figma output under `src/imports/` is the design source of truth; everything else in `src/` is hand-written shell around it.
+Pooja Singhal portfolio: a freelance-built product designer portfolio site. React single-page app — hero/process/work/contact landing page, an About page, two long-form case studies (Lister, MathzAI), and a contact form. Client-side routed, no backend, no database. Page content originated as a Figma Make export and has been developed well beyond it since. The generated Figma output under `src/content/` is the design source of truth; everything else in `src/` is hand-written shell around it.
 
 ## Working in this repo
 
@@ -10,7 +10,7 @@ Bias toward caution over speed. For trivial tasks, use judgment.
 
 **This is client work with a visual contract.** The approved designs are the Figma files they were exported from; PDF exports sit in `design/` locally but are **gitignored** (large binaries, not build inputs), so they may be absent in a fresh clone. Pixel fidelity to the design is the acceptance criterion, not code elegance. When a change would alter rendered layout, say so before making it.
 
-**Think before coding.** State assumptions explicitly; if uncertain, ask. When multiple interpretations exist, present them — do not pick silently. Several invariants below (never edit `src/imports/`, label-matched navigation, tokens-only styling) are load-bearing and easy to break silently — confirm rather than guess.
+**Think before coding.** State assumptions explicitly; if uncertain, ask. When multiple interpretations exist, present them — do not pick silently. Several invariants below (never edit `src/content/`, label-matched navigation, tokens-only styling) are load-bearing and easy to break silently — confirm rather than guess.
 
 **Don't over-engineer.** Minimum change that solves the problem; abstract only on proven reuse. Two call sites is the bar for extracting a hook, not one. The generated components are machine output and `src/styles/_landing.css`-style files are a patch layer over them — do not "clean up" either.
 
@@ -37,7 +37,7 @@ pnpm exec tsc --noEmit   # strict mode
 pnpm build
 ```
 
-`tsc` reports ~12 pre-existing errors, **all in generated `src/imports/`** (`Type 'string' is not assignable to type 'number'` on SVG props — Figma export bugs). It will never be clean here. Filter with `| grep -v "^src/imports/"` and treat any remaining error as yours. Neither command catches visual regressions — see **Verify visually** above.
+`tsc` reports ~12 pre-existing errors, **all in generated `src/content/`** (`Type 'string' is not assignable to type 'number'` on SVG props — Figma export bugs). It will never be clean here. Filter with `| grep -v "^src/content/"` and treat any remaining error as yours. Neither command catches visual regressions — see **Verify visually** above.
 
 ## Layout
 
@@ -65,10 +65,10 @@ React 19 + Vite 8 + Tailwind CSS v4 (via `@tailwindcss/vite`, no config file) + 
 
 | Layer | Path | Rule |
 | --- | --- | --- |
-| **Generated** | `src/imports/**` | Figma Make output, ~13k lines of absolutely-positioned JSX. **Read-only.** Never hand-edit. |
+| **Generated** | `src/content/**` | Figma Make output, ~13k lines of absolutely-positioned JSX. Prefer fixing it from `src/styles/`; edit it directly only when there is no other way. |
 | **Shell** | everything else in `src/` | Hand-written. Edit freely. |
 
-The page-specific partials in `src/styles/` (`_landing.css`, `_about.css`, `_case-study.css`) are the patch layer: they reach into generated markup via `[data-name="…"]` and escaped Tailwind class selectors to fix layout the export got wrong. That is where generated-markup fixes belong — never in `src/imports/`.
+The page-specific partials in `src/styles/` (`_landing.css`, `_about.css`, `_case-study.css`) are the patch layer: they reach into generated markup via `[data-name="…"]` and escaped Tailwind class selectors to fix layout the export got wrong. That is where generated-markup fixes belong — never in `src/content/`.
 
 ### Styling
 
@@ -76,7 +76,7 @@ The page-specific partials in `src/styles/` (`_landing.css`, `_about.css`, `_cas
 
 `src/styles/index.css` is the only entry point — it holds the remote font `@import`s (which must come first in the final sheet), pulls in Tailwind, then imports each partial in dependency order. Partials never import each other.
 
-The generated components under `src/imports/` are exempt: they carry literal values inline because they are machine output.
+The generated components under `src/content/` are exempt: they carry literal values inline because they are machine output.
 
 Two exceptions to tokens-only, both deliberate: `_landing.css` retains literal Tailwind-escaped selectors (`.bg-\[\#ffee91\]`) because those are *class names in generated markup*, not values; and the responsive breakpoints (1200/900/640px) are repeated literals because plain CSS cannot tokenise media queries.
 
@@ -138,7 +138,7 @@ Never rename these aliases — the generated JSX references them literally via T
 
 ## Critical invariants (never break)
 
-- **Never hand-edit `src/imports/**`.** Fix generated markup from `src/styles/` or from the shell components. Hand edits are silently destroyed by the next Figma re-export.
+- **Prefer fixing generated markup from `src/styles/` or the shell components.** The patch layer exists so a Figma re-export does not destroy the fix. Direct edits to `src/content/**` are allowed where nothing else will do — the typography spec pass, the WebP import rewrite and the hero's priority hints are all in there — but each one is a thing a re-export will silently revert, so keep them few and note them.
 - **No hardcoded style values outside `_tokens.css`** (generated code excepted).
 - **Never rename the `@font-face` aliases.** Generated JSX depends on the literal family strings.
 - **Navigation is label-matched.** Changing button copy in a Figma frame breaks routing. Verify clicks after any re-import.
@@ -150,11 +150,17 @@ Never rename these aliases — the generated JSX references them literally via T
 
 Real, unresolved — don't "discover" them again, and don't fix them unasked:
 
-- **`PROTOTYPE_URL` in `config/site.ts` is empty.** The Lister case study's "Open the Prototype" button is inert until a Figma prototype share link is set.
-- **No OG image.** `.figma/make/site.json` has no `openGraph.image`, so shared links show no preview card. Needs a purpose-made 1200×630 export from Figma.
-- **The JS bundle is ~1.2 MB** (295 KB gzipped) because both 6000-line case studies are always in the main chunk. `React.lazy` on the two case study pages would fix it.
-- **The reorganisation has not been visually verified.** Structure, typecheck, and build are confirmed; the rendered pages after the CSS split and component rewrite have not been eyeballed.
-- The reorganisation commit has not been pushed; `main` is ahead of `origin/main` by one commit.
+- **Images are not responsive.** The landing hero is 1122×1402 and the two work-card previews are ~2050×1350, all rendered far smaller. Lighthouse still reports `uses-responsive-images` as the largest remaining opportunity (~400 KiB). Fixing it means `srcset` in generated markup and a resize pass — a design-quality decision, not a mechanical one.
+- **Performance is in the 60s–80s on emulated mobile**, not the 90+ the proposal names. Everything cheap has been done (see below); what is left is the point above.
+- **The contact form has never been submitted end to end.** It emails the client, so it has deliberately not been exercised.
+- **A local `dist` does not render identically to the deployed site** — 0.2–1.4% of pixels differ on `/`, `/work/lister` and `/work/mathzai`, in a few localised bands. Production against itself diffs at 0px, and a build of `dev` shows the same difference, so it is environmental rather than a regression. Unexplained.
+- **`vite preview` is not a valid way to check routing.** It SPA-falls-back to `index.html`, so it serves the home markup at `/about` and throws a spurious React #418 hydration error. Use a static server that resolves `/about` to `dist/about/index.html`, the way Vercel's `cleanUrls` does.
+- **Heavy automated traffic can trip a Vercel Security Checkpoint** on the production hostname, which returns 403 to everyone including Googlebot until it decays (roughly five minutes). Repeated Lighthouse runs are enough to trigger it. The deployment-specific URL keeps serving normally, so use that when testing in bulk.
+- **The case studies' body sizes do not match the typography spec** — Lister carries 18/13/12/11 and MathzAI 20/18/15/14/10 against a spec that says 16. Snapping them reflows blocks composed around them in absolutely-positioned markup. See `docs/typography-spec.md`.
+
+Closed since this list was written: `PROTOTYPE_URL` is set, the OG image exists,
+the JS bundle is code-split, and the reorganisation is both visually verified
+and pushed.
 
 ## Conventions
 
@@ -212,4 +218,4 @@ No environment variables and no secrets. `vite.config.ts` is Figma Make's genera
 
 Site metadata (title, description, favicon, OG image, robots, analytics) is set in `.figma/make/site.json`, not in `index.html`. Currently: title "Pooja Singhal — Product Designer", indexing enabled, favicon `public/favicon.svg`. No OG image yet.
 
-**Figma Make round-trip:** this repo was originally laid out as Figma Make expects (app nested under `Current/Frame Development Plan/`). It has since been flattened to the repo root for normal tooling. `.figma/make/` is preserved, but a future re-export will not drop cleanly into this tree — regenerate in Figma Make and copy the changed files under `src/imports/` across by hand. `src/imports/` deliberately keeps Figma's own directory name to keep that copy straightforward.
+**Figma Make round-trip:** this repo was originally laid out as Figma Make expects (app nested under `Current/Frame Development Plan/`). It has since been flattened to the repo root for normal tooling. `.figma/make/` is preserved, but a future re-export will not drop cleanly into this tree — regenerate in Figma Make and copy the changed files under `src/content/` across by hand. `src/content/` deliberately keeps Figma's own directory name to keep that copy straightforward.
