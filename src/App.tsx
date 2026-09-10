@@ -1,13 +1,25 @@
-import { useEffect, useRef } from "react";
+import { lazy, Suspense, useEffect, useRef } from "react";
 import { Routes, Route, Navigate, useNavigate, useLocation } from "react-router-dom";
 
 import NavBar from "@/components/NavBar";
 import CustomCursor from "@/components/CustomCursor";
 import HomePage from "@/pages/HomePage";
 import AboutPage from "@/pages/AboutPage";
-import ListerCaseStudyPage from "@/pages/ListerCaseStudyPage";
-import MathzaiCaseStudyPage from "@/pages/MathzaiCaseStudyPage";
 import ConnectPage from "@/pages/ConnectPage";
+
+/**
+ * The two case studies are ~6,000 lines of generated markup each and together
+ * account for most of the JS bundle. Loading them eagerly meant every visitor
+ * to the landing page downloaded both — Lighthouse measured 181 KiB of unused
+ * JavaScript there, competing for bandwidth with the resources that actually
+ * paint the page.
+ *
+ * Splitting them out relies on `entry-server.tsx` using `prerenderToNodeStream`
+ * rather than `renderToString`: only the former waits for a suspended
+ * component, so the prerendered HTML still contains the full case study.
+ */
+const ListerCaseStudyPage = lazy(() => import("@/pages/ListerCaseStudyPage"));
+const MathzaiCaseStudyPage = lazy(() => import("@/pages/MathzaiCaseStudyPage"));
 import { CASE_STUDY_ANCHORS, LABELS, ROUTES, ROUTE_META } from "@/config/navigation";
 import { BEHANCE, LINKEDIN, PROTOTYPE_URL, RESUME_URL } from "@/config/site";
 import { copyEmailToClipboard } from "@/lib/clipboard";
@@ -133,15 +145,19 @@ export default function App() {
       <CustomCursor />
       <NavBar onNav={handleNav} />
       <div className="shared-nav-offset" onClick={handleGeneratedClick}>
-        <Routes>
-          <Route path={ROUTES.home} element={<HomePage />} />
-          <Route path={ROUTES.about} element={<AboutPage />} />
-          <Route path={ROUTES.lister} element={<ListerCaseStudyPage />} />
-          <Route path={ROUTES.mathzai} element={<MathzaiCaseStudyPage />} />
-          <Route path={ROUTES.connect} element={<ConnectPage />} />
-          {/* Unknown URL — send visitors home rather than showing nothing. */}
-          <Route path="*" element={<Navigate to={ROUTES.home} replace />} />
-        </Routes>
+        {/* No fallback: the case study markup is already in the prerendered
+            HTML, so a spinner here would replace real content with nothing. */}
+        <Suspense fallback={null}>
+          <Routes>
+            <Route path={ROUTES.home} element={<HomePage />} />
+            <Route path={ROUTES.about} element={<AboutPage />} />
+            <Route path={ROUTES.lister} element={<ListerCaseStudyPage />} />
+            <Route path={ROUTES.mathzai} element={<MathzaiCaseStudyPage />} />
+            <Route path={ROUTES.connect} element={<ConnectPage />} />
+            {/* Unknown URL — send visitors home rather than showing nothing. */}
+            <Route path="*" element={<Navigate to={ROUTES.home} replace />} />
+          </Routes>
+        </Suspense>
       </div>
     </>
   );

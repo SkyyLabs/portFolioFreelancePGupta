@@ -52,7 +52,7 @@ for (const route of Object.values(ROUTES)) {
     continue;
   }
 
-  const appHtml = render(route);
+  const appHtml = await render(route);
 
   let html = template
     .replace('<div id="root"></div>', `<div id="root">${appHtml}</div>`)
