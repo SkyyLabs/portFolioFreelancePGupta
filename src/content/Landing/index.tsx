@@ -61,7 +61,7 @@ function Frame3() {
   return (
     <div className="[word-break:break-word] content-stretch flex flex-col gap-[50px] items-center leading-[normal] not-italic relative shrink-0 text-black w-full">
       <h1 className="font-['Scala_Pro:Bold',sans-serif] relative shrink-0 text-[50px] w-full">{` I wanted hours of me-time every day. Then I found design.`}</h1>
-      <p className="font-['Raleway',sans-serif] relative shrink-0 text-[20px] w-full">Product designer who makes big ideas feel effortless and essential. I enjoy turning complexity into clarity and polishing the details that make a product reallly work.</p>
+      <p className="font-['Scala_Sans_Pro:Regular',sans-serif] relative shrink-0 text-[20px] w-full">Product designer who makes big ideas feel effortless and essential. I enjoy turning complexity into clarity and polishing the details that make a product reallly work.</p>
     </div>
   );
 }
@@ -134,7 +134,7 @@ function Frame26() {
   return (
     <div className="[word-break:break-word] content-stretch flex flex-col gap-[57px] items-center leading-[normal] not-italic relative shrink-0 text-center w-full">
       <h2 className="font-['Scala_Pro:Bold',sans-serif] relative shrink-0 text-[40px] text-white w-full">Balancing User Experience with Business Realities</h2>
-      <p className="font-['Raleway',sans-serif] relative shrink-0 text-[20px] text-[rgba(255,255,255,0.7)] w-full">Every project requires a different approach, but this is the framework I typically use to understand problems, validate ideas, and design solutions that work for both users and businesses.</p>
+      <p className="font-['Scala_Sans_Pro:Regular',sans-serif] relative shrink-0 text-[20px] text-[rgba(255,255,255,0.7)] w-full">Every project requires a different approach, but this is the framework I typically use to understand problems, validate ideas, and design solutions that work for both users and businesses.</p>
     </div>
   );
 }
@@ -192,7 +192,7 @@ function Frame27() {
 function Frame6() {
   return (
     <div className="[word-break:break-word] content-stretch flex flex-col gap-[15px] items-start leading-[normal] not-italic relative shrink-0 text-center w-full">
-      <p className="font-['Scala_Pro:Regular',sans-serif] min-w-full relative shrink-0 text-[#ffee91] text-[25px] w-[min-content]">{`Understand Business & Goals`}</p>
+      <p className="font-['Scala_Sans_Pro:Bold',sans-serif] min-w-full relative shrink-0 text-[#ffee91] text-[18px] w-[min-content]">{`Understand Business & Goals`}</p>
       <p className="font-['Scala_Sans_Pro:Regular',sans-serif] relative shrink-0 text-[15px] text-[rgba(255,255,255,0.8)] w-[205px]">{` I gather domain knowledge, break down problems, organise, identify patterns and truely understand what is needed to be solved. `}</p>
     </div>
   );
@@ -250,7 +250,7 @@ function Frame29() {
 function Frame8() {
   return (
     <div className="[word-break:break-word] content-stretch flex flex-col gap-[15px] items-center not-italic relative shrink-0 w-full">
-      <div className="font-['Scala_Pro:Regular',sans-serif] leading-[0] relative shrink-0 text-[#ffee91] text-[25px] whitespace-nowrap">
+      <div className="font-['Scala_Sans_Pro:Bold',sans-serif] leading-[0] relative shrink-0 text-[#ffee91] text-[18px] whitespace-nowrap">
         <p className="leading-[normal] mb-0 whitespace-pre">{` Research & `}</p>
         <p className="leading-[normal] whitespace-pre">{`   Analyize `}</p>
       </div>
@@ -311,7 +311,7 @@ function Frame31() {
 function Frame9() {
   return (
     <div className="[word-break:break-word] content-stretch flex flex-col gap-[42px] items-center leading-[normal] not-italic relative shrink-0 text-center w-full">
-      <p className="font-['Scala_Pro:Regular',sans-serif] relative shrink-0 text-[#ffee91] text-[25px] w-full">Prototype with AI</p>
+      <p className="font-['Scala_Sans_Pro:Bold',sans-serif] relative shrink-0 text-[#ffee91] text-[18px] w-full">Prototype with AI</p>
       <p className="font-['Scala_Sans_Pro:Regular',sans-serif] relative shrink-0 text-[15px] text-[rgba(255,255,255,0.8)] w-full">I design and test AI - generated protoypes that take good care of user needs, business goals, technical constraints and MVP.</p>
     </div>
   );
@@ -381,7 +381,7 @@ function Frame33() {
 function Frame10() {
   return (
     <div className="[word-break:break-word] content-stretch flex flex-col gap-[15px] items-center leading-[normal] not-italic relative shrink-0 text-center w-full">
-      <p className="font-['Scala_Pro:Regular',sans-serif] relative shrink-0 text-[#ffee91] text-[25px] w-full">{`Design, Validate and Refine `}</p>
+      <p className="font-['Scala_Sans_Pro:Bold',sans-serif] relative shrink-0 text-[#ffee91] text-[18px] w-full">{`Design, Validate and Refine `}</p>
       <p className="font-['Scala_Sans_Pro:Regular',sans-serif] relative shrink-0 text-[15px] text-[rgba(255,255,255,0.8)] w-full">Transform validated concepts into polished experiences, test them, and refine based on feedback.</p>
     </div>
   );
@@ -487,7 +487,7 @@ function Frame43() {
   return (
     <div className="[word-break:break-word] content-stretch flex flex-col gap-[23px] h-[95px] items-center leading-[normal] not-italic relative shrink-0 text-black text-center w-[821px]">
       <h2 className="font-['Scala_Pro:Bold',sans-serif] relative shrink-0 text-[40px] w-full">Selected Work</h2>
-      <p className="flex-[1_0_0] font-['Raleway',sans-serif] min-h-px relative text-[20px] w-full">{`A selection of real projects where I turned complex problems into simple, intuitive experiences. `}</p>
+      <p className="flex-[1_0_0] font-['Scala_Sans_Pro:Regular',sans-serif] min-h-px relative text-[20px] w-full">{`A selection of real projects where I turned complex problems into simple, intuitive experiences. `}</p>
     </div>
   );
 }

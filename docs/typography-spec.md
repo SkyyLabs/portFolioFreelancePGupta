@@ -62,15 +62,35 @@ are not available at runtime.
 Sans, Source Sans Pro and Source Serif, and MathzAI carried EB Garamond, Geist,
 Inter and Nunito. Those were moved onto the pairing for their section.
 
-**Known deviations still in place**, left because the change would be a design
-decision rather than a mechanical one:
+**All four previously documented deviations are now closed:**
 
-| Where | Current | Nearest spec role | Why left |
-| --- | --- | --- | --- |
-| Landing process steps | Scala Pro Regular 25 | H3 — Scala Sans Pro Bold 18 | Serif at 25px is a deliberate treatment; snapping it would change both face and size |
-| MathzAI "Project Snapshot" | Roca Black 28 | H2 36 | Snapping would enlarge it noticeably |
-| MathzAI "Competitive Analysis" | Roca **Bold** 30 | H2 — Roca Black 36 | Differs in weight as well as size |
-| Landing first-fold H2 | Raleway 20 | Scala Sans Pro Regular 20 | Same rendering — Raleway *is* the Scala Sans Pro substitute |
+| Where | Was | Now |
+| --- | --- | --- |
+| Landing process steps | Scala Pro Regular 25 | H3 — Scala Sans Pro Bold 18 |
+| MathzAI "Project Snapshot" | Roca Black 28 | H2 — Roca Black 36 |
+| MathzAI "Competitive Analysis" | Roca Bold 30 | H2 — Roca Black 36 |
+| Landing first-fold H2 | Raleway 20 | Scala Sans Pro Regular 20 |
 
-Hero H1 sizes were brought to spec: MathzAI 60→45, Lister 50→40, Contact 51→40,
-landing section heading 45→40.
+The last of those is a rename only. Raleway *is* the Scala Sans Pro substitute
+declared in `_fonts.css`, so naming the alias the spec names changes nothing on
+screen; it just stops the markup contradicting the spec.
+
+Hero H1 sizes were brought to spec earlier: MathzAI 60→45, Lister 50→40,
+Contact 51→40, landing section heading 45→40.
+
+## What this spec does not cover
+
+The table above assigns a font and size to each *heading and body role*. The
+generated case-study markup also contains a long tail of intermediate sizes —
+Lister body copy at 18, 13, 12 and 11; MathzAI at 20, 18, 15, 14 and 10 — plus
+several hundred sub-10px labels.
+
+Those sub-10px values are **type inside the embedded UI mockups**: miniature
+product screens drawn as vector JSX. They are artwork, not typography roles,
+and snapping them to a body size would destroy the mockups.
+
+The intermediate body sizes are a real gap, but closing them is a design
+decision rather than a mechanical one: the case-study layouts are
+absolutely-positioned at fixed widths, so changing a body size reflows a block
+that was composed around it. Raise it as a design pass if the hierarchy reads
+inconsistently.
