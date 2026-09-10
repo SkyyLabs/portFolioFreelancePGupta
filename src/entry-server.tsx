@@ -4,7 +4,7 @@ import App from "./App";
 
 export { ROUTES, ROUTE_META } from "./config/navigation";
 export { structuredDataFor } from "./config/structured-data";
-export { SITE_URL } from "./config/site";
+export { SITE_URL, EMAIL, LINKEDIN, BEHANCE } from "./config/site";
 
 /**
  * Renders one route to HTML at build time. See scripts/prerender.mjs.
