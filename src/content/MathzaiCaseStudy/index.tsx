@@ -173,7 +173,7 @@ function Group56() {
     <div className="col-1 grid-cols-[max-content] grid-rows-[max-content] inline-grid ml-[20.1px] mt-[15.42px] place-items-start relative row-1">
       <div className="bg-white col-1 h-[163.149px] ml-0 mt-0 relative rounded-[10px] row-1 w-[391.202px]" />
       <MingcuteCheckFill />
-      <p className="[word-break:break-word] col-1 font-['Avenir_Next:Bold_Italic',sans-serif] leading-[normal] ml-[30.9px] mt-[35.74px] not-italic relative row-1 text-[#924505] text-[24px] w-[349px]">{`"An AI tutor should be as deliberate about what it refuses to show as what it shows."`}</p>
+      <p className="[word-break:break-word] col-1 font-['Avenir_Next:Bold_Italic',sans-serif] leading-[normal] ml-[30.9px] mt-[35.74px] not-italic relative row-1 text-[#924505] text-[20px] w-[349px]">{`"An AI tutor should be as deliberate about what it refuses to show as what it shows."`}</p>
     </div>
   );
 }
@@ -1041,7 +1041,7 @@ function Group58() {
       <div className="bg-white col-1 h-[224px] ml-0 mt-0 relative rounded-[10px] row-1 shadow-[0px_4px_8px_0px_rgba(0,0,0,0.25)] w-[435px]" />
       <MingcuteCheckFill1 />
       <Frame10 />
-      <p className="[word-break:break-word] col-1 font-['Avenir_Next:Bold',sans-serif] font-bold leading-[normal] ml-[75.06px] mt-[41.97px] not-italic relative row-1 text-[#010c81] text-[24px] w-[436.596px]">The Three Features seemed Identical</p>
+      <p className="[word-break:break-word] col-1 font-['Avenir_Next:Bold',sans-serif] font-bold leading-[normal] ml-[75.06px] mt-[41.97px] not-italic relative row-1 text-[#010c81] text-[18px] w-[436.596px]">The Three Features seemed Identical</p>
       <p className="[word-break:break-word] col-1 font-['Avenir_Next:Regular',sans-serif] font-normal leading-[1.5] ml-[31px] mt-[102px] not-italic relative row-1 text-[16px] text-black w-[341px]">{`They shared the exact same palette and layout structure. Students got lost. They could not guess that there are 3 different features for three different purposes `}</p>
     </div>
   );
@@ -1086,7 +1086,7 @@ function Group59() {
       <div className="bg-white col-1 h-[224px] ml-0 mt-0 relative rounded-[10px] row-1 shadow-[0px_4px_8px_0px_rgba(0,0,0,0.25)] w-[435.88px]" />
       <MingcuteCheckFill2 />
       <Frame11 />
-      <p className="[word-break:break-word] col-1 font-['Avenir_Next:Bold',sans-serif] font-bold leading-[normal] ml-[78.81px] mt-[46.68px] not-italic relative row-1 text-[#010c81] text-[24px] whitespace-nowrap">{`'Solution' & 'Final Answer' Read as One`}</p>
+      <p className="[word-break:break-word] col-1 font-['Avenir_Next:Bold',sans-serif] font-bold leading-[normal] ml-[78.81px] mt-[46.68px] not-italic relative row-1 text-[#010c81] text-[18px] whitespace-nowrap">{`'Solution' & 'Final Answer' Read as One`}</p>
       <p className="[word-break:break-word] col-1 font-['Avenir_Next:Regular',sans-serif] font-normal leading-[1.5] ml-[25px] mt-[97.01px] not-italic relative row-1 text-[16px] text-black w-[386px]">{`The entire product rests on graduated disclosure. If a student can't tell two rungs of the help ladder apart, they jump straight to the bottom and copy the answer.`}</p>
     </div>
   );
@@ -1141,7 +1141,7 @@ function Group60() {
       <div className="bg-white col-1 h-[240px] ml-0 mt-0 relative rounded-[10px] row-1 shadow-[0px_4px_8px_0px_rgba(0,0,0,0.25)] w-[515px]" />
       <MingcuteCheckFill3 />
       <Frame12 />
-      <p className="[word-break:break-word] col-1 font-['Avenir_Next:Bold',sans-serif] font-bold leading-[normal] ml-[88.28px] mt-[45.1px] not-italic relative row-1 text-[#010c81] text-[24px] w-[454.723px]">{`The 'Continue' Button Was Stranded`}</p>
+      <p className="[word-break:break-word] col-1 font-['Avenir_Next:Bold',sans-serif] font-bold leading-[normal] ml-[88.28px] mt-[45.1px] not-italic relative row-1 text-[#010c81] text-[18px] w-[454.723px]">{`The 'Continue' Button Was Stranded`}</p>
       <p className="[word-break:break-word] col-1 font-['Avenir_Next:Regular',sans-serif] font-normal h-[69.573px] leading-[1.5] ml-[40.1px] mt-[107.48px] not-italic relative row-1 text-[16px] text-black w-[443.571px]">{`Students would complete a solving step, wait for the AI's confirmation, and then simply stall. The main action button was lost at the very bottom of the screens.`}</p>
     </div>
   );
